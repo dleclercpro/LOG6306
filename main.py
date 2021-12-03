@@ -19,6 +19,7 @@ SONAR_PASSWORD = os.environ['SONAR_PASSWORD']
 
 # Paths
 ROOT_PATH = '/Users/david/Projects/LOG6306'
+REPOS_PATH = f'{ROOT_PATH}/repos'
 DATA_PATH = f'{ROOT_PATH}/data'
 
 SONAR_PROJECT_PROPS_FNAME = 'sonar-project.properties'
@@ -45,13 +46,13 @@ class Project():
         
         self.organization = organization
         self.name = name
-        self.path = f'{DATA_PATH}/{name}'
+        self.path = f'{REPOS_PATH}/{name}'
 
 
-    def init(self):
+    def initialize(self):
 
         # Move to data directory
-        os.chdir(DATA_PATH)
+        os.chdir(REPOS_PATH)
 
         # If project has not already been cloned locally, do it
         if not os.path.exists(self.path):
@@ -77,22 +78,48 @@ class Project():
 
     def extract_smells(self):
 
+        """
+        WARNINGS:
+        - Code smells in SonarQube do not have the same definition than that of Martin Fowler
+        - SonarQube doesn't seem to be able to differentiate test code from production code using the 'scopes' argument
+        """
+
         # Define parameters to fetch project's smells on SonarQube server
         params = {
             'componentKeys': self.name,
-            'metricKeys': 'code_smells',
             'languages': 'js',
-            'types': 'CODE_SMELL',
-            'scope': 'MAIN',
+            #'types': 'CODE_SMELL',
+            #'scopes': 'MAIN',
         }
 
         # Define authentication for SonarQube server
         auth = (SONAR_USERNAME, SONAR_PASSWORD)
 
-        # Fetch smells
-        res = requests.get(SONAR_API, params=params, auth=auth)
+        # Fetch smells in batches
+        batch = 1
+        issues = []
 
-        return res.json()
+        while True:
+            res = requests.get(SONAR_API, params={'p': batch, **params}, auth=auth)
+            res = res.json()
+
+            # Add issues from this batch to results array
+            issues += res['issues']
+
+            # Read more info on next batches
+            n_issues = res['total']
+            batch_size = res['ps']
+
+            # If all issues found: exit
+            if batch * batch_size >= n_issues:
+                break
+
+            # Increment page index
+            batch += 1
+
+        # Store issues
+        with open(f'{DATA_PATH}/{self.name}.json', 'w', encoding='UTF-8') as f:
+            json.dump(issues, f, sort_keys=True, indent=2)
 
 
 
@@ -109,22 +136,22 @@ def main():
     """
 
     # Define projects
-    PROJECTS = ['jquery/jquery']#, 'expressjs/express']
+    projects = ['expressjs/express', 'bower/bower', 'less/less.js', 'request/request', 'gruntjs/grunt', 'jquery/jquery', 'vuejs/vue', 'ramda/ramda', 'Leaflet/Leaflet', 'hexojs/hexo', 'chartjs/Chart.js', 'webpack/webpack', 'moment/moment', 'webtorrent/webtorrent', 'riot/riot']
 
-    # Generate project's path if it doesn't exist already
-    if not os.path.exists(DATA_PATH):
-        os.makedirs(DATA_PATH)
+    # Generate data and results directories (if they do not already exist)
+    for path in [REPOS_PATH, DATA_PATH]:
+        if not os.path.exists(path):
+            os.makedirs(path)
 
     # Process every project
-    for project in PROJECTS:
+    for project in projects:
         print(f'Processing project: {project}')
 
         p = Project(project)
 
-        #p.init()
-        #p.scan()
-        raw_smells = p.extract_smells()
-        printJSON(raw_smells)
+        p.initialize()
+        p.scan()
+        p.extract_smells()
 
 
 
