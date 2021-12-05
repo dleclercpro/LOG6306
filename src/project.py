@@ -57,20 +57,15 @@ class Project():
     def compute_remaining_commits(self):
         logging.info("Computing remaining commits to process for project...")
         
-        hashes = []
-
         # Compute list of commits which have already been processed
+        hashes = []
+        
         if os.path.exists(self.issues_dir):
             for fname in os.listdir(self.issues_dir):
                 hashes += [fname.split('.')[0]]
 
         # Compute the commits that are not yet processed
         self.remaining_commits = list(filter(lambda c: c.hash not in hashes, self.repo.commits))
-
-        # Stats on commits
-        n_commits = len(self.repo.commits)
-        n_remaining_commits = len(self.remaining_commits)
-        n_processed_commits = n_commits - n_remaining_commits
 
 
 
