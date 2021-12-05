@@ -29,16 +29,16 @@ def process_project(project):
     n_remaining_commits = len(p.remaining_commits)
 
     # Initialize counters
-    n = 0
-    n_remaining = n_remaining_commits
+    n = n_remaining_commits
+    i = 0
 
     t_0 = datetime.datetime.now()
 
     # Process every commit
-    while n_remaining > 0:
-        logging.info(f'Processing commit {n_commits - n_remaining_commits + 1}/{n_commits}')
+    while n > 0:
+        logging.info(f'Processing commit {n_commits - n + 1}/{n_commits}')
 
-        commit = p.remaining_commits[n]
+        commit = p.remaining_commits[i]
         logging.info(commit)
 
         p.checkout(commit)
@@ -47,10 +47,10 @@ def process_project(project):
 
         t = datetime.datetime.now()
 
-        n += 1
-        n_remaining -= 1
+        i += 1
+        n -= 1
 
-        remaining_seconds = (t - t_0).total_seconds() / n * n_remaining
+        remaining_seconds = (t - t_0).total_seconds() / i * n
         logging.info(f'Remaining time: {formatSeconds(remaining_seconds)}')
 
 
