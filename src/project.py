@@ -7,7 +7,7 @@ import logging
 
 
 # Custom imports
-from constants import ISSUES_DIR, REPOS_DIR, SONAR_API, SONAR_PASSWORD, SONAR_PROJECT_PROPS_FNAME, SONAR_SCANNER, SONAR_TOKEN, SONAR_USERNAME
+from constants import ISSUES_DIR, REPOS_DIR, SONAR_API, SONAR_PASSWORD, SONAR_PROJECT_PROPS_FNAME, SONAR_SCANNER, SONAR_TOKEN, SONAR_USERNAME, STATS_DIR
 from repository import Repo
 
 
@@ -27,12 +27,13 @@ class Project():
         self.remaining_commits = []
 
         self.dir = f'{REPOS_DIR}/{name}'
+        self.stats_fname = f'{STATS_DIR}/{name}.csv'
         self.issues_dir = f'{ISSUES_DIR}/{name}'
 
 
 
     def initialize(self):
-        logging.info("Initializing project's repository...")
+        logging.info(f'Initializing repository for: {self.name}')
 
         # Move to data directory
         os.chdir(REPOS_DIR)
@@ -44,6 +45,11 @@ class Project():
         else:
             self.repo = Repo(self.owner, self.name)
             self.repo.clone(self.dir)
+
+
+        # Compute repo's stats
+        if not os.path.exists(self.stats_fname):
+            self.repo.fetch_stats()
 
 
         # Get list of commits
@@ -64,8 +70,12 @@ class Project():
             for fname in os.listdir(self.issues_dir):
                 hashes += [fname.split('.')[0]]
 
+        # Only consider the last 100 commits [time constraint]
+        n_recent_commits = 100
+        recent_commits = self.repo.commits[-n_recent_commits:]
+
         # Compute the commits that are not yet processed
-        self.remaining_commits = list(filter(lambda c: c.hash not in hashes, self.repo.commits))
+        self.remaining_commits = list(filter(lambda c: c.hash not in hashes, recent_commits))
 
 
 
@@ -116,7 +126,7 @@ class Project():
         params = {
             'componentKeys': self.name,
             'languages': 'js,ts',
-            #'types': 'CODE_SMELL',
+            'types': 'BUG,CODE_SMELL',
             #'scopes': 'MAIN',
             'statuses': 'OPEN,REOPENED,CONFIRMED',
             #'rules': '',

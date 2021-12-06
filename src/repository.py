@@ -8,8 +8,8 @@ import pandas as pd
 
 
 # Custom imports
-from constants import COMMITS_DIR, GITHUB_TOKEN, GITHUB_API
-from lib import printJSON
+from constants import STATS_DIR, COMMITS_DIR, GITHUB_TOKEN, GITHUB_API
+from lib import store_series
 from commit import Commit
 
 
@@ -24,7 +24,7 @@ class Repo():
         self.url = f'https://github.com/{owner}/{name}.git'
         self.api = f'{GITHUB_API}/repos/{owner}/{name}'
         self.dir = dir
-        self.info = {}
+        self.stats = {}
 
         self.repo = git.Repo(dir) if dir is not None else None
         self.commits = []
@@ -105,25 +105,34 @@ class Repo():
 
 
 
-    def fetch_info(self):
+    def fetch_stats(self):
         logging.info('Fetching repository info...')
 
+        # General info
         info = self.call()
 
-        self.info['created_at'] = info['created_at']
-        self.info['forks_count'] = info['forks_count']
-        self.info['stargazers_count'] = info['stargazers_count']
-        self.info['watchers_count'] = info['watchers_count']
-        self.info['open_issues_count'] = info['open_issues_count']
+        self.stats['created_at'] = info['created_at']
+        self.stats['forks_count'] = info['forks_count']
+        self.stats['stargazers_count'] = info['stargazers_count']
+        self.stats['watchers_count'] = info['watchers_count']
+        self.stats['open_issues_count'] = info['open_issues_count']
+        self.stats['commits_count'] = len(self.big_call('commits'))
+        self.stats['contributors_count'] = len(self.big_call('contributors'))
+        self.stats['releases_count'] = len(self.big_call('releases'))
 
-        self.info['commits_count'] = len(self.big_call('commits'))
-        self.info['contributors_count'] = len(self.big_call('contributors'))
-        self.info['releases_count'] = len(self.big_call('releases'))
-
+        # Compute proportion of code taken up by each language
         bytes_by_language = pd.Series(self.call('languages'), dtype=float)
-        self.info['languages'] = bytes_by_language / sum(bytes_by_language)
-        
-        return self.info
+        languages = bytes_by_language / sum(bytes_by_language)
+
+        self.stats['js_proportion'] = languages['JavaScript'] if 'JavaScript' in languages else 0
+        self.stats['ts_proportion'] = languages['TypeScript'] if 'TypeScript' in languages else 0
+
+        # Convert to dataframe
+        self.stats = pd.Series(self.stats)
+        print(self.stats)
+
+        # Store repo's stats
+        store_series(self.stats, f'{STATS_DIR}/{self.name}.csv')
 
 
 

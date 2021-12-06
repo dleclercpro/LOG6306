@@ -18,6 +18,7 @@ ROOT_DIR = '/Users/david/Projects/LOG6306'
 REPOS_DIR = f'{ROOT_DIR}/repos'
 LOGS_DIR = f'{ROOT_DIR}/logs'
 DATA_DIR = f'{ROOT_DIR}/data'
+STATS_DIR = f'{DATA_DIR}/stats'
 COMMITS_DIR = f'{DATA_DIR}/commits'
 ISSUES_DIR = f'{DATA_DIR}/issues'
 
