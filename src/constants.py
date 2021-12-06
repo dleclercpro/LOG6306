@@ -23,14 +23,17 @@ ISSUES_DIR = f'{DATA_DIR}/issues'
 
 
 
+# GitHub
+GITHUB_API = 'https://api.github.com'
+GITHUB_TOKEN = os.environ['GITHUB_TOKEN']
+
 # Sonar
+SONAR_API = 'http://localhost:9000/api/issues/search'
 SONAR_TOKEN = os.environ['SONAR_TOKEN']
 SONAR_USERNAME = os.environ['SONAR_USERNAME']
 SONAR_PASSWORD = os.environ['SONAR_PASSWORD']
 
-SONAR_API = 'http://localhost:9000/api/issues/search'
-SONAR_SCANNER = '/Users/david/Downloads/sonar-scanner-4.6.2.2472-macosx/bin/sonar-scanner'
-
+SONAR_SCANNER = os.environ['SONAR_SCANNER']
 SONAR_PROJECT_PROPS_FNAME = 'sonar-project.properties'
 SONAR_SCANNER_PROPS_FNAME = 'sonar-scanner.properties'
 

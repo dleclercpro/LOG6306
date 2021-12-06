@@ -8,7 +8,7 @@ import logging
 
 # Custom imports
 from constants import ISSUES_DIR, REPOS_DIR, SONAR_API, SONAR_PASSWORD, SONAR_PROJECT_PROPS_FNAME, SONAR_SCANNER, SONAR_TOKEN, SONAR_USERNAME
-from repo import Repo
+from repository import Repo
 
 
 
@@ -17,10 +17,10 @@ class Project():
 
     def __init__(self, project):
 
-        # Compute organization and name of project
-        organization, name = project.split('/')
+        # Compute owner and name of project
+        owner, name = project.split('/')
 
-        self.organization = organization
+        self.owner = owner
         self.name = name
 
         self.repo = None
@@ -40,9 +40,9 @@ class Project():
 
         # Initialize repo
         if os.path.exists(self.dir):
-            self.repo = Repo(self.organization, self.name, self.dir)
+            self.repo = Repo(self.owner, self.name, self.dir)
         else:
-            self.repo = Repo(self.organization, self.name)
+            self.repo = Repo(self.owner, self.name)
             self.repo.clone(self.dir)
 
 
@@ -97,6 +97,7 @@ class Project():
 
         # Launch SonarQube analysis of code smells
         subprocess.run([SONAR_SCANNER, f'-Dsonar.login={SONAR_TOKEN}'], stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
+        #subprocess.run([SONAR_SCANNER, f'-Dsonar.login={SONAR_TOKEN}'])
 
 
 
