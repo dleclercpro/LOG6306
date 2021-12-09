@@ -15,13 +15,14 @@ DATETIME_FORMAT = '%Y.%m.%d - %H:%M:%S'
 
 # Paths
 ROOT_DIR = '/Users/david/Projects/LOG6306'
+
 REPOS_DIR = f'{ROOT_DIR}/repos'
 LOGS_DIR = f'{ROOT_DIR}/logs'
 DATA_DIR = f'{ROOT_DIR}/data'
 
 STATS_DIR = f'{DATA_DIR}/stats'
-COMMITS_DIR = f'{DATA_DIR}/commits'
 TAGS_DIR = f'{DATA_DIR}/tags'
+RELEASES_DIR = f'{DATA_DIR}/releases'
 ISSUES_DIR = f'{DATA_DIR}/issues'
 SMELLS_DIR = f'{DATA_DIR}/smells'
 
@@ -29,6 +30,8 @@ STATS_PATH = f'{DATA_DIR}/stats.csv'
 SMELLS_PATH = f'{DATA_DIR}/smells.csv'
 GENERIC_RULES_PATH = f'{DATA_DIR}/generic_rules.csv'
 SPECIFIC_RULES_PATH = f'{DATA_DIR}/specific_rules.csv'
+
+LOG_PATH = f'{LOGS_DIR}/root.log'
 
 
 
@@ -80,6 +83,7 @@ JS_PROJECTS = [
     'axios/axios',
     'lodash/lodash',
     'prettier/prettier',
+    'mui-org/material-ui'
 
     # DO NOT WORK
     #'gruntjs/grunt',
@@ -98,7 +102,24 @@ JS_PROJECTS = [
 ]
 
 TS_PROJECTS = [
-
+    'formium/formik',
+    'socketio/socket.io',
+    'nestjs/nest',
+    'apollographql/apollo-client',
+    'redis/node-redis',
+    'ionic-team/ionic-framework',
+    'vercel/hyper',
+    'nativefier/nativefier',
+    'facebook/docusaurus',
+    'cheeriojs/cheerio',
+    'tannerlinsley/react-query',
+    'akveo/ngx-admin',
+    'reduxjs/react-redux',
+    'graphql/graphql-js',
+    'youzan/vant',
+    ###'ianstormtaylor/slate',
+    ###'lensapp/lens',
+    
     # DO NOT WORK
     #'facebook/jest',
     ##'angular/angular',
@@ -140,28 +161,7 @@ TS_PROJECTS = [
     #'jquense/yup',
     #'grafana/grafana',
     #'excalidraw/excalidraw',
-
-
-
-
-    'formium/formik',
-    'socketio/socket.io',
-    'nestjs/nest',
-    'apollographql/apollo-client',
-    'redis/node-redis',
-    ###'ionic-team/ionic-framework',
-    'vercel/hyper',
-    'nativefier/nativefier',
-    'facebook/docusaurus',
-    'cheeriojs/cheerio',
-    'tannerlinsley/react-query',
-    ###'ianstormtaylor/slate',
-    'akveo/ngx-admin',
-    'reduxjs/react-redux',
-    'conwnet/github1s',
+    #'conwnet/github1s',
+    #'codex-team/editor.js',
     #'notable/notable',
-    ###'youzan/vant',
-    'graphql/graphql-js',
-    'codex-team/editor.js',
-    ###'lensapp/lens',
 ]

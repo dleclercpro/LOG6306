@@ -35,11 +35,16 @@ class Analysis():
 
     def __init__(self, projects):
         self.projects = projects
-        self.rules = load_series(f'{DATA_DIR}/specific_rules.csv').tolist()
+        self.common_rules = []
 
 
 
     def extract_common_rules(self):
+        
+        """
+        Needs all issues to be extracted from SonarQube before it can be run.
+        """
+        
         languages = set([])
         rulesets = {'common-js': set([]), 'common-ts': set([]), 'javascript': set([]), 'typescript': set([])}
         
@@ -83,6 +88,14 @@ class Analysis():
 
 
 
+    def load_common_rules(self):
+        common_rules = load_series(f'{DATA_DIR}/specific_rules.csv')
+
+        if common_rules is not None:
+            self.common_rules = common_rules.tolist()
+
+
+
     def merge_stats(self):
         columns = [PROJECT_COL] + STATS
 
@@ -96,7 +109,12 @@ class Analysis():
 
 
 
-    def get_common_issues(self, p):
+    def get_issues(self, p):
+
+        """
+        Extract common issues from project's issues files.
+        """
+        
         common_issues = []
 
         # Loop on all files
@@ -115,7 +133,7 @@ class Analysis():
                 is_specific = any([language.startswith(l) for l in ['javascript', 'typescript']])
 
                 # Skip generic and uncommon rules
-                if rule in self.rules and is_specific:
+                if rule in self.common_rules and is_specific:
                     common_issues += [Issue(p.name, commit_hash, file_name, language, rule)]
 
         return common_issues
@@ -128,7 +146,7 @@ class Analysis():
         for p in self.projects:
 
             # Read common issues
-            issues = self.get_common_issues(p)
+            issues = self.get_issues(p)
             n_issues = len(issues)
 
             # Initialize smell counter
@@ -176,14 +194,14 @@ class Analysis():
 
 
         # Define columns of merged smells dataframe
-        cols = FILE_INSTANCE_COLS + self.rules
+        cols = FILE_INSTANCE_COLS + self.common_rules
 
         # Initialize the entire dataframe with all smell counts to zero
-        smells_init = np.hstack((file_instances, np.zeros((n_file_instances, len(self.rules)))))
+        smells_init = np.hstack((file_instances, np.zeros((n_file_instances, len(self.common_rules)))))
         smells = pd.DataFrame(smells_init, columns=cols)
 
         # Cast types
-        for rule in self.rules:
+        for rule in self.common_rules:
             smells = smells.astype({ rule: int })
 
 
@@ -253,12 +271,6 @@ class Analysis():
             for commit in p.get_recent_commits():
                 n_smells_in_commit = len(smells[(smells[FILE_COL] == file) & (smells[COMMIT_COL] == commit.hash)])
                 n_smells = np.append(n_smells, n_smells_in_commit)
-
-                if file == 'docs/src/lib/notion/createTable.js':
-                    print(file)
-                    print(commit.hash)
-                    print(n_smells_in_commit)
-                    print()
 
             # Compute deltas for current file from one commit to another
             deltas = n_smells[1:] - n_smells[:-1]

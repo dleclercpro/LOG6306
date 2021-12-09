@@ -26,8 +26,7 @@ class Project():
         self.name = name
 
         self.repo = None
-        self.remaining_commits = []
-        self.remaining_tags = []
+        self.remaining_releases = []
 
         self.dir = f'{REPOS_DIR}/{name}'
         self.stats_fname = f'{STATS_DIR}/{name}.csv'
@@ -52,62 +51,59 @@ class Project():
             self.repo = Repo(self.owner, self.name)
             self.repo.clone(self.dir)
 
-        # Load repo's list of commits
-        #self.repo.load_commits()
-        self.repo.load_tags()
+        # Load repo's list of release tags
+        self.repo.load_releases()
 
         # Load repo's stats
         self.repo.load_stats()
 
-        # If some commits have already been processed
-        #self.compute_remaining_commits()
-        self.compute_remaining_tags()
+        # If some releases have already been processed
+        self.compute_remaining_releases()
 
 
 
-    def get_recent_commits(self, n=100):
-        return self.repo.commits[-n:]
+    def delete(self):
+        logging.info(f'Deleting project `{self.name}` on SonarQube...')
 
-    def get_recent_tags(self, n=25):
-        return self.repo.tags[-n:]
+        # Define parameters to delete project on SonarQube server
+        params = {'project': self.name}
+
+        try:
+            res = requests.post(f'{SONAR_API}/projects/delete', params=params, auth=self.sonar_auth)
+            res.raise_for_status()
+
+            logging.info('Project deleted.')
+
+        except requests.exceptions.HTTPError as err:
+            if res.status_code == 404:
+                logging.info('Project did not exist.')
+                return
+            
+            raise err
 
 
 
-    def compute_remaining_commits(self):
-        logging.info('Computing remaining commits to process for project...')
+    def get_recent_releases(self, n=25):
+        return self.repo.releases[-n:]
+
+
+
+    def compute_remaining_releases(self):
+        logging.info('Computing remaining releases to process for project...')
         
-        # Compute list of commits which have already been processed
+        # Compute list of releases which have already been processed
         hashes = []
         
         if os.path.exists(self.issues_dir):
             for fname in os.listdir(self.issues_dir):
                 hashes += [fname.split('.')[0]]
 
-        # Only consider the last X commits [time constraint]
-        recent_commits = self.get_recent_commits()
+        # Only consider the last X releases [time constraint]
+        recent_releases = self.get_recent_releases()
 
-        # Compute the commits that are not yet processed
-        self.remaining_commits = list(filter(lambda c: c.hash not in hashes, recent_commits))
-        logging.info(f'Found {len(self.remaining_commits)} commits to process.')
-
-
-
-    def compute_remaining_tags(self):
-        logging.info('Computing remaining tags to process for project...')
-        
-        # Compute list of tags which have already been processed
-        hashes = []
-        
-        if os.path.exists(self.issues_dir):
-            for fname in os.listdir(self.issues_dir):
-                hashes += [fname.split('.')[0]]
-
-        # Only consider the last X tags [time constraint]
-        recent_tags = self.get_recent_tags()
-
-        # Compute the tags that are not yet processed
-        self.remaining_tags = list(filter(lambda t: t.commit_hash not in hashes, recent_tags))
-        logging.info(f'Found {len(self.remaining_tags)} tags to process.')
+        # Compute the releases that are not yet processed
+        self.remaining_releases = list(filter(lambda t: t.commit_hash not in hashes, recent_releases))
+        logging.info(f'Found {len(self.remaining_releases)} releases to process.')
 
 
 
@@ -127,8 +123,8 @@ class Project():
 
 
 
-    def checkout(self, tag):
-        self.repo.checkout(tag)
+    def checkout(self, release):
+        self.repo.checkout(release)
 
         # Regenerate SonarQube project properties file
         self.add_properties()
@@ -229,7 +225,7 @@ class Project():
 
 
 
-    def extract_smells(self):
+    def extract_issues(self):
 
         """
         WARNINGS:
@@ -260,4 +256,4 @@ class Project():
         if not os.path.exists(self.issues_dir):
             os.makedirs(self.issues_dir)
 
-        store_json(issues, f'{self.issues_dir}/{self.repo.current_commit.hash}.json')
+        store_json(issues, f'{self.issues_dir}/{self.repo.current_release.commit_hash}.json')

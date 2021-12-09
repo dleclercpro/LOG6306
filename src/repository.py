@@ -7,9 +7,8 @@ import pandas as pd
 
 
 # Custom imports
-from constants import TAGS_DIR, STATS_DIR, COMMITS_DIR, GITHUB_TOKEN, GITHUB_API
+from constants import RELEASES_DIR, TAGS_DIR, STATS_DIR, GITHUB_TOKEN, GITHUB_API
 from lib import store_json, store_series, load_json, load_series
-from commit import Commit
 from tag import Tag
 
 
@@ -26,17 +25,14 @@ class Repo():
         self.dir = dir
 
         self.repo = git.Repo(dir) if dir is not None else None
+        self.current_release = None
         
         self.stats = {}
+        self.releases = []
+
         self.stats_fname = f'{STATS_DIR}/{name}.csv'
-
-        self.commits = []
-        self.tags = []
-        self.commits_fname = f'{COMMITS_DIR}/{name}.json'
         self.tags_fname = f'{TAGS_DIR}/{name}.json'
-
-        self.current_commit = None
-        self.current_tag = None
+        self.releases_fname = f'{RELEASES_DIR}/{name}.json'
 
 
 
@@ -48,14 +44,14 @@ class Repo():
 
 
 
-    def checkout(self, tag):
-        logging.info(f'Checking out repository to tag: {tag.name}...')
+    def checkout(self, release):
+        logging.info(f'Checking out repository to release: {release.name}...')
 
-        # Store current tag
-        self.current_tag = tag
+        # Store current commit hash
+        self.current_release = release
 
-        # Reset repo to given commit
-        self.repo.head.reset(tag.name, working_tree=True)
+        # Reset repo to given commit hash
+        self.repo.head.reset(release.commit_hash, working_tree=True)
         self.repo.git.clean('-xdf')
 
 
@@ -133,6 +129,9 @@ class Repo():
         self.stats['js_proportion'] = languages['JavaScript'] if 'JavaScript' in languages else 0
         self.stats['ts_proportion'] = languages['TypeScript'] if 'TypeScript' in languages else 0
 
+        # Compute release count
+        self.stats['releases_count'] = len(self.releases)
+
         # Convert to dataframe
         self.stats = pd.Series(self.stats)
 
@@ -162,74 +161,41 @@ class Repo():
 
 
 
-    def fetch_commits(self):
-        logging.info('Generating chronological list of commits...')
-
-        self.commits = []
-        
-        for c in self.repo.iter_commits():
-            self.commits += [Commit(
-                c.hexsha,
-                c.committed_datetime,
-                c.author.email,
-            )]
-
-        # Reverse commit order to get chronological order
-        self.commits = list(reversed(self.commits))
-
-        store_json([commit.to_json() for commit in self.commits], self.commits_fname)
-
-
-
-    def read_commits(self):
-        logging.info('Reading commits from disk...')
-        
-        self.commits = [Commit.from_json(commit) for commit in load_json(self.commits_fname)]
-
-
-
-    def load_commits(self):
-        logging.info('Loading commits...')
-
-        # If list of commits hasn't been generated, do it
-        if not os.path.exists(self.commits_fname):
-            self.fetch_commits()
-        else:
-            self.read_commits()
-
-        logging.info(f'Found {len(self.commits)} commits.')
-
-
-
     def fetch_tags(self):
         logging.info('Generating chronological list of tags...')
 
+        # Fetch tags using GitHub API
         tags = self.big_call('tags')
 
         for tag in tags:
-            self.tags += [Tag(tag['name'], tag['commit']['sha'])]
+            self.releases += [Tag(tag['name'], tag['commit']['sha'])]
 
         # Reverse tag order to get chronological order
-        self.tags = list(reversed(self.tags))
+        self.releases = list(reversed(self.releases))
 
-        store_json([tag.to_json() for tag in self.tags], self.tags_fname)
+        # Store them
+        store_json([tag.to_json() for tag in self.releases], self.tags_fname)
 
 
 
-    def read_tags(self):
-        logging.info('Reading tags from disk...')
+    def read_releases(self):
+        logging.info('Reading releases from disk...')
         
-        self.tags = [Tag.from_json(tag) for tag in load_json(self.tags_fname)]
+        self.releases = [Tag.from_json(release) for release in load_json(self.releases_fname)]
 
 
 
-    def load_tags(self):
-        logging.info('Loading tags...')
+    def load_releases(self):
+        logging.info('Loading releases...')
 
-        # If list of tags hasn't been generated, do it
-        if not os.path.exists(self.tags_fname):
+        # If list of releases hasn't been generated, do it
+        if not os.path.exists(self.releases_fname):
             self.fetch_tags()
-        else:
-            self.read_tags()
 
-        logging.info(f'Found {len(self.tags)} tags.')
+            # WARNING: manual preprocessing of tags into release tags needed!
+            logging.warn('Preprocessing of tags not done!')
+
+        else:
+            self.read_releases()
+
+        logging.info(f'Found {len(self.releases)} releases.')

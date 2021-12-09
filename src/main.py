@@ -6,19 +6,10 @@ from multiprocessing import Pool
 
 
 # Custom libs
-from constants import SMELLS_DIR, TS_PROJECTS, JS_PROJECTS, STATS_DIR, TAGS_DIR, COMMITS_DIR, ISSUES_DIR, LOGS_DIR, REPOS_DIR
+from constants import TS_PROJECTS, JS_PROJECTS, RELEASES_DIR, SMELLS_DIR, LOGS_DIR, STATS_DIR, TAGS_DIR, ISSUES_DIR, LOGS_DIR, REPOS_DIR, LOG_PATH
 from lib import formatSeconds
 from project import Project
 from analysis import Analysis
-
-
-
-# Setup logging
-logging.basicConfig(
-    level=logging.INFO,
-    format=f'%(asctime)s [%(levelname)s] %(message)s',
-    handlers=[logging.FileHandler(f'{LOGS_DIR}/root.log'), logging.StreamHandler()],
-)
 
 
 
@@ -26,28 +17,27 @@ def process_projects(projects):
     for project in projects:
         p = Project(project)
         p.initialize()
-        continue
 
-        # Grab remaining commits to process
-        n_commits = len(p.repo.commits)
-        n_remaining_commits = len(p.remaining_commits)
+        # Grab remaining releases to process
+        n_releases = len(p.repo.releases)
+        n_remaining_releases = len(p.remaining_releases)
 
         # Initialize counters
-        n = n_remaining_commits
+        n = n_remaining_releases
         i = 0
 
         t_0 = datetime.datetime.now()
 
-        # Process every commit
+        # Process every release
         while n > 0:
-            logging.info(f'Processing commit {n_commits - n + 1}/{n_commits}')
+            logging.info(f'Processing release: {n_releases - n + 1}/{n_releases}')
 
-            commit = p.remaining_commits[i]
-            logging.info(commit)
+            release = p.remaining_releases[i]
 
-            p.checkout(commit)
+            p.checkout(release)
+            p.delete()
             p.scan()
-            p.extract_smells()
+            p.extract_issues()
 
             t = datetime.datetime.now()
 
@@ -74,10 +64,11 @@ def analyze_projects(projects):
 
     analysis = Analysis(p_s)
     #analysis.merge_stats()
-    #analysis.find_common_rules()
+    analysis.find_common_rules()
+    #analysis.load_common_rules()
     #analysis.list_raw_smells()
     #analysis.merge_raw_smells()
-    analysis.count_smell_deltas(formik)
+    #analysis.count_smell_deltas(formik)
 
 
 
@@ -96,9 +87,16 @@ def main():
     """
 
     # Generate data and results directories (if they do not already exist)
-    for dir in [REPOS_DIR, LOGS_DIR, STATS_DIR, TAGS_DIR, COMMITS_DIR, ISSUES_DIR, SMELLS_DIR]:
+    for dir in [REPOS_DIR, LOGS_DIR, STATS_DIR, TAGS_DIR, RELEASES_DIR, ISSUES_DIR, SMELLS_DIR]:
         if not os.path.exists(dir):
             os.makedirs(dir)
+
+    # Setup logging
+    logging.basicConfig(
+        level=logging.INFO,
+        format=f'%(asctime)s [%(levelname)s] %(message)s',
+        handlers=[logging.FileHandler(LOG_PATH), logging.StreamHandler()],
+    )
 
     # Define projects
     projects = TS_PROJECTS + JS_PROJECTS
