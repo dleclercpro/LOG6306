@@ -1,6 +1,5 @@
 import os
 import git
-import json
 import logging
 import requests
 import pandas as pd
@@ -8,9 +7,10 @@ import pandas as pd
 
 
 # Custom imports
-from constants import STATS_DIR, COMMITS_DIR, GITHUB_TOKEN, GITHUB_API
-from lib import store_series
+from constants import TAGS_DIR, STATS_DIR, COMMITS_DIR, GITHUB_TOKEN, GITHUB_API
+from lib import store_json, store_series, load_json, load_series
 from commit import Commit
+from tag import Tag
 
 
 
@@ -24,12 +24,19 @@ class Repo():
         self.url = f'https://github.com/{owner}/{name}.git'
         self.api = f'{GITHUB_API}/repos/{owner}/{name}'
         self.dir = dir
-        self.stats = {}
 
         self.repo = git.Repo(dir) if dir is not None else None
+        
+        self.stats = {}
+        self.stats_fname = f'{STATS_DIR}/{name}.csv'
+
         self.commits = []
-        self.current_commit = None
+        self.tags = []
         self.commits_fname = f'{COMMITS_DIR}/{name}.json'
+        self.tags_fname = f'{TAGS_DIR}/{name}.json'
+
+        self.current_commit = None
+        self.current_tag = None
 
 
 
@@ -41,14 +48,14 @@ class Repo():
 
 
 
-    def checkout(self, commit):
-        logging.info(f'Checking out repository to commit: {commit.hash}...')
+    def checkout(self, tag):
+        logging.info(f'Checking out repository to tag: {tag.name}...')
 
-        # Store current commit
-        self.current_commit = commit
+        # Store current tag
+        self.current_tag = tag
 
         # Reset repo to given commit
-        self.repo.head.reset(commit.hash, working_tree=True)
+        self.repo.head.reset(tag.name, working_tree=True)
         self.repo.git.clean('-xdf')
 
 
@@ -118,7 +125,6 @@ class Repo():
         self.stats['open_issues_count'] = info['open_issues_count']
         self.stats['commits_count'] = len(self.big_call('commits'))
         self.stats['contributors_count'] = len(self.big_call('contributors'))
-        self.stats['releases_count'] = len(self.big_call('releases'))
 
         # Compute proportion of code taken up by each language
         bytes_by_language = pd.Series(self.call('languages'), dtype=float)
@@ -129,10 +135,30 @@ class Repo():
 
         # Convert to dataframe
         self.stats = pd.Series(self.stats)
-        print(self.stats)
 
         # Store repo's stats
-        store_series(self.stats, f'{STATS_DIR}/{self.name}.csv')
+        store_series(self.stats, self.stats_fname)
+
+
+
+    def read_stats(self):
+        logging.info('Reading stats from disk...')
+        
+        self.stats = load_series(self.stats_fname)
+        print(self.stats)
+
+
+
+    def load_stats(self):
+        logging.info('Loading stats...')
+
+        # If stats haven't been generated, do it
+        if not os.path.exists(self.stats_fname):
+            self.fetch_stats()
+        else:
+            self.read_stats()
+
+        logging.info(f'Stats loaded.')
 
 
 
@@ -142,23 +168,23 @@ class Repo():
         self.commits = []
         
         for c in self.repo.iter_commits():
-            self.commits += [Commit(c.hexsha, c.committed_datetime, c.author.email)]
+            self.commits += [Commit(
+                c.hexsha,
+                c.committed_datetime,
+                c.author.email,
+            )]
 
         # Reverse commit order to get chronological order
         self.commits = list(reversed(self.commits))
 
-        with open(self.commits_fname, 'w', encoding='UTF-8') as f:
-            json.dump([commit.to_json() for commit in self.commits], f, indent=2)
+        store_json([commit.to_json() for commit in self.commits], self.commits_fname)
 
 
 
     def read_commits(self):
         logging.info('Reading commits from disk...')
         
-        self.commits = []
-
-        with open(self.commits_fname, 'r', encoding='UTF-8') as f:
-            self.commits = [Commit.from_json(commit) for commit in json.load(f)]
+        self.commits = [Commit.from_json(commit) for commit in load_json(self.commits_fname)]
 
 
 
@@ -172,3 +198,38 @@ class Repo():
             self.read_commits()
 
         logging.info(f'Found {len(self.commits)} commits.')
+
+
+
+    def fetch_tags(self):
+        logging.info('Generating chronological list of tags...')
+
+        tags = self.big_call('tags')
+
+        for tag in tags:
+            self.tags += [Tag(tag['name'], tag['commit']['sha'])]
+
+        # Reverse tag order to get chronological order
+        self.tags = list(reversed(self.tags))
+
+        store_json([tag.to_json() for tag in self.tags], self.tags_fname)
+
+
+
+    def read_tags(self):
+        logging.info('Reading tags from disk...')
+        
+        self.tags = [Tag.from_json(tag) for tag in load_json(self.tags_fname)]
+
+
+
+    def load_tags(self):
+        logging.info('Loading tags...')
+
+        # If list of tags hasn't been generated, do it
+        if not os.path.exists(self.tags_fname):
+            self.fetch_tags()
+        else:
+            self.read_tags()
+
+        logging.info(f'Found {len(self.tags)} tags.')

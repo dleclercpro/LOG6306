@@ -18,9 +18,17 @@ ROOT_DIR = '/Users/david/Projects/LOG6306'
 REPOS_DIR = f'{ROOT_DIR}/repos'
 LOGS_DIR = f'{ROOT_DIR}/logs'
 DATA_DIR = f'{ROOT_DIR}/data'
+
 STATS_DIR = f'{DATA_DIR}/stats'
 COMMITS_DIR = f'{DATA_DIR}/commits'
+TAGS_DIR = f'{DATA_DIR}/tags'
 ISSUES_DIR = f'{DATA_DIR}/issues'
+SMELLS_DIR = f'{DATA_DIR}/smells'
+
+STATS_PATH = f'{DATA_DIR}/stats.csv'
+SMELLS_PATH = f'{DATA_DIR}/smells.csv'
+GENERIC_RULES_PATH = f'{DATA_DIR}/generic_rules.csv'
+SPECIFIC_RULES_PATH = f'{DATA_DIR}/specific_rules.csv'
 
 
 
@@ -29,7 +37,7 @@ GITHUB_API = 'https://api.github.com'
 GITHUB_TOKEN = os.environ['GITHUB_TOKEN']
 
 # Sonar
-SONAR_API = 'http://localhost:9000/api/issues/search'
+SONAR_API = 'http://localhost:9000/api'
 SONAR_TOKEN = os.environ['SONAR_TOKEN']
 SONAR_USERNAME = os.environ['SONAR_USERNAME']
 SONAR_PASSWORD = os.environ['SONAR_PASSWORD']
@@ -40,51 +48,120 @@ SONAR_SCANNER_PROPS_FNAME = 'sonar-scanner.properties'
 
 
 
+# Stats
+STATS = [
+    'created_at',
+    'forks_count',
+    'stargazers_count',
+    'watchers_count',
+    'open_issues_count',
+    'commits_count',
+    'contributors_count',
+    'releases_count',
+    'js_proportion',
+    'ts_proportion',
+]
+
+
+
 # Projects
 JS_PROJECTS = [
     'expressjs/express',
     'bower/bower',
-    'less/less.js',
     'request/request',
-    'gruntjs/grunt',
     'jquery/jquery',
-    'vuejs/vue',
     'ramda/ramda',
     'Leaflet/Leaflet',
     'hexojs/hexo',
     'chartjs/Chart.js',
-    'webpack/webpack',
-    'moment/moment',
     'webtorrent/webtorrent',
     'riot/riot',
-    'facebook/react',
-    'facebook/react-native',
-    'vuejs/vue',
-    'twbs/bootstrap',
     'd3/d3',
     'axios/axios',
-    'atom/atom',
     'lodash/lodash',
+    'prettier/prettier',
+
+    # DO NOT WORK
+    #'gruntjs/grunt',
+    #'nodejs/node',
+    #'less/less.js',
+    #'vuejs/vue',
+    #'webpack/webpack',
+    #'moment/moment',
+    #'facebook/react',
+    #'facebook/react-native',
+    #'vuejs/vue',
+    #'twbs/bootstrap',
+    #'atom/atom',
+    #'FortAwesome/Font-Awesome',
+    #'hakimel/reveal.js',
 ]
 
 TS_PROJECTS = [
-    'facebook/jest',
+
+    # DO NOT WORK
+    #'facebook/jest',
+    ##'angular/angular',
+    ##'microsoft/vscode',
+    #'reduxjs/redux',
+    ##'sass/sass',
+    #'puppeteer/puppeteer',
+    #'sveltejs/svelte',
+    #'babel/babel',
+    ##'signalapp/Signal-Desktop',
+    #'wechaty/wechaty',
+    ##'storybookjs/storybook',
+    #'apollographql/apollo-server',
+    #'tensorflow/tfjs',
+    ##'BabylonJS/Babylon.js',
+    ###'cdr/code-server',
+    ##'apache/superset',
+    ##'pixijs/pixijs',
+    ##'vitejs/vite',
+    ##'vuetifyjs/vuetify',
+    ###'immutable-js/immutable-js'
+    ##'apache/echarts',
+    ##'postcss/postcss',
+    ##'laurent22/joplin',
+    ##'angular/angular-cli',
+    ##'niklasvh/html2canvas',
+    ##'mobxjs/mobx',
+    ##'supabase/supabase',
+    ##'chakra-ui/chakra-ui',
+    ##'angular/components',
+    ##'doczjs/docz',
+    #'t4t5/sweetalert',
+    ##'vuejs/devtools',
+    ##'Eugeny/tabby',
+    #'prisma/prisma',
+    ###'elastic/kibana',
+    #'GoogleChromeLabs/squoosh',
+    #'recharts/recharts',
+    #'jquense/yup',
+    #'grafana/grafana',
+    #'excalidraw/excalidraw',
+
+
+
+
     'formium/formik',
-    'angular/angular',
-    'microsoft/vscode',
-    'reduxjs/redux',
     'socketio/socket.io',
-    'puppeteer/puppeteer',
-    'sveltejs/svelte',
     'nestjs/nest',
-    'babel/babel',
     'apollographql/apollo-client',
-    'apollographql/apollo-server',
-    'tensorflow/tfjs',
-    'BabylonJS/Babylon.js',
     'redis/node-redis',
-    'sass/sass',
-    'signalapp/Signal-Desktop',
-    'wechaty/wechaty',
-    'storybookjs/storybook',
+    ###'ionic-team/ionic-framework',
+    'vercel/hyper',
+    'nativefier/nativefier',
+    'facebook/docusaurus',
+    'cheeriojs/cheerio',
+    'tannerlinsley/react-query',
+    ###'ianstormtaylor/slate',
+    'akveo/ngx-admin',
+    'reduxjs/react-redux',
+    'conwnet/github1s',
+    #'notable/notable',
+    ###'youzan/vant',
+    'graphql/graphql-js',
+    'codex-team/editor.js',
+    ###'lensapp/lens',
 ]
