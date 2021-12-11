@@ -75,11 +75,6 @@ STATS = [
 
 # Projects
 JS_PROJECTS = [
-    'yarnpkg/yarn',
-    'serverless/serverless',
-    'tailwindlabs/tailwindcss',
-    'typicode/json-server',
-
     'expressjs/express',
     'bower/bower',
     'request/request',
@@ -91,6 +86,10 @@ JS_PROJECTS = [
     'riot/riot',
     'd3/d3',
     'axios/axios',
+    'yarnpkg/yarn',
+    'serverless/serverless',
+    'tailwindlabs/tailwindcss',
+    'typicode/json-server',
 
     # DO NOT WORK
     #'gruntjs/grunt',

@@ -1,0 +1,2692 @@
+[
+  {
+    "author": "fil@rezo.net",
+    "component": "d3:index.js",
+    "creationDate": "2020-07-23T08:47:03-0400",
+    "debt": "22min",
+    "effort": "22min",
+    "flows": [],
+    "key": "AX2gqQa7QWmcFE28YNtL",
+    "message": "11 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "fil@rezo.net",
+    "component": "d3:index.js",
+    "creationDate": "2020-07-23T08:47:03-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX2gqQa8QWmcFE28YNtM",
+    "message": "Add or update the header of this file.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "fil@rezo.net",
+    "component": "d3:index.js",
+    "creationDate": "2020-07-23T08:47:03-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "cbfc339eceb8ef0b3bcd686bca5336e2",
+    "key": "AX2gqQa8QWmcFE28YNta",
+    "line": 8,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 8,
+      "endOffset": 28,
+      "startLine": 8,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "fil@rezo.net",
+    "component": "d3:index.js",
+    "creationDate": "2020-07-23T08:47:03-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cbfc339eceb8ef0b3bcd686bca5336e2",
+    "key": "AX2gqQa8QWmcFE28YNtb",
+    "line": 8,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 8,
+      "endOffset": 27,
+      "startLine": 8,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-11-20T10:34:14-0500",
+    "debt": "36min",
+    "effort": "36min",
+    "flows": [],
+    "key": "AX2gqQb2QWmcFE28YNuK",
+    "message": "18 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-11-20T10:34:14-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX2gqQb2QWmcFE28YNuL",
+    "message": "Add or update the header of this file.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-11-20T10:34:14-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "09fb1994061224898128b0c3586aa6c9",
+    "key": "AX2gqQb2QWmcFE28YNuR",
+    "line": 8,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 11,
+      "endOffset": 1,
+      "startLine": 8,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-11-20T10:34:14-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "98ba7dd2fd845ed05435dd14f3fe874a",
+    "key": "AX2gqQb2QWmcFE28YNuS",
+    "line": 9,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 9,
+      "endOffset": 44,
+      "startLine": 9,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-11-20T10:34:14-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "98ba7dd2fd845ed05435dd14f3fe874a",
+    "key": "AX2gqQb2QWmcFE28YNuT",
+    "line": 9,
+    "message": "Expected { after 'if' condition.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 9,
+      "endOffset": 53,
+      "startLine": 9,
+      "startOffset": 46
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-11-20T10:34:14-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "9b6b90443dfcbeb4af1f30a8f86320ef",
+    "key": "AX2gqQb2QWmcFE28YNuX",
+    "line": 19,
+    "message": "Missing trailing comma.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 20,
+      "endOffset": 0,
+      "startLine": 19,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-11-20T10:34:14-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "7fe0b85ad07d377e9ff00e71b751d05f",
+    "key": "AX2gqQb2QWmcFE28YNuY",
+    "line": 21,
+    "message": "Missing trailing comma.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 22,
+      "endOffset": 0,
+      "startLine": 21,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-11-20T10:34:14-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "fedb836da1bc918a1333270811bd1590",
+    "key": "AX2gqQb2QWmcFE28YNue",
+    "line": 35,
+    "message": "Missing trailing comma.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 36,
+      "endOffset": 0,
+      "startLine": 35,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-11-20T10:34:14-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "7fe0b85ad07d377e9ff00e71b751d05f",
+    "key": "AX2gqQb2QWmcFE28YNuf",
+    "line": 37,
+    "message": "Missing trailing comma.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 38,
+      "endOffset": 0,
+      "startLine": 37,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-11-20T10:34:14-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "fedb836da1bc918a1333270811bd1590",
+    "key": "AX2gqQb2QWmcFE28YNul",
+    "line": 51,
+    "message": "Missing trailing comma.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 52,
+      "endOffset": 0,
+      "startLine": 51,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-11-20T10:34:14-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "7fe0b85ad07d377e9ff00e71b751d05f",
+    "key": "AX2gqQb2QWmcFE28YNum",
+    "line": 53,
+    "message": "Missing trailing comma.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 54,
+      "endOffset": 0,
+      "startLine": 53,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2019-08-19T12:42:48-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "7c0ead2eda814877cec549b1752e1d22",
+    "key": "AX2gqQa8QWmcFE28YNtN",
+    "line": 1,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 1,
+      "endOffset": 41,
+      "startLine": 1,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-08-19T12:42:48-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "5c92a9eeab8628af64faef49a5d489ae",
+    "key": "AX2gqQb2QWmcFE28YNuU",
+    "line": 15,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 15,
+      "endOffset": 21,
+      "startLine": 15,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-08-19T12:42:48-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "4bfcd2f99d51c780e851e4f100e807da",
+    "key": "AX2gqQb2QWmcFE28YNuV",
+    "line": 18,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 18,
+      "endOffset": 29,
+      "startLine": 18,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-08-19T12:42:48-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9b6b90443dfcbeb4af1f30a8f86320ef",
+    "key": "AX2gqQb2QWmcFE28YNuW",
+    "line": 19,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 19,
+      "endOffset": 19,
+      "startLine": 19,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-08-19T12:42:48-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "5c92a9eeab8628af64faef49a5d489ae",
+    "key": "AX2gqQb2QWmcFE28YNuZ",
+    "line": 24,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 24,
+      "endOffset": 21,
+      "startLine": 24,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2019-08-19T12:42:48-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "5c92a9eeab8628af64faef49a5d489ae",
+    "key": "AX2gqQb2QWmcFE28YNug",
+    "line": 40,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 40,
+      "endOffset": 21,
+      "startLine": 40,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2018-08-20T17:05:57-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "82b4583048ac1aaadc3b36da6543ee3b",
+    "key": "AX2gqQb2QWmcFE28YNuO",
+    "line": 3,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 3,
+      "endOffset": 43,
+      "startLine": 3,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2018-08-20T17:05:57-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "dea1910e133eee86a8d7dffde715c464",
+    "key": "AX2gqQb2QWmcFE28YNuP",
+    "line": 4,
+    "message": "Explicitly import the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 4,
+      "endOffset": 16,
+      "startLine": 4,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2018-08-20T17:05:57-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "dea1910e133eee86a8d7dffde715c464",
+    "key": "AX2gqQb2QWmcFE28YNuQ",
+    "line": 4,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 4,
+      "endOffset": 38,
+      "startLine": 4,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2018-08-20T17:05:57-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "927329e2e6b9df7659c4b5c2d90c124a",
+    "key": "AX2gqQb2QWmcFE28YNua",
+    "line": 27,
+    "message": "Missing trailing comma.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 28,
+      "endOffset": 0,
+      "startLine": 27,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2018-08-20T17:05:57-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "e36c4bde05960246670601332c31e825",
+    "key": "AX2gqQb2QWmcFE28YNuh",
+    "line": 44,
+    "message": "Missing trailing comma.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 45,
+      "endOffset": 0,
+      "startLine": 44,
+      "startOffset": 45
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2018-08-20T17:05:57-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "1e21da86c78f51ef7ac5d4b3d2a0642d",
+    "key": "AX2gqQb2QWmcFE28YNui",
+    "line": 48,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 48,
+      "endOffset": 28,
+      "startLine": 48,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2018-08-20T17:05:57-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "b9608da9e046124c8727ed8dcb12f7b1",
+    "key": "AX2gqQb2QWmcFE28YNuj",
+    "line": 49,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 49,
+      "endOffset": 19,
+      "startLine": 49,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2018-08-20T17:05:57-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "fedb836da1bc918a1333270811bd1590",
+    "key": "AX2gqQb2QWmcFE28YNuk",
+    "line": 51,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 51,
+      "endOffset": 16,
+      "startLine": 51,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2018-08-20T17:05:57-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX2gqQb2QWmcFE28YNun",
+    "line": 54,
+    "message": "Missing trailing comma.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 55,
+      "endOffset": 0,
+      "startLine": 54,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2018-01-28T14:25:27-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "06296dc7bca7b08f061366335472ce9d",
+    "key": "AX2gqQa8QWmcFE28YNtY",
+    "line": 7,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 7,
+      "endOffset": 27,
+      "startLine": 7,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2018-01-28T14:25:27-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "06296dc7bca7b08f061366335472ce9d",
+    "key": "AX2gqQa8QWmcFE28YNtZ",
+    "line": 7,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 7,
+      "endOffset": 26,
+      "startLine": 7,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2018-01-28T14:25:27-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "41dad7b4c5cc6a0dfd89ed93da794beb",
+    "key": "AX2gqQa8QWmcFE28YNtk",
+    "line": 13,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 13,
+      "endOffset": 25,
+      "startLine": 13,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2018-01-28T14:25:27-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "41dad7b4c5cc6a0dfd89ed93da794beb",
+    "key": "AX2gqQa8QWmcFE28YNtl",
+    "line": 13,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 13,
+      "endOffset": 24,
+      "startLine": 13,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2018-01-28T14:25:27-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "8d4df1551e17a40c1c5cea3170e3a31c",
+    "key": "AX2gqQa8QWmcFE28YNt6",
+    "line": 24,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 24,
+      "endOffset": 35,
+      "startLine": 24,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2018-01-28T14:25:27-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "8d4df1551e17a40c1c5cea3170e3a31c",
+    "key": "AX2gqQa8QWmcFE28YNt7",
+    "line": 24,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 24,
+      "endOffset": 34,
+      "startLine": 24,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2018-01-28T14:25:27-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "e117e2be21bfc0c6dd01cbc1f4736184",
+    "key": "AX2gqQb2QWmcFE28YNub",
+    "line": 32,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 32,
+      "endOffset": 24,
+      "startLine": 32,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2017-09-02T18:28:43-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "fedb836da1bc918a1333270811bd1590",
+    "key": "AX2gqQb2QWmcFE28YNud",
+    "line": 35,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 35,
+      "endOffset": 16,
+      "startLine": 35,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2017-07-14T17:02:38-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "b9608da9e046124c8727ed8dcb12f7b1",
+    "key": "AX2gqQb2QWmcFE28YNuc",
+    "line": 33,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 33,
+      "endOffset": 19,
+      "startLine": 33,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "david.ollerhead@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-26T13:02:34-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "49aac0753268b4e311297b4a06115457",
+    "key": "AX2gqQa8QWmcFE28YNt-",
+    "line": 26,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 26,
+      "endOffset": 25,
+      "startLine": 26,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "david.ollerhead@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-26T13:02:34-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "49aac0753268b4e311297b4a06115457",
+    "key": "AX2gqQa8QWmcFE28YNt_",
+    "line": 26,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 26,
+      "endOffset": 24,
+      "startLine": 26,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "0f564edd819f7cd89e221431fb856b86",
+    "key": "AX2gqQa8QWmcFE28YNtO",
+    "line": 2,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 2,
+      "endOffset": 25,
+      "startLine": 2,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "0f564edd819f7cd89e221431fb856b86",
+    "key": "AX2gqQa8QWmcFE28YNtP",
+    "line": 2,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 2,
+      "endOffset": 24,
+      "startLine": 2,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "acd538b53c228cff58a431685ab29967",
+    "key": "AX2gqQa8QWmcFE28YNtQ",
+    "line": 3,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 3,
+      "endOffset": 24,
+      "startLine": 3,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "acd538b53c228cff58a431685ab29967",
+    "key": "AX2gqQa8QWmcFE28YNtR",
+    "line": 3,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 3,
+      "endOffset": 23,
+      "startLine": 3,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "b9d7f875d4e9a1afc3f470cc8b3c51b4",
+    "key": "AX2gqQa8QWmcFE28YNtS",
+    "line": 4,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 4,
+      "endOffset": 25,
+      "startLine": 4,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "b9d7f875d4e9a1afc3f470cc8b3c51b4",
+    "key": "AX2gqQa8QWmcFE28YNtT",
+    "line": 4,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 4,
+      "endOffset": 24,
+      "startLine": 4,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "817b3f40fbb7b8c6e35b57a0f4f6af53",
+    "key": "AX2gqQa8QWmcFE28YNtU",
+    "line": 5,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 5,
+      "endOffset": 25,
+      "startLine": 5,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "817b3f40fbb7b8c6e35b57a0f4f6af53",
+    "key": "AX2gqQa8QWmcFE28YNtV",
+    "line": 5,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 5,
+      "endOffset": 24,
+      "startLine": 5,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "949be21478a55bf78458563056191a2f",
+    "key": "AX2gqQa8QWmcFE28YNtW",
+    "line": 6,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 6,
+      "endOffset": 25,
+      "startLine": 6,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "949be21478a55bf78458563056191a2f",
+    "key": "AX2gqQa8QWmcFE28YNtX",
+    "line": 6,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 6,
+      "endOffset": 24,
+      "startLine": 6,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "aa5f70dfefc9d800dbe92bf390d19a74",
+    "key": "AX2gqQa8QWmcFE28YNtc",
+    "line": 9,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 9,
+      "endOffset": 28,
+      "startLine": 9,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "aa5f70dfefc9d800dbe92bf390d19a74",
+    "key": "AX2gqQa8QWmcFE28YNtd",
+    "line": 9,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 9,
+      "endOffset": 27,
+      "startLine": 9,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "89cb5123e91eb773c241a1b5edaf1aa4",
+    "key": "AX2gqQa8QWmcFE28YNte",
+    "line": 10,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 10,
+      "endOffset": 24,
+      "startLine": 10,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "89cb5123e91eb773c241a1b5edaf1aa4",
+    "key": "AX2gqQa8QWmcFE28YNtf",
+    "line": 10,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 10,
+      "endOffset": 23,
+      "startLine": 10,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "8eb7e22df884af5fb048a04c2f856fe9",
+    "key": "AX2gqQa8QWmcFE28YNtg",
+    "line": 11,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 11,
+      "endOffset": 23,
+      "startLine": 11,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "8eb7e22df884af5fb048a04c2f856fe9",
+    "key": "AX2gqQa8QWmcFE28YNth",
+    "line": 11,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 11,
+      "endOffset": 22,
+      "startLine": 11,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "c13d8129135e80fc2ac0d0f5a4183a27",
+    "key": "AX2gqQa8QWmcFE28YNti",
+    "line": 12,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 12,
+      "endOffset": 24,
+      "startLine": 12,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "c13d8129135e80fc2ac0d0f5a4183a27",
+    "key": "AX2gqQa8QWmcFE28YNtj",
+    "line": 12,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 12,
+      "endOffset": 23,
+      "startLine": 12,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "0f0d676b30b90439524f1c577311959a",
+    "key": "AX2gqQa8QWmcFE28YNtm",
+    "line": 14,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 14,
+      "endOffset": 25,
+      "startLine": 14,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "0f0d676b30b90439524f1c577311959a",
+    "key": "AX2gqQa8QWmcFE28YNtn",
+    "line": 14,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 14,
+      "endOffset": 24,
+      "startLine": 14,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "b319e6c0ead3356329bd50e2e568581d",
+    "key": "AX2gqQa8QWmcFE28YNto",
+    "line": 15,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 15,
+      "endOffset": 26,
+      "startLine": 15,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "b319e6c0ead3356329bd50e2e568581d",
+    "key": "AX2gqQa8QWmcFE28YNtp",
+    "line": 15,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 15,
+      "endOffset": 25,
+      "startLine": 15,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "a1a61ae49b17f50f061d7efe931d0fb8",
+    "key": "AX2gqQa8QWmcFE28YNtq",
+    "line": 16,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 16,
+      "endOffset": 23,
+      "startLine": 16,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "a1a61ae49b17f50f061d7efe931d0fb8",
+    "key": "AX2gqQa8QWmcFE28YNtr",
+    "line": 16,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 16,
+      "endOffset": 22,
+      "startLine": 16,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "70b819fe3c36302b45b86d88e7fb0a0d",
+    "key": "AX2gqQa8QWmcFE28YNts",
+    "line": 17,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 17,
+      "endOffset": 29,
+      "startLine": 17,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "70b819fe3c36302b45b86d88e7fb0a0d",
+    "key": "AX2gqQa8QWmcFE28YNtt",
+    "line": 17,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 17,
+      "endOffset": 28,
+      "startLine": 17,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "3c39229f4c71811e02d1a690579bd6d3",
+    "key": "AX2gqQa8QWmcFE28YNtu",
+    "line": 18,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 18,
+      "endOffset": 31,
+      "startLine": 18,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3c39229f4c71811e02d1a690579bd6d3",
+    "key": "AX2gqQa8QWmcFE28YNtv",
+    "line": 18,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 18,
+      "endOffset": 30,
+      "startLine": 18,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "7fd076a1f6bb07b9b1fc4d1da12ae152",
+    "key": "AX2gqQa8QWmcFE28YNtw",
+    "line": 19,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 19,
+      "endOffset": 24,
+      "startLine": 19,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "7fd076a1f6bb07b9b1fc4d1da12ae152",
+    "key": "AX2gqQa8QWmcFE28YNtx",
+    "line": 19,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 19,
+      "endOffset": 23,
+      "startLine": 19,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "b0a1870f321c59554cd43d40adb2e641",
+    "key": "AX2gqQa8QWmcFE28YNty",
+    "line": 20,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 20,
+      "endOffset": 27,
+      "startLine": 20,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "b0a1870f321c59554cd43d40adb2e641",
+    "key": "AX2gqQa8QWmcFE28YNtz",
+    "line": 20,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 20,
+      "endOffset": 26,
+      "startLine": 20,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "1790eddd48dc9e2b3e95462e040a62ab",
+    "key": "AX2gqQa8QWmcFE28YNt0",
+    "line": 21,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 21,
+      "endOffset": 28,
+      "startLine": 21,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "1790eddd48dc9e2b3e95462e040a62ab",
+    "key": "AX2gqQa8QWmcFE28YNt1",
+    "line": 21,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 21,
+      "endOffset": 27,
+      "startLine": 21,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "da53540a9d9c49e93381a9319400c949",
+    "key": "AX2gqQa8QWmcFE28YNt2",
+    "line": 22,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 22,
+      "endOffset": 26,
+      "startLine": 22,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "da53540a9d9c49e93381a9319400c949",
+    "key": "AX2gqQa8QWmcFE28YNt3",
+    "line": 22,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 22,
+      "endOffset": 25,
+      "startLine": 22,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "f9e103df08b6968668f25797d9584bdc",
+    "key": "AX2gqQa8QWmcFE28YNt4",
+    "line": 23,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 23,
+      "endOffset": 25,
+      "startLine": 23,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "f9e103df08b6968668f25797d9584bdc",
+    "key": "AX2gqQa8QWmcFE28YNt5",
+    "line": 23,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 23,
+      "endOffset": 24,
+      "startLine": 23,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "9ed6546d7ba1d791e905975bae5563b4",
+    "key": "AX2gqQa8QWmcFE28YNt8",
+    "line": 25,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 25,
+      "endOffset": 29,
+      "startLine": 25,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9ed6546d7ba1d791e905975bae5563b4",
+    "key": "AX2gqQa8QWmcFE28YNt9",
+    "line": 25,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 25,
+      "endOffset": 28,
+      "startLine": 25,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "03032b0f6170ba221285dbc43db48e85",
+    "key": "AX2gqQa8QWmcFE28YNuA",
+    "line": 27,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 27,
+      "endOffset": 24,
+      "startLine": 27,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "03032b0f6170ba221285dbc43db48e85",
+    "key": "AX2gqQa8QWmcFE28YNuB",
+    "line": 27,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 27,
+      "endOffset": 23,
+      "startLine": 27,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "7f1bb3fa23d600affa383c7e377cbfbc",
+    "key": "AX2gqQa8QWmcFE28YNuC",
+    "line": 28,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 28,
+      "endOffset": 31,
+      "startLine": 28,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "7f1bb3fa23d600affa383c7e377cbfbc",
+    "key": "AX2gqQa8QWmcFE28YNuD",
+    "line": 28,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 28,
+      "endOffset": 30,
+      "startLine": 28,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "c9ea6507d1b0b7e8f9f340c58ef4ad9b",
+    "key": "AX2gqQa8QWmcFE28YNuE",
+    "line": 29,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 29,
+      "endOffset": 25,
+      "startLine": 29,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "c9ea6507d1b0b7e8f9f340c58ef4ad9b",
+    "key": "AX2gqQa8QWmcFE28YNuF",
+    "line": 29,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 29,
+      "endOffset": 24,
+      "startLine": 29,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "f431d07b1f649206601f3ce4ca222ef4",
+    "key": "AX2gqQa8QWmcFE28YNuG",
+    "line": 30,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 30,
+      "endOffset": 30,
+      "startLine": 30,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "f431d07b1f649206601f3ce4ca222ef4",
+    "key": "AX2gqQa8QWmcFE28YNuH",
+    "line": 30,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 30,
+      "endOffset": 29,
+      "startLine": 30,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "2ccd288e650713bdccb37589a944219b",
+    "key": "AX2gqQa8QWmcFE28YNuI",
+    "line": 31,
+    "message": "Explicitly export the specific member needed.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2208",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 31,
+      "endOffset": 24,
+      "startLine": 31,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:index.js",
+    "creationDate": "2017-01-18T05:00:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "2ccd288e650713bdccb37589a944219b",
+    "key": "AX2gqQa8QWmcFE28YNuJ",
+    "line": 31,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 31,
+      "endOffset": 23,
+      "startLine": 31,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2016-08-02T20:42:07-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "aca941b72dff54151652f649827e9c7f",
+    "key": "AX2gqQb2QWmcFE28YNuM",
+    "line": 1,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 1,
+      "endOffset": 39,
+      "startLine": 1,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  },
+  {
+    "author": "mbostock@gmail.com",
+    "component": "d3:rollup.config.js",
+    "creationDate": "2016-08-02T20:42:07-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "70f73737528a2fdccc099c99c71e4f13",
+    "key": "AX2gqQb2QWmcFE28YNuN",
+    "line": 2,
+    "message": "Strings must use singlequote.",
+    "project": "d3",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1441",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 2,
+      "endOffset": 45,
+      "startLine": 2,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-09T14:26:01-0500"
+  }
+]
