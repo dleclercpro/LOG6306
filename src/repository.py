@@ -28,6 +28,7 @@ class Repo():
         self.current_release = None
         
         self.stats = {}
+        self.tags = []
         self.releases = []
 
         self.stats_fname = f'{STATS_DIR}/{name}.csv'
@@ -37,6 +38,9 @@ class Repo():
 
 
     def clone(self, dir):
+        logging.info(f'Cloning `{self.name}`...')
+
+        # Clone repo locally
         self.repo = git.Repo.clone_from(self.url, to_path=dir)
 
         # Store repo's directory
@@ -57,6 +61,11 @@ class Repo():
 
 
     def call(self, endpoint=None):
+
+        """
+        Simple call to GitHub REST API (single page).
+        """
+        
         url = f'{self.api}/{endpoint}' if endpoint is not None else self.api
         logging.info(f'Calling: {url}')
 
@@ -70,6 +79,11 @@ class Repo():
 
 
     def big_call(self, endpoint=None):
+
+        """
+        Paginated call to GitHub REST API.
+        """
+        
         url = f'{self.api}/{endpoint}' if endpoint is not None else self.api
         logging.info(f'GET: {url}')
 
@@ -121,6 +135,8 @@ class Repo():
         self.stats['open_issues_count'] = info['open_issues_count']
         self.stats['commits_count'] = len(self.big_call('commits'))
         self.stats['contributors_count'] = len(self.big_call('contributors'))
+        self.stats['releases_count'] = len(self.big_call('releases'))
+        self.stats['tags_count'] = len(self.big_call('tags'))
 
         # Compute proportion of code taken up by each language
         bytes_by_language = pd.Series(self.call('languages'), dtype=float)
@@ -128,9 +144,6 @@ class Repo():
 
         self.stats['js_proportion'] = languages['JavaScript'] if 'JavaScript' in languages else 0
         self.stats['ts_proportion'] = languages['TypeScript'] if 'TypeScript' in languages else 0
-
-        # Compute release count
-        self.stats['releases_count'] = len(self.releases)
 
         # Convert to dataframe
         self.stats = pd.Series(self.stats)
@@ -168,13 +181,13 @@ class Repo():
         tags = self.big_call('tags')
 
         for tag in tags:
-            self.releases += [Tag(tag['name'], tag['commit']['sha'])]
+            self.tags += [Tag(tag['name'], tag['commit']['sha'])]
 
         # Reverse tag order to get chronological order
-        self.releases = list(reversed(self.releases))
+        self.tags = list(reversed(self.tags))
 
         # Store them
-        store_json([tag.to_json() for tag in self.releases], self.tags_fname)
+        store_json([tag.to_json() for tag in self.tags], self.tags_fname)
 
 
 
@@ -193,7 +206,7 @@ class Repo():
             self.fetch_tags()
 
             # WARNING: manual preprocessing of tags into release tags needed!
-            logging.warn('Preprocessing of tags not done!')
+            raise RuntimeError('Preprocessing of tags not done!')
 
         else:
             self.read_releases()

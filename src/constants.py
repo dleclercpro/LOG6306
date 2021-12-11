@@ -13,6 +13,12 @@ DATETIME_FORMAT = '%Y.%m.%d - %H:%M:%S'
 
 
 
+# AXES
+AXIS_ROW = 0
+AXIS_COL = 1
+
+
+
 # Paths
 ROOT_DIR = '/Users/david/Projects/LOG6306'
 
@@ -69,25 +75,31 @@ STATS = [
 
 # Projects
 JS_PROJECTS = [
+    'yarnpkg/yarn',
+    'serverless/serverless',
+    'tailwindlabs/tailwindcss',
+    'typicode/json-server',
+
     'expressjs/express',
     'bower/bower',
     'request/request',
     'jquery/jquery',
     'ramda/ramda',
-    'Leaflet/Leaflet',
     'hexojs/hexo',
     'chartjs/Chart.js',
     'webtorrent/webtorrent',
     'riot/riot',
     'd3/d3',
     'axios/axios',
-    'lodash/lodash',
-    'prettier/prettier',
-    'mui-org/material-ui'
 
     # DO NOT WORK
     #'gruntjs/grunt',
+    #'strapi/strapi',
+    #'meteor/meteor',
     #'nodejs/node',
+    #'mrdoob/three.js',
+    #'h5bp/html5-boilerplate',
+    #'Leaflet/Leaflet',
     #'less/less.js',
     #'vuejs/vue',
     #'webpack/webpack',
@@ -99,12 +111,15 @@ JS_PROJECTS = [
     #'atom/atom',
     #'FortAwesome/Font-Awesome',
     #'hakimel/reveal.js',
+    #'mui-org/material-ui',
+    #'lodash/lodash',
+    #'prettier/prettier',
+    #'gatsbyjs/gatsby',
 ]
 
 TS_PROJECTS = [
     'formium/formik',
     'socketio/socket.io',
-    'nestjs/nest',
     'apollographql/apollo-client',
     'redis/node-redis',
     'ionic-team/ionic-framework',
@@ -116,16 +131,20 @@ TS_PROJECTS = [
     'akveo/ngx-admin',
     'reduxjs/react-redux',
     'graphql/graphql-js',
-    'youzan/vant',
-    ###'ianstormtaylor/slate',
-    ###'lensapp/lens',
-    
+    'railsware/upterm',
+    'balena-io/etcher',
+
     # DO NOT WORK
     #'facebook/jest',
+    #'ant-design/ant-design',
     ##'angular/angular',
+    #'typeorm/typeorm',
     ##'microsoft/vscode',
+    #'vercel/next.js',
     #'reduxjs/redux',
     ##'sass/sass',
+    #'NativeScript/NativeScript',
+    #'nestjs/nest',
     #'puppeteer/puppeteer',
     #'sveltejs/svelte',
     #'babel/babel',
@@ -153,6 +172,7 @@ TS_PROJECTS = [
     ##'doczjs/docz',
     #'t4t5/sweetalert',
     ##'vuejs/devtools',
+    #'ianstormtaylor/slate',
     ##'Eugeny/tabby',
     #'prisma/prisma',
     ###'elastic/kibana',
@@ -164,4 +184,5 @@ TS_PROJECTS = [
     #'conwnet/github1s',
     #'codex-team/editor.js',
     #'notable/notable',
+    #'lensapp/lens',
 ]

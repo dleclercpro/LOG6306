@@ -56,19 +56,16 @@ def analyze_projects(projects):
         p = Project(project)
         p.initialize()
 
-        if project == 'formium/formik':
-            formik = p
-
         # Keep project in memory
         p_s += [p]
 
     analysis = Analysis(p_s)
     #analysis.merge_stats()
-    analysis.find_common_rules()
-    #analysis.load_common_rules()
-    #analysis.list_raw_smells()
-    #analysis.merge_raw_smells()
-    #analysis.count_smell_deltas(formik)
+    #analysis.find_rules()
+    #analysis.load_rules()
+    #analysis.list_smells()
+    #analysis.count_smells()
+    analysis.count_smell_deltas()
 
 
 
@@ -99,13 +96,13 @@ def main():
     )
 
     # Define projects
-    projects = TS_PROJECTS + JS_PROJECTS
+    projects = JS_PROJECTS + TS_PROJECTS
 
     # Process every project
-    process_projects(projects)
+    #process_projects(projects)
 
     # Analyze every project
-    #analyze_projects(projects)
+    analyze_projects(projects)
 
 
 

@@ -51,11 +51,11 @@ class Project():
             self.repo = Repo(self.owner, self.name)
             self.repo.clone(self.dir)
 
-        # Load repo's list of release tags
-        self.repo.load_releases()
-
         # Load repo's stats
         self.repo.load_stats()
+        
+        # Load repo's list of release tags
+        self.repo.load_releases()
 
         # If some releases have already been processed
         self.compute_remaining_releases()
@@ -83,8 +83,8 @@ class Project():
 
 
 
-    def get_recent_releases(self, n=25):
-        return self.repo.releases[-n:]
+    def get_recent_releases(self, to_compute=25):
+        return self.repo.releases[-to_compute:]
 
 
 
@@ -103,7 +103,7 @@ class Project():
 
         # Compute the releases that are not yet processed
         self.remaining_releases = list(filter(lambda t: t.commit_hash not in hashes, recent_releases))
-        logging.info(f'Found {len(self.remaining_releases)} releases to process.')
+        logging.info(f'Releases remaining to process: {len(self.remaining_releases)}/{len(recent_releases)}')
 
 
 
@@ -116,7 +116,7 @@ class Project():
                 'sonar.sources=.\n' +
                 'sonar.sourceEncoding=UTF-8\n' +
                 'sonar.inclusions=**/*.js,**/*.ts\n' +
-                'sonar.exclusions=**/test/**/*,**/*test*\n' +
+                'sonar.exclusions=**/test/**/*,**/tests/**/*,**/*test*\n' +
                 'sonar.coverage.exclusions=**/*\n' +
                 'sonar.cpd.exclusions=**/*'
             )
