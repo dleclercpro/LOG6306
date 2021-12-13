@@ -11,6 +11,10 @@ load_dotenv()
 # Formats
 DATETIME_FORMAT = '%Y.%m.%d - %H:%M:%S'
 
+PROJECT_COL = 'project'
+COMMIT_COL = 'commit_hash'
+FILE_COL = 'file_name'
+
 
 
 # AXES
@@ -31,6 +35,9 @@ TAGS_DIR = f'{DATA_DIR}/tags'
 RELEASES_DIR = f'{DATA_DIR}/releases'
 ISSUES_DIR = f'{DATA_DIR}/issues'
 SMELLS_DIR = f'{DATA_DIR}/smells'
+FILES_DIR = f'{DATA_DIR}/files'
+
+DIRS = [REPOS_DIR, LOGS_DIR, STATS_DIR, TAGS_DIR, RELEASES_DIR, ISSUES_DIR, SMELLS_DIR, FILES_DIR]
 
 STATS_PATH = f'{DATA_DIR}/stats.csv'
 SMELLS_PATH = f'{DATA_DIR}/smells.csv'

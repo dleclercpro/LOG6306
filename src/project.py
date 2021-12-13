@@ -8,9 +8,9 @@ import logging
 
 
 # Custom imports
-from constants import ISSUES_DIR, REPOS_DIR, SONAR_API, SONAR_PASSWORD, SONAR_PROJECT_PROPS_FNAME, SONAR_SCANNER, SONAR_TOKEN, SONAR_USERNAME, STATS_DIR
+from constants import FILES_DIR, ISSUES_DIR, REPOS_DIR, SONAR_API, SONAR_PASSWORD, SONAR_PROJECT_PROPS_FNAME, SONAR_SCANNER, SONAR_TOKEN, SONAR_USERNAME, STATS_DIR
 from repository import Repo
-from lib import store_json
+from lib import store_dataframe, store_json
 
 
 
@@ -30,6 +30,7 @@ class Project():
 
         self.dir = f'{REPOS_DIR}/{name}'
         self.stats_fname = f'{STATS_DIR}/{name}.csv'
+        self.files_fname = f'{FILES_DIR}/{name}.csv'
         self.issues_dir = f'{ISSUES_DIR}/{name}'
 
         # Define authentication for SonarQube server
@@ -123,11 +124,12 @@ class Project():
 
 
 
-    def checkout(self, release):
+    def checkout(self, release, add_properties=True):
         self.repo.checkout(release)
 
         # Regenerate SonarQube project properties file
-        self.add_properties()
+        if add_properties:
+            self.add_properties()
 
 
 

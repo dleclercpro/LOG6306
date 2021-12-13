@@ -6,7 +6,7 @@ from multiprocessing import Pool
 
 
 # Custom libs
-from constants import TS_PROJECTS, JS_PROJECTS, RELEASES_DIR, SMELLS_DIR, LOGS_DIR, STATS_DIR, TAGS_DIR, ISSUES_DIR, LOGS_DIR, REPOS_DIR, LOG_PATH
+from constants import DIRS, TS_PROJECTS, JS_PROJECTS, LOG_PATH
 from lib import formatSeconds
 from project import Project
 from analysis import Analysis
@@ -18,12 +18,12 @@ def process_projects(projects):
         p = Project(project)
         p.initialize()
 
+
         # Grab remaining releases to process
         n_releases = len(p.repo.releases)
-        n_remaining_releases = len(p.remaining_releases)
 
         # Initialize counters
-        n = n_remaining_releases
+        n = len(p.remaining_releases)
         i = 0
 
         t_0 = datetime.datetime.now()
@@ -63,6 +63,7 @@ def analyze_projects(projects):
     #analysis.merge_stats()
     #analysis.find_rules()
     #analysis.load_rules()
+    #analysis.list_files()
     #analysis.list_smells()
     #analysis.count_smells()
     analysis.count_smell_deltas()
@@ -84,7 +85,7 @@ def main():
     """
 
     # Generate data and results directories (if they do not already exist)
-    for dir in [REPOS_DIR, LOGS_DIR, STATS_DIR, TAGS_DIR, RELEASES_DIR, ISSUES_DIR, SMELLS_DIR]:
+    for dir in DIRS:
         if not os.path.exists(dir):
             os.makedirs(dir)
 

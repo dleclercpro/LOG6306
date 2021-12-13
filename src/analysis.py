@@ -1,22 +1,18 @@
 import os
 import logging
 import numpy as np
-from numpy.core.shape_base import hstack
 import pandas as pd
 
 
 
 # Custom imports
-from constants import AXIS_COL, STATS, DATA_DIR, SMELLS_DIR, STATS_PATH, GENERIC_RULES_PATH, SPECIFIC_RULES_PATH, SMELLS_PATH
-from lib import load_json, load_dataframe, load_series, store_dataframe, store_series
+from constants import COMMIT_COL, FILE_COL, PROJECT_COL, STATS, SMELLS_DIR, STATS_PATH, GENERIC_RULES_PATH, SPECIFIC_RULES_PATH, SMELLS_PATH
+from lib import load_json, load_dataframe, store_dataframe, store_series
 from issue import Issue
 
 
 
 # Useful constants
-PROJECT_COL = 'project'
-COMMIT_COL = 'commit_hash'
-FILE_COL = 'file_name'
 RULE_COL = 'rule'
 TYPE_COL = 'type'
 SEVERITY_COL = 'severity'
@@ -30,7 +26,6 @@ INCREASED_COL = 'Increased'
 DECREASED_COL = 'Decreased'
 
 DELTAS = [STEADY_COL, INCREASED_COL, DECREASED_COL]
-DELTA_COLS = [FILE_COL] + DELTAS
 
 
 
@@ -155,6 +150,37 @@ class Analysis():
 
 
 
+    def list_files(self):
+
+        """
+        List files for all recent releases.
+        """
+
+        for p in self.projects:
+            logging.info(f'Generating list of files for every recent release in `{p.name}`...')
+
+            files = pd.DataFrame([], columns=[PROJECT_COL, COMMIT_COL, FILE_COL])
+            
+            for release in p.get_recent_releases():
+                p.checkout(release, add_properties=False)
+
+                for root, _, filenames in os.walk(p.dir):
+                    for filename in filenames:
+                        path = os.path.join(root, filename)
+                        path = os.path.relpath(path, p.dir)
+
+                        if path[-3:] == '.js' or path[-3:] == 'ts':
+                            row = {
+                                PROJECT_COL: p.name,
+                                COMMIT_COL: release.commit_hash,
+                                FILE_COL: path,
+                            }
+                            files = files.append(row, ignore_index=True)
+
+            store_dataframe(files, p.files_fname)
+
+
+
     def list_smells(self):
 
         """
@@ -226,6 +252,7 @@ class Analysis():
         n_rules = len(rules)
         logging.info(f'Found {n_rules} critical rules in all projects.')
 
+
         # Extract unique pairs of project, commit ID and file name
         file_versions = smells.loc[:, FILE_INSTANCE_COLS].drop_duplicates().values
         n_file_versions = len(file_versions)
@@ -284,8 +311,6 @@ class Analysis():
         """
         Count deltas in number of smells present in every single
         combination of project, commit and file.
-
-        FIXME: what if file doesn't exist first or is deleted then? Fix deltas.
         """
         
         for p in self.projects:
@@ -302,7 +327,7 @@ class Analysis():
 
             # Initialize smell deltas dataframe
             smell_deltas_init = np.hstack((np.reshape(files, (n_files, 1)), np.zeros((n_files, len(DELTAS)))))
-            smell_deltas = pd.DataFrame(smell_deltas_init, columns=DELTA_COLS)
+            smell_deltas = pd.DataFrame(smell_deltas_init, columns=[FILE_COL] + DELTAS)
 
             # Cast types
             for delta in DELTAS:
@@ -320,10 +345,15 @@ class Analysis():
                 if i == 0 or i % 10 == 0:
                     logging.info(f'Processing file: {i + 1}/{n_files}')
 
-                # Compute number of smells at each commit
+                # Compute number of smells at each recent release
                 for release in p.get_recent_releases():
-                    n_smells_in_commit = len(smells[(smells[FILE_COL] == file) & (smells[COMMIT_COL] == release.commit_hash)])
-                    n_smells = np.append(n_smells, n_smells_in_commit)
+                    files = load_dataframe(p.files_fname)
+                    file_exists = file in files[files[COMMIT_COL] == release.commit_hash][FILE_COL].tolist()
+
+                    # Only consider a delta if the file exists in current release
+                    if file_exists:
+                        new_smells = smells[(smells[FILE_COL] == file) & (smells[COMMIT_COL] == release.commit_hash)]
+                        n_smells = np.append(n_smells, len(new_smells))
 
                 # Compute deltas for current file from one commit to another
                 deltas = n_smells[1:] - n_smells[:-1]
