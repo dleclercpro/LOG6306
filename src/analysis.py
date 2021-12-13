@@ -6,13 +6,16 @@ import pandas as pd
 
 
 # Custom imports
-from constants import COMMIT_COL, FILE_COL, PROJECT_COL, STATS, SMELLS_DIR, STATS_PATH, GENERIC_RULES_PATH, SPECIFIC_RULES_PATH, SMELLS_PATH
+from constants import AXIS_ROW, DATA_DIR, EPSILON, STATS, SMELLS_DIR, STATS_PATH, GENERIC_RULES_PATH, SPECIFIC_RULES_PATH, SMELLS_PATH
 from lib import load_json, load_dataframe, store_dataframe, store_series
 from issue import Issue
 
 
 
 # Useful constants
+PROJECT_COL = 'project'
+COMMIT_COL = 'commit_hash'
+FILE_COL = 'file_name'
 RULE_COL = 'rule'
 TYPE_COL = 'type'
 SEVERITY_COL = 'severity'
@@ -26,6 +29,9 @@ INCREASED_COL = 'Increased'
 DECREASED_COL = 'Decreased'
 
 DELTAS = [STEADY_COL, INCREASED_COL, DECREASED_COL]
+
+SMELLS = ['S1067', 'S1143', 'S1186', 'S1192', 'S121', 'S126', 'S131', 'S134', 'S1539', 'S1541', 'S1821', 'S1994', 'S2208', 'S2310', 'S2871', 'S3353', 'S3504', 'S3523', 'S3525', 'S3735', 'S3776', 'S3972', 'S3973', 'S4123', 'S4524', 'S930']
+N_SMELLS = len(SMELLS)
 
 
 
@@ -221,7 +227,7 @@ class Analysis():
                 i += 1
 
             # Store raw smells for current project
-            store_dataframe(smells, f'{SMELLS_DIR}/{p.name}.csv')
+            store_dataframe(smells, p.smells_fname)
 
 
 
@@ -236,7 +242,7 @@ class Analysis():
         rules = np.array([])
 
         for p in self.projects:
-            new_smells = load_dataframe(f'{SMELLS_DIR}/{p.name}.csv')
+            new_smells = load_dataframe(p.smells_fname)
 
             if new_smells is None:
                 raise RuntimeError(f'Missing smells for project `{p.name}`.')
@@ -316,7 +322,7 @@ class Analysis():
         for p in self.projects:
             logging.info(f'Computing smell deltas for: {p.name}')
 
-            smells = load_dataframe(f'{SMELLS_DIR}/{p.name}.csv')
+            smells = load_dataframe()
 
             if smells is None:
                 raise RuntimeError(f'Missing smells for project `{p.name}`.')
@@ -365,13 +371,172 @@ class Analysis():
                 # Increment file counter
                 i += 1
 
-            deltas_avg = smell_deltas[DELTAS].mean(axis='index').to_numpy()
+            deltas_avg = smell_deltas[DELTAS].mean(axis=AXIS_ROW).to_numpy()
             deltas_avg = np.reshape(deltas_avg, (len(deltas_avg), 1))
 
-            deltas_std = smell_deltas[DELTAS].std(axis='index').to_numpy()
+            deltas_std = smell_deltas[DELTAS].std(axis=AXIS_ROW).to_numpy()
             deltas_std = np.reshape(deltas_std, (len(deltas_std), 1))
 
             deltas_stats = pd.DataFrame(np.hstack((deltas_avg, deltas_std)), index=DELTAS, columns=['AVG', 'STD'])
 
             print(deltas_stats)
             print()
+
+
+
+    def compute_occurences_by_smell(self, p):
+
+        """
+        Compute occurence for each smell type
+        """
+        
+        smells = load_dataframe(SMELLS_PATH)
+        smells = smells[smells[PROJECT_COL] == p.name].loc[:, SMELLS]
+
+        occurences = smells.sum(axis=AXIS_ROW)
+
+        return occurences
+
+
+
+    def compute_file_count_by_smell(self, p):
+
+        """
+        Compute file count for each smell type
+        """
+        
+        smells = load_dataframe(SMELLS_PATH)
+        smells = smells[smells[PROJECT_COL] == p.name].loc[:, SMELLS]
+
+        file_count = (smells > 0).sum(axis=AXIS_ROW)
+
+        return file_count
+
+
+
+    def compute_overall_distribution_smells(self):
+
+        """
+        ...
+        """
+        
+        # For each project type
+        for language in ['js', 'ts']:
+        
+            # Compute occurence for each smell and corresponding distribution
+            occurences_by_app = {}
+
+            for p in self.projects:
+                if p.language != language:
+                    continue
+                
+                occurences_by_app[p.name] = self.compute_occurences_by_smell(p)
+
+
+            # Compute distribution of smells across all apps
+            distribution = pd.Series(np.zeros(N_SMELLS), index = SMELLS)
+
+            for occurences in occurences_by_app.values():
+                distribution = distribution.add(occurences)
+
+            n_total_occurences = np.sum(distribution)
+
+            distribution /= n_total_occurences
+
+            store_series(distribution, f'{DATA_DIR}/{language}_smells_distribution_overall.csv')
+
+            print(distribution)
+            print()
+
+
+
+    def compute_app_smell_frequencies(self):
+
+        # For each project type
+        for language in ['js', 'ts']:
+            n_apps = 0
+
+            # Compute app count by smell type
+            app_count_by_smell = pd.Series(np.zeros(N_SMELLS), index = SMELLS)
+
+            for p in self.projects:
+                if p.language != language:
+                    continue
+
+                # Compute occurences by smell type in current app
+                occurences = self.compute_occurences_by_smell(p)
+
+                # Increment number of apps as well as app count where each type of smell is displayed
+                n_apps += 1
+                app_count_by_smell.loc[occurences > 0] += 1
+
+
+            # Compute percentage of apps affected by each type of smell
+            app_frequency_by_smell = app_count_by_smell / n_apps
+            
+            store_series(app_frequency_by_smell, f'{DATA_DIR}/{language}_smells_distribution_by_app.csv')
+
+            logging.info('# apps: {0}'.format(n_apps))
+            print(app_frequency_by_smell)
+
+
+
+    # def compute_file_smell_frequencies(self):
+    #     n_files = 0
+
+    #     # Compute file count by smell type
+    #     file_count_by_smell = pd.Series(np.zeros(N_SMELLS), index = SMELLS)
+
+    #     for p in self.projects:
+
+    #         # Compute file count for each smell type in current app
+    #         file_count_by_smell = file_count_by_smell.add(self.compute_file_count_by_smell(p))
+
+    #         # Add number of files considered in current app
+    #         files = load_dataframe('{0}/{1}'.format(directory, TESTS_FILENAME))
+    #         n_files += len(files)
+
+
+    #     # Compute percentage of files affected by each type of smell
+    #     file_frequency_by_smell = file_count_by_smell / n_files
+        
+    #     store_series(file_frequency_by_smell, SMELL_TEST_FILE_FREQUENCY_PATH)
+
+    #     logging.info('# test files: {0}'.format(n_files))
+    #     print(file_frequency_by_smell)
+
+
+
+    # def compute_smell_cooccurences_in_files(self):
+    #     smells = pd.DataFrame([], columns = SMELLS)
+
+    #     for directory, _, filenames in os.walk(SMELLS_DIR):
+    #         if SMELLS_FILENAME not in filenames:
+    #             continue
+
+    #         # Merge smell occurences across all apps
+    #         app_smells = load_dataframe('{0}/{1}'.format(directory, SMELLS_FILENAME))[SMELLS]
+    #         smells = smells.append(app_smells, ignore_index = True)
+        
+    #     # One-hot encode smell occurences in test files
+    #     ohe_smells = smells > 0
+
+    #     # Compute co-occurences between all combinations of smells
+    #     cooccurences = apriori(ohe_smells, min_support = EPSILON)
+
+    #     # Compute matrices of co-occurences between pairs of test smells as well as pairs of classic and test smells
+    #     cooccurences_smell_pairs = pd.DataFrame(np.full((N_SMELLS, N_SMELLS), '0%'), index = SMELLS, columns = SMELLS)
+
+    #     for _, row in cooccurences.iterrows():
+    #         cooccurence = '{0}%'.format(round(row['support'] * 100)) # Co-occurence as percentage
+    #         smell_set = row['itemsets']
+
+    #         # Only consider pairs
+    #         if len(smell_set) == 2:
+    #             smell_1, smell_2 = [SMELLS[smell] for smell in smell_set]
+
+    #             if smell_1 in SMELLS and smell_2 in SMELLS:
+    #                 cooccurences_smell_pairs.loc[smell_1, smell_2] = cooccurence
+
+    #     print(cooccurences_smell_pairs)
+    #     store_dataframe(cooccurences_smell_pairs, SMELL_COOCCURENCES)

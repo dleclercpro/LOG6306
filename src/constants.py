@@ -11,15 +11,12 @@ load_dotenv()
 # Formats
 DATETIME_FORMAT = '%Y.%m.%d - %H:%M:%S'
 
-PROJECT_COL = 'project'
-COMMIT_COL = 'commit_hash'
-FILE_COL = 'file_name'
-
-
+# Useful constants
+EPSILON = 1e-9
 
 # AXES
-AXIS_ROW = 0
-AXIS_COL = 1
+AXIS_ROW = 'index'
+AXIS_COL = 'columns'
 
 
 

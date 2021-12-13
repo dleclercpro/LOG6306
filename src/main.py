@@ -14,8 +14,8 @@ from analysis import Analysis
 
 
 def process_projects(projects):
-    for project in projects:
-        p = Project(project)
+    for name, language in projects:
+        p = Project(name, language)
         p.initialize()
 
 
@@ -52,8 +52,8 @@ def process_projects(projects):
 def analyze_projects(projects):
     p_s = []
 
-    for project in projects:
-        p = Project(project)
+    for name, language in projects:
+        p = Project(name, language)
         p.initialize()
 
         # Keep project in memory
@@ -66,7 +66,9 @@ def analyze_projects(projects):
     #analysis.list_files()
     #analysis.list_smells()
     #analysis.count_smells()
-    analysis.count_smell_deltas()
+    #analysis.count_smell_deltas()
+    analysis.compute_overall_distribution_smells()
+    analysis.compute_app_smell_frequencies()
 
 
 
@@ -97,7 +99,7 @@ def main():
     )
 
     # Define projects
-    projects = JS_PROJECTS + TS_PROJECTS
+    projects = [(name, 'js') for name in JS_PROJECTS] + [(name, 'ts') for name in TS_PROJECTS]
 
     # Process every project
     #process_projects(projects)

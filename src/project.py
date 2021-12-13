@@ -8,7 +8,7 @@ import logging
 
 
 # Custom imports
-from constants import FILES_DIR, ISSUES_DIR, REPOS_DIR, SONAR_API, SONAR_PASSWORD, SONAR_PROJECT_PROPS_FNAME, SONAR_SCANNER, SONAR_TOKEN, SONAR_USERNAME, STATS_DIR
+from constants import FILES_DIR, ISSUES_DIR, REPOS_DIR, SMELLS_DIR, SONAR_API, SONAR_PASSWORD, SONAR_PROJECT_PROPS_FNAME, SONAR_SCANNER, SONAR_TOKEN, SONAR_USERNAME, STATS_DIR
 from repository import Repo
 from lib import store_dataframe, store_json
 
@@ -17,13 +17,14 @@ from lib import store_dataframe, store_json
 # CLASSES
 class Project():
 
-    def __init__(self, project):
+    def __init__(self, project, language):
 
         # Compute owner and name of project
         owner, name = project.split('/')
 
         self.owner = owner
         self.name = name
+        self.language = language
 
         self.repo = None
         self.remaining_releases = []
@@ -31,6 +32,7 @@ class Project():
         self.dir = f'{REPOS_DIR}/{name}'
         self.stats_fname = f'{STATS_DIR}/{name}.csv'
         self.files_fname = f'{FILES_DIR}/{name}.csv'
+        self.smells_fname = f'{SMELLS_DIR}/{name}.csv'
         self.issues_dir = f'{ISSUES_DIR}/{name}'
 
         # Define authentication for SonarQube server
