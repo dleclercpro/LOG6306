@@ -14,9 +14,18 @@ DATETIME_FORMAT = '%Y.%m.%d - %H:%M:%S'
 # Useful constants
 EPSILON = 1e-9
 
-# AXES
+# Pandas axes
 AXIS_ROW = 'index'
 AXIS_COL = 'columns'
+
+# Languages
+JS = 'javascript'
+TS = 'typescript'
+LANGUAGES = [JS, TS]
+
+# File extensions
+JS_EXTENSIONS = ['js', 'jsx', 'mjs']
+TS_EXTENSIONS = ['ts', 'tsx']
 
 
 

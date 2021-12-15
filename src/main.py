@@ -64,11 +64,11 @@ def analyze_projects(projects):
     #analysis.find_rules()
     #analysis.load_rules()
     #analysis.list_files()
-    #analysis.list_smells()
-    #analysis.count_smells()
+    #analysis.list_smells_by_project()
+    analysis.count_smells()
     #analysis.count_smell_deltas()
-    analysis.compute_overall_distribution_smells()
-    analysis.compute_app_smell_frequencies()
+    #analysis.compute_overall_distribution_smells()
+    #analysis.compute_app_smell_frequencies()
 
 
 

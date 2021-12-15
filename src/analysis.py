@@ -6,7 +6,7 @@ import pandas as pd
 
 
 # Custom imports
-from constants import AXIS_ROW, DATA_DIR, EPSILON, STATS, SMELLS_DIR, STATS_PATH, GENERIC_RULES_PATH, SPECIFIC_RULES_PATH, SMELLS_PATH
+from constants import AXIS_ROW, DATA_DIR, EPSILON, JS, JS_EXTENSIONS, LANGUAGES, STATS, SMELLS_DIR, STATS_PATH, GENERIC_RULES_PATH, SPECIFIC_RULES_PATH, SMELLS_PATH, TS, TS_EXTENSIONS
 from lib import load_json, load_dataframe, store_dataframe, store_series
 from issue import Issue
 
@@ -16,13 +16,14 @@ from issue import Issue
 PROJECT_COL = 'project'
 COMMIT_COL = 'commit_hash'
 FILE_COL = 'file_name'
+LANGUAGE_COL = 'language'
 RULE_COL = 'rule'
 TYPE_COL = 'type'
 SEVERITY_COL = 'severity'
 TAGS_COL = 'tags'
 
-FILE_INSTANCE_COLS = [PROJECT_COL, COMMIT_COL, FILE_COL]
-SMELLS_COLS = FILE_INSTANCE_COLS + [RULE_COL]
+FILE_VERSION_COLS = [PROJECT_COL, COMMIT_COL, FILE_COL]
+SMELLS_COLS = FILE_VERSION_COLS + [RULE_COL]
 
 STEADY_COL = 'Steady'
 INCREASED_COL = 'Increased'
@@ -120,7 +121,7 @@ class Analysis():
 
         # Loop on all files
         for file in os.listdir(p.issues_dir):
-            commit_hash = file.split('.json')[0]
+            commit_hash, _ = file.split('.json')
 
             # Load project issues file
             file_issues = load_json(f'{p.issues_dir}/{file}')
@@ -133,14 +134,11 @@ class Analysis():
                 severity = file_issue['severity']
                 tags = file_issue['tags']
 
-                # Determine which type of rule it is
-                is_specific = language in ['javascript', 'typescript']
-
                 # Determine whether it is a test file
                 is_test_file = 'test' in file_name
 
-                # Skip generic and uncommon rules
-                if is_specific and not is_test_file:
+                # Skip test files
+                if language in LANGUAGES and not is_test_file:
                     issues += [Issue(
                         p.name,
                         commit_hash,
@@ -163,31 +161,45 @@ class Analysis():
         """
 
         for p in self.projects:
-            logging.info(f'Generating list of files for every recent release in `{p.name}`...')
-
-            files = pd.DataFrame([], columns=[PROJECT_COL, COMMIT_COL, FILE_COL])
+            files = pd.DataFrame([], columns=FILE_VERSION_COLS)
             
             for release in p.get_recent_releases():
+                logging.info(f'Generating list of files of `{p.name}` in release: {release.name}')
                 p.checkout(release, add_properties=False)
 
-                for root, _, filenames in os.walk(p.dir):
-                    for filename in filenames:
-                        path = os.path.join(root, filename)
+                for root_dir, _, file_names in os.walk(p.dir):
+                    for file_name in file_names:
+                        path = os.path.join(root_dir, file_name)
                         path = os.path.relpath(path, p.dir)
 
-                        if path[-3:] == '.js' or path[-3:] == 'ts':
-                            row = {
+                        # No extension: neither JS nor TS file
+                        if '.' not in path:
+                            continue
+                        
+                        parts = file_name.split('.')
+                        ext = parts[-1]
+
+                        # Only consider JS and TS files
+                        language = None
+
+                        if ext in JS_EXTENSIONS:
+                            language = JS
+                        elif ext in TS_EXTENSIONS:
+                            language = TS
+                        
+                        if language in LANGUAGES:
+                            files = files.append({
                                 PROJECT_COL: p.name,
                                 COMMIT_COL: release.commit_hash,
                                 FILE_COL: path,
-                            }
-                            files = files.append(row, ignore_index=True)
+                                LANGUAGE_COL: language,
+                            }, ignore_index=True)
 
             store_dataframe(files, p.files_fname)
 
 
 
-    def list_smells(self):
+    def list_smells_by_project(self):
 
         """
         List all individual smells from all projects together into one single dataframe.
@@ -239,38 +251,33 @@ class Analysis():
         
         # Merge all project smells together
         smells = pd.DataFrame({}, columns=SMELLS_COLS)
-        rules = np.array([])
 
         for p in self.projects:
-            new_smells = load_dataframe(p.smells_fname)
+            project_smells = load_dataframe(p.smells_fname)
 
-            if new_smells is None:
+            if project_smells is None:
                 raise RuntimeError(f'Missing smells for project `{p.name}`.')
 
             # Only keep critical smells
-            new_smells = new_smells[new_smells[SEVERITY_COL] == 'CRITICAL']
-            
+            new_smells = project_smells[project_smells[SEVERITY_COL] == 'CRITICAL']
             smells = pd.concat([smells, new_smells], ignore_index=True, sort=False)
-            rules = np.append(rules, new_smells[RULE_COL].to_numpy())
 
-        # Extract set of unique rules from data
-        rules = np.unique(rules)
+
+        # Extract set of unique critical rules from data
+        rules = np.unique(smells[RULE_COL].tolist())
         n_rules = len(rules)
         logging.info(f'Found {n_rules} critical rules in all projects.')
 
 
         # Extract unique pairs of project, commit ID and file name
-        file_versions = smells.loc[:, FILE_INSTANCE_COLS].drop_duplicates().values
+        file_versions = smells.loc[:, FILE_VERSION_COLS].drop_duplicates().values
         n_file_versions = len(file_versions)
         logging.info(f'Found {n_file_versions} unique file versions in all projects.')
 
 
-        # Define columns of merged smells dataframe
-        cols = np.append(FILE_INSTANCE_COLS, rules)
-
         # Initialize the entire dataframe with all smell counts to zero
         merged_smells_init = np.hstack((file_versions, np.zeros((n_file_versions, n_rules))))
-        merged_smells = pd.DataFrame(merged_smells_init, columns=cols)
+        merged_smells = pd.DataFrame(merged_smells_init, columns=np.append(FILE_VERSION_COLS, rules))
 
         # Cast types
         for rule in rules:
@@ -302,8 +309,7 @@ class Analysis():
             rules = smells[indices][RULE_COL].tolist()
 
             # Increment their count
-            for rule in rules:
-                merged_smells.loc[merged_indices, rule] += 1
+            merged_smells.loc[merged_indices, rules] += 1
 
             # Increment smell counter
             i += 1
@@ -419,6 +425,8 @@ class Analysis():
         """
         ...
         """
+
+        overall_distribution = pd.DataFrame({}, index=SMELLS, columns=['js', 'ts'])
         
         # For each project type
         for language in ['js', 'ts']:
@@ -442,15 +450,22 @@ class Analysis():
             n_total_occurences = np.sum(distribution)
 
             distribution /= n_total_occurences
+            overall_distribution.loc[:, language] = distribution
 
-            store_series(distribution, f'{DATA_DIR}/{language}_smells_distribution_overall.csv')
+        store_dataframe(overall_distribution, f'{DATA_DIR}/{language}_smells_distribution_overall.csv')
 
-            print(distribution)
-            print()
+        print(overall_distribution)
+        print()
 
 
 
     def compute_app_smell_frequencies(self):
+
+        """
+        ...
+        """
+        
+        overall_distribution = pd.DataFrame({}, index=SMELLS, columns=['js', 'ts'])
 
         # For each project type
         for language in ['js', 'ts']:
@@ -473,11 +488,12 @@ class Analysis():
 
             # Compute percentage of apps affected by each type of smell
             app_frequency_by_smell = app_count_by_smell / n_apps
-            
-            store_series(app_frequency_by_smell, f'{DATA_DIR}/{language}_smells_distribution_by_app.csv')
+            overall_distribution.loc[:, language] = distribution
 
-            logging.info('# apps: {0}'.format(n_apps))
-            print(app_frequency_by_smell)
+        store_dataframe(app_frequency_by_smell, f'{DATA_DIR}/{language}_smells_distribution_by_app.csv')
+
+        logging.info('# apps: {0}'.format(n_apps))
+        print(app_frequency_by_smell)
 
 
 
