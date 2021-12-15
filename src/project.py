@@ -1,16 +1,17 @@
 import os
-import time
-import math
-import requests
-import subprocess
 import logging
+import datetime
+import numpy as np
+import pandas as pd
 
 
 
 # Custom imports
-from constants import FILES_DIR, ISSUES_DIR, REPOS_DIR, SMELLS_DIR, SONAR_API, SONAR_PASSWORD, SONAR_PROJECT_PROPS_FNAME, SONAR_SCANNER, SONAR_TOKEN, SONAR_USERNAME, STATS_DIR
+from constants import COMMIT_COL, DELTAS_DIR, FILE_COL, FILE_VERSION_COLS, FILES_DIR, ISSUES_DIR, JS, LANGUAGES, PROJECT_COL, REPOS_DIR, RULE_COL, SEVERITIES, SEVERITY_COL, SMELLS_COLS, SMELLS_DIR, STATS_DIR, TAGS_COL, TS, TYPE_COL
+from issue import Issue
 from repository import Repo
-from lib import store_dataframe, store_json
+from lib import formatSeconds, is_js_file, is_test_file, is_ts_file, load_dataframe, load_json, store_dataframe
+from sonar import Sonar
 
 
 
@@ -33,10 +34,11 @@ class Project():
         self.stats_fname = f'{STATS_DIR}/{name}.csv'
         self.files_fname = f'{FILES_DIR}/{name}.csv'
         self.smells_fname = f'{SMELLS_DIR}/{name}.csv'
+        self.deltas_fname = f'{DELTAS_DIR}/{name}.csv'
         self.issues_dir = f'{ISSUES_DIR}/{name}'
 
-        # Define authentication for SonarQube server
-        self.sonar_auth = (SONAR_USERNAME, SONAR_PASSWORD)
+        # Define SonarQube server instance
+        self.sonar = Sonar(self)
 
 
 
@@ -54,35 +56,68 @@ class Project():
             self.repo = Repo(self.owner, self.name)
             self.repo.clone(self.dir)
 
-        # Load repo's stats
-        self.repo.load_stats()
-        
         # Load repo's list of release tags
         self.repo.load_releases()
+
+        # Load repo's stats
+        self.repo.load_stats()
 
         # If some releases have already been processed
         self.compute_remaining_releases()
 
 
 
-    def delete(self):
-        logging.info(f'Deleting project `{self.name}` on SonarQube...')
+    def checkout(self, release):
+        self.repo.checkout(release)
 
-        # Define parameters to delete project on SonarQube server
-        params = {'project': self.name}
 
-        try:
-            res = requests.post(f'{SONAR_API}/projects/delete', params=params, auth=self.sonar_auth)
-            res.raise_for_status()
 
-            logging.info('Project deleted.')
+    def get_smells(self):
+        smells = load_dataframe(self.smells_fname)
+        smells = smells[smells[SEVERITY_COL].isin(SEVERITIES)]
 
-        except requests.exceptions.HTTPError as err:
-            if res.status_code == 404:
-                logging.info('Project did not exist.')
-                return
-            
-            raise err
+        return smells
+
+    def store_smells(self, smells):
+        store_dataframe(smells, self.smells_fname)
+
+
+
+    def get_smell_deltas(self):
+        return load_dataframe(self.deltas_fname)
+
+    def store_smell_deltas(self, smells):
+        store_dataframe(smells, self.deltas_fname)
+
+
+
+    def should_skip_file(self, file):
+        
+        # Neither JS nor TS file
+        if not is_js_file(file) and not is_ts_file(file):
+            return True
+        
+        # JS project, but not JS file
+        if is_js_file(file) and self.language != JS:
+            return True
+
+        # TS project, but not TS file
+        if is_ts_file(file) and self.language != TS:
+            return True
+
+        # Ignore test files
+        if is_test_file(file):
+            return True
+
+        return False
+
+
+
+    def get_valid_files(self):
+        return load_dataframe(self.files_fname)
+
+    def store_valid_files(self, files):
+        store_dataframe(files, self.files_fname)
 
 
 
@@ -110,154 +145,163 @@ class Project():
 
 
 
-    def add_properties(self):
-        logging.info('Generating SonarQube project properties file...')
+    def find_issues(self):
+
+        # Grab remaining releases to process
+        n_releases = len(self.repo.releases)
+
+        # Initialize counters
+        n = len(self.remaining_releases)
+        i = 0
+
+        t_0 = datetime.datetime.now()
+
+        # Process every release
+        while n > 0:
+            logging.info(f'Processing release: {n_releases - n + 1}/{n_releases}')
+
+            release = self.remaining_releases[i]
+
+            self.checkout(release)
+
+            self.sonar.delete()
+            self.sonar.scan()
+            self.sonar.poll_issues(f'{self.issues_dir}/{self.repo.get_hash()}.json')
+
+            t = datetime.datetime.now()
+
+            i += 1
+            n -= 1
+
+            remaining_seconds = (t - t_0).total_seconds() / i * n
+            logging.info(f'Remaining time: {formatSeconds(remaining_seconds)}')
+
+
+
+    def list_valid_files(self):
+
+        """
+        List production JS/TS files for all recent releases of all projects.
+        """
+
+        if self.get_valid_files() is not None:
+            return
+
+        files = pd.DataFrame([], columns=FILE_VERSION_COLS)
         
-        with open(f'{self.dir}/{SONAR_PROJECT_PROPS_FNAME}', 'w', encoding='UTF-8') as f:
-            f.write(
-                f'sonar.projectKey={self.name}\n' +
-                'sonar.sources=.\n' +
-                'sonar.sourceEncoding=UTF-8\n' +
-                'sonar.inclusions=**/*.js,**/*.ts\n' +
-                'sonar.exclusions=**/test/**/*,**/tests/**/*,**/*test*\n' +
-                'sonar.coverage.exclusions=**/*\n' +
-                'sonar.cpd.exclusions=**/*'
-            )
+        # List files in each recent release of project
+        for release in self.get_recent_releases():
+            logging.info(f'Generating list of files of `{self.name}` in release: {release.name}')
+            
+            # Checkout current release
+            self.checkout(release)
+
+            # For all files in current release
+            for root_dir, _, file_names in os.walk(self.dir):
+                for file_name in file_names:
+                    path = os.path.join(root_dir, file_name)
+                    path = os.path.relpath(path, self.dir)
+
+                    # Skip invalid files
+                    if self.should_skip_file(path):
+                        continue
+                    
+                    # Store file version
+                    files = files.append({
+                        PROJECT_COL: self.name,
+                        COMMIT_COL: release.commit_hash,
+                        FILE_COL: path,
+                    }, ignore_index=True)
+
+        self.store_valid_files(files)
 
 
 
-    def checkout(self, release, add_properties=True):
-        self.repo.checkout(release)
+    def list_smells(self):
 
-        # Regenerate SonarQube project properties file
-        if add_properties:
-            self.add_properties()
+        """
+        List all individual smells from all projects together into one single dataframe.
+        """
 
+        if self.get_smells() is not None:
+            return
 
+        # Read issues
+        issues = self.get_issues()
+        n_issues = len(issues)
 
-    def scan(self):
-        logging.info('Scanning for smells in current revision...')
+        # Initialize smell counter
+        i = 0
 
-        # Move to project's directory
-        os.chdir(self.dir)
+        # Initialize results dataframe
+        smells_init = np.zeros((n_issues, len(SMELLS_COLS)))
+        smells = pd.DataFrame(smells_init, columns=SMELLS_COLS)
 
-        # Launch SonarQube analysis of code smells
-        #subprocess.run([SONAR_SCANNER, f'-Dsonar.login={SONAR_TOKEN}'], stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT)
-        subprocess.run([SONAR_SCANNER, f'-Dsonar.login={SONAR_TOKEN}'], stdout=subprocess.DEVNULL)
+        # Loop on all issues
+        for issue in issues:
 
+            # Show progress
+            if i == 0 or i % 100 == 0:
+                logging.info(f'Processing `{self.name}` issue: {i + 1}/{n_issues}')
 
+            # Add new rule to dataframe
+            smells.loc[i, PROJECT_COL] = issue.project
+            smells.loc[i, COMMIT_COL] = issue.commit_hash
+            smells.loc[i, FILE_COL] = issue.file_name
+            smells.loc[i, RULE_COL] = issue.rule
+            smells.loc[i, TYPE_COL] = issue.type
+            smells.loc[i, SEVERITY_COL] = issue.severity
+            smells.loc[i, TAGS_COL] = '|'.join(issue.tags)
 
-    def are_issues_ready(self):
+            # Increment smell counter
+            i += 1
 
-        # Define parameters to fetch project's activity status on SonarQube server
-        params = {'component': self.name}
-
-        # Fetch activity status on server
-        res = requests.get(f'{SONAR_API}/ce/activity_status', params=params, auth=self.sonar_auth)
-        res.raise_for_status()
-
-        # Extract data from call
-        data = res.json()
-
-        # Look at activity statuses to determine whether server is ready to serve issues
-        statuses = ['pending', 'inProgress', 'failing']
-        ready = True
-
-        for status, s in [(status, int(data[status])) for status in statuses]:
-            ready = ready and s == 0
-            logging.info(f'{status.upper()}: {s}')
-
-        if not ready:
-            logging.info('SonarQube server is not ready to serve issues.')
-
-        return ready
+        # Store raw smells for current project
+        self.store_smells(smells)
 
 
 
-    def fetch_issues(self):
-        logging.info('Fetching issues from server...')
+    def get_issues(self):
 
-        # Define parameters to fetch project's smells on SonarQube server
-        params = {
-            'componentKeys': self.name,
-            'languages': 'js,ts',
-            'types': 'BUG,CODE_SMELL',
-            'statuses': 'OPEN,REOPENED,CONFIRMED',
-        }
+        """
+        Extract production code issues common to both JS and TS from project's issues files.
+        """
 
-        # Fetch smells in batches
-        page = 1
-        page_size = 500
-        n_pages = -1
-        n_issues = -1
         issues = []
 
-        while True:
-            current_params = {'p': page, 'ps': page_size, **params}
+        # Loop on all files
+        for file in os.listdir(self.issues_dir):
+            commit_hash, _ = file.split('.json')
 
-            # Fetch issues on server
-            logging.info(f"Fetching page: {page}/{n_pages if n_pages != -1 else '?'}")
-            res = requests.get(f'{SONAR_API}/issues/search', params=current_params, auth=self.sonar_auth)
-            res.raise_for_status()
+            # Load project issues file
+            file_issues = load_json(f'{self.issues_dir}/{file}')
+            
+            # Loop on every issue
+            for file_issue in file_issues:
+                file_name = file_issue['component'].split(':')[-1]
+                language, rule = file_issue['rule'].split(':')
+                type = file_issue['type']
+                severity = file_issue['severity']
+                tags = file_issue['tags']
 
-            # Extract data from call
-            data = res.json()
+                # Skip rules in invalid files
+                if self.should_skip_file(file_name):
+                    continue
 
-            # Add issues from this batch to results array
-            issues += data['issues']
+                # Skip unspecific rules
+                if language not in LANGUAGES:
+                    continue
 
-            # Read more info on next batches
-            n_issues = int(data['paging']['total'])
-            n_pages = math.ceil(n_issues / page_size)
-
-            # No issues found: exit
-            if n_issues == 0:
-                raise SystemError('No issues found?')
-
-            # Max number of issues polled: exit
-            if n_issues > 10_000:
-                raise SystemError('Too many issues to be fetched from SonarQube server.')
-
-            # All issues found: exit
-            if page == n_pages:
-                break
-
-            # Increment page index
-            page += 1
+                # Store issue
+                issues += [Issue(
+                    self.name,
+                    commit_hash,
+                    file_name,
+                    language,
+                    rule,
+                    type,
+                    severity,
+                    tags,
+                )]
 
         return issues
-
-
-
-    def extract_issues(self):
-
-        """
-        WARNINGS:
-        - Code smells in SonarQube do not have the same definition than that of Martin Fowler
-        - SonarQube doesn't seem to be able to differentiate test code from production code using the 'scopes' argument
-        """
-
-        # Wait until the SonarQube server has processed the issues in the
-        # current revision of the repository
-        wait = 5
-
-        while True:
-            try:
-                if self.are_issues_ready():
-                    break
-                else:
-                    logging.info(f'Waiting {wait} seconds...')
-                    time.sleep(wait)
-
-            except requests.exceptions.HTTPError as e:
-                logging.error(e)
-
-        # Fetch smells
-        issues = self.fetch_issues()
-        logging.info(f'Found {len(issues)} issues.')
-
-        # Store issues
-        if not os.path.exists(self.issues_dir):
-            os.makedirs(self.issues_dir)
-
-        store_json(issues, f'{self.issues_dir}/{self.repo.current_release.commit_hash}.json')

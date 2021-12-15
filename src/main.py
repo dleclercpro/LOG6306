@@ -1,13 +1,11 @@
 import os
-import datetime
 import logging
 from multiprocessing import Pool
 
 
 
 # Custom libs
-from constants import DIRS, TS_PROJECTS, JS_PROJECTS, LOG_PATH
-from lib import formatSeconds
+from constants import DIRS, JS, TS, TS_PROJECTS, JS_PROJECTS, LOG_PATH
 from project import Project
 from analysis import Analysis
 
@@ -16,36 +14,18 @@ from analysis import Analysis
 def process_projects(projects):
     for name, language in projects:
         p = Project(name, language)
+
+        # Initialize project
         p.initialize()
 
+        # Scan project for issues
+        p.find_issues()
 
-        # Grab remaining releases to process
-        n_releases = len(p.repo.releases)
+        # List project's valid JS/TS files
+        p.list_valid_files()
 
-        # Initialize counters
-        n = len(p.remaining_releases)
-        i = 0
-
-        t_0 = datetime.datetime.now()
-
-        # Process every release
-        while n > 0:
-            logging.info(f'Processing release: {n_releases - n + 1}/{n_releases}')
-
-            release = p.remaining_releases[i]
-
-            p.checkout(release)
-            p.delete()
-            p.scan()
-            p.extract_issues()
-
-            t = datetime.datetime.now()
-
-            i += 1
-            n -= 1
-
-            remaining_seconds = (t - t_0).total_seconds() / i * n
-            logging.info(f'Remaining time: {formatSeconds(remaining_seconds)}')
+        # List project's smells
+        p.list_smells()
 
 
 
@@ -54,21 +34,24 @@ def analyze_projects(projects):
 
     for name, language in projects:
         p = Project(name, language)
+
+        # Initialize project
         p.initialize()
 
         # Keep project in memory
         p_s += [p]
 
+    # Execute analysis for all projects
     analysis = Analysis(p_s)
-    #analysis.merge_stats()
-    #analysis.find_rules()
-    #analysis.load_rules()
-    #analysis.list_files()
-    #analysis.list_smells_by_project()
-    analysis.count_smells()
-    #analysis.count_smell_deltas()
-    #analysis.compute_overall_distribution_smells()
-    #analysis.compute_app_smell_frequencies()
+    analysis.merge_stats()
+    
+    #analysis.count_smells()
+    #analysis.count_smell_deltas_by_project()
+
+    analysis.compute_overall_smells_distribution()
+    analysis.compute_app_smell_frequencies()
+    analysis.compute_file_smell_frequencies()
+    analysis.compute_smell_cooccurences_in_files()
 
 
 
@@ -99,10 +82,10 @@ def main():
     )
 
     # Define projects
-    projects = [(name, 'js') for name in JS_PROJECTS] + [(name, 'ts') for name in TS_PROJECTS]
+    projects = [(name, JS) for name in JS_PROJECTS] + [(name, TS) for name in TS_PROJECTS]
 
     # Process every project
-    #process_projects(projects)
+    process_projects(projects)
 
     # Analyze every project
     analyze_projects(projects)

@@ -37,6 +37,14 @@ class Repo():
 
 
 
+    def get_hash(self):
+        if self.current_release is None:
+            return None
+        
+        return self.current_release.commit_hash
+
+
+
     def clone(self, dir):
         logging.info(f'Cloning `{self.name}`...')
 
@@ -142,8 +150,11 @@ class Repo():
         bytes_by_language = pd.Series(self.call('languages'), dtype=float)
         languages = bytes_by_language / sum(bytes_by_language)
 
-        self.stats['js_proportion'] = languages['JavaScript'] if 'JavaScript' in languages else 0
-        self.stats['ts_proportion'] = languages['TypeScript'] if 'TypeScript' in languages else 0
+        self.stats['js_ratio'] = languages['JavaScript'] if 'JavaScript' in languages else 0
+        self.stats['ts_ratio'] = languages['TypeScript'] if 'TypeScript' in languages else 0
+
+        # Compute manually filtered recent releases
+        self.stats['filtered_releases_count'] = len(self.releases)
 
         # Convert to dataframe
         self.stats = pd.Series(self.stats)

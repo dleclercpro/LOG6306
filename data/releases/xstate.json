@@ -1,0 +1,166 @@
+[
+  {
+    "commit_hash": "be2bc0dd388901a894d6a2afd7eef67931194a11",
+    "name": "xstate@4.7.5"
+  },
+  {
+    "commit_hash": "d592b36721292c0f2ec26f6d5d494c9a12ff1f32",
+    "name": "xstate@4.7.6"
+  },
+  {
+    "commit_hash": "267fa6d412bc13e740e5b99c5f298a2e6794d16d",
+    "name": "xstate@4.7.7"
+  },
+  {
+    "commit_hash": "b7fabd8037af343e434afb69448b190c8e7c4804",
+    "name": "xstate@4.7.8"
+  },
+  {
+    "commit_hash": "d1a9c405b866e3d51843295f86d7e095389e2573",
+    "name": "xstate@4.8.0"
+  },
+  {
+    "commit_hash": "0c47d8c5c5c4a1ff9e6c37b040c5bef671c99fab",
+    "name": "xstate@4.9.0"
+  },
+  {
+    "commit_hash": "53764456d7626dc73bb6a6c4717c8e017ca1e3fd",
+    "name": "xstate@4.9.1"
+  },
+  {
+    "commit_hash": "4282c1ef1b0817fa4572b008e63078089d6a918d",
+    "name": "xstate@4.10.0"
+  },
+  {
+    "commit_hash": "81a2ede1a37aa1c1f06e137fd3c63d4fc6f70426",
+    "name": "xstate@4.11.0"
+  },
+  {
+    "commit_hash": "1212d0b9a811fce98f7d369e214717bc0946d462",
+    "name": "xstate@4.12.0"
+  },
+  {
+    "commit_hash": "319d738577c8c77eea8d5c60e449a1609a1de03e",
+    "name": "xstate@4.13.0"
+  },
+  {
+    "commit_hash": "b228ade017456ab5b28fedb99d4bc7373f7f637d",
+    "name": "xstate@4.14.0"
+  },
+  {
+    "commit_hash": "227d81be8913dceb2725df02220d4cb23cddb36e",
+    "name": "xstate@4.14.1"
+  },
+  {
+    "commit_hash": "cd711ba95806494c162e673a13acbe616fb3d0d5",
+    "name": "xstate@4.15.0"
+  },
+  {
+    "commit_hash": "b72c6c22295c114ed05561bf46fe83e1429a2d56",
+    "name": "xstate@4.15.1"
+  },
+  {
+    "commit_hash": "6ff95d58796b90711541612419ee291e3bb499ee",
+    "name": "xstate@4.15.2"
+  },
+  {
+    "commit_hash": "37cd313de6230b0b5079caa7bf2035c58e5ab0ec",
+    "name": "xstate@4.15.3"
+  },
+  {
+    "commit_hash": "82727f5cfaca510d2c72bf8d149a3cb7e2e4bde6",
+    "name": "xstate@4.15.4"
+  },
+  {
+    "commit_hash": "aa15b57fc998318a93c294703b9395f6f9ca6c46",
+    "name": "xstate@4.16.0"
+  },
+  {
+    "commit_hash": "b331908773040b8d32fdb9335dd60a6c2198dc0b",
+    "name": "xstate@4.16.1"
+  },
+  {
+    "commit_hash": "955355bf734693f15df165604d83c309c35c2703",
+    "name": "xstate@4.16.2"
+  },
+  {
+    "commit_hash": "2236b9f3ca4c9c9c475d976cf375987eb11213fc",
+    "name": "xstate@4.17.0"
+  },
+  {
+    "commit_hash": "ac284576e74d70c1bd92452b0ecb68e85f399177",
+    "name": "xstate@4.17.1"
+  },
+  {
+    "commit_hash": "8330bb51d678aaad26c632cdb00b7ab90d177f9c",
+    "name": "xstate@4.18.0"
+  },
+  {
+    "commit_hash": "021ec3327ea14783d068f6d4dc5a8e5f4393c00e",
+    "name": "xstate@4.19.0"
+  },
+  {
+    "commit_hash": "660c692199000c1f70a96fb0c8afb3f1f0538d4c",
+    "name": "xstate@4.19.1"
+  },
+  {
+    "commit_hash": "1df36306b49e844f474f46f5f96d9005abba2520",
+    "name": "xstate@4.19.2"
+  },
+  {
+    "commit_hash": "d4b041979433a26e7db3a8fa6c6edc29c3813ed7",
+    "name": "xstate@4.20.0"
+  },
+  {
+    "commit_hash": "c3af2a7eed93a7420fde43be19e3436d41a5a8d2",
+    "name": "xstate@4.20.1"
+  },
+  {
+    "commit_hash": "07d85eca8bda2e6d458992d2a75a373c97365ec4",
+    "name": "xstate@4.20.2"
+  },
+  {
+    "commit_hash": "8c1e01d24c4e632aa33a5e3e515bd101c2f7853a",
+    "name": "xstate@4.22.0"
+  },
+  {
+    "commit_hash": "d803c3313047969fc9d1bb35274531c34b1c99e4",
+    "name": "xstate@4.23.0"
+  },
+  {
+    "commit_hash": "0d6bd74baaebc0115eb41771c9717224b3113295",
+    "name": "xstate@4.23.1"
+  },
+  {
+    "commit_hash": "8d7a02eef2d32d339baaf78c8a41e6b217316893",
+    "name": "xstate@4.23.2"
+  },
+  {
+    "commit_hash": "b324f021d309e472fdb6de40e7a58d3f47b9206b",
+    "name": "xstate@4.23.3"
+  },
+  {
+    "commit_hash": "8f9e134ac83ecb7c625b473de83c21b0ee38becc",
+    "name": "xstate@4.23.4"
+  },
+  {
+    "commit_hash": "9bf5b15cd9d56483a102a25f58ba53753ae7a1db",
+    "name": "xstate@4.24.0"
+  },
+  {
+    "commit_hash": "c521ed83d6ecbfd9c46bcf0b32cfb877d419cb22",
+    "name": "xstate@4.24.1"
+  },
+  {
+    "commit_hash": "e32d240a6cee04af30060c729dc2523c2d6b41d0",
+    "name": "xstate@4.25.0"
+  },
+  {
+    "commit_hash": "a7ef46476713376fe951c5d84791013d4da4f44e",
+    "name": "xstate@4.26.0"
+  },
+  {
+    "commit_hash": "2c094d33dd8d5f5644e60c6054f1987f298f3d87",
+    "name": "xstate@4.26.1"
+  }
+]

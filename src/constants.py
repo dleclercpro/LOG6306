@@ -24,8 +24,31 @@ TS = 'typescript'
 LANGUAGES = [JS, TS]
 
 # File extensions
-JS_EXTENSIONS = ['js', 'jsx', 'mjs']
-TS_EXTENSIONS = ['ts', 'tsx']
+JS_EXTENSIONS = ['.js', '.jsx', '.mjs']
+TS_EXTENSIONS = ['.ts', '.tsx']
+
+
+
+# Dataframe column labels
+PROJECT_COL = 'project'
+COMMIT_COL = 'commit_hash'
+FILE_COL = 'file_name'
+LANGUAGE_COL = 'language'
+RULE_COL = 'rule'
+TYPE_COL = 'type'
+SEVERITY_COL = 'severity'
+TAGS_COL = 'tags'
+
+FILE_VERSION_COLS = [PROJECT_COL, COMMIT_COL, FILE_COL]
+SMELLS_COLS = FILE_VERSION_COLS + [RULE_COL]
+
+SEVERITIES = ['BLOCKER', 'CRITICAL', 'MAJOR']
+
+STEADY_COL = 'steady'
+INCREASED_COL = 'increased'
+DECREASED_COL = 'decreased'
+
+DELTAS = [STEADY_COL, INCREASED_COL, DECREASED_COL]
 
 
 
@@ -41,16 +64,14 @@ TAGS_DIR = f'{DATA_DIR}/tags'
 RELEASES_DIR = f'{DATA_DIR}/releases'
 ISSUES_DIR = f'{DATA_DIR}/issues'
 SMELLS_DIR = f'{DATA_DIR}/smells'
+DELTAS_DIR = f'{DATA_DIR}/deltas'
 FILES_DIR = f'{DATA_DIR}/files'
 
-DIRS = [REPOS_DIR, LOGS_DIR, STATS_DIR, TAGS_DIR, RELEASES_DIR, ISSUES_DIR, SMELLS_DIR, FILES_DIR]
-
-STATS_PATH = f'{DATA_DIR}/stats.csv'
-SMELLS_PATH = f'{DATA_DIR}/smells.csv'
-GENERIC_RULES_PATH = f'{DATA_DIR}/generic_rules.csv'
-SPECIFIC_RULES_PATH = f'{DATA_DIR}/specific_rules.csv'
+DIRS = [REPOS_DIR, LOGS_DIR, STATS_DIR, TAGS_DIR, RELEASES_DIR, ISSUES_DIR, SMELLS_DIR, DELTAS_DIR, FILES_DIR]
 
 LOG_PATH = f'{LOGS_DIR}/root.log'
+STATS_PATH = f'{DATA_DIR}/stats.csv'
+SMELLS_PATH = f'{DATA_DIR}/smells.csv'
 
 
 
@@ -79,9 +100,11 @@ STATS = [
     'open_issues_count',
     'commits_count',
     'contributors_count',
+    'tags_count',
     'releases_count',
-    'js_proportion',
-    'ts_proportion',
+    'filtered_releases_count',
+    'js_ratio',
+    'ts_ratio',
 ]
 
 
@@ -133,15 +156,15 @@ TS_PROJECTS = [
     'formium/formik',
     'socketio/socket.io',
     'apollographql/apollo-client',
-    'redis/node-redis',
+    'statelyai/xstate',
+    'palantir/blueprint',
+    'pmndrs/react-three-fiber',
     'ionic-team/ionic-framework',
     'vercel/hyper',
     'nativefier/nativefier',
     'facebook/docusaurus',
-    'cheeriojs/cheerio',
     'tannerlinsley/react-query',
     'akveo/ngx-admin',
-    'reduxjs/react-redux',
     'graphql/graphql-js',
     'railsware/upterm',
     'balena-io/etcher',
@@ -150,9 +173,16 @@ TS_PROJECTS = [
     #'facebook/jest',
     #'ant-design/ant-design',
     ##'angular/angular',
+    #'cheeriojs/cheerio',
     #'typeorm/typeorm',
+    #'fingerprintjs/fingerprintjs',
     ##'microsoft/vscode',
+    #'neoclide/coc.nvim',
+    #'reduxjs/react-redux',
+    #'reduxjs/redux-thunk',
     #'vercel/next.js',
+    #'GeekyAnts/NativeBase',
+    #'redis/node-redis',
     #'reduxjs/redux',
     ##'sass/sass',
     #'NativeScript/NativeScript',

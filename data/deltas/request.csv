@@ -1,0 +1,14 @@
+file_name,steady,increased,decreased
+index.js,23,1,0
+lib/auth.js,23,1,0
+lib/cookies.js,23,1,0
+lib/getProxyFromURI.js,23,1,0
+lib/har.js,23,0,1
+lib/hawk.js,3,0,0
+lib/helpers.js,22,2,0
+lib/multipart.js,22,2,0
+lib/oauth.js,22,2,0
+lib/querystring.js,23,1,0
+lib/redirect.js,22,2,0
+lib/tunnel.js,23,1,0
+request.js,16,7,1

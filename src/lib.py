@@ -3,6 +3,9 @@ import json
 import logging
 import pandas as pd
 
+# Custom imports
+from constants import JS_EXTENSIONS, TS_EXTENSIONS
+
 
 
 def printJSON(obj):
@@ -62,3 +65,33 @@ def store_dataframe(df, path):
 def store_series(s, path):
     with open(path, 'w', encoding='UTF-8') as f:
         s.to_csv(f, index = True, header = False, line_terminator = '\n')
+
+
+
+def is_extension(file, extension):
+
+    # No extension
+    if '.' not in file:
+        return False
+
+    # Compute file extension
+    ext = file.split('.')[-1]
+
+    # Remove dot from extension
+    extension = extension[1:]
+
+    return ext == extension
+
+
+
+def is_js_file(file):
+    return any([is_extension(file, ext) for ext in JS_EXTENSIONS])
+
+def is_ts_file(file):
+    return any([is_extension(file, ext) for ext in TS_EXTENSIONS])
+
+def is_test_file(file):
+    if 'test' in file:
+        return True
+
+    return False

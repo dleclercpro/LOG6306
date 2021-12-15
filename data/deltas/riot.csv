@@ -1,0 +1,9 @@
+file_name,steady,increased,decreased
+riot.esm.js,12,7,5
+riot.js,11,7,6
+rollup.config.js,24,0,0
+src/core/component.js,19,5,0
+src/core/css-manager.js,24,0,0
+src/riot+compiler.js,24,0,0
+src/riot.js,23,1,0
+src/utils/dom.js,24,0,0

@@ -1,11 +1,12 @@
 created_at,2011-01-23T01:25:14Z
-forks_count,3106
-stargazers_count,25379
-watchers_count,25379
+forks_count,3110
+stargazers_count,25381
+watchers_count,25381
 open_issues_count,116
 commits_count,2270
 contributors_count,281
 releases_count,0
 tags_count,144
-js_proportion,0.9902523809678225
-ts_proportion,0
+js_ratio,0.9902523809678225
+ts_ratio,0
+filtered_releases_count,143
