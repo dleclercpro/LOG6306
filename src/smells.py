@@ -1,0 +1,143 @@
+RULES_DICT = {
+    "S103": {
+        "label": "Lengthy Line",
+        "short_label": "LL",
+        "description": "Lines should not be too long",
+    },
+    "S107": {
+        "label": "Long Parameter List",
+        "short_label": "LPL",
+        "description": "Functions should not have too many parameters",
+    },
+    "S134": {
+        "label": "Depth",
+        "short_label": "D",
+        "description": "Control flow statements 'if', 'for', 'while', 'switch' and 'try' should not be nested too deeply",
+    },
+    "S138": {
+        "label": "Long Method",
+        "short_label": "LM",
+        "description": "Functions should not have too many lines of code",
+    },
+    "S1121": {
+        "label": "Assignment in Conditional Statement",
+        "short_label": "ACS",
+        "description": "Assignments should not be made from within sub-expressions",
+    },
+    "S1541": {
+        "label": "Complex Code",
+        "short_label": "CC",
+        "description": "Cyclomatic Complexity of functions should not be too high",
+    },
+    "S4327": {
+        "label": "This-Assign",
+        "short_label": "TA",
+        "description": "'this' should not be assigned to variables",
+    },
+
+    # Additions
+    "S104": {
+        "label": "Lengthy File",
+        "short_label": "LF",
+        "description": "Files should not have too many lines of code",
+    },
+    "S109": {
+        "label": "Magic Number",
+        "short_label": "MN",
+        "description": "Magic numbers should not be used",
+    },
+    "S125": {
+        "label": "Dead Code",
+        "short_label": "DC",
+        "description": "Sections of code should not be commented out",
+    },
+    "S1067": {
+        "label": "Complex Expression",
+        "short_label": "CE",
+        "description": "Expressions should not be too complex",
+    },
+    "S1117": {
+        "label": "Shadowed Variable",
+        "short_label": "SV",
+        "description": "Variables should not be shadowed",
+    },
+    "S1186": {
+        "label": "Empty Function",
+        "short_label": "EF",
+        "description": "Functions should not be empty",
+    },
+    "S1192": {
+        "label": "Duplicated Strings",
+        "short_label": "DS",
+        "description": "String literals should not be duplicated",
+    },
+    "S1440": {
+        "label": "Weak Equality",
+        "short_label": "WE",
+        "description": "'===' and '!==' should be used instead of '==' and '!='",
+    },
+    "S1763": {
+        "label": "Unreachable Code",
+        "short_label": "UC",
+        "description": "All code should be reachable",
+    },
+    "S1854": {
+        "label": "Useless Assignment",
+        "short_label": "UA",
+        "description": "Unused assignments should be removed",
+    },
+    "S2424": {
+        "label": "Overwritten Built-Ins",
+        "short_label": "OBI",
+        "description": "Built-in objects should not be overridden",
+    },
+    "S2814": {
+        "label": "Overwritten Variable/Function",
+        "short_label": "OVF",
+        "description": "Variables and functions should not be redeclared",
+    },
+    "S3003": {
+        "label": "String Ordinal Comparison",
+        "short_label": "SOC",
+        "description": "Comparison operators should not be used with strings",
+    },
+    "S3516": {
+        "label": "Invariant Function",
+        "short_label": "IF",
+        "description": "Function returns should not be invariant",
+    },
+    "S3696": {
+        "label": "Invalid Error",
+        "short_label": "IE",
+        "description": "Literals should not be thrown",
+    },
+    "S3699": {
+        "label": "Dangerous Output",
+        "short_label": "DO",
+        "description": "The output of functions that don't return anything should not be used",
+    },
+    "S3801": {
+        "label": "Inconsistent Return",
+        "short_label": "IR",
+        "description": "Functions should use 'return' consistently",
+    },
+    "S4144": {
+        "label": "Duplicated Function",
+        "short_label": "DF",
+        "description": "Functions should not have identical implementations",
+    },
+
+    # Missing
+    #"S1479": "'switch' statements should not have too many 'case' clauses", # Complex switch
+
+    # Missing additions
+    #"S1862": "Related 'if/else if' statements should not have the same condition", # Duplicated conditional statement
+    #"S2688": "'NaN' should not be used in comparisons", # NaN comparison
+    #"S3531": "Generators should 'yield' something", # Useless generator
+    #"S3984": "Errors should not be created without being thrown", # Useless error
+}
+
+SMELLS = ['S103','S104','S107','S109','S125','S134','S138','S1067','S1117','S1121','S1186','S1192','S1440','S1541','S1763','S1854','S2424','S2814','S3003','S3516','S3696','S3699','S3801','S4144','S4327',]
+N_SMELLS = len(SMELLS)
+
+MISSING_COOCCURENCES = ['S1763', 'S3699', 'S3516', 'S3003', 'S2814']

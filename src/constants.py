@@ -50,48 +50,6 @@ DECREASED_COL = 'decreased'
 
 DELTAS = [STEADY_COL, INCREASED_COL, DECREASED_COL]
 
-SMELLS_DICT = {
-    "S103": "Lines should not be too long", # Lengthy lines
-    "S107": "Functions should not have too many parameters", # Long parameter list
-    "S134": "Control flow statements 'if', 'for', 'while', 'switch' and 'try' should not be nested too deeply", # Depth
-    "S138": "Functions should not have too many lines of code", # Long method
-    "S1121": "Assignments should not be made from within sub-expressions", # Assignment in conditional statement
-    "S1541": "Cyclomatic Complexity of functions should not be too high", # Complex code
-    "S4327": "'this' should not be assigned to variables", # This-assign
-
-    # Additions
-    "S104": "Files should not have too many lines of code", # Lengthy file
-    "S109": "Magic numbers should not be used", # Magic number
-    "S125": "Sections of code should not be commented out", # Dead code
-    "S1067": "Expressions should not be too complex", # Complex expression
-    "S1117": "Variables should not be shadowed", # Shadowed variable
-    "S1186": "Functions should not be empty", # Empty function
-    "S1192": "String literals should not be duplicated", # Duplicated strings
-    "S1440": "'===' and '!==' should be used instead of '==' and '!='", # Weak equality
-    "S1763": "All code should be reachable", # Unreachable code
-    "S1854": "Unused assignments should be removed", # Useless assignment
-    "S2424": "Built-in objects should not be overridden", # Overwritten built-ins
-    "S2814": "Variables and functions should not be redeclared", # Overwritten variable/function
-    "S3003": "Comparison operators should not be used with strings", # String ordinal comparison
-    "S3516": "Function returns should not be invariant", # Invariant function
-    "S3696": "Literals should not be thrown", # Invalid errors
-    "S3699": "The output of functions that don't return anything should not be used", # Useless output
-    "S3801": "Functions should use 'return' consistently", # Inconsistent function type
-    "S4144": "Functions should not have identical implementations", # Duplicated function
-
-    # Missing
-    "S1479": "'switch' statements should not have too many 'case' clauses", # Complex switch
-
-    # Missing additions
-    "S1862": "Related 'if/else if' statements should not have the same condition", # Duplicated conditional statement
-    "S2688": "'NaN' should not be used in comparisons", # NaN comparison
-    "S3531": "Generators should 'yield' something", # Useless generator
-    "S3984": "Errors should not be created without being thrown", # Useless error
-}
-
-SMELLS = ['S103','S104','S107','S109','S125','S134','S138','S1067','S1117','S1121','S1186','S1192','S1440','S1541','S1763','S1854','S2424','S2814','S3003','S3516','S3696','S3699','S3801','S4144','S4327',]
-N_SMELLS = len(SMELLS)
-
 
 
 # Paths

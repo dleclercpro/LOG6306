@@ -6,8 +6,9 @@ from mlxtend.frequent_patterns import apriori
 
 
 # Custom imports
-from constants import AXIS_ROW, COMMIT_COL, DATA_DIR, DECREASED_COL, DELTAS, EPSILON, FILE_COL, FILE_VERSION_COLS, INCREASED_COL, JS, JS_STATS_PATH, LANGUAGES, N_SMELLS, PROJECT_COL, RULE_COL, SMELLS, SMELLS_COLS, STATS, SMELLS_PATH, STEADY_COL, TS, TS_STATS_PATH
-from lib import load_dataframe, store_dataframe, store_series
+from constants import AXIS_ROW, COMMIT_COL, DATA_DIR, DECREASED_COL, DELTAS, EPSILON, FILE_COL, FILE_VERSION_COLS, INCREASED_COL, JS, JS_STATS_PATH, LANGUAGES, PROJECT_COL, RULE_COL, SMELLS_COLS, STATS, SMELLS_PATH, STEADY_COL, TS, TS_STATS_PATH
+from smells import SMELLS, N_SMELLS, MISSING_COOCCURENCES
+from lib import load_dataframe, store_dataframe
 
 
 
@@ -303,7 +304,7 @@ class Analysis():
         # Format output to percentages
         result = result.applymap(lambda x: f'{round(x * 100, 1)}%')
 
-        store_dataframe(result, f'{DATA_DIR}/overall_smells_distribution.csv')
+        store_dataframe(result, f'{DATA_DIR}/overall_smells_distribution.csv', index=True)
         print(result)
 
 
@@ -336,7 +337,7 @@ class Analysis():
         # Format output to percentages
         result = result.applymap(lambda x: f'{round(x * 100, 1)}%')
 
-        store_dataframe(result, f'{DATA_DIR}/app_smell_frequencies.csv')
+        store_dataframe(result, f'{DATA_DIR}/app_smell_frequencies.csv', index=True)
         print(result)
 
 
@@ -370,7 +371,7 @@ class Analysis():
         # Format output to percentages
         result = result.applymap(lambda x: f'{round(x * 100, 1)}%')
         
-        store_series(result, f'{DATA_DIR}/file_smell_frequencies.csv')
+        store_dataframe(result, f'{DATA_DIR}/file_smell_frequencies.csv', index=True)
         print(result)
 
 
@@ -410,5 +411,21 @@ class Analysis():
                     if smell_1 in SMELLS and smell_2 in SMELLS:
                         cooccurences_smell_pairs.loc[smell_1, smell_2] = cooccurence
 
-            store_dataframe(cooccurences_smell_pairs, f'{DATA_DIR}/{language}_smell_cooccurences.csv')
+            store_dataframe(cooccurences_smell_pairs, f'{DATA_DIR}/{language}_smell_cooccurences.csv', index=True)
             print(cooccurences_smell_pairs)
+
+
+
+    def clean_smell_cooccurences(self):
+
+        """
+        Remove smells for which no co-occurence is detected, neither in JS nor in TS projects.
+        """
+
+        for language in LANGUAGES:
+            cooccurences = load_dataframe(f'{DATA_DIR}/{language}_smell_cooccurences.csv', index_col=0)
+
+            cooccurences = cooccurences.drop(columns=MISSING_COOCCURENCES).drop(index=MISSING_COOCCURENCES)
+
+            store_dataframe(cooccurences, f'{DATA_DIR}/{language}_clean_smell_cooccurences.csv', index=True)
+            print(cooccurences)

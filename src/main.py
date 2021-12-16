@@ -43,15 +43,16 @@ def analyze_projects(projects):
 
     # Execute analysis for all projects
     analysis = Analysis(p_s)
-    analysis.merge_stats()
+    #analysis.merge_stats()
     
-    analysis.count_smells()
-    analysis.count_smell_deltas_by_project()
+    #analysis.count_smells()
+    #analysis.count_smell_deltas_by_project()
 
-    analysis.compute_overall_smells_distribution()
-    analysis.compute_app_smell_frequencies()
-    analysis.compute_file_smell_frequencies()
-    analysis.compute_smell_cooccurences_in_files()
+    #analysis.compute_overall_smells_distribution()
+    #analysis.compute_app_smell_frequencies()
+    #analysis.compute_file_smell_frequencies()
+    #analysis.compute_smell_cooccurences_in_files()
+    analysis.clean_smell_cooccurences()
 
 
 
