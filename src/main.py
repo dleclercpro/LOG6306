@@ -82,7 +82,9 @@ def main():
     )
 
     # Define projects
-    projects = [(name, JS) for name in JS_PROJECTS] + [(name, TS) for name in TS_PROJECTS]
+    js_projects = [(name, JS) for name in JS_PROJECTS]
+    ts_projects = [(name, TS) for name in TS_PROJECTS]
+    projects = js_projects + ts_projects
 
     # Process every project
     process_projects(projects)

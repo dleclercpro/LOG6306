@@ -1,0 +1,11 @@
+file_name,steady,increased,decreased
+packages/fiber/src/core/events.ts,0,0,0
+packages/fiber/src/core/hooks.ts,0,0,0
+packages/fiber/src/core/is.ts,0,0,0
+packages/fiber/src/core/loop.ts,0,0,0
+packages/fiber/src/core/renderer.ts,0,0,0
+packages/fiber/src/core/store.ts,0,0,0
+packages/fiber/src/three-types.ts,0,0,0
+src/components/generateExports.ts,0,0,0
+src/hooks.ts,0,0,0
+src/three-types.ts,0,0,0

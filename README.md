@@ -1,11 +1,9 @@
 # LOG6306: Patrons pour la compréhension de programme
 
-### Project Title
-Impact of Typing on Code Smells: A Comparison Between Javascript and Typescript Projects
+### Impact of Typing on Code Smells: A Comparison Between Javascript and Typescript Projects
 
-### Smell Detectors
+## Smell Detector
 - SonarQube
-- JSNose
 
 ## Validity Threats
 - Not using a compiler may be compensated by increasingly intelligent IDEs, which can provide static code analysis on-the-fly.
@@ -16,6 +14,8 @@ Impact of Typing on Code Smells: A Comparison Between Javascript and Typescript 
 - Ignored files with 'test' in their path
 - Some projects may have converted from JS to TS recently
 
+## Instructions
+- Change the ROOT_DIR variable in 'constants.py' for the directory where you extracted this project to
 ## Questions
 - Does SonarQube analyze the entire commit history? If so, does it keep track of issues which existed at some point, but were then removed?
     - It seems as though SonarQube only reports issues present in the current state of a project. It also informs the user wrt. when said issues were introduced in their current form.

@@ -1,0 +1,10 @@
+file_name,steady,increased,decreased
+index.js,22,2,0
+lib/conn-pool.js,0,0,0
+lib/file-stream.js,0,0,0
+lib/file.js,0,0,0
+lib/peer.js,0,0,0
+lib/server.js,0,0,0
+lib/torrent.js,0,0,0
+lib/webconn.js,0,0,0
+lib/worker-server.js,0,0,0

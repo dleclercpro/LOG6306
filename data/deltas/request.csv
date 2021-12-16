@@ -1,0 +1,11 @@
+file_name,steady,increased,decreased
+lib/auth.js,0,0,0
+lib/getProxyFromURI.js,0,0,0
+lib/har.js,0,0,0
+lib/hawk.js,0,0,0
+lib/helpers.js,0,0,0
+lib/multipart.js,0,0,0
+lib/oauth.js,0,0,0
+lib/querystring.js,0,0,0
+lib/redirect.js,0,0,0
+request.js,22,0,2

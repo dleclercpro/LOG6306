@@ -1,0 +1,14 @@
+file_name,steady,increased,decreased
+src/core/infiniteQueryBehavior.ts,0,0,0
+src/core/queriesObserver.ts,0,0,0
+src/core/query.ts,0,0,0
+src/core/queryObserver.ts,0,0,0
+src/core/retryer.ts,0,0,0
+src/core/types.ts,0,0,0
+src/core/utils.ts,0,0,0
+src/createAsyncStoragePersistor-experimental/index.ts,0,0,0
+src/createWebStoragePersistor-experimental/index.ts,0,0,0
+src/devtools/useMediaQuery.ts,0,0,0
+src/persistQueryClient-experimental/index.ts,0,0,0
+src/react/useBaseQuery.ts,0,0,0
+src/react/useQueries.ts,0,0,0
