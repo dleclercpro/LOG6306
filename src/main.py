@@ -45,8 +45,8 @@ def analyze_projects(projects):
     analysis = Analysis(p_s)
     analysis.merge_stats()
     
-    #analysis.count_smells()
-    #analysis.count_smell_deltas_by_project()
+    analysis.count_smells()
+    analysis.count_smell_deltas_by_project()
 
     analysis.compute_overall_smells_distribution()
     analysis.compute_app_smell_frequencies()

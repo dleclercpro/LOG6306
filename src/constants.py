@@ -50,6 +50,70 @@ DECREASED_COL = 'decreased'
 
 DELTAS = [STEADY_COL, INCREASED_COL, DECREASED_COL]
 
+RULES = {
+    "BLOCKER": {
+        "S128": "Switch cases should end with an unconditional 'break' statement",
+        "S1219": "'switch' statements should not contain non-case labels",
+        "S1314": "Octal values should not be used",
+        "S1526": "Variables declared with 'var' should be declared before they are used",
+    },
+    "CRITICAL": {
+        "S131": "'switch' statements should have 'default' clauses",
+        "S134": "Control flow statements 'if', 'for', 'while', 'switch' and 'try' should not be nested too deeply", # Too complex
+        "S888": "Equality operators should not be used in 'for' loop termination conditions",
+        "S1067": "Expressions should not be too complex", # Too complex
+        "S1186": "Functions should not be empty", # Useless, confusing
+        "S1192": "String literals should not be duplicated", # Useless
+        "S1541": "Cyclomatic Complexity of functions should not be too high", #
+        "S1821": "'switch' statements should not be nested",
+        "S1994": "'for' loop increment clauses should modify the loops' counters",
+        "S2871": "A compare function should be provided when using 'Array.prototype.sort()'",
+        "S3353": "Unchanged variables should be marked 'const'",
+        "S3735": "'void' should not be used",
+        "S3776": "Cognitive Complexity of functions should not be too high", # Too complex
+        #"S3973": "A conditionally executed single line should be denoted by indentation",
+        "S4123": "'await' should only be used with promises",
+    },
+    "MAJOR": {
+        "S104": "Files should not have too many lines of code", # Too long
+        "S107": "Functions should not have too many parameters", # Too long, too complex
+        "S108": "Nested blocks of code should not be left empty", # Useless, confusing
+        "S109": "Magic numbers should not be used", # Confusing
+        "S138": "Functions should not have too many lines of code", # Too long
+        "S905": "Non-empty statements should change control flow or have at least one side-effect", # Useless, confusing
+        "S1117": "Variables should not be shadowed", # Error
+        "S1121": "Assignments should not be made from within sub-expressions",
+        "S1440": "'===' and '!==' should be used instead of '==' and '!='", # Typing
+        "S1479": "'switch' statements should not have too many 'case' clauses", #
+        "S1763": "All code should be reachable", #
+        "S1788": "Function parameters with default values should be last",
+        "S1871": "Two branches in a conditional structure should not have exactly the same implementation", # Useless, confusing
+        "S1862": "Related 'if/else if' statements should not have the same condition", # Useless, confusing
+        "S2137": "Special identifiers should not be bound or assigned", # Types
+        "S2392": "Variables should be used in the blocks where they are declared", # Error
+        "S2424": "Built-in objects should not be overridden",
+        "S2589": "Boolean expressions should not be gratuitous",
+        "S2814": "Variables and functions should not be redeclared", # Error
+        "S3531": "Generators should 'yield' something", # Types
+        "S3579": "Array indexes should be numeric", # Types
+        "S3696": "Literals should not be thrown", # Types
+        "S3800": "Functions should always return the same type", ### Types
+        "S3801": "Functions should use 'return' consistently", # Types, confusing
+        "S3984": "Errors should not be created without being thrown", # Useless
+        "S4030": "Collection and array contents should be used",
+        "S4140": "Sparse arrays should not be declared", # Types
+        "S4143": "Collection elements should not be replaced unconditionally",
+        "S4144": "Functions should not have identical implementations", # Useless, confusing
+        "S5843": "Regular expressions should not be too complicated", # Too complex
+    },
+    "MINOR": {
+        "S2990": "The global 'this' object should not be used", # Maintainability
+        "S3402": "Strings and non-strings should not be added", # Types
+    },
+    "INFO": {
+    },
+}
+
 
 
 # Paths
