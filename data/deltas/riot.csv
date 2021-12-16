@@ -2,5 +2,5 @@ file_name,steady,increased,decreased
 riot.esm.js,19,2,3
 riot.js,19,2,3
 rollup.config.js,24,0,0
-src/core/component.js,0,0,0
-src/riot.js,0,0,0
+src/core/component.js,24,0,0
+src/riot.js,23,1,0

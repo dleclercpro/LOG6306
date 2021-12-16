@@ -1,10 +1,4 @@
 import os
-from dotenv import load_dotenv
-
-
-
-# Load environment variables
-load_dotenv()
 
 
 
@@ -94,20 +88,7 @@ SONAR_SCANNER_PROPS_FNAME = 'sonar-scanner.properties'
 
 
 # Stats
-STATS = [
-    'created_at',
-    'stargazers_count',
-    #'watchers_count',
-    'forks_count',
-    'contributors_count',
-    #'open_issues_count',
-    'commits_count',
-    'tags_count',
-    #'releases_count',
-    #'filtered_releases_count',
-    'js_ratio',
-    'ts_ratio',
-]
+STATS = ['created_at', 'stargazers_count', 'forks_count', 'contributors_count', 'commits_count', 'tags_count', 'js_ratio', 'ts_ratio']
 
 
 

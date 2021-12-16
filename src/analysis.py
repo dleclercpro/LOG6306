@@ -161,7 +161,7 @@ class Analysis():
 
 
 
-    def count_smell_deltas_by_project(self):
+    def count_smell_deltas(self):
 
         """
         Count deltas in number of smells present in every single
@@ -178,6 +178,9 @@ class Analysis():
             if smells is None:
                 raise RuntimeError(f'Missing smells for project `{p.name}`.')
             
+            logging.info(f'Found {len(smells)} smells in project.')
+            
+
             # Read smelly files
             smelly_files = np.unique(smells[FILE_COL])
             n_smelly_files = len(smelly_files)
@@ -200,8 +203,8 @@ class Analysis():
                 n_smells = np.array([])
 
                 # Show progress
-                if i == 0 or i % 10 == 0:
-                    logging.info(f'Processing smelly file: {i + 1}/{n_smelly_files}')
+                #if i == 0 or i % 10 == 0:
+                #    logging.info(f'Processing smelly file: {i + 1}/{n_smelly_files}')
 
                 # Compute number of smells at each recent release
                 for release in p.get_recent_releases():

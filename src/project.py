@@ -209,7 +209,7 @@ class Project():
                     files = files.append({
                         PROJECT_COL: self.name,
                         COMMIT_COL: release.commit_hash,
-                        FILE_COL: path,
+                        FILE_COL: path.replace('\\', '/'),
                     }, ignore_index=True)
 
         self.store_valid_files(files)
