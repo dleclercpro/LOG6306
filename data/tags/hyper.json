@@ -1,0 +1,434 @@
+[
+  {
+    "commit_hash": "0ce3856046d3294b44fb4d00e1d28c3ff4f91cd2",
+    "name": "0.1.0"
+  },
+  {
+    "commit_hash": "bf164eabca77bb8d84a6ace25f2026b3caa64bdc",
+    "name": "0.2.0"
+  },
+  {
+    "commit_hash": "46683cf703b5fe1ea123528a9d91301d36a55340",
+    "name": "0.2.1"
+  },
+  {
+    "commit_hash": "dd3da80d6c5ef708e3975dc7df5e662871b609bd",
+    "name": "0.3.0"
+  },
+  {
+    "commit_hash": "eb7f8feb6db04003a8490a8501ec40a3594fb969",
+    "name": "0.3.1"
+  },
+  {
+    "commit_hash": "ebd0bbe8ee40fa1ca9732d0c51ed51b226ad44b0",
+    "name": "0.4.0"
+  },
+  {
+    "commit_hash": "471e81d742c46d2bd0ed2237bb95a63015b1fef2",
+    "name": "0.4.1"
+  },
+  {
+    "commit_hash": "80593800e355442b6117b592e1d8f772f90a684c",
+    "name": "0.4.2"
+  },
+  {
+    "commit_hash": "f9f1e2ddec5e522e54bd678d9d15aa4d8774e9dc",
+    "name": "0.4.3"
+  },
+  {
+    "commit_hash": "c713aa837a8f6604c37fca2879bcc1ff0d7a7344",
+    "name": "0.4.4"
+  },
+  {
+    "commit_hash": "5071314cfeaa456896f53b61f89e7055f94fd793",
+    "name": "0.4.5"
+  },
+  {
+    "commit_hash": "8ca862f1b8be14419149b06bff15602e97dd704a",
+    "name": "0.5.0"
+  },
+  {
+    "commit_hash": "13c40c9a384c9c1cb62ed0b89d83058917bc2d9b",
+    "name": "0.6.0"
+  },
+  {
+    "commit_hash": "0e84fd1965c2531e9f0307ff734623386dd8013c",
+    "name": "0.7.0"
+  },
+  {
+    "commit_hash": "55c012106bc88b9fd34bfc8223fccc0d5ed3041d",
+    "name": "0.7.1"
+  },
+  {
+    "commit_hash": "36c55a6580ba73b4adc93eead43dcef242d93db5",
+    "name": "0.8.0"
+  },
+  {
+    "commit_hash": "673f05844d70b622ef9c680f6542f094cd566973",
+    "name": "0.8.1"
+  },
+  {
+    "commit_hash": "d6009888a31fc3e6c8cb591021be335adea73d48",
+    "name": "0.8.2"
+  },
+  {
+    "commit_hash": "a8b17e6322622adb4a5e86911f006225fb8f6eac",
+    "name": "0.8.3"
+  },
+  {
+    "commit_hash": "2b3c49b1ec587938ff47844ed928590dd255e105",
+    "name": "1.0.0"
+  },
+  {
+    "commit_hash": "6ce24e92fa855c01db73992a4786ed1b82357aa0",
+    "name": "1.0.1"
+  },
+  {
+    "commit_hash": "bcd5b757957a26b60452bfc0acb4725f61a9b9bf",
+    "name": "1.1.0"
+  },
+  {
+    "commit_hash": "70822a31b531d8555db65b1ef9b7e781ac958ed5",
+    "name": "1.2.0"
+  },
+  {
+    "commit_hash": "bdafe49c9fbafa6c21355ad9fdd45512c2fd924c",
+    "name": "1.2.1"
+  },
+  {
+    "commit_hash": "a8ce50508a5e8828f01877f8994761f7c8539677",
+    "name": "1.3.0"
+  },
+  {
+    "commit_hash": "237595cec83f1d3796e1f625bd8ca97a1cd1d443",
+    "name": "1.3.1"
+  },
+  {
+    "commit_hash": "0bf5fade301bb6b91891a0ba0aa1b90bdb43cbf0",
+    "name": "1.3.2"
+  },
+  {
+    "commit_hash": "1096519e93b7af905f2dd364ee3bb14a30f1af47",
+    "name": "1.3.3"
+  },
+  {
+    "commit_hash": "4fd115bf271816058d1a13a754e0ec120bb747e9",
+    "name": "1.3.4"
+  },
+  {
+    "commit_hash": "216c475c2bb588371d8da784eba60a706e7a1b3d",
+    "name": "1.4.0-beta"
+  },
+  {
+    "commit_hash": "216c475c2bb588371d8da784eba60a706e7a1b3d",
+    "name": "1.4.0-nightly"
+  },
+  {
+    "commit_hash": "e90ad48a0505e7625fb875b49afed940c41f9e2c",
+    "name": "1.4.0"
+  },
+  {
+    "commit_hash": "216c475c2bb588371d8da784eba60a706e7a1b3d",
+    "name": "1.4.1-nightly"
+  },
+  {
+    "commit_hash": "4351d86144953c5b44abfcfcf9b039e7b2bb8524",
+    "name": "1.4.1"
+  },
+  {
+    "commit_hash": "cfbae08e4fc37a610300c2e9a33e4db1f40be8f2",
+    "name": "1.4.2"
+  },
+  {
+    "commit_hash": "af7dc1b9c49c9ee840d97e6376e31094a9ba212d",
+    "name": "1.4.3"
+  },
+  {
+    "commit_hash": "79472c537a54b9a79082fa8b04d24d14e7b22afe",
+    "name": "1.4.4"
+  },
+  {
+    "commit_hash": "966aad150d1251a7f2c5dfa3df76498a2b97bbf5",
+    "name": "1.4.5"
+  },
+  {
+    "commit_hash": "9f4bff7f52c4af0bad0ecd1c73d7a4ecf100389f",
+    "name": "1.4.6"
+  },
+  {
+    "commit_hash": "38649d7d562ff20d77dbbd9fcc745b06fc9f8b0d",
+    "name": "1.4.7"
+  },
+  {
+    "commit_hash": "4ea9865ba54e5e51a153082f263c742fd87ae7f2",
+    "name": "1.4.8"
+  },
+  {
+    "commit_hash": "cc2ff06318a353458906fd5ff2dbb142de7f92e5",
+    "name": "2.0.0-canary.1"
+  },
+  {
+    "commit_hash": "c73186c7ee5c689a3bee3d47133d660350095852",
+    "name": "2.0.0-canary.2"
+  },
+  {
+    "commit_hash": "0502bbfc79d5421e0a6758ea671b7bb19d76c1cb",
+    "name": "2.0.0-canary.3"
+  },
+  {
+    "commit_hash": "2412d3422a603d93a2ccccbfab8d0b2ea768fcb8",
+    "name": "2.0.0-canary.4"
+  },
+  {
+    "commit_hash": "1f2419fe52657e361aa1e146896a0c9c6d943d2e",
+    "name": "2.0.0-canary.5"
+  },
+  {
+    "commit_hash": "d248069b78fa89f1399be92aae3b62fb8ca85a3a",
+    "name": "2.0.0-canary.6"
+  },
+  {
+    "commit_hash": "be4b2c8870f12704cfb13681eac663fe3c7822d3",
+    "name": "2.0.0-canary.7"
+  },
+  {
+    "commit_hash": "0549ded2c41c59b94ed75b5d89d0bc85f8d84cb0",
+    "name": "2.0.0-canary.8"
+  },
+  {
+    "commit_hash": "88c65b18622dfc2254d987106356a0e8f0756bfd",
+    "name": "2.0.0-canary.9"
+  },
+  {
+    "commit_hash": "ae850ae38bbbe214e330a4486bcad47a19eb0cce",
+    "name": "2.0.0-canary.10"
+  },
+  {
+    "commit_hash": "af527b6f905987b425c8f22600c0536ba233b5c5",
+    "name": "2.0.0-canary.11"
+  },
+  {
+    "commit_hash": "b3794ba047c42f7eba465cd48b26bad40fd88a13",
+    "name": "2.0.0-canary.12"
+  },
+  {
+    "commit_hash": "01e632bfa77419e8e53d4f2309dd20a22f4198ce",
+    "name": "2.0.0-canary.13"
+  },
+  {
+    "commit_hash": "6b9a4f6ff0fb0ca346bb802423520e74b7802a52",
+    "name": "2.0.0-canary.14"
+  },
+  {
+    "commit_hash": "aaa18af3d570c1c0093b719da33f10039957da04",
+    "name": "2.0.0-canary.15"
+  },
+  {
+    "commit_hash": "262eb8ad9b7b9b15351f331765151538d67a09e2",
+    "name": "2.0.0-canary.16"
+  },
+  {
+    "commit_hash": "3fffad67df5317d163d5134893e152d7b04d21b8",
+    "name": "2.0.0-canary.17"
+  },
+  {
+    "commit_hash": "57c735cb6da09a109f43d39dae98beede44fa5b5",
+    "name": "2.0.0-canary.18"
+  },
+  {
+    "commit_hash": "a4669beef6cad051f37a5a1f6b396112803c1266",
+    "name": "2.0.0"
+  },
+  {
+    "commit_hash": "c73186c7ee5c689a3bee3d47133d660350095852",
+    "name": "2.0.1"
+  },
+  {
+    "commit_hash": "0502bbfc79d5421e0a6758ea671b7bb19d76c1cb",
+    "name": "2.0.2"
+  },
+  {
+    "commit_hash": "2412d3422a603d93a2ccccbfab8d0b2ea768fcb8",
+    "name": "2.0.3"
+  },
+  {
+    "commit_hash": "1f2419fe52657e361aa1e146896a0c9c6d943d2e",
+    "name": "2.0.4"
+  },
+  {
+    "commit_hash": "d2d766c75fca6e029f3a68b11b27a6dacf0c915f",
+    "name": "2.1.0-canary.1"
+  },
+  {
+    "commit_hash": "3df6cac6440ceb1b29738d0135239c1f7ade0782",
+    "name": "2.1.0-canary.2"
+  },
+  {
+    "commit_hash": "0d82f983eb6b932ffd66563bd6e8153bf03e7398",
+    "name": "2.1.0-canary.3"
+  },
+  {
+    "commit_hash": "5f56514aa2ad889b40611cee3da28921aa76bb94",
+    "name": "2.1.0-canary.4"
+  },
+  {
+    "commit_hash": "76ab6abd682327a76455d5661c57e31dc2b0d48f",
+    "name": "2.1.0-canary.5"
+  },
+  {
+    "commit_hash": "74a3ef2825ef67fe825d9ee10827b334d81d052f",
+    "name": "2.1.0"
+  },
+  {
+    "commit_hash": "1a82866fec4a7feaecfefe11330e382de831d41d",
+    "name": "2.1.1"
+  },
+  {
+    "commit_hash": "571231e4438cae4eec3e88fa4aab398b5b269433",
+    "name": "2.1.2"
+  },
+  {
+    "commit_hash": "c3a13a7cd38812f42b434b157c0ab4384bdf6d0c",
+    "name": "3.0.0-canary.1"
+  },
+  {
+    "commit_hash": "2d618a10bd5220e68e7013a26240014a993df6b2",
+    "name": "3.0.0-canary.2"
+  },
+  {
+    "commit_hash": "62bb05c02f74aaa701a19ebedac77b277d6b68cf",
+    "name": "3.0.0-canary.3"
+  },
+  {
+    "commit_hash": "7a5c20439545fdbfd1c0193f1d5ff14c0270bca4",
+    "name": "3.0.0-canary.4"
+  },
+  {
+    "commit_hash": "28282734241a8adb96b8990ee1c55a4afbdf2d72",
+    "name": "3.0.0-canary.5"
+  },
+  {
+    "commit_hash": "4dd6177952dbae13cd135c3c7bc413a98046e582",
+    "name": "3.0.0-canary.6"
+  },
+  {
+    "commit_hash": "30015183556c32d092a766d98c2b11b048b83d97",
+    "name": "3.0.0-canary.7"
+  },
+  {
+    "commit_hash": "fadc2f058e07da2f33e236437c3b0876807003fa",
+    "name": "3.0.0-canary.8"
+  },
+  {
+    "commit_hash": "7d67b7671530dea7523098a6e156a8f45036638f",
+    "name": "3.0.0-canary.9"
+  },
+  {
+    "commit_hash": "34fb41c23b26695b12ec4c8cef28bc4539e781b3",
+    "name": "3.0.0-canary.10"
+  },
+  {
+    "commit_hash": "7d67b7671530dea7523098a6e156a8f45036638f",
+    "name": "3.0.0-canary-9"
+  },
+  {
+    "commit_hash": "bb8326a5f30430b02894fc77eae349d8a5a2c349",
+    "name": "3.0.0"
+  },
+  {
+    "commit_hash": "1c87f255b3eb1e06ece3049555f0241f7e1e4caa",
+    "name": "3.0.1-canary.1"
+  },
+  {
+    "commit_hash": "f73a23055b475bc05c46bc7d2cdd2d1156f8861e",
+    "name": "3.0.1-canary.2"
+  },
+  {
+    "commit_hash": "efeedd0a9d3fe8126df9402bb326206f0a792147",
+    "name": "3.0.1-canary.3"
+  },
+  {
+    "commit_hash": "ef14af49eb9a9be23a4b6f4f5791260c5e5f5278",
+    "name": "3.0.1-canary.4"
+  },
+  {
+    "commit_hash": "6a05b7307c6b4b9de36ead754be735b0b9748c65",
+    "name": "3.0.1-canary.5"
+  },
+  {
+    "commit_hash": "a43a8bd60ac2384b6d62d08f17f2773986f5b6e3",
+    "name": "3.0.1"
+  },
+  {
+    "commit_hash": "f2ecc2a7b5bec48692fe77e231b870ab7f3b3c97",
+    "name": "3.0.2"
+  },
+  {
+    "commit_hash": "79cdc045e518ba02f45a68591873cdf5d189c905",
+    "name": "3.1.0-canary.2"
+  },
+  {
+    "commit_hash": "0c0482a43431fa13f12136547a97e20d300ab04e",
+    "name": "3.1.0-canary.3"
+  },
+  {
+    "commit_hash": "fae8cc3b3c7ad74d9c84d59b0d87ec87947f6066",
+    "name": "3.1.0-canary.4"
+  },
+  {
+    "commit_hash": "216c475c2bb588371d8da784eba60a706e7a1b3d",
+    "name": "beta"
+  },
+  {
+    "commit_hash": "216c475c2bb588371d8da784eba60a706e7a1b3d",
+    "name": "nightly@2017-06-14"
+  },
+  {
+    "commit_hash": "0e84fd1965c2531e9f0307ff734623386dd8013c",
+    "name": "v0.7.0"
+  },
+  {
+    "commit_hash": "55c012106bc88b9fd34bfc8223fccc0d5ed3041d",
+    "name": "v0.7.1"
+  },
+  {
+    "commit_hash": "01e632bfa77419e8e53d4f2309dd20a22f4198ce",
+    "name": "v2.0.0-canary.13"
+  },
+  {
+    "commit_hash": "d046d6cf99c6dc8e96beef98fa6a59067a315d23",
+    "name": "v3.1.0-canary.3"
+  },
+  {
+    "commit_hash": "fae8cc3b3c7ad74d9c84d59b0d87ec87947f6066",
+    "name": "v3.1.0-canary.4"
+  },
+  {
+    "commit_hash": "fc29ce58b3e3a2ec542caedb77e8c8c2f6f19ad8",
+    "name": "v3.1.0-canary.5"
+  },
+  {
+    "commit_hash": "c9f7728d634f36ee0c0db73a369d81f660132ed3",
+    "name": "v3.1.0-canary.6"
+  },
+  {
+    "commit_hash": "7eacb073f73863e3a5641c65920e8281b0d794c0",
+    "name": "v3.1.0"
+  },
+  {
+    "commit_hash": "1e64e72797f2fa9984dc29c538dbe1e6ae675f9b",
+    "name": "v3.1.1"
+  },
+  {
+    "commit_hash": "925fa39721b203e987e570f7de6ef5f7696922cc",
+    "name": "v3.1.2"
+  },
+  {
+    "commit_hash": "89e714ea6b61f1c47c01be329be8a61208febbb2",
+    "name": "v3.1.3"
+  },
+  {
+    "commit_hash": "394734bfba7404e18da5d8fb5461c98ecd6098cb",
+    "name": "v3.1.4"
+  }
+]

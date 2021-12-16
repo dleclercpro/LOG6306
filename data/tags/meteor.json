@@ -1,0 +1,282 @@
+[
+  {
+    "commit_hash": "d4f14d93620e2158cde0544321f8867ea38e1154",
+    "name": "release/METEOR@0.9.0"
+  },
+  {
+    "commit_hash": "c23408bdd725fa8355be89718be7a71efedf2c2c",
+    "name": "release/METEOR@0.9.1"
+  },
+  {
+    "commit_hash": "d19f2bf49b98cb32c5bfd442767a3f954dcd1085",
+    "name": "release/METEOR@0.9.2"
+  },
+  {
+    "commit_hash": "3dba734db44844789aeba155017b5a922cef393f",
+    "name": "release/METEOR@0.9.3"
+  },
+  {
+    "commit_hash": "924cced1cbb1b21b62e859c9eb22c7a987e9f425",
+    "name": "release/METEOR@0.9.4"
+  },
+  {
+    "commit_hash": "fb7466078ec5da90321bdca3f08ddf085775e947",
+    "name": "release/METEOR@1.0"
+  },
+  {
+    "commit_hash": "2cbad1fe9e56dd2353ec16ee8a66178fefab1ca6",
+    "name": "release/METEOR@1.0.1"
+  },
+  {
+    "commit_hash": "8722ac60636828eb5739fa5d9378cecb0c443aaf",
+    "name": "release/METEOR@1.0.2"
+  },
+  {
+    "commit_hash": "99124d881adc124d15ffec69f95b9fe42b40f41a",
+    "name": "release/METEOR@1.0.3"
+  },
+  {
+    "commit_hash": "4daaa76b1291f8331cb727610d4aa79eae64b31e",
+    "name": "release/METEOR@1.0.4"
+  },
+  {
+    "commit_hash": "c3bded99284168dcf358cdc82c26527542c2f908",
+    "name": "release/METEOR@1.0.5"
+  },
+  {
+    "commit_hash": "6e77560becc786e879264d8b41bcd38fb34d3ed5",
+    "name": "release/METEOR@1.1"
+  },
+  {
+    "commit_hash": "116ec518a094a66440253c74b563db7cb7a4a011",
+    "name": "release/METEOR@1.2"
+  },
+  {
+    "commit_hash": "cc53065b436380a22f9fc5af08499908f89780b0",
+    "name": "release/METEOR@1.2.1"
+  },
+  {
+    "commit_hash": "23c1deb2f2288a1ec43cb6af71b9af0b91659f1b",
+    "name": "release/METEOR@1.3"
+  },
+  {
+    "commit_hash": "117863fcdd5e980ec3c2d1eaf4f072df3cd3cd49",
+    "name": "release/METEOR@1.3.1"
+  },
+  {
+    "commit_hash": "83c2f7a790dbf13f45a153ed5320f4692e706b41",
+    "name": "release/METEOR@1.3.2"
+  },
+  {
+    "commit_hash": "025299f28606426aeb54628740108ad162503ce4",
+    "name": "release/METEOR@1.3.3"
+  },
+  {
+    "commit_hash": "887cf9670b14f0205be14ffd575c5151da731bcb",
+    "name": "release/METEOR@1.3.4"
+  },
+  {
+    "commit_hash": "23a2a457f5c8260844f253a863e4301d7f944989",
+    "name": "release/METEOR@1.3.5"
+  },
+  {
+    "commit_hash": "1ec0a46982608ba85d1d5c41c3257e8c777f04ed",
+    "name": "release/METEOR@1.4"
+  },
+  {
+    "commit_hash": "365c765971a9f0a0bcf816ec76badcff7ca025a5",
+    "name": "release/METEOR@1.4.1"
+  },
+  {
+    "commit_hash": "f39812bd4bc024734dd48b77c97930f9ba07f3c9",
+    "name": "release/METEOR@1.4.2"
+  },
+  {
+    "commit_hash": "92ab3e461aa73195cf2009ac8a5eb9555a6df38d",
+    "name": "release/METEOR@1.4.3"
+  },
+  {
+    "commit_hash": "68afef2050ae0f2e2dd1e98cbdd5d2641494e16d",
+    "name": "release/METEOR@1.4.4"
+  },
+  {
+    "commit_hash": "a362e20a37547362b581fed52f7171d022e83b62",
+    "name": "release/METEOR@1.5"
+  },
+  {
+    "commit_hash": "50a630318e06bc7adc1b801ede3bf59f438804f1",
+    "name": "release/METEOR@1.5.1"
+  },
+  {
+    "commit_hash": "a54f5ede46362b91b0b800081c47706931ba5474",
+    "name": "release/METEOR@1.5.2"
+  },
+  {
+    "commit_hash": "44a5efcf20680048ceaf2920cbb8970323735f0b",
+    "name": "release/METEOR@1.5.3"
+  },
+  {
+    "commit_hash": "66e1a780a664bc04437805055c05e42c5ca435c6",
+    "name": "release/METEOR@1.5.4"
+  },
+  {
+    "commit_hash": "0bff81f0b44de1679a6416b90fe996e93d980e3b",
+    "name": "release/METEOR@1.6"
+  },
+  {
+    "commit_hash": "2c7616d2211fe96b9d4996eafd5b1b3654d5daca",
+    "name": "release/METEOR@1.6.1"
+  },
+  {
+    "commit_hash": "4a76fe3fe6bbb99ce2850690864c5bbad97ec163",
+    "name": "release/METEOR@1.7"
+  },
+  {
+    "commit_hash": "37eb174612b04f3fd660576df17687c3f9b5c691",
+    "name": "release/METEOR@1.8"
+  },
+  {
+    "commit_hash": "d376276158bedf30f61d4643db2da659b8aa84f2",
+    "name": "release/METEOR@1.8.1"
+  },
+  {
+    "commit_hash": "97e1bba384cbe517a2219c6c9d7220da08d47e79",
+    "name": "release/METEOR@1.8.2"
+  },
+  {
+    "commit_hash": "18b4b633fe9ce882bbbd363cec748eb1040811f6",
+    "name": "release/METEOR@1.8.3"
+  },
+  {
+    "commit_hash": "39cc07472f8f1dc820b29b8c5a30813051d62700",
+    "name": "release/METEOR@1.9"
+  },
+  {
+    "commit_hash": "2a8f8d3c8015759eea5cc9a3eee25fde428fa735",
+    "name": "release/METEOR@1.9.1"
+  },
+  {
+    "commit_hash": "05e7b81c2a2e166a9a17304b119ef4d57a0f2f4c",
+    "name": "release/METEOR@1.9.2"
+  },
+  {
+    "commit_hash": "354e24b3f66913824b7e95b2c9388ba829ccae95",
+    "name": "release/METEOR@1.9.3"
+  },
+  {
+    "commit_hash": "88d017137c69c15cb44f11104f152783ba810192",
+    "name": "release/METEOR@1.10.1"
+  },
+  {
+    "commit_hash": "23dbf94bf74cfcfb2c017764d7306bb52e5eef4c",
+    "name": "release/METEOR@1.10.2"
+  },
+  {
+    "commit_hash": "3c96818a18fe88193841a73d5fa297e14bdefe21",
+    "name": "release/METEOR@1.11"
+  },
+  {
+    "commit_hash": "c9309f70970e494810fff4fff3f33aba1616b26e",
+    "name": "release/METEOR@1.11.1"
+  },
+  {
+    "commit_hash": "cca6238be902992fdd8a9ab2397b81dbb8969ec8",
+    "name": "release/METEOR@1.12"
+  },
+  {
+    "commit_hash": "fd76d9eded5e02a403a8d3aefabcc5da84e37e15",
+    "name": "release/METEOR@1.12.1"
+  },
+  {
+    "commit_hash": "a3396366ffca853b4b814c72d52efc27c8592c28",
+    "name": "release/METEOR@1.12.2"
+  },
+  {
+    "commit_hash": "239960448463848ca680818cbc78aec37cc55792",
+    "name": "release/METEOR@2.0"
+  },
+  {
+    "commit_hash": "8b02d9e19b6c725850fd084b7ad33b500fbdd611",
+    "name": "release/METEOR@2.0.1"
+  },
+  {
+    "commit_hash": "6056ebd37e02f60d864dd363d100738c17b64e0d",
+    "name": "release/METEOR@2.1"
+  },
+  {
+    "commit_hash": "cb87a0a887d39cd468f8076c10b3bffeb0a0e8e4",
+    "name": "release/METEOR@2.1.1"
+  },
+  {
+    "commit_hash": "99906042d4ed1d9ee29f012541a1c28ffd6775de",
+    "name": "release/METEOR@2.1.2"
+  },
+  {
+    "commit_hash": "f9a098a03541718a8cfcddee1e5ff2ce9be9355a",
+    "name": "release/METEOR@2.2"
+  },
+  {
+    "commit_hash": "94f4b573d4e557873e4150ae64c489ad0ed17b80",
+    "name": "release/METEOR@2.2.1"
+  },
+  {
+    "commit_hash": "e9ec579222e4ae4193c5f6ec7b4159a3bb5c70be",
+    "name": "release/METEOR@2.2.2"
+  },
+  {
+    "commit_hash": "1dc30b64048bff9fa18977749ef3589cc24eef1e",
+    "name": "release/METEOR@2.2.3"
+  },
+  {
+    "commit_hash": "2d26b93c9a8f37a959637297c395c34d88028156",
+    "name": "release/METEOR@2.2.4"
+  },
+  {
+    "commit_hash": "525ac4d7d17efedff0490d0d08d3085416cbd359",
+    "name": "release/METEOR@2.3"
+  },
+  {
+    "commit_hash": "6ff780c7dcca7fd5f2cb78d613ec2553b6ec9949",
+    "name": "release/METEOR@2.3.1"
+  },
+  {
+    "commit_hash": "935afb1d16e55daa60b1d4776935d81e27af1738",
+    "name": "release/METEOR@2.3.2"
+  },
+  {
+    "commit_hash": "5fbf415c5f6600735bb7508396308729d1055a83",
+    "name": "release/METEOR@2.3.3"
+  },
+  {
+    "commit_hash": "7ca660818d8614c753d03688a1e1d00ea95a7aa0",
+    "name": "release/METEOR@2.3.4"
+  },
+  {
+    "commit_hash": "56568881ae5d7677c317e3d91fa42e54e3145088",
+    "name": "release/METEOR@2.3.5"
+  },
+  {
+    "commit_hash": "d047d655b38e4d5d277e652577a94b5058d78666",
+    "name": "release/METEOR@2.3.6"
+  },
+  {
+    "commit_hash": "59567ed50411d51b316992831497fd34d1aea0ce",
+    "name": "release/METEOR@2.3.7"
+  },
+  {
+    "commit_hash": "a6d65cddb710919f8ab5d5c6e1510441e10c8f56",
+    "name": "release/METEOR@2.4"
+  },
+  {
+    "commit_hash": "4b98ff6dc4526a5e864c5add3632d8328d7e0ce1",
+    "name": "release/METEOR@2.4.1"
+  },
+  {
+    "commit_hash": "76b677eed2c63019eef5e499f2c0f725e0c9c609",
+    "name": "release/METEOR@2.5"
+  },
+  {
+    "commit_hash": "cd06a68d4fc34a9f5e0660fc4c4c5d7f49fc8d68",
+    "name": "release/METEOR@2.5.1"
+  }
+]

@@ -148,10 +148,10 @@ class Repo():
 
         # Compute proportion of code taken up by each language
         bytes_by_language = pd.Series(self.call('languages'), dtype=float)
-        languages = bytes_by_language / sum(bytes_by_language)
+        ratio_by_language = bytes_by_language / sum(bytes_by_language)
 
-        self.stats['js_ratio'] = languages['JavaScript'] if 'JavaScript' in languages else 0
-        self.stats['ts_ratio'] = languages['TypeScript'] if 'TypeScript' in languages else 0
+        self.stats['js_ratio'] = ratio_by_language['JavaScript'] if 'JavaScript' in ratio_by_language else 0
+        self.stats['ts_ratio'] = ratio_by_language['TypeScript'] if 'TypeScript' in ratio_by_language else 0
 
         # Compute manually filtered recent releases
         self.stats['filtered_releases_count'] = len(self.releases)
@@ -168,7 +168,6 @@ class Repo():
         logging.info('Reading stats from disk...')
         
         self.stats = load_series(self.stats_fname)
-        print(self.stats)
 
 
 

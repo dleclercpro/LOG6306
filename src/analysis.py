@@ -6,16 +6,9 @@ from mlxtend.frequent_patterns import apriori
 
 
 # Custom imports
-from constants import AXIS_ROW, COMMIT_COL, DATA_DIR, DECREASED_COL, DELTAS, EPSILON, FILE_COL, FILE_VERSION_COLS, INCREASED_COL, LANGUAGES, PROJECT_COL, RULE_COL, SEVERITY_COL, SMELLS_COLS, STATS, STATS_PATH, SMELLS_PATH, STEADY_COL
+from constants import AXIS_ROW, COMMIT_COL, DATA_DIR, DECREASED_COL, DELTAS, EPSILON, FILE_COL, FILE_VERSION_COLS, INCREASED_COL, JS, JS_STATS_PATH, LANGUAGES, N_SMELLS, PROJECT_COL, RULE_COL, SMELLS, SMELLS_COLS, STATS, SMELLS_PATH, STEADY_COL, TS, TS_STATS_PATH
 from lib import load_dataframe, store_dataframe, store_series
 
-
-
-# Useful constants
-SMELLS = ['S1067', 'S1143', 'S1186', 'S1192', 'S121', 'S126', 'S131', 'S134', 'S1539', 'S1541', 'S1821', 'S1994', 'S2208', 'S2310', 'S2871', 'S3353', 'S3504', 'S3525', 'S3735', 'S3776', 'S3972', 'S3973', 'S4123', 'S4524']
-N_SMELLS = len(SMELLS)
-
-IGNORED_SMELLS = ['S3523', 'S930']
 
 
 # CLASSES
@@ -37,13 +30,58 @@ class Analysis():
         stats = pd.DataFrame(None, columns=columns)
 
         for p in self.projects:
-            row = {
-                PROJECT_COL: p.name,
-                **p.repo.stats.to_dict(),
-            }
+            repo_stats = p.repo.stats.to_dict()
+            row = {PROJECT_COL: p.name, 'language': p.language}
+
+            for stat in STATS:
+                row[stat] = repo_stats[stat]
+            
             stats = stats.append(row, ignore_index=True)
 
-        store_dataframe(stats, STATS_PATH)
+        # Cast types
+        stats = stats.astype({
+            'stargazers_count': int,
+            'forks_count': int,
+            'contributors_count': int,
+            'commits_count': int,
+            'tags_count': int,
+            'js_ratio': float,
+            'ts_ratio': float,
+        })
+
+        # Keep creation year only
+        stats['created_at'] = stats['created_at'].apply(lambda x: x[:4])
+
+        # Format big numbers
+        for col in ['stargazers_count', 'forks_count', 'commits_count']:
+            stats[col] = stats[col].apply(lambda x: f'{round(x / 1000.0, 1)}k')
+
+        # Convert JS/TS ratios to percentages
+        def ratio_to_percent(ratio):
+            percent = round(ratio * 100.0, 1)
+
+            if percent == 0:
+                return '-'
+            else:
+                return f'{percent}%'
+
+        for ratio in ['js_ratio', 'ts_ratio']:
+            stats[ratio] = stats[ratio].apply(ratio_to_percent)
+
+        # Sort according to stars
+        stats = stats.sort_values('stargazers_count', axis=AXIS_ROW, ascending=False)
+
+        # Split JS and TS stats
+        js_stats = stats[stats['language'] == JS]
+        ts_stats = stats[stats['language'] == TS]
+
+        # Drop language column
+        js_stats = js_stats.drop(columns=['language'])
+        ts_stats = ts_stats.drop(columns=['language'])
+
+        # Store final stats for all projects
+        store_dataframe(js_stats, JS_STATS_PATH)
+        store_dataframe(ts_stats, TS_STATS_PATH)
 
 
 
@@ -65,10 +103,11 @@ class Analysis():
             smells = pd.concat([smells, project_smells], ignore_index=True, sort=False)
 
 
-        # Extract set of unique critical rules from data
+        # Extract set of unique rules from data
         rules = np.unique(smells[RULE_COL].tolist())
         n_rules = len(rules)
-        logging.info(f'Found {n_rules} critical rules in all projects.')
+        logging.info(f'Found {n_rules} rules in all projects.')
+        logging.info(rules)
 
 
         # Extract unique pairs of project, commit ID and file name

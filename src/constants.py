@@ -50,69 +50,47 @@ DECREASED_COL = 'decreased'
 
 DELTAS = [STEADY_COL, INCREASED_COL, DECREASED_COL]
 
-RULES = {
-    "BLOCKER": {
-        "S128": "Switch cases should end with an unconditional 'break' statement",
-        "S1219": "'switch' statements should not contain non-case labels",
-        "S1314": "Octal values should not be used",
-        "S1526": "Variables declared with 'var' should be declared before they are used",
-    },
-    "CRITICAL": {
-        "S131": "'switch' statements should have 'default' clauses",
-        "S134": "Control flow statements 'if', 'for', 'while', 'switch' and 'try' should not be nested too deeply", # Too complex
-        "S888": "Equality operators should not be used in 'for' loop termination conditions",
-        "S1067": "Expressions should not be too complex", # Too complex
-        "S1186": "Functions should not be empty", # Useless, confusing
-        "S1192": "String literals should not be duplicated", # Useless
-        "S1541": "Cyclomatic Complexity of functions should not be too high", #
-        "S1821": "'switch' statements should not be nested",
-        "S1994": "'for' loop increment clauses should modify the loops' counters",
-        "S2871": "A compare function should be provided when using 'Array.prototype.sort()'",
-        "S3353": "Unchanged variables should be marked 'const'",
-        "S3735": "'void' should not be used",
-        "S3776": "Cognitive Complexity of functions should not be too high", # Too complex
-        #"S3973": "A conditionally executed single line should be denoted by indentation",
-        "S4123": "'await' should only be used with promises",
-    },
-    "MAJOR": {
-        "S104": "Files should not have too many lines of code", # Too long
-        "S107": "Functions should not have too many parameters", # Too long, too complex
-        "S108": "Nested blocks of code should not be left empty", # Useless, confusing
-        "S109": "Magic numbers should not be used", # Confusing
-        "S138": "Functions should not have too many lines of code", # Too long
-        "S905": "Non-empty statements should change control flow or have at least one side-effect", # Useless, confusing
-        "S1117": "Variables should not be shadowed", # Error
-        "S1121": "Assignments should not be made from within sub-expressions",
-        "S1440": "'===' and '!==' should be used instead of '==' and '!='", # Typing
-        "S1479": "'switch' statements should not have too many 'case' clauses", #
-        "S1763": "All code should be reachable", #
-        "S1788": "Function parameters with default values should be last",
-        "S1871": "Two branches in a conditional structure should not have exactly the same implementation", # Useless, confusing
-        "S1862": "Related 'if/else if' statements should not have the same condition", # Useless, confusing
-        "S2137": "Special identifiers should not be bound or assigned", # Types
-        "S2392": "Variables should be used in the blocks where they are declared", # Error
-        "S2424": "Built-in objects should not be overridden",
-        "S2589": "Boolean expressions should not be gratuitous",
-        "S2814": "Variables and functions should not be redeclared", # Error
-        "S3531": "Generators should 'yield' something", # Types
-        "S3579": "Array indexes should be numeric", # Types
-        "S3696": "Literals should not be thrown", # Types
-        "S3800": "Functions should always return the same type", ### Types
-        "S3801": "Functions should use 'return' consistently", # Types, confusing
-        "S3984": "Errors should not be created without being thrown", # Useless
-        "S4030": "Collection and array contents should be used",
-        "S4140": "Sparse arrays should not be declared", # Types
-        "S4143": "Collection elements should not be replaced unconditionally",
-        "S4144": "Functions should not have identical implementations", # Useless, confusing
-        "S5843": "Regular expressions should not be too complicated", # Too complex
-    },
-    "MINOR": {
-        "S2990": "The global 'this' object should not be used", # Maintainability
-        "S3402": "Strings and non-strings should not be added", # Types
-    },
-    "INFO": {
-    },
+SMELLS_DICT = {
+    "S103": "Lines should not be too long", # Lengthy lines
+    "S107": "Functions should not have too many parameters", # Long parameter list
+    "S134": "Control flow statements 'if', 'for', 'while', 'switch' and 'try' should not be nested too deeply", # Depth
+    "S138": "Functions should not have too many lines of code", # Long method
+    "S1121": "Assignments should not be made from within sub-expressions", # Assignment in conditional statement
+    "S1541": "Cyclomatic Complexity of functions should not be too high", # Complex code
+    "S4327": "'this' should not be assigned to variables", # This-assign
+
+    # Additions
+    "S104": "Files should not have too many lines of code", # Lengthy file
+    "S109": "Magic numbers should not be used", # Magic number
+    "S125": "Sections of code should not be commented out", # Dead code
+    "S1067": "Expressions should not be too complex", # Complex expression
+    "S1117": "Variables should not be shadowed", # Shadowed variable
+    "S1186": "Functions should not be empty", # Empty function
+    "S1192": "String literals should not be duplicated", # Duplicated strings
+    "S1440": "'===' and '!==' should be used instead of '==' and '!='", # Weak equality
+    "S1763": "All code should be reachable", # Unreachable code
+    "S1854": "Unused assignments should be removed", # Useless assignment
+    "S2424": "Built-in objects should not be overridden", # Overwritten built-ins
+    "S2814": "Variables and functions should not be redeclared", # Overwritten variable/function
+    "S3003": "Comparison operators should not be used with strings", # String ordinal comparison
+    "S3516": "Function returns should not be invariant", # Invariant function
+    "S3696": "Literals should not be thrown", # Invalid errors
+    "S3699": "The output of functions that don't return anything should not be used", # Useless output
+    "S3801": "Functions should use 'return' consistently", # Inconsistent function type
+    "S4144": "Functions should not have identical implementations", # Duplicated function
+
+    # Missing
+    "S1479": "'switch' statements should not have too many 'case' clauses", # Complex switch
+
+    # Missing additions
+    "S1862": "Related 'if/else if' statements should not have the same condition", # Duplicated conditional statement
+    "S2688": "'NaN' should not be used in comparisons", # NaN comparison
+    "S3531": "Generators should 'yield' something", # Useless generator
+    "S3984": "Errors should not be created without being thrown", # Useless error
 }
+
+SMELLS = ['S103','S104','S107','S109','S125','S134','S138','S1067','S1117','S1121','S1186','S1192','S1440','S1541','S1763','S1854','S2424','S2814','S3003','S3516','S3696','S3699','S3801','S4144','S4327',]
+N_SMELLS = len(SMELLS)
 
 
 
@@ -134,7 +112,8 @@ FILES_DIR = f'{DATA_DIR}/files'
 DIRS = [REPOS_DIR, LOGS_DIR, STATS_DIR, TAGS_DIR, RELEASES_DIR, ISSUES_DIR, SMELLS_DIR, DELTAS_DIR, FILES_DIR]
 
 LOG_PATH = f'{LOGS_DIR}/root.log'
-STATS_PATH = f'{DATA_DIR}/stats.csv'
+JS_STATS_PATH = f'{DATA_DIR}/js_stats.csv'
+TS_STATS_PATH = f'{DATA_DIR}/ts_stats.csv'
 SMELLS_PATH = f'{DATA_DIR}/smells.csv'
 
 
@@ -158,15 +137,15 @@ SONAR_SCANNER_PROPS_FNAME = 'sonar-scanner.properties'
 # Stats
 STATS = [
     'created_at',
-    'forks_count',
     'stargazers_count',
-    'watchers_count',
-    'open_issues_count',
-    'commits_count',
+    #'watchers_count',
+    'forks_count',
     'contributors_count',
+    #'open_issues_count',
+    'commits_count',
     'tags_count',
-    'releases_count',
-    'filtered_releases_count',
+    #'releases_count',
+    #'filtered_releases_count',
     'js_ratio',
     'ts_ratio',
 ]
