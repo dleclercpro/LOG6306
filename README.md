@@ -1,4 +1,4 @@
-# Impact of Typing on Code Smells: A Comparison Between Javascript and Typescript Projects
+# Impact of Typing on Code Smells: An Empirical Comparison Between Javascript and Typescript Projects in the Open-Source Community
 
 ## Smell Detector
 - SonarQube
