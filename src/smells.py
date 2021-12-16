@@ -1,4 +1,4 @@
-RULES_DICT = {
+SMELLS_DICT = {
     "S103": {
         "label": "Lengthy Line",
         "short_label": "LL",

@@ -7,10 +7,11 @@ import pandas as pd
 
 
 # Custom imports
-from constants import COMMIT_COL, DELTAS_DIR, FILE_COL, FILE_VERSION_COLS, FILES_DIR, ISSUES_DIR, JS, LANGUAGES, PROJECT_COL, REPOS_DIR, RULE_COL, SEVERITY_COL, SMELLS_COLS, SMELLS_DICT, SMELLS_DIR, STATS_DIR, TAGS_COL, TS, TYPE_COL
+from constants import COMMIT_COL, DELTAS_DIR, FILE_COL, FILE_VERSION_COLS, FILES_DIR, ISSUES_DIR, JS, LANGUAGES, PROJECT_COL, REPOS_DIR, RULE_COL, SEVERITY_COL, SMELLS_COLS, SMELLS_DIR, STATS_DIR, TAGS_COL, TS, TYPE_COL
 from issue import Issue
 from repository import Repo
 from lib import formatSeconds, is_js_file, is_test_file, is_ts_file, load_dataframe, load_json, store_dataframe
+from smells import SMELLS_DICT
 from sonar import Sonar
 
 

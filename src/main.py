@@ -50,9 +50,9 @@ def analyze_projects(projects):
 
     #analysis.compute_overall_smells_distribution()
     #analysis.compute_app_smell_frequencies()
-    #analysis.compute_file_smell_frequencies()
-    #analysis.compute_smell_cooccurences_in_files()
-    analysis.clean_smell_cooccurences()
+    analysis.compute_file_smell_frequencies()
+    analysis.compute_smell_cooccurences_in_files()
+    #analysis.clean_smell_cooccurences()
 
 
 

@@ -53,7 +53,8 @@ DELTAS = [STEADY_COL, INCREASED_COL, DECREASED_COL]
 
 
 # Paths
-ROOT_DIR = '/Users/david/Projects/LOG6306'
+#ROOT_DIR = '/Users/david/Projects/LOG6306'
+ROOT_DIR = 'C:/Projects/LOG6306'
 
 REPOS_DIR = f'{ROOT_DIR}/repos'
 LOGS_DIR = f'{ROOT_DIR}/logs'
@@ -127,30 +128,6 @@ JS_PROJECTS = [
     'serverless/serverless',
     'tailwindlabs/tailwindcss',
     'typicode/json-server',
-
-    # DO NOT WORK
-    #'gruntjs/grunt',
-    #'strapi/strapi',
-    #'meteor/meteor',
-    #'nodejs/node',
-    #'mrdoob/three.js',
-    #'h5bp/html5-boilerplate',
-    #'Leaflet/Leaflet',
-    #'less/less.js',
-    #'vuejs/vue',
-    #'webpack/webpack',
-    #'moment/moment',
-    #'facebook/react',
-    #'facebook/react-native',
-    #'vuejs/vue',
-    #'twbs/bootstrap',
-    #'atom/atom',
-    #'FortAwesome/Font-Awesome',
-    #'hakimel/reveal.js',
-    #'mui-org/material-ui',
-    #'lodash/lodash',
-    #'prettier/prettier',
-    #'gatsbyjs/gatsby',
 ]
 
 TS_PROJECTS = [
@@ -169,63 +146,4 @@ TS_PROJECTS = [
     'graphql/graphql-js',
     'railsware/upterm',
     'balena-io/etcher',
-
-    # DO NOT WORK
-    #'facebook/jest',
-    #'ant-design/ant-design',
-    ##'angular/angular',
-    #'cheeriojs/cheerio',
-    #'typeorm/typeorm',
-    #'fingerprintjs/fingerprintjs',
-    ##'microsoft/vscode',
-    #'neoclide/coc.nvim',
-    #'reduxjs/react-redux',
-    #'reduxjs/redux-thunk',
-    #'vercel/next.js',
-    #'GeekyAnts/NativeBase',
-    #'redis/node-redis',
-    #'reduxjs/redux',
-    ##'sass/sass',
-    #'NativeScript/NativeScript',
-    #'nestjs/nest',
-    #'puppeteer/puppeteer',
-    #'sveltejs/svelte',
-    #'babel/babel',
-    ##'signalapp/Signal-Desktop',
-    #'wechaty/wechaty',
-    ##'storybookjs/storybook',
-    #'apollographql/apollo-server',
-    #'tensorflow/tfjs',
-    ##'BabylonJS/Babylon.js',
-    ###'cdr/code-server',
-    ##'apache/superset',
-    ##'pixijs/pixijs',
-    ##'vitejs/vite',
-    ##'vuetifyjs/vuetify',
-    ###'immutable-js/immutable-js'
-    ##'apache/echarts',
-    ##'postcss/postcss',
-    ##'laurent22/joplin',
-    ##'angular/angular-cli',
-    ##'niklasvh/html2canvas',
-    ##'mobxjs/mobx',
-    ##'supabase/supabase',
-    ##'chakra-ui/chakra-ui',
-    ##'angular/components',
-    ##'doczjs/docz',
-    #'t4t5/sweetalert',
-    ##'vuejs/devtools',
-    #'ianstormtaylor/slate',
-    ##'Eugeny/tabby',
-    #'prisma/prisma',
-    ###'elastic/kibana',
-    #'GoogleChromeLabs/squoosh',
-    #'recharts/recharts',
-    #'jquense/yup',
-    #'grafana/grafana',
-    #'excalidraw/excalidraw',
-    #'conwnet/github1s',
-    #'codex-team/editor.js',
-    #'notable/notable',
-    #'lensapp/lens',
 ]

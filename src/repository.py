@@ -209,13 +209,18 @@ class Repo():
 
 
     def load_releases(self):
+
+        """
+        Load manually filtered release tags.
+
+        NOTE: won't work if manual preprocessing of tags hasn't been done previously!
+        """
+        
         logging.info('Loading releases...')
 
         # If list of releases hasn't been generated, do it
         if not os.path.exists(self.releases_fname):
             self.fetch_tags()
-
-            # WARNING: manual preprocessing of tags into release tags needed!
             raise RuntimeError('Preprocessing of tags not done!')
 
         else:
