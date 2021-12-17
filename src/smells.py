@@ -47,8 +47,8 @@ SMELLS_DICT = {
         "description": "Magic numbers should not be used",
     },
     "S125": {
-        "label": "Dead Code",
-        "short_label": "DC",
+        "label": "Retired Code",
+        "short_label": "RC",
         "description": "Sections of code should not be commented out",
     },
     "S1067": {
@@ -67,7 +67,7 @@ SMELLS_DICT = {
         "description": "Functions should not be empty",
     },
     "S1192": {
-        "label": "Duplicated Strings",
+        "label": "Duplicated String",
         "short_label": "DS",
         "description": "String literals should not be duplicated",
     },
@@ -97,8 +97,8 @@ SMELLS_DICT = {
         "description": "Variables and functions should not be redeclared",
     },
     "S3003": {
-        "label": "String Ordinal Comparison",
-        "short_label": "SOC",
+        "label": "String Comparison",
+        "short_label": "SC",
         "description": "Comparison operators should not be used with strings",
     },
     "S3516": {
@@ -112,8 +112,8 @@ SMELLS_DICT = {
         "description": "Literals should not be thrown",
     },
     "S3699": {
-        "label": "Dangerous Output",
-        "short_label": "DO",
+        "label": "Unknown Output",
+        "short_label": "UO",
         "description": "The output of functions that don't return anything should not be used",
     },
     "S3801": {
