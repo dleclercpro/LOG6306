@@ -17,6 +17,9 @@ JS = 'javascript'
 TS = 'typescript'
 LANGUAGES = [JS, TS]
 
+# Releases
+N_RELEASE_TAGS = 25
+
 # File extensions
 JS_EXTENSIONS = ['.js', '.jsx', '.mjs']
 TS_EXTENSIONS = ['.ts', '.tsx']
@@ -42,7 +45,7 @@ STEADY_COL = 'steady'
 INCREASED_COL = 'increased'
 DECREASED_COL = 'decreased'
 
-DELTAS = [STEADY_COL, INCREASED_COL, DECREASED_COL]
+DELTA_COLS = [STEADY_COL, INCREASED_COL, DECREASED_COL]
 
 
 

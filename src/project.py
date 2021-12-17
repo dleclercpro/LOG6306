@@ -35,7 +35,8 @@ class Project():
         self.stats_fname = f'{STATS_DIR}/{name}.csv'
         self.files_fname = f'{FILES_DIR}/{name}.csv'
         self.smells_fname = f'{SMELLS_DIR}/{name}.csv'
-        self.deltas_fname = f'{DELTAS_DIR}/{name}.csv'
+        self.app_deltas_fname = f'{DELTAS_DIR}/app_{name}.csv'
+        self.file_deltas_fname = f'{DELTAS_DIR}/file_{name}.csv'
         self.issues_dir = f'{ISSUES_DIR}/{name}'
 
         # Define SonarQube server instance
@@ -82,11 +83,17 @@ class Project():
 
 
 
-    def get_smell_deltas(self):
-        return load_dataframe(self.deltas_fname)
+    def get_app_smell_deltas(self):
+        return load_dataframe(self.app_deltas_fname)
 
-    def store_smell_deltas(self, smells):
-        store_dataframe(smells, self.deltas_fname)
+    def store_app_smell_deltas(self, deltas):
+        store_dataframe(deltas, self.app_deltas_fname)
+
+    def get_file_smell_deltas(self):
+        return load_dataframe(self.file_deltas_fname)
+
+    def store_file_smell_deltas(self, deltas):
+        store_dataframe(deltas, self.file_deltas_fname)
 
 
 

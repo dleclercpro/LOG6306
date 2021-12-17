@@ -29,11 +29,11 @@ SMELLS_DICT = {
         "short_label": "CC",
         "description": "Cyclomatic Complexity of functions should not be too high",
     },
-    "S4327": {
-        "label": "This-Assign",
-        "short_label": "TA",
-        "description": "'this' should not be assigned to variables",
-    },
+    #"S4327": {
+    #    "label": "This-Assign",
+    #    "short_label": "TA",
+    #    "description": "'this' should not be assigned to variables",
+    #},
 
     # Additions
     "S104": {
@@ -129,15 +129,15 @@ SMELLS_DICT = {
 
     # Missing
     #"S1479": "'switch' statements should not have too many 'case' clauses", # Complex switch
-
-    # Missing additions
-    #"S1862": "Related 'if/else if' statements should not have the same condition", # Duplicated conditional statement
-    #"S2688": "'NaN' should not be used in comparisons", # NaN comparison
-    #"S3531": "Generators should 'yield' something", # Useless generator
-    #"S3984": "Errors should not be created without being thrown", # Useless error
 }
 
-SMELLS = ['S103','S104','S107','S109','S125','S134','S138','S1067','S1117','S1121','S1186','S1192','S1440','S1541','S1763','S1854','S2424','S2814','S3003','S3516','S3696','S3699','S3801','S4144','S4327',]
+SMELLS = list(SMELLS_DICT.keys())
 N_SMELLS = len(SMELLS)
 
-MISSING_COOCCURENCES = ['S1763', 'S3699', 'S3516', 'S3003', 'S2814']
+MISSING_SMELL_COOCCURENCES = [
+    "UC",
+    "DO",
+    "IF",
+    "SOC",
+    "OVF",
+]

@@ -1,0 +1,15 @@
+file_name,steady,increased,decreased
+__fixtures__/seed.js,9,0,0
+public/script.js,3,0,0
+src/cli/run.js,23,0,1
+src/cli/utils/is.js,23,0,1
+src/cli/utils/load.js,22,1,1
+src/front/index.js,5,0,0
+src/front/script.js,0,0,0
+src/server/defaults.js,24,0,0
+src/server/index.js,24,0,0
+src/server/mixins.js,22,1,1
+src/server/public/main.js,10,0,0
+src/server/router/index.js,23,1,0
+src/server/router/plural.js,23,0,1
+src/server/router/singular.js,24,0,0

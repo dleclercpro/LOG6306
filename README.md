@@ -11,6 +11,7 @@
 - Minimum 25 patch-level releases
 - Ignored files with 'test' in their path
 - Some projects may have converted from JS to TS recently
+- Ignoring files which aren't present in all recent releases when computing smell deltas on file scale
 
 ## Instructions
 - Change the ROOT_DIR variable in 'constants.py' for the directory where you extracted this project to

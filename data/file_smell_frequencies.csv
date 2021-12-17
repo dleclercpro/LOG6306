@@ -1,26 +1,25 @@
 ,javascript,typescript
-S103,1.4%,1.8%
-S104,0.4%,0.2%
-S107,0.5%,0.2%
-S109,21.6%,12.1%
-S125,0.6%,0.9%
-S134,6.1%,2.2%
-S138,1.5%,0.8%
-S1067,3.6%,1.7%
-S1117,9.4%,2.9%
-S1121,2.4%,1.1%
-S1186,2.2%,1.3%
-S1192,4.7%,1.9%
-S1440,1.0%,0.4%
-S1541,10.9%,4.6%
-S1763,0.0%,0.0%
-S1854,1.1%,0.2%
-S2424,2.8%,0.5%
-S2814,0.2%,0.1%
-S3003,0.0%,0.0%
-S3516,0.2%,0.0%
-S3696,0.1%,0.8%
-S3699,0.0%,0.0%
-S3801,8.4%,2.9%
-S4144,0.8%,0.6%
-S4327,0.0%,0.4%
+Lengthy Line,1.4%,1.8%
+Long Parameter List,0.5%,0.2%
+Depth,6.1%,2.2%
+Long Method,1.5%,0.8%
+Assignment in Conditional Statement,2.4%,1.1%
+Complex Code,10.9%,4.6%
+Lengthy File,0.4%,0.2%
+Magic Number,21.6%,12.1%
+Dead Code,0.6%,0.9%
+Complex Expression,3.6%,1.7%
+Shadowed Variable,9.4%,2.9%
+Empty Function,2.2%,1.3%
+Duplicated Strings,4.7%,1.9%
+Weak Equality,1.0%,0.4%
+Unreachable Code,0.0%,0.0%
+Useless Assignment,1.1%,0.2%
+Overwritten Built-Ins,2.8%,0.5%
+Overwritten Variable/Function,0.2%,0.1%
+String Ordinal Comparison,0.0%,0.0%
+Invariant Function,0.2%,0.0%
+Invalid Error,0.1%,0.8%
+Dangerous Output,0.0%,0.0%
+Inconsistent Return,8.4%,2.9%
+Duplicated Function,0.8%,0.6%

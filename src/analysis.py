@@ -6,8 +6,8 @@ from mlxtend.frequent_patterns import apriori
 
 
 # Custom imports
-from constants import AXIS_ROW, COMMIT_COL, DATA_DIR, DECREASED_COL, DELTAS, EPSILON, FILE_COL, FILE_VERSION_COLS, INCREASED_COL, JS, JS_STATS_PATH, LANGUAGES, PROJECT_COL, RULE_COL, SMELLS_COLS, STATS, SMELLS_PATH, STEADY_COL, TS, TS_STATS_PATH
-from smells import SMELLS, N_SMELLS, MISSING_COOCCURENCES
+from constants import AXIS_COL, AXIS_ROW, COMMIT_COL, DATA_DIR, DECREASED_COL, DELTA_COLS, EPSILON, FILE_COL, FILE_VERSION_COLS, INCREASED_COL, JS, JS_STATS_PATH, LANGUAGES, N_RELEASE_TAGS, PROJECT_COL, RULE_COL, SMELLS_COLS, STATS, SMELLS_PATH, STEADY_COL, TS, TS_STATS_PATH
+from smells import SMELLS, N_SMELLS, MISSING_SMELL_COOCCURENCES, SMELLS_DICT
 from lib import load_dataframe, store_dataframe
 
 
@@ -107,8 +107,6 @@ class Analysis():
         # Extract set of unique rules from data
         rules = np.unique(smells[RULE_COL].tolist())
         n_rules = len(rules)
-        logging.info(f'Found {n_rules} rules in all projects.')
-        logging.info(rules)
 
 
         # Extract unique pairs of project, commit ID and file name
@@ -161,7 +159,57 @@ class Analysis():
 
 
 
-    def count_smell_deltas(self):
+    def count_app_smell_deltas(self):
+
+        """
+        Count deltas in number of smells present in every single app.
+        """
+        
+        # Compute smell deltas for each file of each project
+        for p in self.projects:
+            logging.info(f'Computing smell deltas on app scale for: {p.name}')
+
+            smells = p.get_smells()
+
+            if smells is None:
+                raise RuntimeError(f'Missing smells for project `{p.name}`.')
+            
+
+            # Initialize smell deltas dataframe
+            smell_deltas_init = np.zeros((1, len(DELTA_COLS)))
+            smell_deltas = pd.DataFrame(smell_deltas_init, columns=DELTA_COLS)
+
+            # Cast types
+            for delta in DELTA_COLS:
+                smell_deltas = smell_deltas.astype({ delta: int })
+
+
+            # Compute number of smells at each recent release
+            n_smells = np.array([])
+
+            for release in p.get_recent_releases():
+                release_smells = smells[smells[COMMIT_COL] == release.commit_hash]
+                n_smells = np.append(n_smells, len(release_smells))
+
+
+            # Compute deltas from one commit to another
+            if np.sum(n_smells) > 0:
+                deltas = n_smells[1:] - n_smells[:-1]
+
+                smell_deltas.loc[0, STEADY_COL] = np.sum(deltas == 0)
+                smell_deltas.loc[0, INCREASED_COL] = np.sum(deltas > 0)
+                smell_deltas.loc[0, DECREASED_COL] = np.sum(deltas < 0)
+
+            else:
+                logging.warn(f'None of the considered smells detected in all recent releases of project: {p.name}')
+
+
+            # Store smell deltas for current project
+            p.store_app_smell_deltas(smell_deltas)
+
+
+
+    def count_file_smell_deltas(self):
 
         """
         Count deltas in number of smells present in every single
@@ -170,15 +218,13 @@ class Analysis():
         
         # Compute smell deltas for each file of each project
         for p in self.projects:
-            logging.info(f'Computing smell deltas for: {p.name}')
+            logging.info(f'Computing smell deltas on file scale for: {p.name}')
 
             smells = p.get_smells()
             files = p.get_valid_files()
 
             if smells is None:
                 raise RuntimeError(f'Missing smells for project `{p.name}`.')
-            
-            logging.info(f'Found {len(smells)} smells in project.')
             
 
             # Read smelly files
@@ -187,24 +233,17 @@ class Analysis():
 
 
             # Initialize smell deltas dataframe
-            smell_deltas_init = np.hstack((np.reshape(smelly_files, (n_smelly_files, 1)), np.zeros((n_smelly_files, len(DELTAS)))))
-            smell_deltas = pd.DataFrame(smell_deltas_init, columns=[FILE_COL] + DELTAS)
+            smell_deltas_init = np.hstack((np.reshape(smelly_files, (n_smelly_files, 1)), np.zeros((n_smelly_files, len(DELTA_COLS)))))
+            smell_deltas = pd.DataFrame(smell_deltas_init, columns=[FILE_COL] + DELTA_COLS)
 
             # Cast types
-            for delta in DELTAS:
+            for delta in DELTA_COLS:
                 smell_deltas = smell_deltas.astype({ delta: int })
 
-
-            # Initialize file counter
-            i = 0
 
             # Compute smell deltas for each smelly file
             for smelly_file in smelly_files:
                 n_smells = np.array([])
-
-                # Show progress
-                #if i == 0 or i % 10 == 0:
-                #    logging.info(f'Processing smelly file: {i + 1}/{n_smelly_files}')
 
                 # Compute number of smells at each recent release
                 for release in p.get_recent_releases():
@@ -215,37 +254,110 @@ class Analysis():
                         release_smells = smells[(smells[FILE_COL] == smelly_file) & (smells[COMMIT_COL] == release.commit_hash)]
                         n_smells = np.append(n_smells, len(release_smells))
 
+
                 # Compute deltas for current file from one commit to another
-                deltas = n_smells[1:] - n_smells[:-1]
+                if np.sum(n_smells) > 0:
+                    deltas = n_smells[1:] - n_smells[:-1]
 
-                row = smell_deltas[FILE_COL] == smelly_file
+                    row = smell_deltas[FILE_COL] == smelly_file
 
-                smell_deltas.loc[row, STEADY_COL] = np.sum(deltas == 0)
-                smell_deltas.loc[row, INCREASED_COL] = np.sum(deltas > 0)
-                smell_deltas.loc[row, DECREASED_COL] = np.sum(deltas < 0)
+                    smell_deltas.loc[row, STEADY_COL] = np.sum(deltas == 0)
+                    smell_deltas.loc[row, INCREASED_COL] = np.sum(deltas > 0)
+                    smell_deltas.loc[row, DECREASED_COL] = np.sum(deltas < 0)
 
-                # Increment file counter
-                i += 1
+                else:
+                    logging.warn(f'None of the considered smells detected in all recent releases of project `{p.name}` in file: {smelly_file}')
 
 
             # Store smell deltas for current project
-            p.store_smell_deltas(smell_deltas)
-
-
-            # Compute delta stats
-            deltas_avg = smell_deltas[DELTAS].mean(axis=AXIS_ROW).to_numpy()
-            deltas_avg = np.reshape(deltas_avg, (len(deltas_avg), 1))
-
-            deltas_std = smell_deltas[DELTAS].std(axis=AXIS_ROW).to_numpy()
-            deltas_std = np.reshape(deltas_std, (len(deltas_std), 1))
-
-            deltas_stats = pd.DataFrame(np.hstack((deltas_avg, deltas_std)), index=DELTAS, columns=['AVG', 'STD'])
-
-            print(deltas_stats)
-            print()
+            p.store_file_smell_deltas(smell_deltas)
 
 
 
+    def compute_smell_deltas_fns(self, smell_deltas):
+
+        """
+        Compute five-number summary of smell deltas. 
+        """
+
+        n = len(smell_deltas)
+
+        # Remove files which aren't present in all releases
+        invalid = smell_deltas[smell_deltas.sum(axis=AXIS_COL) != N_RELEASE_TAGS - 1].index
+        smell_deltas = smell_deltas.drop(index=invalid)
+        n_valid = len(smell_deltas)
+
+        # Compute five-number-summary for all files
+        fns = pd.DataFrame({}, index=['Min', 'Q1', 'Median', 'Mean', 'Q3', 'Max'], columns=DELTA_COLS)
+
+        logging.info(f'Computing five-number summary of smell deltas on {n_valid}/{n} entries.')
+
+        fns.loc['Min', :] = smell_deltas.min(axis=AXIS_ROW)
+        fns.loc['Q1', :] = smell_deltas.quantile(0.25, axis=AXIS_ROW)
+        fns.loc['Median', :] = smell_deltas.median(axis=AXIS_ROW)
+        fns.loc['Mean', :] = smell_deltas.mean(axis=AXIS_ROW)
+        fns.loc['Q3', :] = smell_deltas.quantile(0.75, axis=AXIS_ROW)
+        fns.loc['Max', :] = smell_deltas.max(axis=AXIS_ROW)
+
+        # Format FNS
+        fns = fns.transpose()
+        fns = fns.applymap(lambda x: f'{round(x, 1)}')
+        
+        return fns
+
+
+
+    def compute_smell_deltas_on_app_scale(self):
+
+        """
+        Compute smell deltas for all combined apps of a given language. 
+        """
+
+        # For each project language
+        for language in LANGUAGES:
+            result = pd.DataFrame({}, columns=DELTA_COLS, dtype=float)
+            
+            logging.info(f'Computing smell deltas on app scale for: {language}')
+
+            for p in self.projects:
+                if p.language != language:
+                    continue
+
+                deltas = p.get_app_smell_deltas()[DELTA_COLS]
+
+                if len(deltas) > 0:
+                    result = result.append(deltas, ignore_index=True)
+
+            # Compute five-number-summary for all files
+            fns = self.compute_smell_deltas_fns(result)
+            print(fns)
+
+
+
+    def compute_smell_deltas_on_file_scale(self):
+
+        """
+        Compute smell deltas for all combined files of a given language. 
+        """
+
+        # For each project language
+        for language in LANGUAGES:
+            result = pd.DataFrame({}, columns=DELTA_COLS, dtype=float)
+
+            logging.info(f'Computing smell deltas on file scale for: {language}')
+
+            for p in self.projects:
+                if p.language != language:
+                    continue
+
+                deltas = p.get_file_smell_deltas()[DELTA_COLS]
+
+                if len(deltas) > 0:
+                    result = result.append(deltas, ignore_index=True)
+
+            # Compute five-number-summary for all files
+            fns = self.compute_smell_deltas_fns(result)
+            print(fns)
 
 
 
@@ -294,18 +406,22 @@ class Analysis():
                 occurences_by_app[p.name] = self.compute_occurences_by_smell(p)
 
             # Compute distribution of smells across all apps
-            distribution = pd.Series(np.zeros(N_SMELLS), index = SMELLS)
+            occurences = pd.Series(np.zeros(N_SMELLS), index = SMELLS)
 
-            for occurences in occurences_by_app.values():
-                distribution = distribution.add(occurences)
+            # Sum occurences of all apps by smell type
+            for app_occurences in occurences_by_app.values():
+                occurences = occurences.add(app_occurences)
 
-            n_total_occurences = np.sum(distribution)
+            n_total_occurences = np.sum(occurences)
 
-            distribution /= n_total_occurences
-            result.loc[:, language] = distribution
+            occurences /= n_total_occurences
+            result.loc[:, language] = occurences
 
         # Format output to percentages
         result = result.applymap(lambda x: f'{round(x * 100, 1)}%')
+
+        # Replace rule indices to smell names
+        result.index = list(map(lambda i: SMELLS_DICT[i]['label'], result.index))
 
         store_dataframe(result, f'{DATA_DIR}/overall_smells_distribution.csv', index=True)
         print(result)
@@ -329,7 +445,8 @@ class Analysis():
                 # Compute occurences by smell type in current app
                 occurences = self.compute_occurences_by_smell(p)
 
-                # Increment number of apps as well as app count where each type of smell is displayed
+                # Increment number of apps as well as app count where each
+                # type of smell is displayed
                 app_count_by_smell.loc[occurences > 0] += 1
                 n_apps += 1
 
@@ -339,6 +456,9 @@ class Analysis():
 
         # Format output to percentages
         result = result.applymap(lambda x: f'{round(x * 100, 1)}%')
+        
+        # Replace rule indices to smell names
+        result.index = list(map(lambda i: SMELLS_DICT[i]['label'], result.index))
 
         store_dataframe(result, f'{DATA_DIR}/app_smell_frequencies.csv', index=True)
         print(result)
@@ -374,6 +494,9 @@ class Analysis():
         # Format output to percentages
         result = result.applymap(lambda x: f'{round(x * 100, 1)}%')
         
+        # Replace rule indices to smell names
+        result.index = list(map(lambda i: SMELLS_DICT[i]['label'], result.index))
+
         store_dataframe(result, f'{DATA_DIR}/file_smell_frequencies.csv', index=True)
         print(result)
 
@@ -414,6 +537,10 @@ class Analysis():
                     if smell_1 in SMELLS and smell_2 in SMELLS:
                         cooccurences_smell_pairs.loc[smell_1, smell_2] = cooccurence
 
+            # Replace rule indices to smell names
+            cooccurences_smell_pairs.index = list(map(lambda i: SMELLS_DICT[i]['short_label'], cooccurences_smell_pairs.index))
+            cooccurences_smell_pairs.columns = list(map(lambda i: SMELLS_DICT[i]['short_label'], cooccurences_smell_pairs.columns))
+
             store_dataframe(cooccurences_smell_pairs, f'{DATA_DIR}/{language}_smell_cooccurences.csv', index=True)
             print(cooccurences_smell_pairs)
 
@@ -428,7 +555,7 @@ class Analysis():
         for language in LANGUAGES:
             cooccurences = load_dataframe(f'{DATA_DIR}/{language}_smell_cooccurences.csv', index_col=0)
 
-            cooccurences = cooccurences.drop(columns=MISSING_COOCCURENCES).drop(index=MISSING_COOCCURENCES)
+            cooccurences = cooccurences.drop(columns=MISSING_SMELL_COOCCURENCES).drop(index=MISSING_SMELL_COOCCURENCES)
 
             store_dataframe(cooccurences, f'{DATA_DIR}/{language}_clean_smell_cooccurences.csv', index=True)
             print(cooccurences)
