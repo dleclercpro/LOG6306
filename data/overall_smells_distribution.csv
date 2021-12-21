@@ -7,19 +7,19 @@ Assignment in Conditional Statement,2.6%,1.7%
 Complex Code,8.0%,5.6%
 Lengthy File,0.2%,0.2%
 Magic Number,44.1%,65.1%
-Dead Code,0.5%,1.2%
+Retired Code,0.5%,1.2%
 Complex Expression,2.4%,2.0%
 Shadowed Variable,10.8%,4.0%
 Empty Function,2.9%,1.1%
-Duplicated Strings,4.2%,3.1%
+Duplicated String,4.2%,3.1%
 Weak Equality,0.7%,1.7%
 Unreachable Code,0.0%,0.0%
 Useless Assignment,0.7%,0.1%
 Overwritten Built-Ins,1.5%,0.4%
 Overwritten Variable/Function,0.2%,0.2%
-String Ordinal Comparison,0.0%,0.0%
+String Comparison,0.0%,0.0%
 Invariant Function,0.1%,0.0%
 Invalid Error,0.0%,1.1%
-Dangerous Output,0.0%,0.0%
+Unknown Output,0.0%,0.0%
 Inconsistent Return,8.4%,3.3%
 Duplicated Function,0.6%,0.8%

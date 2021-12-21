@@ -406,7 +406,7 @@ class Analysis():
                 occurences_by_app[p.name] = self.compute_occurences_by_smell(p)
 
             # Compute distribution of smells across all apps
-            occurences = pd.Series(np.zeros(N_SMELLS), index = SMELLS)
+            occurences = pd.Series(np.zeros(N_SMELLS), index=SMELLS)
 
             # Sum occurences of all apps by smell type
             for app_occurences in occurences_by_app.values():

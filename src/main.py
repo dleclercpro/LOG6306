@@ -48,7 +48,7 @@ def analyze_projects(projects):
 
     # Execute analysis for all projects
     analysis = Analysis(p_s)
-    #analysis.merge_stats()
+    analysis.merge_stats()
     
     #analysis.count_smells()
     #analysis.count_app_smell_deltas()
@@ -56,10 +56,10 @@ def analyze_projects(projects):
     #analysis.compute_smell_deltas_on_app_scale()
     #analysis.compute_smell_deltas_on_file_scale()
 
-    #analysis.compute_overall_smells_distribution()
-    #analysis.compute_app_smell_frequencies()
-    #analysis.compute_file_smell_frequencies()
-    #analysis.compute_smell_cooccurences_in_files()
+    analysis.compute_overall_smells_distribution()
+    analysis.compute_app_smell_frequencies()
+    analysis.compute_file_smell_frequencies()
+    analysis.compute_smell_cooccurences_in_files()
     analysis.clean_smell_cooccurences()
 
 
@@ -96,7 +96,7 @@ def main():
     projects = js_projects + ts_projects
 
     # Process every project
-    #process_projects(projects)
+    process_projects(projects)
 
     # Analyze every project
     analyze_projects(projects)

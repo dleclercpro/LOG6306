@@ -24,11 +24,18 @@ SMELLS_DICT = {
         "short_label": "ACS",
         "description": "Assignments should not be made from within sub-expressions",
     },
+    # Missing
+    #"S1479": {
+    #    "label": "Complex Switch Case",
+    #    "short_label": "CSC",
+    #    "description": "'switch' statements should not have too many 'case' clauses",
+    #},
     "S1541": {
         "label": "Complex Code",
         "short_label": "CC",
         "description": "Cyclomatic Complexity of functions should not be too high",
     },
+    # Only TS
     #"S4327": {
     #    "label": "This-Assign",
     #    "short_label": "TA",
@@ -126,9 +133,6 @@ SMELLS_DICT = {
         "short_label": "DF",
         "description": "Functions should not have identical implementations",
     },
-
-    # Missing
-    #"S1479": "'switch' statements should not have too many 'case' clauses", # Complex switch
 }
 
 SMELLS = list(SMELLS_DICT.keys())
@@ -136,8 +140,8 @@ N_SMELLS = len(SMELLS)
 
 MISSING_SMELL_COOCCURENCES = [
     "UC",
-    "DO",
+    "UO",
     "IF",
-    "SOC",
+    "SC",
     "OVF",
 ]
