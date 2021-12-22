@@ -1,0 +1,6701 @@
+[
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-17T07:48:44-0400",
+    "debt": "2h20min",
+    "effort": "2h20min",
+    "flows": [],
+    "key": "AX3f7g7X-7ukpNKlOUcE",
+    "message": "70 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-17T07:48:44-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g7X-7ukpNKlOUcF",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/post-recording.js",
+    "creationDate": "2016-10-17T05:46:50-0400",
+    "debt": "1h10min",
+    "effort": "1h10min",
+    "flows": [],
+    "key": "AX3f7g7T-7ukpNKlOUb3",
+    "message": "35 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/post-recording.js",
+    "creationDate": "2016-10-17T05:46:50-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g7T-7ukpNKlOUb4",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-17T03:35:06-0400",
+    "debt": "3h14min",
+    "effort": "3h14min",
+    "flows": [],
+    "key": "AX3f7g7H-7ukpNKlOUbB",
+    "message": "97 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-17T03:35:06-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g7H-7ukpNKlOUbC",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-17T02:28:30-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "8971edfb8927b7b9b61cdc08aa19c9e5",
+    "key": "AX3f7g7H-7ukpNKlOUbs",
+    "line": 368,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 369,
+      "endOffset": 0,
+      "startLine": 368,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-17T02:18:48-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "84efe2779b1f2c4661959dac0aa9af19",
+    "key": "AX3f7g7H-7ukpNKlOUbY",
+    "line": 134,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 140,
+      "endOffset": 1,
+      "startLine": 134,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-17T02:18:33-0400",
+    "debt": "20min",
+    "effort": "20min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 147,
+              "endOffset": 4,
+              "startLine": 147,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 160,
+              "endOffset": 6,
+              "startLine": 160,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 160,
+              "endOffset": 54,
+              "startLine": 160,
+              "startOffset": 52
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 168,
+              "endOffset": 6,
+              "startLine": 168,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 171,
+              "endOffset": 10,
+              "startLine": 171,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 168,
+              "endOffset": 63,
+              "startLine": 168,
+              "startOffset": 61
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 186,
+              "endOffset": 6,
+              "startLine": 186,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 186,
+              "endOffset": 22,
+              "startLine": 186,
+              "startOffset": 20
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+3 (incl. 2 for nesting)",
+            "textRange": {
+              "endLine": 187,
+              "endOffset": 8,
+              "startLine": 187,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 199,
+              "endOffset": 13,
+              "startLine": 199,
+              "startOffset": 11
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 214,
+              "endOffset": 6,
+              "startLine": 214,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 217,
+              "endOffset": 6,
+              "startLine": 217,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 221,
+              "endOffset": 6,
+              "startLine": 221,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 221,
+              "endOffset": 35,
+              "startLine": 221,
+              "startOffset": 33
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 223,
+              "endOffset": 13,
+              "startLine": 223,
+              "startOffset": 11
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 229,
+              "endOffset": 6,
+              "startLine": 229,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 236,
+              "endOffset": 6,
+              "startLine": 236,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 242,
+              "endOffset": 6,
+              "startLine": 242,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 242,
+              "endOffset": 34,
+              "startLine": 242,
+              "startOffset": 32
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "5acd8ea64e6efaf906cf1b651923576e",
+    "key": "AX3f7g7H-7ukpNKlOUba",
+    "line": 142,
+    "message": "Refactor this function to reduce its Cognitive Complexity from 30 to the 15 allowed.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3776",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 142,
+      "endOffset": 39,
+      "startLine": 142,
+      "startOffset": 37
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-17T02:18:33-0400",
+    "debt": "20min",
+    "effort": "20min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 215,
+              "endOffset": 34,
+              "startLine": 215,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/main/index.js",
+            "msg": "Implicit return without value",
+            "textRange": {
+              "endLine": 226,
+              "endOffset": 3,
+              "startLine": 226,
+              "startOffset": 2
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "cd7b8b00d95e70e172baa5d297f736ab",
+    "key": "AX3f7g7H-7ukpNKlOUbk",
+    "line": 213,
+    "message": "Refactor this function to use \"return\" consistently.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3801",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "confusing"
+    ],
+    "textRange": {
+      "endLine": 213,
+      "endOffset": 24,
+      "startLine": 213,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/post-recording.js",
+    "creationDate": "2016-10-15T00:49:56-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "f3d65e0fa81b6bfb1ab750952915d4e0",
+    "key": "AX3f7g7T-7ukpNKlOUcA",
+    "line": 129,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 130,
+      "endOffset": 0,
+      "startLine": 129,
+      "startOffset": 36
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/post-recording.js",
+    "creationDate": "2016-10-15T00:49:56-0400",
+    "debt": "15min",
+    "effort": "15min",
+    "flows": [],
+    "hash": "2731a0e79bfa38299c7ec182ee213199",
+    "key": "AX3f7g7T-7ukpNKlOUcB",
+    "line": 139,
+    "message": "'keyCode' is deprecated.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1874",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cwe",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 139,
+      "endOffset": 21,
+      "startLine": 139,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/post-recording.js",
+    "creationDate": "2016-10-15T00:49:56-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "2731a0e79bfa38299c7ec182ee213199",
+    "key": "AX3f7g7T-7ukpNKlOUcC",
+    "line": 139,
+    "message": "No magic number: 27.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 139,
+      "endOffset": 28,
+      "startLine": 139,
+      "startOffset": 26
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-15T00:06:15-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "d8e463550acfc5a779b1a3a74bc6cbc0",
+    "key": "AX3f7g7H-7ukpNKlOUbu",
+    "line": 377,
+    "message": "Use null instead.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2138",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 377,
+      "endOffset": 33,
+      "startLine": 377,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-15T00:06:15-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "0f68c2e72c6efc3ad28bc4547ada7485",
+    "key": "AX3f7g7X-7ukpNKlOUcY",
+    "line": 238,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 239,
+      "endOffset": 0,
+      "startLine": 238,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-14T19:14:39-0400",
+    "debt": "2h4min",
+    "effort": "2h4min",
+    "flows": [],
+    "key": "AX3f7g6y-7ukpNKlOUaE",
+    "message": "62 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-14T19:14:39-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g6y-7ukpNKlOUaF",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-14T19:14:39-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f7g6y-7ukpNKlOUag",
+    "line": 107,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 108,
+      "endOffset": 0,
+      "startLine": 107,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/scripts/mp4-to-gif.js",
+    "creationDate": "2016-10-14T18:17:54-0400",
+    "debt": "32min",
+    "effort": "32min",
+    "flows": [],
+    "key": "AX3f7g7i-7ukpNKlOUc7",
+    "message": "16 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/scripts/mp4-to-gif.js",
+    "creationDate": "2016-10-14T18:17:54-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g7i-7ukpNKlOUc8",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/scripts/mp4-to-gif.js",
+    "creationDate": "2016-10-14T18:17:54-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "585426c0a6ea0dff3dcecbd3d2545542",
+    "key": "AX3f7g7i-7ukpNKlOUc9",
+    "line": 12,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 62,
+      "endOffset": 1,
+      "startLine": 12,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/scripts/mp4-to-gif.js",
+    "creationDate": "2016-10-14T18:17:54-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "0c7aa035c340a5c5a206b8d4d7f34384",
+    "key": "AX3f7g7i-7ukpNKlOUc_",
+    "line": 33,
+    "message": "Ternary operator used.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 33,
+      "endOffset": 44,
+      "startLine": 33,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/scripts/mp4-to-gif.js",
+    "creationDate": "2016-10-14T18:17:54-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "0c7aa035c340a5c5a206b8d4d7f34384",
+    "key": "AX3f7g7i-7ukpNKlOUdA",
+    "line": 33,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 33,
+      "endOffset": 78,
+      "startLine": 33,
+      "startOffset": 48
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-14T04:20:54-0400",
+    "debt": "0min",
+    "effort": "0min",
+    "flows": [],
+    "hash": "f4931ec6b1bf651a7d8e72f64e00171a",
+    "key": "AX3f7g7X-7ukpNKlOUcn",
+    "line": 438,
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1135",
+    "scope": "MAIN",
+    "severity": "INFO",
+    "status": "OPEN",
+    "tags": [
+      "cwe"
+    ],
+    "textRange": {
+      "endLine": 438,
+      "endOffset": 11,
+      "startLine": 438,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/post-recording.js",
+    "creationDate": "2016-10-14T04:20:54-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "e48b981fb62db33b98a27fc6cf8bf40a",
+    "key": "AX3f7g7T-7ukpNKlOUcD",
+    "line": 150,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 151,
+      "endOffset": 0,
+      "startLine": 150,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/scripts/mp4-to-gif.js",
+    "creationDate": "2016-10-14T04:20:54-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/scripts/mp4-to-gif.js",
+            "textRange": {
+              "endLine": 48,
+              "endOffset": 56,
+              "startLine": 48,
+              "startOffset": 44
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "13a05862fa46d1d704503fd180db8261",
+    "key": "AX3f7g7i-7ukpNKlOUdE",
+    "line": 48,
+    "message": "Convert the operands of this operation into numbers.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3760",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "confusing"
+    ],
+    "textRange": {
+      "endLine": 48,
+      "endOffset": 73,
+      "startLine": 48,
+      "startOffset": 44
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/scripts/mp4-to-gif.js",
+    "creationDate": "2016-10-14T04:20:54-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "13a05862fa46d1d704503fd180db8261",
+    "key": "AX3f7g7i-7ukpNKlOUdF",
+    "line": 48,
+    "message": "No magic number: 100.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 48,
+      "endOffset": 79,
+      "startLine": 48,
+      "startOffset": 76
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/post-recording.js",
+    "creationDate": "2016-10-14T03:16:46-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "fca67ff64ac65ec7a2fee016e33d68ed",
+    "key": "AX3f7g7T-7ukpNKlOUb6",
+    "line": 58,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 59,
+      "endOffset": 0,
+      "startLine": 58,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/post-recording.js",
+    "creationDate": "2016-10-14T03:16:46-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "16c67fd151e9030c0adfcb2e643c6f5a",
+    "key": "AX3f7g7T-7ukpNKlOUb7",
+    "line": 73,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 73,
+      "endOffset": 108,
+      "startLine": 73,
+      "startOffset": 69
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/post-recording.js",
+    "creationDate": "2016-10-14T03:16:46-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "fca67ff64ac65ec7a2fee016e33d68ed",
+    "key": "AX3f7g7T-7ukpNKlOUb8",
+    "line": 82,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 83,
+      "endOffset": 0,
+      "startLine": 82,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/post-recording.js",
+    "creationDate": "2016-10-14T03:16:46-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3f209c29676cc21a197d3fab2011296e",
+    "key": "AX3f7g7T-7ukpNKlOUb9",
+    "line": 97,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 97,
+      "endOffset": 109,
+      "startLine": 97,
+      "startOffset": 70
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/input-utils.js",
+    "creationDate": "2016-10-14T03:12:29-0400",
+    "debt": "16min",
+    "effort": "16min",
+    "flows": [],
+    "key": "AX3f7g7b-7ukpNKlOUco",
+    "message": "8 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/input-utils.js",
+    "creationDate": "2016-10-14T03:12:29-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g7b-7ukpNKlOUcp",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/input-utils.js",
+    "creationDate": "2016-10-14T03:12:29-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "35a57d34f9506cc6f7fd8dbce09982cf",
+    "key": "AX3f7g7b-7ukpNKlOUcq",
+    "line": 1,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 29,
+      "endOffset": 1,
+      "startLine": 1,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/input-utils.js",
+    "creationDate": "2016-10-14T03:12:29-0400",
+    "debt": "11min",
+    "effort": "11min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/renderer/js/input-utils.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 1,
+              "endOffset": 29,
+              "startLine": 1,
+              "startOffset": 9
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/renderer/js/input-utils.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 3,
+              "endOffset": 4,
+              "startLine": 3,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/renderer/js/input-utils.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 3,
+              "endOffset": 21,
+              "startLine": 3,
+              "startOffset": 19
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/renderer/js/input-utils.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 7,
+              "endOffset": 4,
+              "startLine": 7,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/renderer/js/input-utils.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 7,
+              "endOffset": 24,
+              "startLine": 7,
+              "startOffset": 22
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/renderer/js/input-utils.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 7,
+              "endOffset": 15,
+              "startLine": 7,
+              "startOffset": 13
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/renderer/js/input-utils.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 13,
+              "endOffset": 4,
+              "startLine": 13,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/renderer/js/input-utils.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 18,
+              "endOffset": 4,
+              "startLine": 18,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/renderer/js/input-utils.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 18,
+              "endOffset": 17,
+              "startLine": 18,
+              "startOffset": 15
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/renderer/js/input-utils.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 23,
+              "endOffset": 4,
+              "startLine": 23,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "Kap:app/src/renderer/js/input-utils.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 23,
+              "endOffset": 17,
+              "startLine": 23,
+              "startOffset": 15
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "35a57d34f9506cc6f7fd8dbce09982cf",
+    "key": "AX3f7g7b-7ukpNKlOUcr",
+    "line": 1,
+    "message": "Function has a complexity of 11 which is greater than 10 authorized.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1541",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 1,
+      "endOffset": 29,
+      "startLine": 1,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/input-utils.js",
+    "creationDate": "2016-10-14T03:12:29-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "8f0f6e64b6db9ad50409d712032ca4f0",
+    "key": "AX3f7g7b-7ukpNKlOUcs",
+    "line": 31,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 41,
+      "endOffset": 1,
+      "startLine": 31,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/input-utils.js",
+    "creationDate": "2016-10-14T03:12:29-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "938712157ebc14fe0105b4c3de898de1",
+    "key": "AX3f7g7b-7ukpNKlOUct",
+    "line": 32,
+    "message": "Ternary operator used.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 32,
+      "endOffset": 44,
+      "startLine": 32,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/input-utils.js",
+    "creationDate": "2016-10-14T03:12:29-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "938712157ebc14fe0105b4c3de898de1",
+    "key": "AX3f7g7b-7ukpNKlOUcu",
+    "line": 32,
+    "message": "No magic number: 10.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 32,
+      "endOffset": 40,
+      "startLine": 32,
+      "startOffset": 38
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/input-utils.js",
+    "creationDate": "2016-10-14T03:12:29-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "50ffbf75fcbe7e66975934918d7bfd9a",
+    "key": "AX3f7g7b-7ukpNKlOUcv",
+    "line": 34,
+    "message": "No magic number: 38.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 34,
+      "endOffset": 26,
+      "startLine": 34,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/input-utils.js",
+    "creationDate": "2016-10-14T03:12:29-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "90f1051f9fd66ffca3193e16a5177501",
+    "key": "AX3f7g7b-7ukpNKlOUcw",
+    "line": 37,
+    "message": "Add the missing \"else\" clause.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S126",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 37,
+      "endOffset": 11,
+      "startLine": 37,
+      "startOffset": 4
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/input-utils.js",
+    "creationDate": "2016-10-14T03:12:29-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "90f1051f9fd66ffca3193e16a5177501",
+    "key": "AX3f7g7b-7ukpNKlOUcx",
+    "line": 37,
+    "message": "No magic number: 40.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 37,
+      "endOffset": 33,
+      "startLine": 37,
+      "startOffset": 31
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-14T01:43:46-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "909e0a7dcb7e61bb36f44dec37516316",
+    "key": "AX3f7g7H-7ukpNKlOUbt",
+    "line": 376,
+    "message": "Use null instead.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2138",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 376,
+      "endOffset": 29,
+      "startLine": 376,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-14T01:43:46-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "1042ecc0cbacb575cbcd92bdb8e28b45",
+    "key": "AX3f7g7X-7ukpNKlOUcU",
+    "line": 177,
+    "message": "Remove this commented out code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S125",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "unused"
+    ],
+    "textRange": {
+      "endLine": 196,
+      "endOffset": 28,
+      "startLine": 177,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-14T01:43:46-0400",
+    "debt": "0min",
+    "effort": "0min",
+    "flows": [],
+    "hash": "91db1041114e8324f11c92b01d44d7e5",
+    "key": "AX3f7g7X-7ukpNKlOUcV",
+    "line": 196,
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1135",
+    "scope": "MAIN",
+    "severity": "INFO",
+    "status": "OPEN",
+    "tags": [
+      "cwe"
+    ],
+    "textRange": {
+      "endLine": 196,
+      "endOffset": 22,
+      "startLine": 196,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/post-recording.js",
+    "creationDate": "2016-10-14T01:43:46-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "2a13e5470ac7787c8e7ad9bf4717a540",
+    "key": "AX3f7g7T-7ukpNKlOUb5",
+    "line": 39,
+    "message": "Use null instead.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2138",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 39,
+      "endOffset": 33,
+      "startLine": 39,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/post-recording.js",
+    "creationDate": "2016-10-14T01:43:46-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "4c2bda7ee0bbd8b8c3388bae9b92d907",
+    "key": "AX3f7g7T-7ukpNKlOUb-",
+    "line": 103,
+    "message": "No magic number: 15.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 103,
+      "endOffset": 12,
+      "startLine": 103,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/post-recording.js",
+    "creationDate": "2016-10-14T01:43:46-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "f35c3fb6b6b86b7f1094d3d0964d5038",
+    "key": "AX3f7g7T-7ukpNKlOUb_",
+    "line": 109,
+    "message": "No magic number: 30.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 109,
+      "endOffset": 12,
+      "startLine": 109,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-13T14:43:39-0400",
+    "debt": "0min",
+    "effort": "0min",
+    "flows": [],
+    "hash": "b1fe17a07cf5fb89adda7b7301cb3d26",
+    "key": "AX3f7g7H-7ukpNKlOUbp",
+    "line": 337,
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1135",
+    "scope": "MAIN",
+    "severity": "INFO",
+    "status": "OPEN",
+    "tags": [
+      "cwe"
+    ],
+    "textRange": {
+      "endLine": 337,
+      "endOffset": 102,
+      "startLine": 337,
+      "startOffset": 98
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-13T14:43:39-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "515f98715cc929f1edcbc1cc13fb4877",
+    "key": "AX3f7g6y-7ukpNKlOUaH",
+    "line": 9,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 14,
+      "endOffset": 1,
+      "startLine": 9,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-13T14:43:39-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "b2c9589c573fcde05dbf4c451eb483a9",
+    "key": "AX3f7g6y-7ukpNKlOUaK",
+    "line": 25,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 26,
+      "endOffset": 0,
+      "startLine": 25,
+      "startOffset": 40
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-13T14:43:39-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "b2c9589c573fcde05dbf4c451eb483a9",
+    "key": "AX3f7g6y-7ukpNKlOUae",
+    "line": 97,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 98,
+      "endOffset": 0,
+      "startLine": 97,
+      "startOffset": 44
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-13T14:43:39-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "77094d02dfa3df23066b794bd2f25e28",
+    "key": "AX3f7g6y-7ukpNKlOUaf",
+    "line": 100,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 101,
+      "endOffset": 0,
+      "startLine": 100,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/auto-updater.js",
+    "creationDate": "2016-10-13T13:58:02-0400",
+    "debt": "26min",
+    "effort": "26min",
+    "flows": [],
+    "key": "AX3f7g7C-7ukpNKlOUa6",
+    "message": "13 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/auto-updater.js",
+    "creationDate": "2016-10-13T13:58:02-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g7C-7ukpNKlOUa7",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/auto-updater.js",
+    "creationDate": "2016-10-13T13:58:02-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "d775ae045548da8d024ea2457daa7bc2",
+    "key": "AX3f7g7C-7ukpNKlOUa8",
+    "line": 12,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 16,
+      "endOffset": 1,
+      "startLine": 12,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/auto-updater.js",
+    "creationDate": "2016-10-13T13:58:02-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "dbe15a32a8368373f123fbde37e564e0",
+    "key": "AX3f7g7C-7ukpNKlOUa9",
+    "line": 18,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 55,
+      "endOffset": 1,
+      "startLine": 18,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/auto-updater.js",
+    "creationDate": "2016-10-13T13:58:02-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "0cf28259a4b911c17d0c62fe726e4211",
+    "key": "AX3f7g7C-7ukpNKlOUa-",
+    "line": 28,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 28,
+      "endOffset": 82,
+      "startLine": 28,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/auto-updater.js",
+    "creationDate": "2016-10-13T13:58:02-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "35b529dbab1ddb14ad3d5209715c3adf",
+    "key": "AX3f7g7C-7ukpNKlOUa_",
+    "line": 34,
+    "message": "Use null instead.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2138",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 34,
+      "endOffset": 26,
+      "startLine": 34,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/auto-updater.js",
+    "creationDate": "2016-10-13T13:58:02-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "eec1b51f6dd4a3c23559910d52776f13",
+    "key": "AX3f7g7C-7ukpNKlOUbA",
+    "line": 48,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 48,
+      "endOffset": 80,
+      "startLine": 48,
+      "startOffset": 36
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-13T13:58:02-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "a6e32c444ffa874b77c7e9d736ae0069",
+    "key": "AX3f7g7X-7ukpNKlOUcj",
+    "line": 356,
+    "message": "Ternary operator used.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 356,
+      "endOffset": 61,
+      "startLine": 356,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-13T13:58:02-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "a0ea4b33d387eff9de1784e430be682c",
+    "key": "AX3f7g7X-7ukpNKlOUck",
+    "line": 357,
+    "message": "Ternary operator used.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 357,
+      "endOffset": 83,
+      "startLine": 357,
+      "startOffset": 52
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-13T13:58:02-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "76260a3e8cad6fac7850a14e1b0a3bae",
+    "key": "AX3f7g7X-7ukpNKlOUcl",
+    "line": 394,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 394,
+      "endOffset": 97,
+      "startLine": 394,
+      "startOffset": 75
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/common/logger.js",
+    "creationDate": "2016-10-12T12:19:15-0400",
+    "debt": "18min",
+    "effort": "18min",
+    "flows": [],
+    "key": "AX3f7g7q-7ukpNKlOUdK",
+    "message": "9 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/common/logger.js",
+    "creationDate": "2016-10-12T12:19:15-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g7q-7ukpNKlOUdL",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/common/logger.js",
+    "creationDate": "2016-10-12T12:19:15-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "6579f72b0ae4ca76a3cc601ec59b9a74",
+    "key": "AX3f7g7q-7ukpNKlOUdM",
+    "line": 5,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 17,
+      "endOffset": 1,
+      "startLine": 5,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/common/logger.js",
+    "creationDate": "2016-10-12T12:19:15-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "7755517bf5c36e8a10cf4079ad9b876b",
+    "key": "AX3f7g7q-7ukpNKlOUdN",
+    "line": 19,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 29,
+      "endOffset": 1,
+      "startLine": 19,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/common/logger.js",
+    "creationDate": "2016-10-12T12:19:15-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "f3a89b1775635b0feb9399a7185644d6",
+    "key": "AX3f7g7q-7ukpNKlOUdO",
+    "line": 20,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 20,
+      "endOffset": 51,
+      "startLine": 20,
+      "startOffset": 36
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/common/logger.js",
+    "creationDate": "2016-10-12T12:19:15-0400",
+    "debt": "10min",
+    "effort": "10min",
+    "flows": [],
+    "hash": "460b616cfe8e6488fa2ff90349bae09e",
+    "key": "AX3f7g7q-7ukpNKlOUdP",
+    "line": 27,
+    "message": "Unexpected console statement.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S106",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "bad-practice",
+      "owasp-a3",
+      "user-experience"
+    ],
+    "textRange": {
+      "endLine": 27,
+      "endOffset": 15,
+      "startLine": 27,
+      "startOffset": 4
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-12T12:19:15-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "781dd7560dbcf14d3dad8831be7b16e2",
+    "key": "AX3f7g7X-7ukpNKlOUcR",
+    "line": 134,
+    "message": "No magic number: 1000.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 134,
+      "endOffset": 65,
+      "startLine": 134,
+      "startOffset": 61
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-12T12:19:15-0400",
+    "debt": "10min",
+    "effort": "10min",
+    "flows": [],
+    "hash": "1f5188b8da42ba2f43c956e627abf1fc",
+    "key": "AX3f7g7X-7ukpNKlOUcm",
+    "line": 414,
+    "message": "Unexpected console statement.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S106",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "bad-practice",
+      "owasp-a3",
+      "user-experience"
+    ],
+    "textRange": {
+      "endLine": 414,
+      "endOffset": 52,
+      "startLine": 414,
+      "startOffset": 41
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/analytics.js",
+    "creationDate": "2016-10-11T23:34:19-0400",
+    "debt": "12min",
+    "effort": "12min",
+    "flows": [],
+    "key": "AX3f7g7L-7ukpNKlOUbv",
+    "message": "6 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/analytics.js",
+    "creationDate": "2016-10-11T23:34:19-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g7L-7ukpNKlOUbw",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/analytics.js",
+    "creationDate": "2016-10-11T23:34:19-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "22ff168b6386b644626a6a18ac6dd9e5",
+    "key": "AX3f7g7L-7ukpNKlOUbx",
+    "line": 4,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 4,
+      "endOffset": 19,
+      "startLine": 4,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/cropper.js",
+    "creationDate": "2016-10-11T23:34:19-0400",
+    "debt": "32min",
+    "effort": "32min",
+    "flows": [],
+    "key": "AX3f7g7e-7ukpNKlOUcy",
+    "message": "16 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/cropper.js",
+    "creationDate": "2016-10-11T23:34:19-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g7e-7ukpNKlOUcz",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:gulpfile.babel.js",
+    "creationDate": "2016-10-11T23:34:19-0400",
+    "debt": "30min",
+    "effort": "30min",
+    "flows": [],
+    "key": "AX3f7g7u-7ukpNKlOUdQ",
+    "message": "15 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:gulpfile.babel.js",
+    "creationDate": "2016-10-11T23:34:19-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g7u-7ukpNKlOUdR",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:gulpfile.babel.js",
+    "creationDate": "2016-10-11T21:25:59-0400",
+    "debt": "4min",
+    "effort": "4min",
+    "flows": [],
+    "hash": "6d65f7166e6e0ee5a265557638ff4322",
+    "key": "AX3f7g7u-7ukpNKlOUdS",
+    "line": 11,
+    "message": "Define a constant instead of duplicating this literal 3 times.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1192",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "design"
+    ],
+    "textRange": {
+      "endLine": 11,
+      "endOffset": 25,
+      "startLine": 11,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:gulpfile.babel.js",
+    "creationDate": "2016-10-11T21:25:59-0400",
+    "debt": "4min",
+    "effort": "4min",
+    "flows": [],
+    "hash": "19c119dd7d7cc82ee6d25cef1ce6bc37",
+    "key": "AX3f7g7u-7ukpNKlOUdT",
+    "line": 27,
+    "message": "Define a constant instead of duplicating this literal 3 times.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1192",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "design"
+    ],
+    "textRange": {
+      "endLine": 27,
+      "endOffset": 29,
+      "startLine": 27,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:gulpfile.babel.js",
+    "creationDate": "2016-10-11T21:25:59-0400",
+    "debt": "4min",
+    "effort": "4min",
+    "flows": [],
+    "hash": "607efacca60351f7bb1fadefd9336ef3",
+    "key": "AX3f7g7u-7ukpNKlOUdV",
+    "line": 37,
+    "message": "Define a constant instead of duplicating this literal 3 times.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1192",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "design"
+    ],
+    "textRange": {
+      "endLine": 37,
+      "endOffset": 27,
+      "startLine": 37,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/common/reporter.js",
+    "creationDate": "2016-10-11T14:49:57-0400",
+    "debt": "12min",
+    "effort": "12min",
+    "flows": [],
+    "key": "AX3f7g7m-7ukpNKlOUdG",
+    "message": "6 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/common/reporter.js",
+    "creationDate": "2016-10-11T14:49:57-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g7m-7ukpNKlOUdH",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/common/reporter.js",
+    "creationDate": "2016-10-11T14:49:57-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "74113b6af342c64d80c7db263dd578b2",
+    "key": "AX3f7g7m-7ukpNKlOUdI",
+    "line": 5,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 12,
+      "endOffset": 1,
+      "startLine": 5,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/scripts/mp4-to-gif.js",
+    "creationDate": "2016-10-11T02:22:52-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "8ece341e7113c203022fe286391db464",
+    "key": "AX3f7g7i-7ukpNKlOUdC",
+    "line": 45,
+    "message": "No magic number: 30.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 45,
+      "endOffset": 91,
+      "startLine": 45,
+      "startOffset": 89
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/scripts/mp4-to-gif.js",
+    "creationDate": "2016-10-11T02:22:52-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "8fe74c52c9a300ce86ef92c454996aac",
+    "key": "AX3f7g7i-7ukpNKlOUdD",
+    "line": 46,
+    "message": "Add the missing \"else\" clause.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S126",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 46,
+      "endOffset": 19,
+      "startLine": 46,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-10T23:10:20-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "4cbf7aa6909f5d9374654527e76d5082",
+    "key": "AX3f7g7H-7ukpNKlOUbq",
+    "line": 338,
+    "message": "Ternary operator used.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 338,
+      "endOffset": 121,
+      "startLine": 338,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-10T23:10:20-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "2c9885d2b0c7e26971f60a90f33cf718",
+    "key": "AX3f7g7H-7ukpNKlOUbr",
+    "line": 346,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 347,
+      "endOffset": 0,
+      "startLine": 346,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-10T23:10:20-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "b2a54076d54d6857a98689bb3da75d61",
+    "key": "AX3f7g7X-7ukpNKlOUcS",
+    "line": 153,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 153,
+      "endOffset": 65,
+      "startLine": 153,
+      "startOffset": 54
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-10T23:10:20-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cd246f37a0d181c0642f3caf2424d814",
+    "key": "AX3f7g7X-7ukpNKlOUcT",
+    "line": 154,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 154,
+      "endOffset": 62,
+      "startLine": 154,
+      "startOffset": 51
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/scripts/mp4-to-gif.js",
+    "creationDate": "2016-10-10T23:09:40-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "10481d40fc21c33794ccc9db5cdd4bb4",
+    "key": "AX3f7g7i-7ukpNKlOUc-",
+    "line": 22,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 23,
+      "endOffset": 0,
+      "startLine": 22,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/scripts/mp4-to-gif.js",
+    "creationDate": "2016-10-10T23:09:40-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "8c5b1cb6eb4c0d02a0fe14a291ba070d",
+    "key": "AX3f7g7i-7ukpNKlOUdB",
+    "line": 34,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 35,
+      "endOffset": 0,
+      "startLine": 34,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:gulpfile.babel.js",
+    "creationDate": "2016-10-10T23:09:40-0400",
+    "debt": "4min",
+    "effort": "4min",
+    "flows": [],
+    "hash": "ef3ee09799b963ca73216aef88d6fb06",
+    "key": "AX3f7g7u-7ukpNKlOUdU",
+    "line": 32,
+    "message": "Define a constant instead of duplicating this literal 3 times.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1192",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "design"
+    ],
+    "textRange": {
+      "endLine": 32,
+      "endOffset": 25,
+      "startLine": 32,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "36min",
+    "effort": "36min",
+    "flows": [],
+    "key": "AX3f7g7x-7ukpNKlOUdW",
+    "message": "18 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g7x-7ukpNKlOUdX",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "44f9b15d3b1641faca5561b190d8261a",
+    "key": "AX3f7g7x-7ukpNKlOUdY",
+    "line": 2,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 2,
+      "endOffset": 18,
+      "startLine": 2,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "key": "AX3f7g7x-7ukpNKlOUdZ",
+    "line": 3,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 3,
+      "endOffset": 20,
+      "startLine": 3,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "f4bc428909d2d3d8a3ee062b35578965",
+    "key": "AX3f7g7x-7ukpNKlOUda",
+    "line": 5,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 5,
+      "endOffset": 21,
+      "startLine": 5,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "cd579e11bc7a3e34468be7c4dc828db5",
+    "key": "AX3f7g7x-7ukpNKlOUdb",
+    "line": 6,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 6,
+      "endOffset": 21,
+      "startLine": 6,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "c0a6ec3a4e9a0102917e46a4e5d4c4d3",
+    "key": "AX3f7g7x-7ukpNKlOUdc",
+    "line": 7,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 7,
+      "endOffset": 19,
+      "startLine": 7,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "42954f14f617358ca41ede784bb7443a",
+    "key": "AX3f7g7x-7ukpNKlOUdd",
+    "line": 8,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 8,
+      "endOffset": 19,
+      "startLine": 8,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "10min",
+    "effort": "10min",
+    "flows": [],
+    "hash": "fcf6566e3cb6150f37f07014f2d90bc4",
+    "key": "AX3f7g7x-7ukpNKlOUde",
+    "line": 20,
+    "message": "Unexpected console statement.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S106",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "bad-practice",
+      "owasp-a3",
+      "user-experience"
+    ],
+    "textRange": {
+      "endLine": 20,
+      "endOffset": 15,
+      "startLine": 20,
+      "startOffset": 2
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "0min",
+    "effort": "0min",
+    "flows": [],
+    "hash": "74b82809c8b0695b1744225003062712",
+    "key": "AX3f7g7x-7ukpNKlOUdf",
+    "line": 28,
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1135",
+    "scope": "MAIN",
+    "severity": "INFO",
+    "status": "OPEN",
+    "tags": [
+      "cwe"
+    ],
+    "textRange": {
+      "endLine": 28,
+      "endOffset": 11,
+      "startLine": 28,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "727bf94cf0224f310ebcc56728eb7ea6",
+    "key": "AX3f7g7x-7ukpNKlOUdg",
+    "line": 42,
+    "message": "'err' is already declared in the upper scope.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1117",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall",
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 42,
+      "endOffset": 35,
+      "startLine": 42,
+      "startOffset": 32
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "27419fb9f73f6a0e972a01f9e801f9a0",
+    "key": "AX3f7g7x-7ukpNKlOUdh",
+    "line": 48,
+    "message": "'err' is already declared in the upper scope.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1117",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall",
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 48,
+      "endOffset": 22,
+      "startLine": 48,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "60444319a4bd40b7459f15ab04a3e2c1",
+    "key": "AX3f7g7x-7ukpNKlOUdi",
+    "line": 60,
+    "message": "No magic number: 100.0.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 60,
+      "endOffset": 54,
+      "startLine": 60,
+      "startOffset": 49
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:scripts/download-ffmpeg.js",
+    "creationDate": "2016-10-10T16:50:04-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "60444319a4bd40b7459f15ab04a3e2c1",
+    "key": "AX3f7g7x-7ukpNKlOUdj",
+    "line": 60,
+    "message": "No magic number: 2.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 60,
+      "endOffset": 94,
+      "startLine": 60,
+      "startOffset": 93
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "charles.hield@gmail.com",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-07T16:48:34-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "63a7e4e09f2592245f4f6c249d075ce6",
+    "key": "AX3f7g7H-7ukpNKlOUbG",
+    "line": 51,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 51,
+      "endOffset": 120,
+      "startLine": 51,
+      "startOffset": 102
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "charles.hield@gmail.com",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-07T15:14:34-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "77094d02dfa3df23066b794bd2f25e28",
+    "key": "AX3f7g6y-7ukpNKlOUaL",
+    "line": 28,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 29,
+      "endOffset": 0,
+      "startLine": 28,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-06T19:00:14-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "872866b0b642ebd2d9f47aecd1f519b6",
+    "key": "AX3f7g7H-7ukpNKlOUbE",
+    "line": 25,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 26,
+      "endOffset": 0,
+      "startLine": 25,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-05T15:59:47-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "8e43e95ed1f7104e561488ec8fef90d2",
+    "key": "AX3f7g7H-7ukpNKlOUbl",
+    "line": 219,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 219,
+      "endOffset": 106,
+      "startLine": 219,
+      "startOffset": 55
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "hello@timothy.is",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-05T14:00:59-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f7g6y-7ukpNKlOUac",
+    "line": 90,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 91,
+      "endOffset": 0,
+      "startLine": 90,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "hello@timothy.is",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-05T14:00:59-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "77094d02dfa3df23066b794bd2f25e28",
+    "key": "AX3f7g6y-7ukpNKlOUad",
+    "line": 93,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 94,
+      "endOffset": 0,
+      "startLine": 93,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "hello@timothy.is",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-05T14:00:59-0400",
+    "debt": "4min",
+    "effort": "4min",
+    "flows": [],
+    "hash": "63a734eaf1453b8dbae48bf014b26a14",
+    "key": "AX3f7g7X-7ukpNKlOUcO",
+    "line": 128,
+    "message": "Define a constant instead of duplicating this literal 5 times.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1192",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "design"
+    ],
+    "textRange": {
+      "endLine": 128,
+      "endOffset": 41,
+      "startLine": 128,
+      "startOffset": 29
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "hello@timothy.is",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-05T14:00:59-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "eff716799a67377128208e25fb3a71a2",
+    "key": "AX3f7g7X-7ukpNKlOUcP",
+    "line": 129,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 129,
+      "endOffset": 66,
+      "startLine": 129,
+      "startOffset": 55
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "hello@timothy.is",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-05T14:00:59-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "c16e0721fc26d7a8c84e628171125c8d",
+    "key": "AX3f7g7X-7ukpNKlOUcQ",
+    "line": 130,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 130,
+      "endOffset": 69,
+      "startLine": 130,
+      "startOffset": 58
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "hello@timothy.is",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-05T13:18:45-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f7g6y-7ukpNKlOUah",
+    "line": 108,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 109,
+      "endOffset": 0,
+      "startLine": 108,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "hello@timothy.is",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-05T13:18:45-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "0fbd1776e1ad22c59a7080d35c7fd4db",
+    "key": "AX3f7g6y-7ukpNKlOUai",
+    "line": 109,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 110,
+      "endOffset": 0,
+      "startLine": 109,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/cropper.js",
+    "creationDate": "2016-10-04T18:30:10-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "2c891ebf507fe6b26b717dcacee19443",
+    "key": "AX3f7g7e-7ukpNKlOUc0",
+    "line": 9,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 10,
+      "endOffset": 0,
+      "startLine": 9,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/cropper.js",
+    "creationDate": "2016-10-04T18:30:10-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "16dd916d9b005384bdfe8e099e0e20ad",
+    "key": "AX3f7g7e-7ukpNKlOUc1",
+    "line": 29,
+    "message": "Use null instead.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2138",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 29,
+      "endOffset": 27,
+      "startLine": 29,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/cropper.js",
+    "creationDate": "2016-10-04T18:30:10-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "35b529dbab1ddb14ad3d5209715c3adf",
+    "key": "AX3f7g7e-7ukpNKlOUc2",
+    "line": 34,
+    "message": "Use null instead.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2138",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 34,
+      "endOffset": 28,
+      "startLine": 34,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/cropper.js",
+    "creationDate": "2016-10-04T18:30:10-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "7ec69200681a6bad2f81fdf7a3f41d51",
+    "key": "AX3f7g7e-7ukpNKlOUc3",
+    "line": 45,
+    "message": "Ternary operator used.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 45,
+      "endOffset": 44,
+      "startLine": 45,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/cropper.js",
+    "creationDate": "2016-10-04T18:30:10-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "7ec69200681a6bad2f81fdf7a3f41d51",
+    "key": "AX3f7g7e-7ukpNKlOUc4",
+    "line": 45,
+    "message": "No magic number: 10.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 45,
+      "endOffset": 40,
+      "startLine": 45,
+      "startOffset": 38
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/cropper.js",
+    "creationDate": "2016-10-04T18:30:10-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "815c23b1817a7a236ec5885eadfaa172",
+    "key": "AX3f7g7e-7ukpNKlOUc5",
+    "line": 49,
+    "message": "No magic number: 50.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 49,
+      "endOffset": 68,
+      "startLine": 49,
+      "startOffset": 66
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/cropper.js",
+    "creationDate": "2016-10-04T18:30:10-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "984d1298c6b786244c8b67a60101275c",
+    "key": "AX3f7g7e-7ukpNKlOUc6",
+    "line": 50,
+    "message": "No magic number: 250.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 50,
+      "endOffset": 14,
+      "startLine": 50,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-04T06:52:45-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "bc4207ae5fe2130f9f504f6164ab277a",
+    "key": "AX3f7g6y-7ukpNKlOUaG",
+    "line": 6,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 7,
+      "endOffset": 0,
+      "startLine": 6,
+      "startOffset": 61
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-04T06:52:45-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "410fa1fd01d41adc026d0fe2082d3f84",
+    "key": "AX3f7g6y-7ukpNKlOUaR",
+    "line": 53,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 54,
+      "endOffset": 0,
+      "startLine": 53,
+      "startOffset": 73
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-04T06:52:45-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "2ca4ae46d6975c8cf621b14f19fa6ad0",
+    "key": "AX3f7g6y-7ukpNKlOUa1",
+    "line": 180,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 181,
+      "endOffset": 0,
+      "startLine": 180,
+      "startOffset": 60
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-04T06:52:45-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "410fa1fd01d41adc026d0fe2082d3f84",
+    "key": "AX3f7g6y-7ukpNKlOUa2",
+    "line": 184,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 185,
+      "endOffset": 0,
+      "startLine": 184,
+      "startOffset": 73
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-10-04T06:52:45-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "c09dc5bce9d6caf43676f2d1b4721154",
+    "key": "AX3f7g7X-7ukpNKlOUcG",
+    "line": 16,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 16,
+      "endOffset": 24,
+      "startLine": 16,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "75ec1e29d9582527024bfdda5e14973c",
+    "key": "AX3f7g7H-7ukpNKlOUbH",
+    "line": 60,
+    "message": "No magic number: 4.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 60,
+      "endOffset": 35,
+      "startLine": 60,
+      "startOffset": 34
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "75ec1e29d9582527024bfdda5e14973c",
+    "key": "AX3f7g7H-7ukpNKlOUbI",
+    "line": 60,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 60,
+      "endOffset": 79,
+      "startLine": 60,
+      "startOffset": 53
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "d1040e0aa5b354ea177a887a47a1d630",
+    "key": "AX3f7g6y-7ukpNKlOUaI",
+    "line": 18,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 19,
+      "endOffset": 0,
+      "startLine": 18,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "77094d02dfa3df23066b794bd2f25e28",
+    "key": "AX3f7g6y-7ukpNKlOUaJ",
+    "line": 21,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 22,
+      "endOffset": 0,
+      "startLine": 21,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "77094d02dfa3df23066b794bd2f25e28",
+    "key": "AX3f7g6y-7ukpNKlOUaM",
+    "line": 32,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 33,
+      "endOffset": 0,
+      "startLine": 32,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "740359ef81c3e7d8d3a3699d7e059d40",
+    "key": "AX3f7g6y-7ukpNKlOUaN",
+    "line": 36,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 37,
+      "endOffset": 0,
+      "startLine": 36,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f7g6y-7ukpNKlOUaO",
+    "line": 37,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 38,
+      "endOffset": 0,
+      "startLine": 37,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "d1040e0aa5b354ea177a887a47a1d630",
+    "key": "AX3f7g6y-7ukpNKlOUaP",
+    "line": 45,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 46,
+      "endOffset": 0,
+      "startLine": 45,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "77094d02dfa3df23066b794bd2f25e28",
+    "key": "AX3f7g6y-7ukpNKlOUaQ",
+    "line": 48,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 49,
+      "endOffset": 0,
+      "startLine": 48,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "77094d02dfa3df23066b794bd2f25e28",
+    "key": "AX3f7g6y-7ukpNKlOUaS",
+    "line": 56,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 57,
+      "endOffset": 0,
+      "startLine": 56,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "e0e2b630c0df8857ff007725990ce9a8",
+    "key": "AX3f7g6y-7ukpNKlOUaT",
+    "line": 60,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 61,
+      "endOffset": 0,
+      "startLine": 60,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "77094d02dfa3df23066b794bd2f25e28",
+    "key": "AX3f7g6y-7ukpNKlOUaU",
+    "line": 63,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 64,
+      "endOffset": 0,
+      "startLine": 63,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "391c361189b6c11ee0b9f630d7e7263c",
+    "key": "AX3f7g6y-7ukpNKlOUaV",
+    "line": 66,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 67,
+      "endOffset": 0,
+      "startLine": 66,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "db9996273d419fd4dc8464e2adf705bf",
+    "key": "AX3f7g6y-7ukpNKlOUaW",
+    "line": 69,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 70,
+      "endOffset": 0,
+      "startLine": 69,
+      "startOffset": 26
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "481be467b074d6a6109e83effa4b6958",
+    "key": "AX3f7g6y-7ukpNKlOUaX",
+    "line": 72,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 73,
+      "endOffset": 0,
+      "startLine": 72,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "77094d02dfa3df23066b794bd2f25e28",
+    "key": "AX3f7g6y-7ukpNKlOUaY",
+    "line": 75,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 76,
+      "endOffset": 0,
+      "startLine": 75,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "389bdd42b6abb604857fdb5aaf498d33",
+    "key": "AX3f7g6y-7ukpNKlOUaZ",
+    "line": 78,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 79,
+      "endOffset": 0,
+      "startLine": 78,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f7g6y-7ukpNKlOUaa",
+    "line": 79,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 80,
+      "endOffset": 0,
+      "startLine": 79,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "0fbd1776e1ad22c59a7080d35c7fd4db",
+    "key": "AX3f7g6y-7ukpNKlOUab",
+    "line": 80,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 81,
+      "endOffset": 0,
+      "startLine": 80,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "01ab7e313b819379b79c6eb08d2d1fd5",
+    "key": "AX3f7g6y-7ukpNKlOUaj",
+    "line": 115,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 116,
+      "endOffset": 0,
+      "startLine": 115,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "403b46cb394b899069c7fb5642c75ccc",
+    "key": "AX3f7g6y-7ukpNKlOUak",
+    "line": 118,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 119,
+      "endOffset": 0,
+      "startLine": 118,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "77094d02dfa3df23066b794bd2f25e28",
+    "key": "AX3f7g6y-7ukpNKlOUal",
+    "line": 121,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 122,
+      "endOffset": 0,
+      "startLine": 121,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "c2e9f8c0bd3126998a2738b020521684",
+    "key": "AX3f7g6y-7ukpNKlOUam",
+    "line": 124,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 125,
+      "endOffset": 0,
+      "startLine": 124,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "ee78b0316046e14128dba74bcf62973b",
+    "key": "AX3f7g6y-7ukpNKlOUan",
+    "line": 127,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 128,
+      "endOffset": 0,
+      "startLine": 127,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "f054c07a5d11f922331d5a24b46369c9",
+    "key": "AX3f7g6y-7ukpNKlOUao",
+    "line": 130,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 131,
+      "endOffset": 0,
+      "startLine": 130,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "a182ffd394c158decdd8b086b811de03",
+    "key": "AX3f7g6y-7ukpNKlOUap",
+    "line": 133,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 134,
+      "endOffset": 0,
+      "startLine": 133,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "ca97dd0a74d87092d6cd0e6591a94540",
+    "key": "AX3f7g6y-7ukpNKlOUaq",
+    "line": 136,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 137,
+      "endOffset": 0,
+      "startLine": 136,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f7g6y-7ukpNKlOUar",
+    "line": 137,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 138,
+      "endOffset": 0,
+      "startLine": 137,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "0fbd1776e1ad22c59a7080d35c7fd4db",
+    "key": "AX3f7g6y-7ukpNKlOUas",
+    "line": 138,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 139,
+      "endOffset": 0,
+      "startLine": 138,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f7g6y-7ukpNKlOUat",
+    "line": 150,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 151,
+      "endOffset": 0,
+      "startLine": 150,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "776b0ab99f601524b7c93f002853a9e2",
+    "key": "AX3f7g6y-7ukpNKlOUau",
+    "line": 154,
+    "message": "Ternary operator used.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 154,
+      "endOffset": 85,
+      "startLine": 154,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f7g6y-7ukpNKlOUav",
+    "line": 163,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 164,
+      "endOffset": 0,
+      "startLine": 163,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f7g6y-7ukpNKlOUaw",
+    "line": 164,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 165,
+      "endOffset": 0,
+      "startLine": 164,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "0fbd1776e1ad22c59a7080d35c7fd4db",
+    "key": "AX3f7g6y-7ukpNKlOUax",
+    "line": 165,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 166,
+      "endOffset": 0,
+      "startLine": 165,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "a7719bbc7ae1c9c9a5195896eeaa1147",
+    "key": "AX3f7g6y-7ukpNKlOUay",
+    "line": 171,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 172,
+      "endOffset": 0,
+      "startLine": 171,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f7g6y-7ukpNKlOUaz",
+    "line": 172,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 173,
+      "endOffset": 0,
+      "startLine": 172,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "0fbd1776e1ad22c59a7080d35c7fd4db",
+    "key": "AX3f7g6y-7ukpNKlOUa0",
+    "line": 173,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 174,
+      "endOffset": 0,
+      "startLine": 173,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f7g6y-7ukpNKlOUa3",
+    "line": 185,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 186,
+      "endOffset": 0,
+      "startLine": 185,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "0fbd1776e1ad22c59a7080d35c7fd4db",
+    "key": "AX3f7g6y-7ukpNKlOUa4",
+    "line": 186,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 187,
+      "endOffset": 0,
+      "startLine": 186,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/menus.js",
+    "creationDate": "2016-10-03T17:30:25-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f7g6y-7ukpNKlOUa5",
+    "line": 187,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 188,
+      "endOffset": 0,
+      "startLine": 187,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-03T12:06:51-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "8e43e95ed1f7104e561488ec8fef90d2",
+    "key": "AX3f7g7H-7ukpNKlOUbo",
+    "line": 248,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 248,
+      "endOffset": 104,
+      "startLine": 248,
+      "startOffset": 53
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/analytics.js",
+    "creationDate": "2016-10-03T11:43:01-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "74113b6af342c64d80c7db263dd578b2",
+    "key": "AX3f7g7M-7ukpNKlOUby",
+    "line": 10,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 18,
+      "endOffset": 1,
+      "startLine": 10,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/analytics.js",
+    "creationDate": "2016-10-03T11:43:01-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "9472532ff4ce0d529146bc22b9344588",
+    "key": "AX3f7g7M-7ukpNKlOUbz",
+    "line": 20,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 22,
+      "endOffset": 1,
+      "startLine": 20,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-02T23:14:11-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "89028a33f657701ab76c111ef8f9dbfe",
+    "key": "AX3f7g7H-7ukpNKlOUbM",
+    "line": 87,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 88,
+      "endOffset": 0,
+      "startLine": 87,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-02T22:28:36-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "970af1052c47093005edbc4a200d8af6",
+    "key": "AX3f7g7H-7ukpNKlOUbm",
+    "line": 223,
+    "message": "Add the missing \"else\" clause.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S126",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 223,
+      "endOffset": 13,
+      "startLine": 223,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-02T22:22:36-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "d36e6b487ebc5f24dbc878bfdfe18378",
+    "key": "AX3f7g7H-7ukpNKlOUbi",
+    "line": 202,
+    "message": "No magic number: 250.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 202,
+      "endOffset": 45,
+      "startLine": 202,
+      "startOffset": 42
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-10-02T22:22:36-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "bc2eb33c801f3d3e334560699af3b06f",
+    "key": "AX3f7g7H-7ukpNKlOUbn",
+    "line": 241,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 241,
+      "endOffset": 51,
+      "startLine": 241,
+      "startOffset": 29
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-30T18:21:24-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "7fb06be4b01a27f8922204ae64eb4f01",
+    "key": "AX3f7g7H-7ukpNKlOUbQ",
+    "line": 107,
+    "message": "'size' is already declared in the upper scope.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1117",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall",
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 107,
+      "endOffset": 16,
+      "startLine": 107,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-30T18:21:24-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "8bcdc22a6390c85406142608e3db78a6",
+    "key": "AX3f7g7X-7ukpNKlOUci",
+    "line": 349,
+    "message": "'size' is already declared in the upper scope.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1117",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall",
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 349,
+      "endOffset": 56,
+      "startLine": 349,
+      "startOffset": 52
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/disable-zoom.js",
+    "creationDate": "2016-09-30T14:53:07-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "key": "AX3f7g7P-7ukpNKlOUb0",
+    "message": "1 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/disable-zoom.js",
+    "creationDate": "2016-09-30T14:53:07-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f7g7P-7ukpNKlOUb1",
+    "message": "Add or update the header of this file.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/disable-zoom.js",
+    "creationDate": "2016-09-30T14:53:07-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "b7586da653c2464b4fcad23d9da74475",
+    "key": "AX3f7g7P-7ukpNKlOUb2",
+    "line": 1,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 1,
+      "endOffset": 7,
+      "startLine": 1,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-29T17:41:09-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "0c42af0d6e99e0fc78e09c57eb85421c",
+    "key": "AX3f7g7H-7ukpNKlOUbh",
+    "line": 199,
+    "message": "Add the missing \"else\" clause.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S126",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 199,
+      "endOffset": 13,
+      "startLine": 199,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-29T17:01:54-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "199a77334aff0a70796bf3ba65ccac03",
+    "key": "AX3f7g7H-7ukpNKlOUbj",
+    "line": 203,
+    "message": "No magic number: 100.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 203,
+      "endOffset": 51,
+      "startLine": 203,
+      "startOffset": 48
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/common/reporter.js",
+    "creationDate": "2016-09-29T13:34:05-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "bc8235de4376260ec6178b2af3c9a3f7",
+    "key": "AX3f7g7m-7ukpNKlOUdJ",
+    "line": 14,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 18,
+      "endOffset": 1,
+      "startLine": 14,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-28T01:50:52-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3857f9be9cd641cb3aa36875a8ed4fd3",
+    "key": "AX3f7g7H-7ukpNKlOUbZ",
+    "line": 135,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 135,
+      "endOffset": 85,
+      "startLine": 135,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-27T22:58:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "622401da475ac158508f74da515a1a6e",
+    "key": "AX3f7g7H-7ukpNKlOUbf",
+    "line": 186,
+    "message": "No magic number: 50.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 186,
+      "endOffset": 19,
+      "startLine": 186,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-27T22:58:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "622401da475ac158508f74da515a1a6e",
+    "key": "AX3f7g7H-7ukpNKlOUbg",
+    "line": 186,
+    "message": "No magic number: 50.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 186,
+      "endOffset": 34,
+      "startLine": 186,
+      "startOffset": 32
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-27T17:56:08-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "eff2dcb201046d01a93a8ee4e1bd99ce",
+    "key": "AX3f7g7H-7ukpNKlOUbV",
+    "line": 122,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 132,
+      "endOffset": 1,
+      "startLine": 122,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-27T17:56:08-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "a051f6f8c334f96c3c710c2dfa14783a",
+    "key": "AX3f7g7H-7ukpNKlOUbW",
+    "line": 127,
+    "message": "No magic number: 100.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 127,
+      "endOffset": 8,
+      "startLine": 127,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-27T17:56:08-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "d82bddcfc21d5392f311464550c9d606",
+    "key": "AX3f7g7H-7ukpNKlOUbX",
+    "line": 131,
+    "message": "No magic number: 110.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 131,
+      "endOffset": 8,
+      "startLine": 131,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-27T17:56:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "2c3ad23200b7efdc1bee879adead7fa6",
+    "key": "AX3f7g7H-7ukpNKlOUbb",
+    "line": 168,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 168,
+      "endOffset": 144,
+      "startLine": 168,
+      "startOffset": 120
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-27T17:56:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "2a28b52ae62d630bc756c731e6ab5ad8",
+    "key": "AX3f7g7H-7ukpNKlOUbc",
+    "line": 171,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 171,
+      "endOffset": 82,
+      "startLine": 171,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-27T17:56:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "b0b8f0379fa7ba212b96c4cdb8115fe4",
+    "key": "AX3f7g7H-7ukpNKlOUbd",
+    "line": 178,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 178,
+      "endOffset": 82,
+      "startLine": 178,
+      "startOffset": 32
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-27T17:56:08-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "d92e51af708b7bf28f28882b86141498",
+    "key": "AX3f7g7H-7ukpNKlOUbe",
+    "line": 183,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 184,
+      "endOffset": 0,
+      "startLine": 183,
+      "startOffset": 69
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-24T12:08:38-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "0cccc490eae7d3c39de7bdbd4c0978c0",
+    "key": "AX3f7g7X-7ukpNKlOUcX",
+    "line": 226,
+    "message": "Add the missing \"else\" clause.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S126",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 226,
+      "endOffset": 13,
+      "startLine": 226,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-23T16:12:14-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "55c1f43309efed17941f4d0d622c000b",
+    "key": "AX3f7g7X-7ukpNKlOUcZ",
+    "line": 265,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 266,
+      "endOffset": 0,
+      "startLine": 265,
+      "startOffset": 44
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-23T16:12:14-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "21cf782a1bc07c86c3365300ef58f03e",
+    "key": "AX3f7g7X-7ukpNKlOUch",
+    "line": 335,
+    "message": "No magic number: 2.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 335,
+      "endOffset": 27,
+      "startLine": 335,
+      "startOffset": 26
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-23T15:24:54-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "6ce1fe8191e1f5d6cb9c8f09f23b3f88",
+    "key": "AX3f7g7X-7ukpNKlOUcH",
+    "line": 18,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 22,
+      "endOffset": 1,
+      "startLine": 18,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-23T08:38:09-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "4d664a5ea6769db432a2668228f44dec",
+    "key": "AX3f7g7X-7ukpNKlOUcb",
+    "line": 293,
+    "message": "No magic number: 512.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 293,
+      "endOffset": 50,
+      "startLine": 293,
+      "startOffset": 47
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-23T08:38:09-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "4d664a5ea6769db432a2668228f44dec",
+    "key": "AX3f7g7X-7ukpNKlOUcc",
+    "line": 293,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 293,
+      "endOffset": 92,
+      "startLine": 293,
+      "startOffset": 53
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-23T08:38:09-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "4d664a5ea6769db432a2668228f44dec",
+    "key": "AX3f7g7X-7ukpNKlOUcf",
+    "line": 320,
+    "message": "No magic number: 512.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 320,
+      "endOffset": 50,
+      "startLine": 320,
+      "startOffset": 47
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-23T08:38:09-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "4d664a5ea6769db432a2668228f44dec",
+    "key": "AX3f7g7X-7ukpNKlOUcg",
+    "line": 320,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 320,
+      "endOffset": 92,
+      "startLine": 320,
+      "startOffset": 53
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-23T08:04:44-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "fca67ff64ac65ec7a2fee016e33d68ed",
+    "key": "AX3f7g7X-7ukpNKlOUca",
+    "line": 275,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 276,
+      "endOffset": 0,
+      "startLine": 275,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-23T08:04:44-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "fca67ff64ac65ec7a2fee016e33d68ed",
+    "key": "AX3f7g7X-7ukpNKlOUce",
+    "line": 302,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 303,
+      "endOffset": 0,
+      "startLine": 302,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-22T23:01:41-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "404fe6f95a487d40c71fe75dd7239ba2",
+    "key": "AX3f7g7X-7ukpNKlOUcd",
+    "line": 300,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 300,
+      "endOffset": 88,
+      "startLine": 300,
+      "startOffset": 44
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-22T21:37:48-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "df5d8fa56142021c30b56b0ec4ab161a",
+    "key": "AX3f7g7X-7ukpNKlOUcN",
+    "line": 125,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 126,
+      "endOffset": 0,
+      "startLine": 125,
+      "startOffset": 29
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-22T21:37:48-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "fb5de8edc560515fcf9e13f5d6a3289b",
+    "key": "AX3f7g7X-7ukpNKlOUcW",
+    "line": 220,
+    "message": "Missing trailing comma.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 221,
+      "endOffset": 0,
+      "startLine": 220,
+      "startOffset": 47
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-18T11:53:47-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "995afcc8cf1a3a5106a9007785ed4ab6",
+    "key": "AX3f7g7H-7ukpNKlOUbJ",
+    "line": 64,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 73,
+      "endOffset": 1,
+      "startLine": 64,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-16T23:47:25-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "31f5b794956b0c14ee584989682f1588",
+    "key": "AX3f7g7X-7ukpNKlOUcK",
+    "line": 74,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 74,
+      "endOffset": 35,
+      "startLine": 74,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-16T23:47:25-0400",
+    "debt": "0min",
+    "effort": "0min",
+    "flows": [],
+    "hash": "31f5b794956b0c14ee584989682f1588",
+    "key": "AX3f7g7X-7ukpNKlOUcL",
+    "line": 74,
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1135",
+    "scope": "MAIN",
+    "severity": "INFO",
+    "status": "OPEN",
+    "tags": [
+      "cwe"
+    ],
+    "textRange": {
+      "endLine": 74,
+      "endOffset": 17,
+      "startLine": 74,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-16T22:14:33-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "2ad440a4da25c7fa9e78f95aabac11b3",
+    "key": "AX3f7g7H-7ukpNKlOUbF",
+    "line": 44,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 44,
+      "endOffset": 73,
+      "startLine": 44,
+      "startOffset": 55
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-16T22:14:33-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "603a657be9dd319089efb0a90e43cf7c",
+    "key": "AX3f7g7H-7ukpNKlOUbK",
+    "line": 76,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 76,
+      "endOffset": 65,
+      "startLine": 76,
+      "startOffset": 35
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-16T22:14:33-0400",
+    "debt": "0min",
+    "effort": "0min",
+    "flows": [],
+    "hash": "603a657be9dd319089efb0a90e43cf7c",
+    "key": "AX3f7g7H-7ukpNKlOUbL",
+    "line": 76,
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1135",
+    "scope": "MAIN",
+    "severity": "INFO",
+    "status": "OPEN",
+    "tags": [
+      "cwe"
+    ],
+    "textRange": {
+      "endLine": 76,
+      "endOffset": 42,
+      "startLine": 76,
+      "startOffset": 38
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-16T22:14:33-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "89dc963e01dcd41dc1f014ab8d1990b0",
+    "key": "AX3f7g7H-7ukpNKlOUbR",
+    "line": 116,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 116,
+      "endOffset": 68,
+      "startLine": 116,
+      "startOffset": 38
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-16T22:14:33-0400",
+    "debt": "0min",
+    "effort": "0min",
+    "flows": [],
+    "hash": "89dc963e01dcd41dc1f014ab8d1990b0",
+    "key": "AX3f7g7H-7ukpNKlOUbS",
+    "line": 116,
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1135",
+    "scope": "MAIN",
+    "severity": "INFO",
+    "status": "OPEN",
+    "tags": [
+      "cwe"
+    ],
+    "textRange": {
+      "endLine": 116,
+      "endOffset": 45,
+      "startLine": 116,
+      "startOffset": 41
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-14T18:04:16-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "c44371c5b21cb5583020ceb89c193c8c",
+    "key": "AX3f7g7H-7ukpNKlOUbN",
+    "line": 90,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 90,
+      "endOffset": 86,
+      "startLine": 90,
+      "startOffset": 47
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-14T18:04:16-0400",
+    "debt": "0min",
+    "effort": "0min",
+    "flows": [],
+    "hash": "c44371c5b21cb5583020ceb89c193c8c",
+    "key": "AX3f7g7H-7ukpNKlOUbO",
+    "line": 90,
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1135",
+    "scope": "MAIN",
+    "severity": "INFO",
+    "status": "OPEN",
+    "tags": [
+      "cwe"
+    ],
+    "textRange": {
+      "endLine": 90,
+      "endOffset": 54,
+      "startLine": 90,
+      "startOffset": 50
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-14T18:04:16-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "5bbf8e0987828861de01b844a35c6ec7",
+    "key": "AX3f7g7H-7ukpNKlOUbP",
+    "line": 102,
+    "message": "Use null instead.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2138",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 102,
+      "endOffset": 31,
+      "startLine": 102,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-14T18:04:16-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "11aa1ffb2e62106664157c72dd5f2a21",
+    "key": "AX3f7g7H-7ukpNKlOUbT",
+    "line": 118,
+    "message": "Expected comment to be above code.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 118,
+      "endOffset": 56,
+      "startLine": 118,
+      "startOffset": 27
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-14T18:04:16-0400",
+    "debt": "0min",
+    "effort": "0min",
+    "flows": [],
+    "hash": "11aa1ffb2e62106664157c72dd5f2a21",
+    "key": "AX3f7g7H-7ukpNKlOUbU",
+    "line": 118,
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1135",
+    "scope": "MAIN",
+    "severity": "INFO",
+    "status": "OPEN",
+    "tags": [
+      "cwe"
+    ],
+    "textRange": {
+      "endLine": 118,
+      "endOffset": 34,
+      "startLine": 118,
+      "startOffset": 30
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-03T01:58:42-0400",
+    "debt": "0min",
+    "effort": "0min",
+    "flows": [],
+    "hash": "8a70d5937d1803fc044871f67cdf2fbf",
+    "key": "AX3f7g7X-7ukpNKlOUcJ",
+    "line": 64,
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1135",
+    "scope": "MAIN",
+    "severity": "INFO",
+    "status": "OPEN",
+    "tags": [
+      "cwe"
+    ],
+    "textRange": {
+      "endLine": 64,
+      "endOffset": 13,
+      "startLine": 64,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-03T01:58:42-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "0cef508eb8e13a0ba8c5800dd57f13c6",
+    "key": "AX3f7g7X-7ukpNKlOUcM",
+    "line": 76,
+    "message": "No magic number: 500.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 76,
+      "endOffset": 10,
+      "startLine": 76,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/renderer/js/index.js",
+    "creationDate": "2016-09-02T17:56:13-0400",
+    "debt": "20min",
+    "effort": "20min",
+    "flows": [],
+    "hash": "bf5429542336612ec83e8ecb6e3a4b78",
+    "key": "AX3f7g7X-7ukpNKlOUcI",
+    "line": 24,
+    "message": "This function has 317 lines, which is greater than the 200 lines authorized. Split it into smaller functions.",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S138",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 24,
+      "endOffset": 51,
+      "startLine": 24,
+      "startOffset": 49
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  },
+  {
+    "author": "github@matheus.top",
+    "component": "Kap:app/src/main/index.js",
+    "creationDate": "2016-09-02T17:52:48-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "20ef433043e9ba03bc27e8ef14781e01",
+    "key": "AX3f7g7H-7ukpNKlOUbD",
+    "line": 17,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "Kap",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 17,
+      "endOffset": 23,
+      "startLine": 17,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T21:17:30-0500"
+  }
+]

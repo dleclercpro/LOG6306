@@ -1,0 +1,1644 @@
+[
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard-action.js",
+    "creationDate": "2021-02-25T10:29:36-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3hdSb0-7ukpNKlaLhW",
+    "message": "Add or update the header of this file.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "renanmol87@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2021-02-16T17:01:13-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3hdSbt-7ukpNKlaLhG",
+    "message": "Add or update the header of this file.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "renanmol87@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2021-02-13T08:56:07-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "2799db8e51981a8642cb5075cb0af5da",
+    "key": "AX3hdSbt-7ukpNKlaLhH",
+    "line": 10,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 18,
+      "endOffset": 1,
+      "startLine": 10,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "renanmol87@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2021-02-13T08:56:07-0500",
+    "debt": "20min",
+    "effort": "20min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "clipboard.js:src/clipboard.js",
+            "msg": "Return without value",
+            "textRange": {
+              "endLine": 14,
+              "endOffset": 11,
+              "startLine": 14,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "clipboard.js:src/clipboard.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 17,
+              "endOffset": 41,
+              "startLine": 17,
+              "startOffset": 2
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "2799db8e51981a8642cb5075cb0af5da",
+    "key": "AX3hdSbt-7ukpNKlaLhI",
+    "line": 10,
+    "message": "Refactor this function to use \"return\" consistently.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3801",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "confusing"
+    ],
+    "textRange": {
+      "endLine": 10,
+      "endOffset": 26,
+      "startLine": 10,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "renanmol87@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2021-02-13T08:56:07-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "clipboard.js:src/clipboard.js",
+            "msg": "Move to either the beginning or end",
+            "textRange": {
+              "endLine": 80,
+              "endOffset": 13,
+              "startLine": 80,
+              "startOffset": 6
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "2292ae7a641e3192416a84c9838a3c9f",
+    "key": "AX3hdSbt-7ukpNKlaLhO",
+    "line": 75,
+    "message": "Group all shorthand properties at either the beginning or end of this object declaration.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3499",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 75,
+      "endOffset": 48,
+      "startLine": 75,
+      "startOffset": 47
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:karma.conf.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "20min",
+    "effort": "20min",
+    "flows": [],
+    "key": "AX3hdSbE-7ukpNKlaLgr",
+    "message": "10 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:karma.conf.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3hdSbE-7ukpNKlaLgs",
+    "message": "Add or update the header of this file.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:karma.conf.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "9a837d598d995d9ab41aa0413de9d592",
+    "key": "AX3hdSbE-7ukpNKlaLgt",
+    "line": 1,
+    "message": "Unexpected var, use let or const instead.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3504",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "bad-practice",
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 1,
+      "endOffset": 51,
+      "startLine": 1,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:karma.conf.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "9a837d598d995d9ab41aa0413de9d592",
+    "key": "AX3hdSbE-7ukpNKlaLgu",
+    "line": 1,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 1,
+      "endOffset": 27,
+      "startLine": 1,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:karma.conf.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "59c91a8d167b7c6a6b89d2222dc60883",
+    "key": "AX3hdSbE-7ukpNKlaLgv",
+    "line": 10,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 10,
+      "endOffset": 30,
+      "startLine": 10,
+      "startOffset": 29
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:karma.conf.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "00fa81d8d1a4d12c8d7a887a9e4f8982",
+    "key": "AX3hdSbE-7ukpNKlaLgw",
+    "line": 17,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 17,
+      "endOffset": 50,
+      "startLine": 17,
+      "startOffset": 49
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:karma.conf.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "af48a56d71da36110c142d51a432014d",
+    "key": "AX3hdSbE-7ukpNKlaLgx",
+    "line": 22,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 22,
+      "endOffset": 34,
+      "startLine": 22,
+      "startOffset": 33
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:karma.conf.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "370f064a2bfc9ac14e59a14928903b17",
+    "key": "AX3hdSbE-7ukpNKlaLgz",
+    "line": 31,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 31,
+      "endOffset": 27,
+      "startLine": 31,
+      "startOffset": 26
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:karma.conf.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "f5dba3729dfa6490b04688cf235de195",
+    "key": "AX3hdSbE-7ukpNKlaLg0",
+    "line": 34,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 34,
+      "endOffset": 33,
+      "startLine": 34,
+      "startOffset": 32
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:package.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "6min",
+    "effort": "6min",
+    "flows": [],
+    "key": "AX3hdSb4-7ukpNKlaLhg",
+    "message": "3 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:package.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3hdSb4-7ukpNKlaLhh",
+    "message": "Add or update the header of this file.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:package.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "f252c132d81a2f7bd5cc8c556e9c73ba",
+    "key": "AX3hdSb4-7ukpNKlaLhi",
+    "line": 7,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 7,
+      "endOffset": 51,
+      "startLine": 7,
+      "startOffset": 50
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard-action.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "284b88183a14bd093bc3605f10e7e732",
+    "key": "AX3hdSb0-7ukpNKlaLhY",
+    "line": 58,
+    "message": "Ternary operator used.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 58,
+      "endOffset": 48,
+      "startLine": 58,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard-action.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "5c7f681a6a231c1269edc2ac5bbaefed",
+    "key": "AX3hdSb0-7ukpNKlaLhc",
+    "line": 136,
+    "message": "Ternary operator used.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 136,
+      "endOffset": 53,
+      "startLine": 136,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "091acdec2b206393f85dc893695b1d65",
+    "key": "AX3hdSbt-7ukpNKlaLhJ",
+    "line": 43,
+    "message": "Ternary operator used.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 45,
+      "endOffset": 28,
+      "startLine": 43,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "9d13d4061a3535c5e57fe400003e3e53",
+    "key": "AX3hdSbt-7ukpNKlaLhK",
+    "line": 47,
+    "message": "Ternary operator used.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 49,
+      "endOffset": 28,
+      "startLine": 47,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "9bb32a22262ba5c8f93288bdff4f4c7b",
+    "key": "AX3hdSbt-7ukpNKlaLhL",
+    "line": 51,
+    "message": "Ternary operator used.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 51,
+      "endOffset": 74,
+      "startLine": 51,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "f2a0aab2b11dc9f33418a83eb2690d23",
+    "key": "AX3hdSbt-7ukpNKlaLhM",
+    "line": 53,
+    "message": "Ternary operator used.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 53,
+      "endOffset": 79,
+      "startLine": 53,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "96227c01dc5d6d421095db0653d369c2",
+    "key": "AX3hdSbt-7ukpNKlaLhN",
+    "line": 61,
+    "message": "Remove parentheses around the parameter of this arrow function.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3524",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 61,
+      "endOffset": 47,
+      "startLine": 61,
+      "startOffset": 46
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "cb5553edd0b71691f2fcbbc51a4f9c57",
+    "key": "AX3hdSbt-7ukpNKlaLhR",
+    "line": 111,
+    "message": "Ternary operator used.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 111,
+      "endOffset": 66,
+      "startLine": 111,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "28min",
+    "effort": "28min",
+    "flows": [],
+    "key": "AX3hdSbn-7ukpNKlaLg1",
+    "message": "14 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3hdSbn-7ukpNKlaLg2",
+    "message": "Add or update the header of this file.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "1632cf85570f5b8513bb82880b0de38c",
+    "key": "AX3hdSbn-7ukpNKlaLg3",
+    "line": 1,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 1,
+      "endOffset": 19,
+      "startLine": 1,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "85968f5b9f570a82c65709eacc211a09",
+    "key": "AX3hdSbn-7ukpNKlaLg4",
+    "line": 2,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 2,
+      "endOffset": 20,
+      "startLine": 2,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "f7950f454107be5143e843de4f9aebc0",
+    "key": "AX3hdSbn-7ukpNKlaLg5",
+    "line": 3,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 3,
+      "endOffset": 23,
+      "startLine": 3,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "428631632a7f95928a1d9239056cd816",
+    "key": "AX3hdSbn-7ukpNKlaLg6",
+    "line": 4,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 4,
+      "endOffset": 30,
+      "startLine": 4,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "5c9605fc79758866400c22af6b7bc669",
+    "key": "AX3hdSbn-7ukpNKlaLg7",
+    "line": 17,
+    "message": "Ternary operator used.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 17,
+      "endOffset": 62,
+      "startLine": 17,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "bf1c53c4b586b48a5e37ddfa09920434",
+    "key": "AX3hdSbn-7ukpNKlaLg8",
+    "line": 22,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 22,
+      "endOffset": 25,
+      "startLine": 22,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "d8b29b418974717d88a7eed57039572f",
+    "key": "AX3hdSbn-7ukpNKlaLg9",
+    "line": 25,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 25,
+      "endOffset": 80,
+      "startLine": 25,
+      "startOffset": 79
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "25fea0eaab988809e016f17dfd7a7945",
+    "key": "AX3hdSbn-7ukpNKlaLg-",
+    "line": 31,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 31,
+      "endOffset": 25,
+      "startLine": 31,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "6282b3cb0779529241d78b24dddbcf9b",
+    "key": "AX3hdSbn-7ukpNKlaLg_",
+    "line": 38,
+    "message": "Expected '===' and instead saw '=='.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1440",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 38,
+      "endOffset": 21,
+      "startLine": 38,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-21T05:45:33-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "6282b3cb0779529241d78b24dddbcf9b",
+    "key": "AX3hdSbn-7ukpNKlaLhA",
+    "line": 38,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 38,
+      "endOffset": 58,
+      "startLine": 38,
+      "startOffset": 57
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:karma.conf.js",
+    "creationDate": "2021-01-20T10:55:03-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "86afe2b1b8dc47034fdb3ae5da4e040f",
+    "key": "AX3hdSbE-7ukpNKlaLgy",
+    "line": 27,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 27,
+      "endOffset": 37,
+      "startLine": 27,
+      "startOffset": 36
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard-action.js",
+    "creationDate": "2021-01-20T10:55:03-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "b6d4e72f7c96ae414122ba91403cb3e3",
+    "key": "AX3hdSb0-7ukpNKlaLhX",
+    "line": 38,
+    "message": "Add the missing \"else\" clause.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S126",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 38,
+      "endOffset": 13,
+      "startLine": 38,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard-action.js",
+    "creationDate": "2021-01-20T10:55:03-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3c1e45e61787a410ccbe3df309eaac36",
+    "key": "AX3hdSb0-7ukpNKlaLhd",
+    "line": 140,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 140,
+      "endOffset": 53,
+      "startLine": 140,
+      "startOffset": 52
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard-action.js",
+    "creationDate": "2021-01-20T10:55:03-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "1058bea2868433cd44e5c82e71384743",
+    "key": "AX3hdSb0-7ukpNKlaLhe",
+    "line": 185,
+    "message": "Missing trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 186,
+      "endOffset": 0,
+      "startLine": 185,
+      "startOffset": 95
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard-action.js",
+    "creationDate": "2021-01-20T10:55:03-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "9fd7062321d827259f0ebb8a379c34d6",
+    "key": "AX3hdSb0-7ukpNKlaLhf",
+    "line": 194,
+    "message": "Missing trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 195,
+      "endOffset": 0,
+      "startLine": 194,
+      "startOffset": 116
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2021-01-20T10:55:03-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "feec20ec8818bd1ef21fbbac665c3d06",
+    "key": "AX3hdSbt-7ukpNKlaLhP",
+    "line": 81,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 81,
+      "endOffset": 20,
+      "startLine": 81,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-20T10:55:03-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "5da387c9fdb0478682680d993d33c611",
+    "key": "AX3hdSbn-7ukpNKlaLhC",
+    "line": 40,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 40,
+      "endOffset": 10,
+      "startLine": 40,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-20T10:55:03-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "0e1c9795d91fc938f2eb62f6cc29d7aa",
+    "key": "AX3hdSbn-7ukpNKlaLhD",
+    "line": 41,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 41,
+      "endOffset": 9,
+      "startLine": 41,
+      "startOffset": 8
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-20T10:55:03-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "ef72067c3fb049c09804a1a05af92d8b",
+    "key": "AX3hdSbn-7ukpNKlaLhE",
+    "line": 42,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 42,
+      "endOffset": 6,
+      "startLine": 42,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "vitor.maia.alencar@gmail.com",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2021-01-20T10:55:03-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "e326f6e6c99ce675c28156cb095f2aa1",
+    "key": "AX3hdSbn-7ukpNKlaLhF",
+    "line": 44,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 44,
+      "endOffset": 50,
+      "startLine": 44,
+      "startOffset": 49
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "zno.rocha@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2020-03-05T01:24:24-0500",
+    "debt": "15min",
+    "effort": "15min",
+    "flows": [],
+    "hash": "6558956c27c45a38e32f3ca403f27a91",
+    "key": "AX3hdSbt-7ukpNKlaLhS",
+    "line": 112,
+    "message": "'queryCommandSupported' is deprecated.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1874",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cwe",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 112,
+      "endOffset": 50,
+      "startLine": 112,
+      "startOffset": 29
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "zno.rocha@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2020-03-05T01:24:24-0500",
+    "debt": "15min",
+    "effort": "15min",
+    "flows": [],
+    "hash": "674d42703e94c24d9bf4f6c781304046",
+    "key": "AX3hdSbt-7ukpNKlaLhV",
+    "line": 115,
+    "message": "'queryCommandSupported' is deprecated.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1874",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cwe",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 115,
+      "endOffset": 59,
+      "startLine": 115,
+      "startOffset": 38
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "sam@rafdel.co",
+    "component": "clipboard.js:webpack.config.js",
+    "creationDate": "2018-11-11T11:17:25-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "5da387c9fdb0478682680d993d33c611",
+    "key": "AX3hdSbn-7ukpNKlaLhB",
+    "line": 39,
+    "message": "Unexpected trailing comma.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1537",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser"
+    ],
+    "textRange": {
+      "endLine": 39,
+      "endOffset": 12,
+      "startLine": 39,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "itaisteinherz@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2017-02-08T02:36:29-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "4bf06a797b558f4c23dd45f7bc17fa5b",
+    "key": "AX3hdSbt-7ukpNKlaLhT",
+    "line": 114,
+    "message": "Remove parentheses around the parameter of this arrow function.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3524",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 114,
+      "endOffset": 27,
+      "startLine": 114,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "itaisteinherz@gmail.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2017-02-08T02:36:29-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "4bf06a797b558f4c23dd45f7bc17fa5b",
+    "key": "AX3hdSbt-7ukpNKlaLhU",
+    "line": 114,
+    "message": "'action' is already declared in the upper scope.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1117",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall",
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 114,
+      "endOffset": 27,
+      "startLine": 114,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "zno.rocha@gmail.com",
+    "component": "clipboard.js:src/clipboard-action.js",
+    "creationDate": "2016-10-16T21:53:34-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbf74a01aa19b8fb3e0f8f07e7dcf61c",
+    "key": "AX3hdSb0-7ukpNKlaLhZ",
+    "line": 60,
+    "message": "'yPosition' is never reassigned. Use 'const' instead.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3353",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 60,
+      "endOffset": 17,
+      "startLine": 60,
+      "startOffset": 8
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "zno.rocha@gmail.com",
+    "component": "clipboard.js:src/clipboard-action.js",
+    "creationDate": "2016-10-16T21:53:34-0400",
+    "debt": "15min",
+    "effort": "15min",
+    "flows": [],
+    "hash": "cbf74a01aa19b8fb3e0f8f07e7dcf61c",
+    "key": "AX3hdSb0-7ukpNKlaLha",
+    "line": 60,
+    "message": "'pageYOffset' is deprecated. This is a legacy alias of `scrollY`.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1874",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cwe",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 60,
+      "endOffset": 38,
+      "startLine": 60,
+      "startOffset": 27
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "hi@zenorocha.com",
+    "component": "clipboard.js:src/clipboard.js",
+    "creationDate": "2015-10-03T19:25:20-0400",
+    "debt": "20min",
+    "effort": "20min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "clipboard.js:src/clipboard.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 101,
+              "endOffset": 46,
+              "startLine": 101,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "clipboard.js:src/clipboard.js",
+            "msg": "Implicit return without value",
+            "textRange": {
+              "endLine": 103,
+              "endOffset": 3,
+              "startLine": 103,
+              "startOffset": 2
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "1a5c9441ec892eb04c9698207379a906",
+    "key": "AX3hdSbt-7ukpNKlaLhQ",
+    "line": 97,
+    "message": "Refactor this function to use \"return\" consistently.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3801",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "confusing"
+    ],
+    "textRange": {
+      "endLine": 97,
+      "endOffset": 15,
+      "startLine": 97,
+      "startOffset": 2
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  },
+  {
+    "author": "hi@zenorocha.com",
+    "component": "clipboard.js:src/clipboard-action.js",
+    "creationDate": "2015-09-24T18:11:11-0400",
+    "debt": "15min",
+    "effort": "15min",
+    "flows": [],
+    "hash": "1e1de0225929e100f113fad4ea8cabeb",
+    "key": "AX3hdSb0-7ukpNKlaLhb",
+    "line": 123,
+    "message": "'execCommand' is deprecated.",
+    "project": "clipboard.js",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1874",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "cwe",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 123,
+      "endOffset": 38,
+      "startLine": 123,
+      "startOffset": 27
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T04:24:41-0500"
+  }
+]

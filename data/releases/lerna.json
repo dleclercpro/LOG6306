@@ -1,0 +1,434 @@
+[
+  {
+    "commit_hash": "267795c95c2c6df8e18eb4ae810b4185b67ddcdf",
+    "name": "v1.0.0"
+  },
+  {
+    "commit_hash": "b3af4d78b52055460a08206e0e4cabc895075944",
+    "name": "v1.0.1"
+  },
+  {
+    "commit_hash": "25f7059fba97a02710e26fbbdc5532306cb1ca4f",
+    "name": "v1.0.2"
+  },
+  {
+    "commit_hash": "9466b8df81fb8ab097a5a81f777daca8610088c3",
+    "name": "v1.0.3"
+  },
+  {
+    "commit_hash": "29455d77ee11c013475b24f9f5e6e727792bfdd3",
+    "name": "v1.0.4"
+  },
+  {
+    "commit_hash": "aea615b9e43e782905c06067fe9f8f977fd40133",
+    "name": "v1.0.5"
+  },
+  {
+    "commit_hash": "5a74fd3524f298fd1ac168a6813dca7801963a77",
+    "name": "v1.1.0"
+  },
+  {
+    "commit_hash": "e4939a588399d13ff07a4c07b02384325e8258aa",
+    "name": "v1.1.1"
+  },
+  {
+    "commit_hash": "5c242788f79de869ddde9a02f39faa8df54d975b",
+    "name": "v1.1.2"
+  },
+  {
+    "commit_hash": "4f4e99f59f8ae78d089b71b2b5350a3ab07d8242",
+    "name": "v2.0.0"
+  },
+  {
+    "commit_hash": "6e0d0042cefc46216e1cab53ebf928937a3cab1d",
+    "name": "v2.1.0"
+  },
+  {
+    "commit_hash": "f2664cc6573211842299d7aa49300753bff14267",
+    "name": "v2.1.1"
+  },
+  {
+    "commit_hash": "4d64a2813ff0c35fd46ed745bbca1833e5cb86f0",
+    "name": "v2.1.2"
+  },
+  {
+    "commit_hash": "54761ba26f8cb6d50d16a4c920d1a9594c19d6e9",
+    "name": "v2.2.0"
+  },
+  {
+    "commit_hash": "89602db83471dfe184b390b5ab34ff6575608986",
+    "name": "v2.3.0"
+  },
+  {
+    "commit_hash": "3c64dbd7c78693677164ba2d0c46ea16b80a9341",
+    "name": "v2.3.1"
+  },
+  {
+    "commit_hash": "5239a843be19e42092e6dbc3fbaa8e2143f150d5",
+    "name": "v2.4.0"
+  },
+  {
+    "commit_hash": "a38c2fea3d77a4de4b30e5bea67c4b026eb7c254",
+    "name": "v2.5.0"
+  },
+  {
+    "commit_hash": "4f95be87ff9179a8f370982b963cf3d0be925332",
+    "name": "v2.5.1"
+  },
+  {
+    "commit_hash": "7b40d33a1a1ad3554993b6ece4c390b83ea6fab1",
+    "name": "v2.6.0"
+  },
+  {
+    "commit_hash": "c13c8b90ce54271176cde6175c5fc51d7247cf68",
+    "name": "v2.7.0"
+  },
+  {
+    "commit_hash": "effcf63690ae0f87eb908c167e7963af89783a6e",
+    "name": "v2.7.1"
+  },
+  {
+    "commit_hash": "e6f124d3c3851d45700befbcad69609fc4c5647c",
+    "name": "v2.7.2"
+  },
+  {
+    "commit_hash": "9842e9a7b92756ddb9b2b1f300606005681a92f2",
+    "name": "v2.8.0"
+  },
+  {
+    "commit_hash": "f785f6dba6dbf6354588d1939d49262e98a42019",
+    "name": "v2.9.0"
+  },
+  {
+    "commit_hash": "002de4037a8c85d4c9341d5305449dde4514edf2",
+    "name": "v2.9.1"
+  },
+  {
+    "commit_hash": "906d666aaad97a8dd373f799443b17e7f7f08a06",
+    "name": "v2.10.0"
+  },
+  {
+    "commit_hash": "cf2ff922bf2b3a27585cc9ea117f2da65e972cfc",
+    "name": "v2.10.1"
+  },
+  {
+    "commit_hash": "681577b9ea3f87633f45bad7c906b33416244f2d",
+    "name": "v2.10.2"
+  },
+  {
+    "commit_hash": "5d73717230ab31bf5496a5b3e4c67370eda95d23",
+    "name": "v2.11.0"
+  },
+  {
+    "commit_hash": "0c40a17a7cd4e9acd8e7ec33ffacd1c1acef5dc6",
+    "name": "v3.0.0"
+  },
+  {
+    "commit_hash": "bf530b88bae6202421776d21478ea5c6ff83505c",
+    "name": "v3.0.1"
+  },
+  {
+    "commit_hash": "784d64e7dbd1275175bc080d148656916e2f5d76",
+    "name": "v3.0.2"
+  },
+  {
+    "commit_hash": "0dea7f4ce7cc226acf7ffca27a39a960d1975499",
+    "name": "v3.0.3"
+  },
+  {
+    "commit_hash": "eea9c5f5cbb3c831350af080b8b71b4fad8df91f",
+    "name": "v3.0.4"
+  },
+  {
+    "commit_hash": "882b52eb4eec60f161c77feb0bb175efea0f2909",
+    "name": "v3.0.5"
+  },
+  {
+    "commit_hash": "f2e67db8dbd6966288d7b351604a7a554ba905fa",
+    "name": "v3.0.6"
+  },
+  {
+    "commit_hash": "7f97c7bca038c690e2dd5d897e222fb5bca0a5e8",
+    "name": "v3.1.0"
+  },
+  {
+    "commit_hash": "2760306a68183fcaffa4a0e4d786ce4e46956f62",
+    "name": "v3.1.1"
+  },
+  {
+    "commit_hash": "6abc0c95ae6fc6e613e74618d86a060ae218938c",
+    "name": "v3.1.2"
+  },
+  {
+    "commit_hash": "a656a0136d7d5d8b8bb709e2da2b8b2582036fe7",
+    "name": "v3.1.3"
+  },
+  {
+    "commit_hash": "37ef5f2ebd4fd207ee74a4fe8838323acb882435",
+    "name": "v3.1.4"
+  },
+  {
+    "commit_hash": "02a2380b8f18c3579960032091643b9d12fd41e5",
+    "name": "v3.2.0"
+  },
+  {
+    "commit_hash": "da1763cbd07e73ece563061a9086b9205063ffc3",
+    "name": "v3.2.1"
+  },
+  {
+    "commit_hash": "901e6d54a47151dfed3d6ed2912804b97d05c6b5",
+    "name": "v3.3.0"
+  },
+  {
+    "commit_hash": "5da13190852897ac37349a28a0b24470ec7bd833",
+    "name": "v3.3.1"
+  },
+  {
+    "commit_hash": "96e1c0086244da05af5602e56cbd790662b0b40a",
+    "name": "v3.3.2"
+  },
+  {
+    "commit_hash": "cd5a8fa6b92b25de60ffd0386a9768a158c9eb93",
+    "name": "v3.4.0"
+  },
+  {
+    "commit_hash": "05a27a6d579fdc962f0e0588585b9fb7d0a453b7",
+    "name": "v3.4.1"
+  },
+  {
+    "commit_hash": "6afcde79c49b192de09c36e3817753193fe4023c",
+    "name": "v3.4.2"
+  },
+  {
+    "commit_hash": "aa4ae510b9c0a0935f0b1989859ba873a1e864cc",
+    "name": "v3.4.3"
+  },
+  {
+    "commit_hash": "1c142db1ecb50120f0ddce8ff8a7d9cde1bee278",
+    "name": "v3.5.0"
+  },
+  {
+    "commit_hash": "6107c9a18c2f4080e416fe38b6779d4efb70b240",
+    "name": "v3.5.1"
+  },
+  {
+    "commit_hash": "8cc3196014f6fe8c9b41477b975c527d017a3daf",
+    "name": "v3.6.0"
+  },
+  {
+    "commit_hash": "89b53ff2b561e69fad3a3e8671d7dcd0f1c09c3e",
+    "name": "v3.7.0"
+  },
+  {
+    "commit_hash": "284aa4747dad26977790d6730ab2f640eb099cb4",
+    "name": "v3.7.1"
+  },
+  {
+    "commit_hash": "52796f674ad3f2642270e942e96443437c54ff72",
+    "name": "v3.7.2"
+  },
+  {
+    "commit_hash": "da5057feb45d3c444fc5b3c209d9ec6f3b5f6d78",
+    "name": "v3.8.0"
+  },
+  {
+    "commit_hash": "00a372e194e23674fc0b7e94cc0f5ee799a13036",
+    "name": "v3.8.1"
+  },
+  {
+    "commit_hash": "25da088856170d0a84bee356af9ffa8b3df0978b",
+    "name": "v3.8.2"
+  },
+  {
+    "commit_hash": "4300a0704c6fd2722ec4b0ee54371f0d4ef8a823",
+    "name": "v3.8.3"
+  },
+  {
+    "commit_hash": "c7fa58029f7e0f057ed89b29caae36bc28e48f73",
+    "name": "v3.8.4"
+  },
+  {
+    "commit_hash": "9f5c824b2f15119c10003dcc709f3ca0da99a5fe",
+    "name": "v3.8.5"
+  },
+  {
+    "commit_hash": "1c1ac155323499ba175d7f7e33c2e3f42a57a2f2",
+    "name": "v3.9.0"
+  },
+  {
+    "commit_hash": "c2b606c4c890d8942eda6000048e0b480254d00f",
+    "name": "v3.9.1"
+  },
+  {
+    "commit_hash": "ea8ffa7eb7f63cadc8534332ac3e19f6214ea6da",
+    "name": "v3.10.0"
+  },
+  {
+    "commit_hash": "d13e9016c79f4244f84100993aecae3edba957d6",
+    "name": "v3.10.1"
+  },
+  {
+    "commit_hash": "2580e729406edd6cba1c08791a157266b647b352",
+    "name": "v3.10.2"
+  },
+  {
+    "commit_hash": "a059afd39e7d872b02ef8325486be1377b6e247f",
+    "name": "v3.10.3"
+  },
+  {
+    "commit_hash": "d9ac62c8dc6225b4571e233c286f4c6f60f54a98",
+    "name": "v3.10.4"
+  },
+  {
+    "commit_hash": "713f72d1d5bd358147bb50df65b203b43a4667f8",
+    "name": "v3.10.5"
+  },
+  {
+    "commit_hash": "5a7392e59e6ae5ee8aea10467ffb4b12f3b1e3d1",
+    "name": "v3.10.6"
+  },
+  {
+    "commit_hash": "b16451a2ed8b8535af6b3cb47289e3c4f6a1563f",
+    "name": "v3.10.7"
+  },
+  {
+    "commit_hash": "aaa182565606a93a6e03ea23ec2c702041c7ca0d",
+    "name": "v3.10.8"
+  },
+  {
+    "commit_hash": "45a05acf2d52a46f553fc1efadf9a32312aca82b",
+    "name": "v3.11.0"
+  },
+  {
+    "commit_hash": "5c1b84c699d80dbd8c5cce009aae8b82569e32a8",
+    "name": "v3.11.1"
+  },
+  {
+    "commit_hash": "e2cc514e55a4b520258769a80648b42c45eea9f4",
+    "name": "v3.12.0"
+  },
+  {
+    "commit_hash": "ad49245ec5fe586a0906b67e5b12bfebd041dffa",
+    "name": "v3.12.1"
+  },
+  {
+    "commit_hash": "9a47201f3fdd1df09cfb1922f26329d1dc4c8cc5",
+    "name": "v3.13.0"
+  },
+  {
+    "commit_hash": "514bc57a53232adb90a2bb4b03e1c08d709997ea",
+    "name": "v3.13.1"
+  },
+  {
+    "commit_hash": "462e72a5be61441e276ff6c34e498d2cf318c584",
+    "name": "v3.13.2"
+  },
+  {
+    "commit_hash": "1496beb6278b001074d970bdd5869bb1f958d998",
+    "name": "v3.13.3"
+  },
+  {
+    "commit_hash": "e32da087a1ef2097206dda0d25a499098093a163",
+    "name": "v3.13.4"
+  },
+  {
+    "commit_hash": "39da145c67ea587457694f318f32f967b9d66ea9",
+    "name": "v3.14.0"
+  },
+  {
+    "commit_hash": "d87a67bf2beb1ac9558e0c1adfd47d937f5240f3",
+    "name": "v3.14.1"
+  },
+  {
+    "commit_hash": "b22345b9870f62f1125e109fcc47d2e4260b9d09",
+    "name": "v3.14.2"
+  },
+  {
+    "commit_hash": "457d1e8a62f5caf0679973ae8bad564d7752ffd2",
+    "name": "v3.15.0"
+  },
+  {
+    "commit_hash": "8ca18bedecf4f141c6242a099086e84b2ced72de",
+    "name": "v3.16.0"
+  },
+  {
+    "commit_hash": "6770ceee0282d1a7c2dfda67c0458eff9632a583",
+    "name": "v3.16.1"
+  },
+  {
+    "commit_hash": "d4b1a0e48d1ff241fafa268dbe57256e10f2cdc8",
+    "name": "v3.16.2"
+  },
+  {
+    "commit_hash": "c19a306ed816579de2f8920ee8456d6b34fee802",
+    "name": "v3.16.3"
+  },
+  {
+    "commit_hash": "bb048cb306b5cfcb039aa98f667cf3751cf0ad20",
+    "name": "v3.16.4"
+  },
+  {
+    "commit_hash": "f0574092a2db90142b3a27ec1a4941cddbdcdf62",
+    "name": "v3.16.5"
+  },
+  {
+    "commit_hash": "bffa7f228fd5acd240dfea8d3e757040dbe4ca1b",
+    "name": "v3.17.0"
+  },
+  {
+    "commit_hash": "0ea8fb136f408fb4de3fd39bb7069d976235d53d",
+    "name": "v3.18.0"
+  },
+  {
+    "commit_hash": "79e70380ed840e543d6f1e04bee9a0127871a821",
+    "name": "v3.18.1"
+  },
+  {
+    "commit_hash": "4872459be7bf88e5900ff907b07279e9516d333c",
+    "name": "v3.18.2"
+  },
+  {
+    "commit_hash": "e7ef2a75ac98af07aed33cbd6f65f8514a45f8f5",
+    "name": "v3.18.3"
+  },
+  {
+    "commit_hash": "eeacb92a4878ed8002f95359dc6d0b8ec14df12e",
+    "name": "v3.18.4"
+  },
+  {
+    "commit_hash": "2612f51e7eecec58eacf0571724e6989e4b8e42d",
+    "name": "v3.18.5"
+  },
+  {
+    "commit_hash": "ea6ec639560ce71d9df8cbd7eef2d416e71f5442",
+    "name": "v3.19.0"
+  },
+  {
+    "commit_hash": "b90f4d3618b2327716840aa2a2619497c793c8aa",
+    "name": "v3.20.0"
+  },
+  {
+    "commit_hash": "4e5abe16b3d8f5b430fe30d66b946402ee679016",
+    "name": "v3.20.1"
+  },
+  {
+    "commit_hash": "6c4ee5294002c0e464f557b149516017eccf2a07",
+    "name": "v3.20.2"
+  },
+  {
+    "commit_hash": "3367257cabe1540a3b9468acbfa0d01ba391077d",
+    "name": "v3.21.0"
+  },
+  {
+    "commit_hash": "0d45bd5f850aa42d54fe7eb61ba46a4249e1eb94",
+    "name": "v3.22.0"
+  },
+  {
+    "commit_hash": "f6e7a13e60fefc523d701efddfcf0ed41a77749b",
+    "name": "v3.22.1"
+  },
+  {
+    "commit_hash": "4582c476e07dddddd6b2e3ab6e7f52c1f9eed59a",
+    "name": "v4.0.0"
+  }
+]

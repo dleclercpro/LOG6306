@@ -1,0 +1,86 @@
+[
+  {
+    "commit_hash": "e642284b3d9959e11d19bec07e49c3b67682ee0d",
+    "name": "release-0.41"
+  },
+  {
+    "commit_hash": "f9fcb884f6787e3b98c6fdce17d24790ca2a6746",
+    "name": "release-0.42"
+  },
+  {
+    "commit_hash": "287868769d3149390b682bb52c5e3e95adc08981",
+    "name": "release-0.43"
+  },
+  {
+    "commit_hash": "6d2d33d80bc5f0bc216f47e9a16507526d19443f",
+    "name": "release-0.44"
+  },
+  {
+    "commit_hash": "3f2eb90a4044645ed36dd35cf7fb600b14bee93c",
+    "name": "release-1.0"
+  },
+  {
+    "commit_hash": "ea908cae55233d34f04b4f2cab5faf62ffa4fb42",
+    "name": "release-1.1"
+  },
+  {
+    "commit_hash": "8f82e2a9714ce3c4ce0e0c2303c639a11836f5c2",
+    "name": "release-1.2"
+  },
+  {
+    "commit_hash": "cd0a6aae5284ff37eca04c7b74b727b09a31852f",
+    "name": "release-1.3"
+  },
+  {
+    "commit_hash": "273804eb39162b0338689c76b8c02c96b57165ce",
+    "name": "release-1.4"
+  },
+  {
+    "commit_hash": "cf9cf46984290a7bdcd21e6b222c1040042d4d79",
+    "name": "release-1.5"
+  },
+  {
+    "commit_hash": "3df0ac6fa18b1ccfc34f6d234da2aa8c43643a93",
+    "name": "release-1.6"
+  },
+  {
+    "commit_hash": "b0a363b71822e16936f5cac4ddc93066e620853f",
+    "name": "release-1.7"
+  },
+  {
+    "commit_hash": "3af64fae4b8430318770375c0125fcc9eeda1e85",
+    "name": "release-1.8"
+  },
+  {
+    "commit_hash": "189f6d39abf1651454feabd8ed01d371eadf2628",
+    "name": "release-1.9"
+  },
+  {
+    "commit_hash": "024bee940ff91a7b169486f73f7479b93f8aa89c",
+    "name": "release-1.10"
+  },
+  {
+    "commit_hash": "86b5e2d4e3edcb62aae8a02ed8c550b56b639404",
+    "name": "release-1.11"
+  },
+  {
+    "commit_hash": "b8db07d7ea35545e7326085abfc2ac347c559d13",
+    "name": "release-1.12"
+  },
+  {
+    "commit_hash": "49d29a8bc3ac373c881152c4088bf3b3212b8393",
+    "name": "release-1.13"
+  },
+  {
+    "commit_hash": "329d08ffc3c2c97784146f991d65f1aaf840db40",
+    "name": "release-1.14"
+  },
+  {
+    "commit_hash": "959fed1359262bb4ab0db49855b0e3676b939667",
+    "name": "release-1.14.1"
+  },
+  {
+    "commit_hash": "f71f00acccb8d6b9659add49ac4e3ec93104058b",
+    "name": "release-1.14.2"
+  }
+]

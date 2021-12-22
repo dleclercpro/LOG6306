@@ -29,9 +29,6 @@ def process_projects(projects):
         # List project's valid JS/TS files
         p.list_valid_files()
 
-        # List project's smells
-        p.list_smells()
-
 
 
 def analyze_projects(projects):
@@ -42,6 +39,9 @@ def analyze_projects(projects):
 
         # Initialize project
         p.initialize()
+
+        # List project's smells
+        p.list_smells()
 
         # Keep project in memory
         p_s += [p]
@@ -99,7 +99,7 @@ def main():
     process_projects(projects)
 
     # Analyze every project
-    analyze_projects(projects)
+    #analyze_projects(projects)
 
 
 

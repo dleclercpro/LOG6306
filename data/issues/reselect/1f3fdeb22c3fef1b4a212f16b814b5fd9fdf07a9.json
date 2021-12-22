@@ -1,0 +1,1628 @@
+[
+  {
+    "author": "sharonrolel@gmail.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-11-10T21:51:30-0500",
+    "debt": "44min",
+    "effort": "44min",
+    "flows": [],
+    "key": "AX3f1wyr-7ukpNKlNM8s",
+    "message": "22 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "sharonrolel@gmail.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-11-10T21:51:30-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f1wys-7ukpNKlNM8t",
+    "message": "Add or update the header of this file.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "sharonrolel@gmail.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-11-10T21:51:30-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "3c0e658c494fe3f822473e9a5ffa3fc3",
+    "key": "AX3f1wys-7ukpNKlNM9F",
+    "line": 52,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 87,
+      "endOffset": 1,
+      "startLine": 52,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "jim.hall.dev@gmail.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-05-04T10:59:34-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "0f8f1c27fddeab973d6c9aa35e7f5503",
+    "key": "AX3f1wys-7ukpNKlNM9U",
+    "line": 81,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 82,
+      "endOffset": 0,
+      "startLine": 81,
+      "startOffset": 36
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "jim.hall.dev@gmail.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-05-04T10:59:34-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "b475fd0992b445454241e288e05b4b4f",
+    "key": "AX3f1wys-7ukpNKlNM9V",
+    "line": 82,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 83,
+      "endOffset": 0,
+      "startLine": 82,
+      "startOffset": 40
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "3653b8b8550ad3765b002df1355e35eb",
+    "key": "AX3f1wys-7ukpNKlNM8w",
+    "line": 5,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 19,
+      "endOffset": 1,
+      "startLine": 5,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cce5c548033030aa19dc5971fbe20553",
+    "key": "AX3f1wys-7ukpNKlNM8x",
+    "line": 7,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 8,
+      "endOffset": 0,
+      "startLine": 7,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "4592c3175ef01f428545e552b3e9daef",
+    "key": "AX3f1wys-7ukpNKlNM8y",
+    "line": 11,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 12,
+      "endOffset": 0,
+      "startLine": 11,
+      "startOffset": 28
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cce5c548033030aa19dc5971fbe20553",
+    "key": "AX3f1wys-7ukpNKlNM8z",
+    "line": 14,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 15,
+      "endOffset": 0,
+      "startLine": 14,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "31e300b770a4b31dfcc61653fdcc9386",
+    "key": "AX3f1wys-7ukpNKlNM80",
+    "line": 18,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 19,
+      "endOffset": 0,
+      "startLine": 18,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "679cf92e2a7985449b44aa94f28106e0",
+    "key": "AX3f1wys-7ukpNKlNM81",
+    "line": 21,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 34,
+      "endOffset": 1,
+      "startLine": 21,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "213411e1a63203d0fc711154b4e00ce1",
+    "key": "AX3f1wys-7ukpNKlNM83",
+    "line": 23,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 24,
+      "endOffset": 0,
+      "startLine": 23,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "reselect:src/index.js",
+            "msg": "Replace this reference to \"arguments\".",
+            "textRange": {
+              "endLine": 28,
+              "endOffset": 45,
+              "startLine": 28,
+              "startOffset": 36
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "reselect:src/index.js",
+            "msg": "Replace this reference to \"arguments\".",
+            "textRange": {
+              "endLine": 31,
+              "endOffset": 24,
+              "startLine": 31,
+              "startOffset": 15
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "d63fd17c39d751f5ed9540911a55e7c6",
+    "key": "AX3f1wys-7ukpNKlNM84",
+    "line": 26,
+    "message": "Use the rest syntax to declare this function's arguments.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3513",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 26,
+      "endOffset": 70,
+      "startLine": 26,
+      "startOffset": 61
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "125474d5631b6dfc8cfac706ddf0a58d",
+    "key": "AX3f1wys-7ukpNKlNM85",
+    "line": 28,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 29,
+      "endOffset": 0,
+      "startLine": 28,
+      "startOffset": 46
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "726791cb89fb32daf32f93d74d6ecbe7",
+    "key": "AX3f1wys-7ukpNKlNM86",
+    "line": 31,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 32,
+      "endOffset": 0,
+      "startLine": 31,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "92b82a7353fd2629e711926652938ad0",
+    "key": "AX3f1wys-7ukpNKlNM89",
+    "line": 36,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 50,
+      "endOffset": 1,
+      "startLine": 36,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "4ef226a271180a7222414df0626d44f6",
+    "key": "AX3f1wys-7ukpNKlNM9J",
+    "line": 60,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 61,
+      "endOffset": 0,
+      "startLine": 60,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "10e879f414273deeafaf0572211ed9dc",
+    "key": "AX3f1wys-7ukpNKlNM9K",
+    "line": 62,
+    "message": "Use the rest syntax to declare this function's arguments.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3513",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 62,
+      "endOffset": 47,
+      "startLine": 62,
+      "startOffset": 38
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "10e879f414273deeafaf0572211ed9dc",
+    "key": "AX3f1wys-7ukpNKlNM9L",
+    "line": 62,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 63,
+      "endOffset": 0,
+      "startLine": 62,
+      "startOffset": 48
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "e6f449959110bc332d4aa008416c8f97",
+    "key": "AX3f1wys-7ukpNKlNM9O",
+    "line": 69,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 70,
+      "endOffset": 0,
+      "startLine": 69,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "f1580f620f5747b30abbf56f0eaad0fd",
+    "key": "AX3f1wys-7ukpNKlNM9P",
+    "line": 70,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 71,
+      "endOffset": 0,
+      "startLine": 70,
+      "startOffset": 40
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "d1ecd1d7ef840aa795f2ab2ae840ed08",
+    "key": "AX3f1wys-7ukpNKlNM9Q",
+    "line": 74,
+    "message": "Use the rest syntax to declare this function's arguments.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3513",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 74,
+      "endOffset": 57,
+      "startLine": 74,
+      "startOffset": 48
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "d1ecd1d7ef840aa795f2ab2ae840ed08",
+    "key": "AX3f1wys-7ukpNKlNM9R",
+    "line": 74,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 75,
+      "endOffset": 0,
+      "startLine": 74,
+      "startOffset": 59
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "19f655d12756635d3b549a4ce05bfcad",
+    "key": "AX3f1wys-7ukpNKlNM9S",
+    "line": 78,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 79,
+      "endOffset": 0,
+      "startLine": 78,
+      "startOffset": 51
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "fc1aae397872717a3ed364930cdab9fc",
+    "key": "AX3f1wys-7ukpNKlNM9T",
+    "line": 79,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 80,
+      "endOffset": 0,
+      "startLine": 79,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "57dd0a6fb8d745f467b8b80077713012",
+    "key": "AX3f1wys-7ukpNKlNM9b",
+    "line": 91,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 108,
+      "endOffset": 1,
+      "startLine": 91,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "ellbee@users.noreply.github.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2016-07-30T11:07:07-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "66a0a7a8cf0f22d63bf9b7cbdb78c915",
+    "key": "AX3f1wys-7ukpNKlNM9a",
+    "line": 89,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 90,
+      "endOffset": 0,
+      "startLine": 89,
+      "startOffset": 67
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "dhendler@draftkings.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2016-03-03T13:27:20-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "1ba045ef3b49196176fe01e229400e51",
+    "key": "AX3f1wys-7ukpNKlNM9W",
+    "line": 83,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 84,
+      "endOffset": 0,
+      "startLine": 83,
+      "startOffset": 50
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "dhendler@draftkings.com",
+    "component": "reselect:src/index.js",
+    "creationDate": "2016-03-03T13:27:20-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "7c09a64f373c6ba929343f879eba4ea1",
+    "key": "AX3f1wys-7ukpNKlNM9X",
+    "line": 84,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 85,
+      "endOffset": 0,
+      "startLine": 84,
+      "startOffset": 59
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "5f785516fcee0bf2e96aee84f972b95b",
+    "key": "AX3f1wys-7ukpNKlNM8u",
+    "line": 1,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 3,
+      "endOffset": 1,
+      "startLine": 1,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "445c92760a23107d5637214178a2b3fb",
+    "key": "AX3f1wys-7ukpNKlNM8v",
+    "line": 2,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 3,
+      "endOffset": 0,
+      "startLine": 2,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "b2c7100a3d1989883e9bc751d14c9311",
+    "key": "AX3f1wys-7ukpNKlNM82",
+    "line": 22,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 23,
+      "endOffset": 0,
+      "startLine": 22,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3ceab68451636c9a60d8e6d486da820f",
+    "key": "AX3f1wys-7ukpNKlNM87",
+    "line": 32,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 33,
+      "endOffset": 0,
+      "startLine": 32,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f1wys-7ukpNKlNM88",
+    "line": 33,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 34,
+      "endOffset": 0,
+      "startLine": 33,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "cc38b8221355c1455ba6730bbce88251",
+    "key": "AX3f1wys-7ukpNKlNM8-",
+    "line": 37,
+    "message": "Ternary operator used.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 37,
+      "endOffset": 65,
+      "startLine": 37,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cc38b8221355c1455ba6730bbce88251",
+    "key": "AX3f1wys-7ukpNKlNM8_",
+    "line": 37,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 38,
+      "endOffset": 0,
+      "startLine": 37,
+      "startOffset": 65
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "ef3417c3c0f74b025462082b51fac82e",
+    "key": "AX3f1wys-7ukpNKlNM9A",
+    "line": 41,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 42,
+      "endOffset": 0,
+      "startLine": 41,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "2faa446cc58c226cfda33ea7942d717f",
+    "key": "AX3f1wys-7ukpNKlNM9B",
+    "line": 42,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 43,
+      "endOffset": 0,
+      "startLine": 42,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "717c50ea0667cb61c2a522e294efff01",
+    "key": "AX3f1wys-7ukpNKlNM9C",
+    "line": 45,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 46,
+      "endOffset": 0,
+      "startLine": 45,
+      "startOffset": 66
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9371d7a2e3ae86a00aab4771e39d255d",
+    "key": "AX3f1wys-7ukpNKlNM9D",
+    "line": 46,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 47,
+      "endOffset": 0,
+      "startLine": 46,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "201a0d2f81dc5b82fb6797a38bbe38aa",
+    "key": "AX3f1wys-7ukpNKlNM9E",
+    "line": 49,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 50,
+      "endOffset": 0,
+      "startLine": 49,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "957ad4b3bbf6e97203e65e5a4fd4b468",
+    "key": "AX3f1wys-7ukpNKlNM9G",
+    "line": 54,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 55,
+      "endOffset": 0,
+      "startLine": 54,
+      "startOffset": 26
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3fdc8a56aef7bfe1d5cf6dfc2e1eeb44",
+    "key": "AX3f1wys-7ukpNKlNM9H",
+    "line": 55,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 56,
+      "endOffset": 0,
+      "startLine": 55,
+      "startOffset": 34
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "b5bbda1b15b68d5caa9cc93e63cc7db8",
+    "key": "AX3f1wys-7ukpNKlNM9I",
+    "line": 56,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 57,
+      "endOffset": 0,
+      "startLine": 56,
+      "startOffset": 47
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cae2cd1172e4fdf92544b34629d6b239",
+    "key": "AX3f1wys-7ukpNKlNM9M",
+    "line": 64,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 65,
+      "endOffset": 0,
+      "startLine": 64,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9371d7a2e3ae86a00aab4771e39d255d",
+    "key": "AX3f1wys-7ukpNKlNM9N",
+    "line": 65,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 66,
+      "endOffset": 0,
+      "startLine": 65,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "0667fb05844c00d9b179f0cb1f791ef2",
+    "key": "AX3f1wys-7ukpNKlNM9Y",
+    "line": 85,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 86,
+      "endOffset": 0,
+      "startLine": 85,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f1wys-7ukpNKlNM9Z",
+    "line": 86,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 87,
+      "endOffset": 0,
+      "startLine": 86,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "7c3e4a4a1d68811404134c2fdf3805cb",
+    "key": "AX3f1wys-7ukpNKlNM9c",
+    "line": 95,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 96,
+      "endOffset": 0,
+      "startLine": 95,
+      "startOffset": 81
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9371d7a2e3ae86a00aab4771e39d255d",
+    "key": "AX3f1wys-7ukpNKlNM9d",
+    "line": 96,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 97,
+      "endOffset": 0,
+      "startLine": 96,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3ce1d083ca31cfee618b6414a319949e",
+    "key": "AX3f1wys-7ukpNKlNM9e",
+    "line": 98,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 99,
+      "endOffset": 0,
+      "startLine": 98,
+      "startOffset": 43
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "f4ed31c528ea20c9d83ac0435e6aee15",
+    "key": "AX3f1wys-7ukpNKlNM9f",
+    "line": 103,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 104,
+      "endOffset": 0,
+      "startLine": 103,
+      "startOffset": 46
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9b4a56f77776dd8a1ec0b8278b31830e",
+    "key": "AX3f1wys-7ukpNKlNM9g",
+    "line": 104,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 105,
+      "endOffset": 0,
+      "startLine": 104,
+      "startOffset": 26
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "905cfff5fee41adb044cbbcc2e5c2322",
+    "key": "AX3f1wys-7ukpNKlNM9h",
+    "line": 105,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 106,
+      "endOffset": 0,
+      "startLine": 105,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f1wys-7ukpNKlNM9i",
+    "line": 106,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 107,
+      "endOffset": 0,
+      "startLine": 106,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.js",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9371d7a2e3ae86a00aab4771e39d255d",
+    "key": "AX3f1wys-7ukpNKlNM9j",
+    "line": 107,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 108,
+      "endOffset": 0,
+      "startLine": 107,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:52:23-0500"
+  }
+]

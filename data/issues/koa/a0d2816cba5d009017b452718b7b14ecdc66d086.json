@@ -1,0 +1,7050 @@
+[
+  {
+    "author": "fengmk2@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2019-09-28T00:49:57-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "d8f421483cef686ddc5ce592732e2bde",
+    "key": "AX3hVMJL-7ukpNKlZyX1",
+    "line": 22,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 22,
+      "endOffset": 25,
+      "startLine": 22,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2019-08-18T23:54:41-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "0065bd438145bb4d88e38255ff06939e",
+    "key": "AX3hVMJU-7ukpNKlZyY-",
+    "line": 53,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 53,
+      "endOffset": 47,
+      "startLine": 53,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "djakelambert@gmail.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2019-08-18T22:44:09-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "e11cb2ba6757b020379eb4526676ae37",
+    "key": "AX3hVMJU-7ukpNKlZyY9",
+    "line": 51,
+    "message": "No magic number: 2.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 51,
+      "endOffset": 55,
+      "startLine": 51,
+      "startOffset": 54
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "martin@iwanowski.se",
+    "component": "koa:lib/response.js",
+    "creationDate": "2019-01-28T03:50:27-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "b50b62b89349cd9c3b6dfd344a328e71",
+    "key": "AX3hVMJL-7ukpNKlZyX5",
+    "line": 88,
+    "message": "No magic number: 100.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 88,
+      "endOffset": 22,
+      "startLine": 88,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "martin@iwanowski.se",
+    "component": "koa:lib/response.js",
+    "creationDate": "2019-01-28T03:50:27-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "b50b62b89349cd9c3b6dfd344a328e71",
+    "key": "AX3hVMJL-7ukpNKlZyX6",
+    "line": 88,
+    "message": "No magic number: 999.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 88,
+      "endOffset": 37,
+      "startLine": 88,
+      "startOffset": 34
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "1457358080@qq.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2019-01-14T11:34:12-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "f851871d02f71cc2016f4cb58ef8ff5e",
+    "key": "AX3hVMJU-7ukpNKlZyZO",
+    "line": 210,
+    "message": "Define this declaration in a local scope or bind explicitly the property to the global object.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3798",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 259,
+      "endOffset": 1,
+      "startLine": 210,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "connormiha1@gmail.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2019-01-03T07:48:31-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "63f2f27dfc2023ddb3586406abe3c86a",
+    "key": "AX3hVMI5-7ukpNKlZyXY",
+    "line": 405,
+    "message": "Ternary operator used.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 405,
+      "endOffset": 56,
+      "startLine": 405,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "gendronjeremi@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2018-12-27T03:22:35-0500",
+    "debt": "20min",
+    "effort": "20min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "Return without value",
+            "textRange": {
+              "endLine": 208,
+              "endOffset": 24,
+              "startLine": 208,
+              "startOffset": 17
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 209,
+              "endOffset": 66,
+              "startLine": 209,
+              "startOffset": 35
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 210,
+              "endOffset": 52,
+              "startLine": 210,
+              "startOffset": 33
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 211,
+              "endOffset": 71,
+              "startLine": 211,
+              "startOffset": 24
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "Return without value",
+            "textRange": {
+              "endLine": 212,
+              "endOffset": 13,
+              "startLine": 212,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 215,
+              "endOffset": 32,
+              "startLine": 215,
+              "startOffset": 4
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "bda7f6204dbdda7cd315321559b47e0c",
+    "key": "AX3hVMJL-7ukpNKlZyYK",
+    "line": 203,
+    "message": "Refactor this function to use \"return\" consistently.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3801",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "confusing"
+    ],
+    "textRange": {
+      "endLine": 203,
+      "endOffset": 12,
+      "startLine": 203,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "andre@cabine.org",
+    "component": "koa:lib/application.js",
+    "creationDate": "2018-11-09T12:41:21-0500",
+    "debt": "8min",
+    "effort": "8min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 212,
+              "endOffset": 4,
+              "startLine": 212,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 214,
+              "endOffset": 4,
+              "startLine": 214,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 221,
+              "endOffset": 4,
+              "startLine": 221,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 227,
+              "endOffset": 4,
+              "startLine": 227,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 228,
+              "endOffset": 6,
+              "startLine": 228,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 228,
+              "endOffset": 27,
+              "startLine": 228,
+              "startOffset": 25
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 235,
+              "endOffset": 4,
+              "startLine": 235,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 236,
+              "endOffset": 6,
+              "startLine": 236,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 238,
+              "endOffset": 10,
+              "startLine": 238,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 239,
+              "endOffset": 27,
+              "startLine": 239,
+              "startOffset": 25
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 241,
+              "endOffset": 6,
+              "startLine": 241,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 249,
+              "endOffset": 4,
+              "startLine": 249,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 250,
+              "endOffset": 4,
+              "startLine": 250,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 251,
+              "endOffset": 4,
+              "startLine": 251,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 255,
+              "endOffset": 4,
+              "startLine": 255,
+              "startOffset": 2
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "f851871d02f71cc2016f4cb58ef8ff5e",
+    "key": "AX3hVMJU-7ukpNKlZyZP",
+    "line": 210,
+    "message": "Refactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3776",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 210,
+      "endOffset": 16,
+      "startLine": 210,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "andre@cabine.org",
+    "component": "koa:lib/application.js",
+    "creationDate": "2018-11-09T12:41:21-0500",
+    "debt": "15min",
+    "effort": "15min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 210,
+              "endOffset": 16,
+              "startLine": 210,
+              "startOffset": 9
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 212,
+              "endOffset": 4,
+              "startLine": 212,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 214,
+              "endOffset": 4,
+              "startLine": 214,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 221,
+              "endOffset": 4,
+              "startLine": 221,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 227,
+              "endOffset": 4,
+              "startLine": 227,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 228,
+              "endOffset": 6,
+              "startLine": 228,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 228,
+              "endOffset": 27,
+              "startLine": 228,
+              "startOffset": 25
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 235,
+              "endOffset": 4,
+              "startLine": 235,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 236,
+              "endOffset": 6,
+              "startLine": 236,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 239,
+              "endOffset": 27,
+              "startLine": 239,
+              "startOffset": 25
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 241,
+              "endOffset": 6,
+              "startLine": 241,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 249,
+              "endOffset": 4,
+              "startLine": 249,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 250,
+              "endOffset": 4,
+              "startLine": 250,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 251,
+              "endOffset": 4,
+              "startLine": 251,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 255,
+              "endOffset": 4,
+              "startLine": 255,
+              "startOffset": 2
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "f851871d02f71cc2016f4cb58ef8ff5e",
+    "key": "AX3hVMJU-7ukpNKlZyZR",
+    "line": 210,
+    "message": "Function has a complexity of 15 which is greater than 10 authorized.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1541",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 210,
+      "endOffset": 16,
+      "startLine": 210,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "andre@cabine.org",
+    "component": "koa:lib/application.js",
+    "creationDate": "2018-11-09T12:41:21-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "2f92dee995ce2cb78ec4c847be1c90da",
+    "key": "AX3hVMJU-7ukpNKlZyZV",
+    "line": 236,
+    "message": "No magic number: 2.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 236,
+      "endOffset": 37,
+      "startLine": 236,
+      "startOffset": 36
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "fengmk2@gmail.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2018-10-23T03:20:09-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "0fa079a283889baf2746e5d827d272fa",
+    "key": "AX3hVMI5-7ukpNKlZyXF",
+    "line": 257,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 257,
+      "endOffset": 41,
+      "startLine": 257,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "code@mgjm.de",
+    "component": "koa:lib/request.js",
+    "creationDate": "2018-10-23T01:21:20-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "84fd9ea7603fe6d2e466f1b2295d8df6",
+    "key": "AX3hVMI5-7ukpNKlZyXD",
+    "line": 256,
+    "message": "No magic number: 2.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 256,
+      "endOffset": 40,
+      "startLine": 256,
+      "startOffset": 39
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "code@mgjm.de",
+    "component": "koa:lib/request.js",
+    "creationDate": "2018-10-23T01:21:20-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "84fd9ea7603fe6d2e466f1b2295d8df6",
+    "key": "AX3hVMI5-7ukpNKlZyXE",
+    "line": 256,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 256,
+      "endOffset": 72,
+      "startLine": 256,
+      "startOffset": 42
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2018-07-12T02:10:12-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "6f2bc73e5d6f1a65350e6924889a4dae",
+    "key": "AX3hVMJL-7ukpNKlZyYf",
+    "line": 443,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 443,
+      "endOffset": 88,
+      "startLine": 443,
+      "startOffset": 30
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2018-07-12T02:10:12-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "6f2bc73e5d6f1a65350e6924889a4dae",
+    "key": "AX3hVMJL-7ukpNKlZyYg",
+    "line": 443,
+    "message": "Ternary operator used.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 443,
+      "endOffset": 86,
+      "startLine": 443,
+      "startOffset": 49
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2018-07-12T02:10:12-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "3584f0099bd3a65ba32285c52a493cae",
+    "key": "AX3hVMJM-7ukpNKlZyYh",
+    "line": 444,
+    "message": "Add the missing \"else\" clause.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S126",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 444,
+      "endOffset": 13,
+      "startLine": 444,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2018-07-12T02:10:12-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "3584f0099bd3a65ba32285c52a493cae",
+    "key": "AX3hVMJM-7ukpNKlZyYi",
+    "line": 444,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 444,
+      "endOffset": 58,
+      "startLine": 444,
+      "startOffset": 40
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2018-07-11T05:49:25-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "f58c4e7cb7557faad5a6a8bc04e7ccf8",
+    "key": "AX3hVMJL-7ukpNKlZyXo",
+    "line": 10,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 10,
+      "endOffset": 23,
+      "startLine": 10,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/context.js",
+    "creationDate": "2018-07-10T23:18:39-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "ddb80d1a5c7522cc1248d1e3a6e583e0",
+    "key": "AX3hVMJd-7ukpNKlZyZf",
+    "line": 13,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 13,
+      "endOffset": 23,
+      "startLine": 13,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/context.js",
+    "creationDate": "2018-07-10T23:18:39-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "c391b76313e9068f97e80b989bddf196",
+    "key": "AX3hVMJd-7ukpNKlZyZq",
+    "line": 164,
+    "message": "Missing trailing comma.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 165,
+      "endOffset": 0,
+      "startLine": 164,
+      "startOffset": 35
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "initial-wu@outlook.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2018-06-25T04:13:20-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "db6ad526bde2dc2892a087df579a14f9",
+    "key": "AX3hVMI5-7ukpNKlZyW1",
+    "line": 10,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 10,
+      "endOffset": 23,
+      "startLine": 10,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "ruben@bridgewater.de",
+    "component": "koa:lib/request.js",
+    "creationDate": "2018-06-24T22:34:15-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "7ed32dbd3d3b22e649171115b25bbf40",
+    "key": "AX3hVMI5-7ukpNKlZyW9",
+    "line": 18,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 18,
+      "endOffset": 20,
+      "startLine": 18,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "ruben@bridgewater.de",
+    "component": "koa:lib/response.js",
+    "creationDate": "2018-06-24T22:34:15-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "7ed32dbd3d3b22e649171115b25bbf40",
+    "key": "AX3hVMJL-7ukpNKlZyX0",
+    "line": 21,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 21,
+      "endOffset": 20,
+      "startLine": 21,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "initial-wu@outlook.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2018-06-07T10:50:26-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "83a0476469be3d218f42178ca1d25f37",
+    "key": "AX3hVMI5-7ukpNKlZyXX",
+    "line": 403,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 403,
+      "endOffset": 39,
+      "startLine": 403,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "initial-wu@outlook.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2018-06-06T00:55:20-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "7ed32dbd3d3b22e649171115b25bbf40",
+    "key": "AX3hVMJU-7ukpNKlZyY3",
+    "line": 18,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 18,
+      "endOffset": 20,
+      "startLine": 18,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "initial-wu@outlook.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2018-06-06T00:55:20-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "e11d76df2937059b7d75c4061c29f67d",
+    "key": "AX3hVMJU-7ukpNKlZyZG",
+    "line": 194,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 194,
+      "endOffset": 95,
+      "startLine": 194,
+      "startOffset": 33
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "sungg12138@163.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2018-04-27T11:48:51-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "4611875c8cd98b571a9a6063d64d533a",
+    "key": "AX3hVMJU-7ukpNKlZyZB",
+    "line": 140,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 140,
+      "endOffset": 69,
+      "startLine": 140,
+      "startOffset": 38
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2018-02-11T03:25:24-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "b46fdc5fde80eddcdeb7a701b436ee61",
+    "key": "AX3hVMJL-7ukpNKlZyX4",
+    "line": 85,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 85,
+      "endOffset": 32,
+      "startLine": 85,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2018-02-11T03:25:24-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "b46fdc5fde80eddcdeb7a701b436ee61",
+    "key": "AX3hVMJL-7ukpNKlZyYP",
+    "line": 237,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 237,
+      "endOffset": 32,
+      "startLine": 237,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2018-02-11T03:25:24-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "b46fdc5fde80eddcdeb7a701b436ee61",
+    "key": "AX3hVMJL-7ukpNKlZyYc",
+    "line": 440,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 440,
+      "endOffset": 32,
+      "startLine": 440,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2018-02-11T03:25:24-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "b46fdc5fde80eddcdeb7a701b436ee61",
+    "key": "AX3hVMJM-7ukpNKlZyYl",
+    "line": 489,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 489,
+      "endOffset": 32,
+      "startLine": 489,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "agat00@gmail.com",
+    "component": "koa:lib/context.js",
+    "creationDate": "2017-12-24T07:48:44-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "7ed32dbd3d3b22e649171115b25bbf40",
+    "key": "AX3hVMJd-7ukpNKlZyZa",
+    "line": 8,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 8,
+      "endOffset": 20,
+      "startLine": 8,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "agat00@gmail.com",
+    "component": "koa:lib/context.js",
+    "creationDate": "2017-12-24T07:48:44-0500",
+    "debt": "11min",
+    "effort": "11min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "koa:lib/context.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 107,
+              "endOffset": 9,
+              "startLine": 107,
+              "startOffset": 2
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/context.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 111,
+              "endOffset": 6,
+              "startLine": 111,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/context.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 113,
+              "endOffset": 6,
+              "startLine": 113,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/context.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 116,
+              "endOffset": 6,
+              "startLine": 116,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/context.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 116,
+              "endOffset": 26,
+              "startLine": 116,
+              "startOffset": 24
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/context.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 126,
+              "endOffset": 6,
+              "startLine": 126,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/context.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 134,
+              "endOffset": 6,
+              "startLine": 134,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/context.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 147,
+              "endOffset": 6,
+              "startLine": 147,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/context.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 150,
+              "endOffset": 6,
+              "startLine": 150,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/context.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 150,
+              "endOffset": 40,
+              "startLine": 150,
+              "startOffset": 38
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/context.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 154,
+              "endOffset": 28,
+              "startLine": 154,
+              "startOffset": 27
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "686bcd5832def8c58ecd7c3b9977bf26",
+    "key": "AX3hVMJd-7ukpNKlZyZi",
+    "line": 107,
+    "message": "Function has a complexity of 11 which is greater than 10 authorized.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1541",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 107,
+      "endOffset": 9,
+      "startLine": 107,
+      "startOffset": 2
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "agat00@gmail.com",
+    "component": "koa:lib/context.js",
+    "creationDate": "2017-12-24T07:48:44-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "ed25b48036a88de5109265f565687910",
+    "key": "AX3hVMJd-7ukpNKlZyZk",
+    "line": 113,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 113,
+      "endOffset": 91,
+      "startLine": 113,
+      "startOffset": 33
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "snowyu.lee@gmail.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2017-11-06T07:21:52-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "e444df298d2dfb2c95372736af79f8d0",
+    "key": "AX3hVMJU-7ukpNKlZyZC",
+    "line": 142,
+    "message": "Immediately return this expression instead of assigning it to the temporary variable \"handleRequest\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1488",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "clumsy"
+    ],
+    "textRange": {
+      "endLine": 145,
+      "endOffset": 5,
+      "startLine": 142,
+      "startOffset": 26
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "bernzs@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2017-11-06T07:17:43-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "9bb97fee5e8d9af37135b535524e49a4",
+    "key": "AX3hVMJL-7ukpNKlZyX7",
+    "line": 91,
+    "message": "No magic number: 2.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 91,
+      "endOffset": 37,
+      "startLine": 91,
+      "startOffset": 36
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "bernzs@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2017-11-06T07:17:43-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "9bb97fee5e8d9af37135b535524e49a4",
+    "key": "AX3hVMJL-7ukpNKlZyX8",
+    "line": 91,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 91,
+      "endOffset": 79,
+      "startLine": 91,
+      "startOffset": 39
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "njuyuqi@gmail.com",
+    "component": "koa:benchmarks/middleware.js",
+    "creationDate": "2017-08-02T21:33:51-0400",
+    "debt": "12min",
+    "effort": "12min",
+    "flows": [],
+    "key": "AX3hVMJj-7ukpNKlZyZs",
+    "message": "6 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "njuyuqi@gmail.com",
+    "component": "koa:benchmarks/middleware.js",
+    "creationDate": "2017-08-02T21:33:51-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "1e15fdf5606a9b2a83a9d0a6b83bcf0a",
+    "key": "AX3hVMJj-7ukpNKlZyZv",
+    "line": 10,
+    "message": "'useAsync' is never reassigned. Use 'const' instead.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3353",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 10,
+      "endOffset": 12,
+      "startLine": 10,
+      "startOffset": 4
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "njuyuqi@gmail.com",
+    "component": "koa:benchmarks/middleware.js",
+    "creationDate": "2017-08-02T21:33:51-0400",
+    "debt": "10min",
+    "effort": "10min",
+    "flows": [],
+    "hash": "f8b415d76e9e0e767e4ec358dea634de",
+    "key": "AX3hVMJj-7ukpNKlZyZw",
+    "line": 12,
+    "message": "Unexpected console statement.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S106",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "bad-practice",
+      "owasp-a3",
+      "user-experience"
+    ],
+    "textRange": {
+      "endLine": 12,
+      "endOffset": 11,
+      "startLine": 12,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "njuyuqi@gmail.com",
+    "component": "koa:benchmarks/middleware.js",
+    "creationDate": "2017-08-02T21:33:51-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "f8b415d76e9e0e767e4ec358dea634de",
+    "key": "AX3hVMJj-7ukpNKlZyZx",
+    "line": 12,
+    "message": "Ternary operator used.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 12,
+      "endOffset": 45,
+      "startLine": 12,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "njuyuqi@gmail.com",
+    "component": "koa:benchmarks/middleware.js",
+    "creationDate": "2017-08-02T21:33:51-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "2c9b39e59d79891e0473f95d85415040",
+    "key": "AX3hVMJj-7ukpNKlZyZz",
+    "line": 16,
+    "message": "Redundant use of `await` on a return value.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S4326",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "redundant"
+    ],
+    "textRange": {
+      "endLine": 16,
+      "endOffset": 44,
+      "startLine": 16,
+      "startOffset": 32
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "njuyuqi@gmail.com",
+    "component": "koa:benchmarks/middleware.js",
+    "creationDate": "2017-08-02T21:33:51-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "d1d7f5efc64a3adfc1fbcf67ea4423c0",
+    "key": "AX3hVMJj-7ukpNKlZyZ0",
+    "line": 25,
+    "message": "This line has 3 statements. Maximum allowed is 1.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S122",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 25,
+      "endOffset": 45,
+      "startLine": 25,
+      "startOffset": 32
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "math.master.champion@gmail.com",
+    "component": "koa:lib/context.js",
+    "creationDate": "2017-07-15T20:05:26-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "9f4619726a0c7ace8d1d768814d64273",
+    "key": "AX3hVMJd-7ukpNKlZyZg",
+    "line": 32,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 32,
+      "endOffset": 36,
+      "startLine": 32,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "martin@iwanowski.se",
+    "component": "koa:lib/request.js",
+    "creationDate": "2017-06-20T12:57:30-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "9f55471d8b88dacf0e584a4af435af3e",
+    "key": "AX3hVMI5-7ukpNKlZyWz",
+    "line": 8,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 8,
+      "endOffset": 19,
+      "startLine": 8,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "martin@iwanowski.se",
+    "component": "koa:lib/request.js",
+    "creationDate": "2017-06-20T12:57:30-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "9d3fe3abbd324ac3a0d0c70582036577",
+    "key": "AX3hVMI5-7ukpNKlZyXI",
+    "line": 275,
+    "message": "Expected '===' and instead saw '=='.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1440",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 275,
+      "endOffset": 14,
+      "startLine": 275,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "martin@iwanowski.se",
+    "component": "koa:lib/request.js",
+    "creationDate": "2017-06-20T12:57:30-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "9d3fe3abbd324ac3a0d0c70582036577",
+    "key": "AX3hVMI5-7ukpNKlZyXJ",
+    "line": 275,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 275,
+      "endOffset": 55,
+      "startLine": 275,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "martin@iwanowski.se",
+    "component": "koa:lib/request.js",
+    "creationDate": "2017-06-20T12:57:30-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "adf440d910a1a2e385648f364e5e77b7",
+    "key": "AX3hVMI5-7ukpNKlZyXK",
+    "line": 287,
+    "message": "Rename this 'URL' function to match the regular expression '^[_a-z][a-zA-Z0-9]*$'.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S100",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 287,
+      "endOffset": 9,
+      "startLine": 287,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "martin@iwanowski.se",
+    "component": "koa:lib/request.js",
+    "creationDate": "2017-06-20T12:57:30-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "61611fce59add2a013c379e420dabd3f",
+    "key": "AX3hVMI5-7ukpNKlZyXL",
+    "line": 290,
+    "message": "Expected comment to be above code.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 290,
+      "endOffset": 87,
+      "startLine": 290,
+      "startOffset": 50
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanong@users.noreply.github.com",
+    "component": "koa:lib/context.js",
+    "creationDate": "2017-03-08T01:59:24-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "21a3c2d3aeec6e4c756cd79959d5498a",
+    "key": "AX3hVMJd-7ukpNKlZyZl",
+    "line": 137,
+    "message": "Expected comment to be above code.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 137,
+      "endOffset": 38,
+      "startLine": 137,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanong@users.noreply.github.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2017-03-08T01:59:24-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "6b6784d6d022682b799b6ff0e20ce76b",
+    "key": "AX3hVMJL-7ukpNKlZyX2",
+    "line": 50,
+    "message": "Ternary operator used.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 52,
+      "endOffset": 26,
+      "startLine": 50,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanong@users.noreply.github.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2017-03-08T01:59:24-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "79641a8528943e1d6d797072d53c0c1e",
+    "key": "AX3hVMJL-7ukpNKlZyX3",
+    "line": 52,
+    "message": "Expected comment to be above code.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S139",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 52,
+      "endOffset": 41,
+      "startLine": 52,
+      "startOffset": 28
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "skyros@gmail.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2016-09-07T04:21:32-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "92ef02b8852bbb37c552995b0b2616d8",
+    "key": "AX3hVMI5-7ukpNKlZyW0",
+    "line": 9,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 9,
+      "endOffset": 19,
+      "startLine": 9,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "skyros@gmail.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2016-09-07T04:21:32-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "4f336c488360a8ea6e05363e82415e79",
+    "key": "AX3hVMI5-7ukpNKlZyXb",
+    "line": 480,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 480,
+      "endOffset": 38,
+      "startLine": 480,
+      "startOffset": 28
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead-horse@users.noreply.github.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2016-07-23T13:20:29-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "ae6fcb0d333878b27051cdfbd5ea6f8b",
+    "key": "AX3hVMJM-7ukpNKlZyYm",
+    "line": 505,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 505,
+      "endOffset": 40,
+      "startLine": 505,
+      "startOffset": 27
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead-horse@users.noreply.github.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2016-07-23T13:20:29-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "35180f81b6d3c54242a04459d2746492",
+    "key": "AX3hVMJM-7ukpNKlZyYn",
+    "line": 510,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 510,
+      "endOffset": 29,
+      "startLine": 510,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@fl0w.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2016-03-22T02:35:05-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "9ac9d7a113b603b8a233f7418d11610f",
+    "key": "AX3hVMJU-7ukpNKlZyY7",
+    "line": 22,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 22,
+      "endOffset": 23,
+      "startLine": 22,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@fl0w.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2016-03-22T02:35:05-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "be757bbfadb02ce8de80e59c1101aa53",
+    "key": "AX3hVMJU-7ukpNKlZyY8",
+    "line": 23,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 23,
+      "endOffset": 25,
+      "startLine": 23,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "louis.descioli@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2016-03-12T17:19:27-0500",
+    "debt": "4min",
+    "effort": "4min",
+    "flows": [],
+    "hash": "4600b5a6771ede3c216d27da1ea80347",
+    "key": "AX3hVMJL-7ukpNKlZyYB",
+    "line": 142,
+    "message": "Define a constant instead of duplicating this literal 4 times.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1192",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "design"
+    ],
+    "textRange": {
+      "endLine": 142,
+      "endOffset": 32,
+      "startLine": 142,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "louis.descioli@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2016-03-12T17:19:27-0500",
+    "debt": "4min",
+    "effort": "4min",
+    "flows": [],
+    "hash": "454efcd41d8226921f952260b6fd6696",
+    "key": "AX3hVMJL-7ukpNKlZyYC",
+    "line": 143,
+    "message": "Define a constant instead of duplicating this literal 4 times.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1192",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "design"
+    ],
+    "textRange": {
+      "endLine": 143,
+      "endOffset": 34,
+      "startLine": 143,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "ljbousfield@gmail.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2016-03-03T23:01:56-0500",
+    "debt": "20min",
+    "effort": "20min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "Return without value",
+            "textRange": {
+              "endLine": 212,
+              "endOffset": 36,
+              "startLine": 212,
+              "startOffset": 29
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "Return without value",
+            "textRange": {
+              "endLine": 214,
+              "endOffset": 28,
+              "startLine": 214,
+              "startOffset": 21
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 224,
+              "endOffset": 21,
+              "startLine": 224,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 231,
+              "endOffset": 21,
+              "startLine": 231,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 245,
+              "endOffset": 25,
+              "startLine": 245,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 249,
+              "endOffset": 50,
+              "startLine": 249,
+              "startOffset": 29
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 250,
+              "endOffset": 52,
+              "startLine": 250,
+              "startOffset": 31
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 251,
+              "endOffset": 52,
+              "startLine": 251,
+              "startOffset": 30
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/application.js",
+            "msg": "Implicit return without value",
+            "textRange": {
+              "endLine": 259,
+              "endOffset": 1,
+              "startLine": 259,
+              "startOffset": 0
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "f851871d02f71cc2016f4cb58ef8ff5e",
+    "key": "AX3hVMJU-7ukpNKlZyZQ",
+    "line": 210,
+    "message": "Refactor this function to use \"return\" consistently.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3801",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "confusing"
+    ],
+    "textRange": {
+      "endLine": 210,
+      "endOffset": 16,
+      "startLine": 210,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "ljbousfield@gmail.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2016-03-03T23:01:56-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "3cb2989d7511f89a6f1f6c3f79b0b98d",
+    "key": "AX3hVMJU-7ukpNKlZyZT",
+    "line": 214,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 214,
+      "endOffset": 28,
+      "startLine": 214,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "pana.wang@outlook.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2016-01-17T19:05:49-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "e82bce7d34f6b86ef24ad0049a85986f",
+    "key": "AX3hVMI5-7ukpNKlZyW8",
+    "line": 17,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 17,
+      "endOffset": 20,
+      "startLine": 17,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "pana.wang@outlook.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2016-01-17T19:05:49-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "b394110b9e8d0cf6dbd70a0484ccfb60",
+    "key": "AX3hVMI5-7ukpNKlZyXj",
+    "line": 706,
+    "message": "Missing trailing comma.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 707,
+      "endOffset": 0,
+      "startLine": 706,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "pana.wang@outlook.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2016-01-17T19:05:49-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "37b9fefba1a1f955eaa525a664bd1e22",
+    "key": "AX3hVMJL-7ukpNKlZyXx",
+    "line": 18,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 18,
+      "endOffset": 23,
+      "startLine": 18,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "pana.wang@outlook.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2016-01-17T19:05:49-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "e82bce7d34f6b86ef24ad0049a85986f",
+    "key": "AX3hVMJL-7ukpNKlZyXz",
+    "line": 20,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 20,
+      "endOffset": 20,
+      "startLine": 20,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "pana.wang@outlook.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2016-01-17T19:05:49-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "b394110b9e8d0cf6dbd70a0484ccfb60",
+    "key": "AX3hVMJM-7ukpNKlZyYq",
+    "line": 539,
+    "message": "Missing trailing comma.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 540,
+      "endOffset": 0,
+      "startLine": 539,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-11-05T11:42:14-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "628765701cb132d3eecac5103b4b060f",
+    "key": "AX3hVMJU-7ukpNKlZyY2",
+    "line": 17,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 17,
+      "endOffset": 23,
+      "startLine": 17,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-11-04T02:08:49-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "69328243cf20524fad19267e4497a9c0",
+    "key": "AX3hVMI5-7ukpNKlZyW_",
+    "line": 157,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 157,
+      "endOffset": 38,
+      "startLine": 157,
+      "startOffset": 31
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-11-04T02:08:49-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "7e948c059180c83068b0d8bcb84c945b",
+    "key": "AX3hVMI5-7ukpNKlZyXB",
+    "line": 210,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 210,
+      "endOffset": 41,
+      "startLine": 210,
+      "startOffset": 34
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "slobodan@cloudhorizon.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-10-29T12:55:34-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "438391ca9dc0960e5b14f2fbe2e0616d",
+    "key": "AX3hVMI5-7ukpNKlZyW-",
+    "line": 111,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 111,
+      "endOffset": 72,
+      "startLine": 111,
+      "startOffset": 48
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@jongleberry.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-22T19:34:59-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "943747e2be2a64a822602d9492458af9",
+    "key": "AX3hVMJU-7ukpNKlZyYt",
+    "line": 8,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 8,
+      "endOffset": 35,
+      "startLine": 8,
+      "startOffset": 28
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@jongleberry.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-22T19:34:59-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "477f950135a56df1032a8b71a5fc7025",
+    "key": "AX3hVMJU-7ukpNKlZyZA",
+    "line": 117,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 117,
+      "endOffset": 88,
+      "startLine": 117,
+      "startOffset": 34
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@jongleberry.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-22T19:34:59-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "64f07710ec7a46de4e3db1bebac89190",
+    "key": "AX3hVMJU-7ukpNKlZyZS",
+    "line": 212,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 212,
+      "endOffset": 36,
+      "startLine": 212,
+      "startOffset": 29
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@jongleberry.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-22T19:34:59-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "097e9bcf031ed9e52b92881d37a70c49",
+    "key": "AX3hVMJU-7ukpNKlZyZU",
+    "line": 227,
+    "message": "Expected '===' and instead saw '=='.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1440",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 227,
+      "endOffset": 15,
+      "startLine": 227,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@jongleberry.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-22T18:46:47-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "19376282a472341f547af7084faa12b1",
+    "key": "AX3hVMJM-7ukpNKlZyYj",
+    "line": 447,
+    "message": "Restrict what this loop acts on by testing each property.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1535",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 449,
+      "endOffset": 7,
+      "startLine": 447,
+      "startOffset": 6
+    },
+    "type": "BUG",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "mic.besace@gmail.com",
+    "component": "koa:lib/context.js",
+    "creationDate": "2015-10-13T03:23:57-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "883786e2d69a7a9afa00e11af121ec70",
+    "key": "AX3hVMJd-7ukpNKlZyZh",
+    "line": 56,
+    "message": "Missing trailing comma.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 57,
+      "endOffset": 0,
+      "startLine": 56,
+      "startOffset": 38
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:benchmarks/middleware.js",
+    "creationDate": "2015-10-13T02:19:42-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "4956e6e86a3f2d284be12b61db646bf9",
+    "key": "AX3hVMJj-7ukpNKlZyZu",
+    "line": 4,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 4,
+      "endOffset": 19,
+      "startLine": 4,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "robert@publicclass.se",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-10-12T03:00:41-0400",
+    "debt": "20min",
+    "effort": "20min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "koa:lib/request.js",
+            "msg": "Return without value",
+            "textRange": {
+              "endLine": 691,
+              "endOffset": 26,
+              "startLine": 691,
+              "startOffset": 19
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/request.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 692,
+              "endOffset": 25,
+              "startLine": 692,
+              "startOffset": 4
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "5ae8b20629ad7209ae2a98a0b84f624e",
+    "key": "AX3hVMI5-7ukpNKlZyXh",
+    "line": 690,
+    "message": "Refactor this function to use \"return\" consistently.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3801",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "confusing"
+    ],
+    "textRange": {
+      "endLine": 690,
+      "endOffset": 9,
+      "startLine": 690,
+      "startOffset": 2
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "robert@publicclass.se",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-12T03:00:41-0400",
+    "debt": "20min",
+    "effort": "20min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "Return without value",
+            "textRange": {
+              "endLine": 522,
+              "endOffset": 26,
+              "startLine": 522,
+              "startOffset": 19
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 525,
+              "endOffset": 13,
+              "startLine": 525,
+              "startOffset": 4
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "5ae8b20629ad7209ae2a98a0b84f624e",
+    "key": "AX3hVMJM-7ukpNKlZyYo",
+    "line": 521,
+    "message": "Refactor this function to use \"return\" consistently.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3801",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "confusing"
+    ],
+    "textRange": {
+      "endLine": 521,
+      "endOffset": 9,
+      "startLine": 521,
+      "startOffset": 2
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "fecd10558605b5ee12f1f39763849770",
+    "key": "AX3hVMJU-7ukpNKlZyYu",
+    "line": 9,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 9,
+      "endOffset": 21,
+      "startLine": 9,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "0f7b71ee1515e2052b60e9dc2f8b9c9c",
+    "key": "AX3hVMJU-7ukpNKlZyYv",
+    "line": 10,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 10,
+      "endOffset": 26,
+      "startLine": 10,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "76b60eaaf30ae00757e4a9df67bc8a37",
+    "key": "AX3hVMJU-7ukpNKlZyYw",
+    "line": 11,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 11,
+      "endOffset": 24,
+      "startLine": 11,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "5917784c59762a4020d17c632bfdd7ac",
+    "key": "AX3hVMJU-7ukpNKlZyYx",
+    "line": 12,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 12,
+      "endOffset": 23,
+      "startLine": 12,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "7204951b48309e47945e330bf8fedecb",
+    "key": "AX3hVMJU-7ukpNKlZyYy",
+    "line": 13,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 13,
+      "endOffset": 22,
+      "startLine": 13,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "fd6de6d1d85472858eecf9e6ff1f5587",
+    "key": "AX3hVMJU-7ukpNKlZyYz",
+    "line": 14,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 14,
+      "endOffset": 23,
+      "startLine": 14,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "edf9e08350ff97931af5d7e8cc1d23ae",
+    "key": "AX3hVMJU-7ukpNKlZyY0",
+    "line": 15,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 15,
+      "endOffset": 23,
+      "startLine": 15,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "c7627212cdd445bdc702296cfb978533",
+    "key": "AX3hVMJU-7ukpNKlZyY1",
+    "line": 16,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 16,
+      "endOffset": 24,
+      "startLine": 16,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "98c2bba4c21d8947478a93115a5bb90f",
+    "key": "AX3hVMJU-7ukpNKlZyY4",
+    "line": 19,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 19,
+      "endOffset": 22,
+      "startLine": 19,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "477809141bc20e64ba59192d26570082",
+    "key": "AX3hVMJU-7ukpNKlZyY5",
+    "line": 20,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 20,
+      "endOffset": 20,
+      "startLine": 20,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "e82bce7d34f6b86ef24ad0049a85986f",
+    "key": "AX3hVMJU-7ukpNKlZyY6",
+    "line": 21,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 21,
+      "endOffset": 20,
+      "startLine": 21,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "766a9befd0b129e51f792bf781feae98",
+    "key": "AX3hVMJU-7ukpNKlZyZD",
+    "line": 172,
+    "message": "'context' is already declared in the upper scope.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1117",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall",
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 172,
+      "endOffset": 17,
+      "startLine": 172,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "46e3972b27ce9eea0581081175e8f910",
+    "key": "AX3hVMJU-7ukpNKlZyZE",
+    "line": 173,
+    "message": "'request' is already declared in the upper scope.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1117",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall",
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 173,
+      "endOffset": 17,
+      "startLine": 173,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "d16afb6f3fe40d28a99b56544e9bcf9b",
+    "key": "AX3hVMJU-7ukpNKlZyZF",
+    "line": 174,
+    "message": "'response' is already declared in the upper scope.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1117",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall",
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 174,
+      "endOffset": 18,
+      "startLine": 174,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/context.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "6dc20532d023321780141172f15205f7",
+    "key": "AX3hVMJd-7ukpNKlZyZb",
+    "line": 9,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 9,
+      "endOffset": 27,
+      "startLine": 9,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/context.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "e603afb21c37e5f654b8cd41a4079783",
+    "key": "AX3hVMJd-7ukpNKlZyZc",
+    "line": 10,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 10,
+      "endOffset": 26,
+      "startLine": 10,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/context.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "d0ce9bb3859f34dd1ddfb8734ccee9e7",
+    "key": "AX3hVMJd-7ukpNKlZyZd",
+    "line": 11,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 11,
+      "endOffset": 24,
+      "startLine": 11,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/context.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "c7627212cdd445bdc702296cfb978533",
+    "key": "AX3hVMJd-7ukpNKlZyZe",
+    "line": 12,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 12,
+      "endOffset": 24,
+      "startLine": 12,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/context.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "6c245dfeeba69e15b1187fde296319f9",
+    "key": "AX3hVMJd-7ukpNKlZyZp",
+    "line": 154,
+    "message": "Ternary operator used.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 154,
+      "endOffset": 47,
+      "startLine": 154,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "009e4d92b46f9fd476d177d4cc5ed4db",
+    "key": "AX3hVMI5-7ukpNKlZyW2",
+    "line": 11,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 11,
+      "endOffset": 27,
+      "startLine": 11,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "75407b27844e3be1a8966613aef4cb76",
+    "key": "AX3hVMI5-7ukpNKlZyW3",
+    "line": 12,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 12,
+      "endOffset": 25,
+      "startLine": 12,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "1cbe9d6d05ae2e5d98eb98f6a5a71450",
+    "key": "AX3hVMI5-7ukpNKlZyW4",
+    "line": 13,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 13,
+      "endOffset": 21,
+      "startLine": 13,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "15da1da495f624eae2e1ab153d1db5ea",
+    "key": "AX3hVMI5-7ukpNKlZyW5",
+    "line": 14,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 14,
+      "endOffset": 18,
+      "startLine": 14,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "d817224e939db4ae2b52229d8401f89d",
+    "key": "AX3hVMI5-7ukpNKlZyW6",
+    "line": 15,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 15,
+      "endOffset": 22,
+      "startLine": 15,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "fd7317b56275d8dd2b3d2c4c26b52fc0",
+    "key": "AX3hVMI5-7ukpNKlZyW7",
+    "line": 16,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 16,
+      "endOffset": 21,
+      "startLine": 16,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "723c76d723df166c73583bffaa466635",
+    "key": "AX3hVMJL-7ukpNKlZyXm",
+    "line": 8,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 8,
+      "endOffset": 34,
+      "startLine": 8,
+      "startOffset": 27
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "a0d61b807e7a4eae293efc0f1b49e739",
+    "key": "AX3hVMJL-7ukpNKlZyXn",
+    "line": 9,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 9,
+      "endOffset": 34,
+      "startLine": 9,
+      "startOffset": 27
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "0401f3a1852cea79d820f4a41e139263",
+    "key": "AX3hVMJL-7ukpNKlZyXp",
+    "line": 11,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 11,
+      "endOffset": 24,
+      "startLine": 11,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "7204951b48309e47945e330bf8fedecb",
+    "key": "AX3hVMJL-7ukpNKlZyXq",
+    "line": 12,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 12,
+      "endOffset": 22,
+      "startLine": 12,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "20min",
+    "effort": "20min",
+    "flows": [],
+    "hash": "1bb0e007e15e955a38a06e52f2e89566",
+    "key": "AX3hVMJL-7ukpNKlZyXr",
+    "line": 13,
+    "message": "Remove this override of \"escape\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S2424",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "confusing"
+    ],
+    "textRange": {
+      "endLine": 13,
+      "endOffset": 12,
+      "startLine": 13,
+      "startOffset": 6
+    },
+    "type": "BUG",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "1bb0e007e15e955a38a06e52f2e89566",
+    "key": "AX3hVMJL-7ukpNKlZyXs",
+    "line": 13,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 13,
+      "endOffset": 22,
+      "startLine": 13,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "4e219c675fe74f8c91e9f6863d1e5685",
+    "key": "AX3hVMJL-7ukpNKlZyXt",
+    "line": 14,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 14,
+      "endOffset": 22,
+      "startLine": 14,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "c7627212cdd445bdc702296cfb978533",
+    "key": "AX3hVMJL-7ukpNKlZyXu",
+    "line": 15,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 15,
+      "endOffset": 24,
+      "startLine": 15,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "3b66b4050e81f667fba14bf2f712db1a",
+    "key": "AX3hVMJL-7ukpNKlZyXv",
+    "line": 16,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 16,
+      "endOffset": 23,
+      "startLine": 16,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "6242760d76e345582bc1b3a9e455b52a",
+    "key": "AX3hVMJL-7ukpNKlZyXw",
+    "line": 17,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 17,
+      "endOffset": 22,
+      "startLine": 17,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "c79eabfe575f0dd768282f2f9f4b1171",
+    "key": "AX3hVMJL-7ukpNKlZyXy",
+    "line": 19,
+    "message": "Use a standard \"import\" statement instead of \"require\".",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3533",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015",
+      "obsolete"
+    ],
+    "textRange": {
+      "endLine": 19,
+      "endOffset": 20,
+      "startLine": 19,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-12T00:22:33-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "a5e9b5de8728b953d572c87b63be660b",
+    "key": "AX3hVMJL-7ukpNKlZyYX",
+    "line": 359,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 359,
+      "endOffset": 48,
+      "startLine": 359,
+      "startOffset": 31
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:benchmarks/middleware.js",
+    "creationDate": "2015-10-11T19:08:32-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "bab13235521fe34f6f480c7a939e7a8e",
+    "key": "AX3hVMJj-7ukpNKlZyZt",
+    "line": 2,
+    "message": "'use strict' is unnecessary inside of modules.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1539",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser",
+      "user-experience"
+    ],
+    "textRange": {
+      "endLine": 2,
+      "endOffset": 13,
+      "startLine": 2,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-11T19:08:32-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "bab13235521fe34f6f480c7a939e7a8e",
+    "key": "AX3hVMJU-7ukpNKlZyYs",
+    "line": 2,
+    "message": "'use strict' is unnecessary inside of modules.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1539",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser",
+      "user-experience"
+    ],
+    "textRange": {
+      "endLine": 2,
+      "endOffset": 13,
+      "startLine": 2,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/context.js",
+    "creationDate": "2015-10-11T19:08:32-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "bab13235521fe34f6f480c7a939e7a8e",
+    "key": "AX3hVMJd-7ukpNKlZyZZ",
+    "line": 2,
+    "message": "'use strict' is unnecessary inside of modules.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1539",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser",
+      "user-experience"
+    ],
+    "textRange": {
+      "endLine": 2,
+      "endOffset": 13,
+      "startLine": 2,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-10-11T19:08:32-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "bab13235521fe34f6f480c7a939e7a8e",
+    "key": "AX3hVMI5-7ukpNKlZyWy",
+    "line": 2,
+    "message": "'use strict' is unnecessary inside of modules.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1539",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser",
+      "user-experience"
+    ],
+    "textRange": {
+      "endLine": 2,
+      "endOffset": 13,
+      "startLine": 2,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-10-11T19:08:32-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "bab13235521fe34f6f480c7a939e7a8e",
+    "key": "AX3hVMJL-7ukpNKlZyXl",
+    "line": 2,
+    "message": "'use strict' is unnecessary inside of modules.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1539",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "cross-browser",
+      "user-experience"
+    ],
+    "textRange": {
+      "endLine": 2,
+      "endOffset": 13,
+      "startLine": 2,
+      "startOffset": 0
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "me@tejas.io",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-10-05T18:51:26-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "ce721423e975c40d778e49eeb713b9ee",
+    "key": "AX3hVMJU-7ukpNKlZyZK",
+    "line": 197,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 197,
+      "endOffset": 28,
+      "startLine": 197,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "alexeykhristov@users.noreply.github.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-08-22T17:40:36-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "f413621bfaf007ad97c28e74b8a91954",
+    "key": "AX3hVMI5-7ukpNKlZyXA",
+    "line": 197,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 197,
+      "endOffset": 29,
+      "startLine": 197,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "sterlingw@qualtrics.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-08-22T17:39:38-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "4dcdf79307bb67bf16eead18c1af3ca7",
+    "key": "AX3hVMJU-7ukpNKlZyZH",
+    "line": 196,
+    "message": "No magic number: 404.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 196,
+      "endOffset": 11,
+      "startLine": 196,
+      "startOffset": 8
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "sterlingw@qualtrics.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-08-22T17:39:38-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "4dcdf79307bb67bf16eead18c1af3ca7",
+    "key": "AX3hVMJU-7ukpNKlZyZI",
+    "line": 196,
+    "message": "Expected '===' and instead saw '=='.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1440",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 196,
+      "endOffset": 14,
+      "startLine": 196,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "sterlingw@qualtrics.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2015-08-22T17:39:38-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "4dcdf79307bb67bf16eead18c1af3ca7",
+    "key": "AX3hVMJU-7ukpNKlZyZJ",
+    "line": 196,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 196,
+      "endOffset": 48,
+      "startLine": 196,
+      "startOffset": 41
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-04-28T13:44:02-0400",
+    "debt": "20min",
+    "effort": "20min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "koa:lib/request.js",
+            "msg": "Return without value",
+            "textRange": {
+              "endLine": 385,
+              "endOffset": 26,
+              "startLine": 385,
+              "startOffset": 19
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/request.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 386,
+              "endOffset": 17,
+              "startLine": 386,
+              "startOffset": 4
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "bda7f6204dbdda7cd315321559b47e0c",
+    "key": "AX3hVMI5-7ukpNKlZyXT",
+    "line": 383,
+    "message": "Refactor this function to use \"return\" consistently.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3801",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "confusing"
+    ],
+    "textRange": {
+      "endLine": 383,
+      "endOffset": 12,
+      "startLine": 383,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-04-28T13:44:02-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "8bc104a1141735405b6389a4fddcd2f5",
+    "key": "AX3hVMI5-7ukpNKlZyXU",
+    "line": 385,
+    "message": "Expected '===' and instead saw '=='.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1440",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 385,
+      "endOffset": 14,
+      "startLine": 385,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-04-28T13:44:02-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "8bc104a1141735405b6389a4fddcd2f5",
+    "key": "AX3hVMI5-7ukpNKlZyXV",
+    "line": 385,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 385,
+      "endOffset": 26,
+      "startLine": 385,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-04-28T13:44:02-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "4cb325e97ca73bd417fef1cbb22762ad",
+    "key": "AX3hVMI5-7ukpNKlZyXf",
+    "line": 646,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 646,
+      "endOffset": 25,
+      "startLine": 646,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-04-28T13:44:02-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "4cb325e97ca73bd417fef1cbb22762ad",
+    "key": "AX3hVMJL-7ukpNKlZyYY",
+    "line": 384,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 384,
+      "endOffset": 25,
+      "startLine": 384,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "fengmk2@gmail.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-03-30T05:44:32-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "78448c826391221f31dd60f796f2dcdf",
+    "key": "AX3hVMI5-7ukpNKlZyXG",
+    "line": 259,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 259,
+      "endOffset": 25,
+      "startLine": 259,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "fengmk2@gmail.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-03-30T05:44:32-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "78448c826391221f31dd60f796f2dcdf",
+    "key": "AX3hVMI5-7ukpNKlZyXH",
+    "line": 274,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 274,
+      "endOffset": 25,
+      "startLine": 274,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "foxandxss@gmail.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2015-01-29T11:51:09-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "923af047fc2f2cfa4201832561476cc4",
+    "key": "AX3hVMI5-7ukpNKlZyXa",
+    "line": 436,
+    "message": "Ternary operator used.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 438,
+      "endOffset": 10,
+      "startLine": 436,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/response.js",
+    "creationDate": "2015-01-27T13:14:57-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "0db736d827923712ce747e9a6225c02a",
+    "key": "AX3hVMJM-7ukpNKlZyYk",
+    "line": 473,
+    "message": "Ternary operator used.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 475,
+      "endOffset": 28,
+      "startLine": 473,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/context.js",
+    "creationDate": "2014-10-09T11:20:53-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "051afa1f235b6c1b2e45652b1d86c6c3",
+    "key": "AX3hVMJd-7ukpNKlZyZo",
+    "line": 150,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 150,
+      "endOffset": 81,
+      "startLine": 150,
+      "startOffset": 64
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-10-09T11:20:53-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "74addeb64e1ce880da157f1f76d4f37e",
+    "key": "AX3hVMJL-7ukpNKlZyX9",
+    "line": 92,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 92,
+      "endOffset": 60,
+      "startLine": 92,
+      "startOffset": 43
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-10-09T11:20:53-0400",
+    "debt": "9min",
+    "effort": "9min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 140,
+              "endOffset": 6,
+              "startLine": 140,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 141,
+              "endOffset": 8,
+              "startLine": 141,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 149,
+              "endOffset": 6,
+              "startLine": 149,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 155,
+              "endOffset": 6,
+              "startLine": 155,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 156,
+              "endOffset": 8,
+              "startLine": 156,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+3 (incl. 2 for nesting)",
+            "textRange": {
+              "endLine": 156,
+              "endOffset": 50,
+              "startLine": 156,
+              "startOffset": 49
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 162,
+              "endOffset": 6,
+              "startLine": 162,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 163,
+              "endOffset": 8,
+              "startLine": 163,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 169,
+              "endOffset": 6,
+              "startLine": 169,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 174,
+              "endOffset": 8,
+              "startLine": 174,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 174,
+              "endOffset": 29,
+              "startLine": 174,
+              "startOffset": 27
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+2 (incl. 1 for nesting)",
+            "textRange": {
+              "endLine": 176,
+              "endOffset": 8,
+              "startLine": 176,
+              "startOffset": 6
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "efe6de267dee0ac3b24514819477afec",
+    "key": "AX3hVMJL-7ukpNKlZyX-",
+    "line": 135,
+    "message": "Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3776",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 135,
+      "endOffset": 10,
+      "startLine": 135,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-10-09T11:20:53-0400",
+    "debt": "13min",
+    "effort": "13min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 135,
+              "endOffset": 10,
+              "startLine": 135,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 140,
+              "endOffset": 6,
+              "startLine": 140,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 141,
+              "endOffset": 8,
+              "startLine": 141,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 149,
+              "endOffset": 6,
+              "startLine": 149,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 155,
+              "endOffset": 6,
+              "startLine": 155,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 156,
+              "endOffset": 8,
+              "startLine": 156,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 156,
+              "endOffset": 50,
+              "startLine": 156,
+              "startOffset": 49
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 162,
+              "endOffset": 6,
+              "startLine": 162,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 163,
+              "endOffset": 8,
+              "startLine": 163,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 169,
+              "endOffset": 6,
+              "startLine": 169,
+              "startOffset": 4
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 174,
+              "endOffset": 8,
+              "startLine": 174,
+              "startOffset": 6
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 174,
+              "endOffset": 29,
+              "startLine": 174,
+              "startOffset": 27
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "+1",
+            "textRange": {
+              "endLine": 176,
+              "endOffset": 8,
+              "startLine": 176,
+              "startOffset": 6
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "efe6de267dee0ac3b24514819477afec",
+    "key": "AX3hVMJL-7ukpNKlZyX_",
+    "line": 135,
+    "message": "Function has a complexity of 13 which is greater than 10 authorized.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1541",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 135,
+      "endOffset": 10,
+      "startLine": 135,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-10-09T11:20:53-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "ba4f392071422ee5a324f48c51e69336",
+    "key": "AX3hVMJL-7ukpNKlZyYA",
+    "line": 141,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 141,
+      "endOffset": 58,
+      "startLine": 141,
+      "startOffset": 40
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-10-09T11:20:53-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "396f450bada2705dbd4e63c380dd22ec",
+    "key": "AX3hVMJL-7ukpNKlZyYS",
+    "line": 267,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 267,
+      "endOffset": 59,
+      "startLine": 267,
+      "startOffset": 41
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-06-13T03:30:59-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "1508a57ef68feebcc58e785053c96ed0",
+    "key": "AX3hVMJL-7ukpNKlZyYZ",
+    "line": 399,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 399,
+      "endOffset": 37,
+      "startLine": 399,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-06-13T03:30:59-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "87fc73abedbcb38770da65f57e2a7bd3",
+    "key": "AX3hVMJL-7ukpNKlZyYa",
+    "line": 400,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 400,
+      "endOffset": 64,
+      "startLine": 400,
+      "startOffset": 31
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-06-13T03:30:59-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "87fc73abedbcb38770da65f57e2a7bd3",
+    "key": "AX3hVMJL-7ukpNKlZyYb",
+    "line": 400,
+    "message": "Use the rest syntax to declare this function's arguments.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3513",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 400,
+      "endOffset": 62,
+      "startLine": 400,
+      "startOffset": 53
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2014-06-04T02:16:25-0400",
+    "debt": "10min",
+    "effort": "10min",
+    "flows": [],
+    "hash": "b645f48361da396c10956f6100a65fe8",
+    "key": "AX3hVMJU-7ukpNKlZyZM",
+    "line": 201,
+    "message": "Unexpected console statement.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S106",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "bad-practice",
+      "owasp-a3",
+      "user-experience"
+    ],
+    "textRange": {
+      "endLine": 201,
+      "endOffset": 17,
+      "startLine": 201,
+      "startOffset": 4
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/application.js",
+    "creationDate": "2014-05-01T19:18:40-0400",
+    "debt": "10min",
+    "effort": "10min",
+    "flows": [],
+    "hash": "a9dc839f8734eb55354b844c493466ba",
+    "key": "AX3hVMJU-7ukpNKlZyZL",
+    "line": 200,
+    "message": "Unexpected console statement.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S106",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "bad-practice",
+      "owasp-a3",
+      "user-experience"
+    ],
+    "textRange": {
+      "endLine": 200,
+      "endOffset": 17,
+      "startLine": 200,
+      "startOffset": 4
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/application.js",
+    "creationDate": "2014-05-01T19:18:40-0400",
+    "debt": "10min",
+    "effort": "10min",
+    "flows": [],
+    "hash": "a9dc839f8734eb55354b844c493466ba",
+    "key": "AX3hVMJU-7ukpNKlZyZN",
+    "line": 202,
+    "message": "Unexpected console statement.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S106",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "bad-practice",
+      "owasp-a3",
+      "user-experience"
+    ],
+    "textRange": {
+      "endLine": 202,
+      "endOffset": 17,
+      "startLine": 202,
+      "startOffset": 4
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-04-29T00:17:46-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "e65b710bc853bf252b7517120441e922",
+    "key": "AX3hVMJL-7ukpNKlZyYD",
+    "line": 149,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 149,
+      "endOffset": 49,
+      "startLine": 149,
+      "startOffset": 31
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-04-28T23:34:26-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "91970124fb74cce02036923864d200ab",
+    "key": "AX3hVMJL-7ukpNKlZyYH",
+    "line": 174,
+    "message": "Expected '!==' and instead saw '!='.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1440",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 174,
+      "endOffset": 41,
+      "startLine": 174,
+      "startOffset": 39
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-04-28T23:34:26-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "91970124fb74cce02036923864d200ab",
+    "key": "AX3hVMJL-7ukpNKlZyYI",
+    "line": 174,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 174,
+      "endOffset": 77,
+      "startLine": 174,
+      "startOffset": 47
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-04-28T23:34:26-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "fd5a9b96636a44cb974a407366f0554e",
+    "key": "AX3hVMJL-7ukpNKlZyYN",
+    "line": 210,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 210,
+      "endOffset": 52,
+      "startLine": 210,
+      "startOffset": 33
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-04-28T23:34:26-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "308e47085e97c07ae01971d5f827f42c",
+    "key": "AX3hVMJL-7ukpNKlZyYO",
+    "line": 211,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 211,
+      "endOffset": 71,
+      "startLine": 211,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/context.js",
+    "creationDate": "2014-04-24T20:58:37-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "ec1b00e1394b4a30e5f1a829cdd299ad",
+    "key": "AX3hVMJd-7ukpNKlZyZj",
+    "line": 111,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 111,
+      "endOffset": 28,
+      "startLine": 111,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2014-04-15T11:31:11-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "6c37c054fa38015d40f583b0dc33c09e",
+    "key": "AX3hVMJU-7ukpNKlZyZW",
+    "line": 249,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 249,
+      "endOffset": 50,
+      "startLine": 249,
+      "startOffset": 29
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2014-04-15T11:31:11-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "a92ffefc5167edbb3435beba6b4e3a58",
+    "key": "AX3hVMJU-7ukpNKlZyZX",
+    "line": 250,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 250,
+      "endOffset": 52,
+      "startLine": 250,
+      "startOffset": 31
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "dead_horse@qq.com",
+    "component": "koa:lib/application.js",
+    "creationDate": "2014-04-15T11:31:11-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "5b15a4d42bd28c21a2e24b0370f260bf",
+    "key": "AX3hVMJU-7ukpNKlZyZY",
+    "line": 251,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 251,
+      "endOffset": 52,
+      "startLine": 251,
+      "startOffset": 30
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/request.js",
+    "creationDate": "2014-03-11T14:06:57-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "2c7c2b069e219ab5f70c8a4b998118df",
+    "key": "AX3hVMI5-7ukpNKlZyXi",
+    "line": 691,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 691,
+      "endOffset": 26,
+      "startLine": 691,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-03-11T14:06:57-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "68b5e8eb15840ca6ff9c6270f0e1806d",
+    "key": "AX3hVMJM-7ukpNKlZyYp",
+    "line": 522,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 522,
+      "endOffset": 26,
+      "startLine": 522,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/application.js",
+    "creationDate": "2014-03-11T14:01:33-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "1698c0a68fe3c3f6b40a18fdeb04fdbc",
+    "key": "AX3hVMJU-7ukpNKlZyY_",
+    "line": 91,
+    "message": "Missing trailing comma.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 92,
+      "endOffset": 0,
+      "startLine": 91,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-02-13T21:35:25-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "d1eda95d8f552814c01f3fa144940618",
+    "key": "AX3hVMJL-7ukpNKlZyYE",
+    "line": 156,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 156,
+      "endOffset": 67,
+      "startLine": 156,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2014-02-13T21:35:25-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "d1eda95d8f552814c01f3fa144940618",
+    "key": "AX3hVMJL-7ukpNKlZyYF",
+    "line": 156,
+    "message": "Ternary operator used.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 156,
+      "endOffset": 66,
+      "startLine": 156,
+      "startOffset": 31
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/context.js",
+    "creationDate": "2013-12-29T08:46:12-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3hVMJd-7ukpNKlZyZr",
+    "line": 172,
+    "message": "Missing trailing comma.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 173,
+      "endOffset": 0,
+      "startLine": 172,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-12-27T21:56:09-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "05e3f679f92c7c89b0e746bece656e6d",
+    "key": "AX3hVMI5-7ukpNKlZyXc",
+    "line": 631,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 631,
+      "endOffset": 40,
+      "startLine": 631,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-28T03:13:16-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "87fc73abedbcb38770da65f57e2a7bd3",
+    "key": "AX3hVMI5-7ukpNKlZyXd",
+    "line": 632,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 632,
+      "endOffset": 64,
+      "startLine": 632,
+      "startOffset": 31
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-28T03:13:16-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "87fc73abedbcb38770da65f57e2a7bd3",
+    "key": "AX3hVMI5-7ukpNKlZyXe",
+    "line": 632,
+    "message": "Use the rest syntax to declare this function's arguments.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3513",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 632,
+      "endOffset": 62,
+      "startLine": 632,
+      "startOffset": 53
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-24T08:06:35-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "db79f59b9a0d40c85132eb9269e8d3aa",
+    "key": "AX3hVMI5-7ukpNKlZyXg",
+    "line": 674,
+    "message": "Extract the assignment of \"field\" from this expression.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1121",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "cwe",
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 674,
+      "endOffset": 19,
+      "startLine": 674,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-18T22:29:29-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "a34fa77fe06e2ff53d79e461611eb950",
+    "key": "AX3hVMI5-7ukpNKlZyXC",
+    "line": 227,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 227,
+      "endOffset": 37,
+      "startLine": 227,
+      "startOffset": 27
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/context.js",
+    "creationDate": "2013-11-18T20:33:41-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "6012b80d916c7da645c7148f643c5474",
+    "key": "AX3hVMJd-7ukpNKlZyZm",
+    "line": 147,
+    "message": "Expected '===' and instead saw '=='.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1440",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 147,
+      "endOffset": 19,
+      "startLine": 147,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/context.js",
+    "creationDate": "2013-11-18T20:33:41-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "6012b80d916c7da645c7148f643c5474",
+    "key": "AX3hVMJd-7ukpNKlZyZn",
+    "line": 147,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 147,
+      "endOffset": 47,
+      "startLine": 147,
+      "startOffset": 30
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2013-11-13T22:59:49-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "532d2c56a0deebedc1b762b8000b2947",
+    "key": "AX3hVMJL-7ukpNKlZyYU",
+    "line": 330,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 330,
+      "endOffset": 52,
+      "startLine": 330,
+      "startOffset": 32
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2013-11-13T22:59:49-0500",
+    "debt": "20min",
+    "effort": "20min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "Return with value",
+            "textRange": {
+              "endLine": 343,
+              "endOffset": 36,
+              "startLine": 343,
+              "startOffset": 14
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "koa:lib/response.js",
+            "msg": "Implicit return without value",
+            "textRange": {
+              "endLine": 344,
+              "endOffset": 3,
+              "startLine": 344,
+              "startOffset": 2
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "cc856aef54aada1760aeb026eadd0120",
+    "key": "AX3hVMJL-7ukpNKlZyYV",
+    "line": 341,
+    "message": "Refactor this function to use \"return\" consistently.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3801",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "confusing"
+    ],
+    "textRange": {
+      "endLine": 341,
+      "endOffset": 18,
+      "startLine": 341,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "jonathanrichardong@gmail.com",
+    "component": "koa:lib/response.js",
+    "creationDate": "2013-11-13T22:59:49-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "a1c4f78a373e01f39ba7eeddb96032fb",
+    "key": "AX3hVMJL-7ukpNKlZyYW",
+    "line": 343,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 343,
+      "endOffset": 36,
+      "startLine": 343,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "5e267244b7b374a44a71fe4c79a60b36",
+    "key": "AX3hVMI5-7ukpNKlZyXM",
+    "line": 314,
+    "message": "Expected '!==' and instead saw '!='.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1440",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 314,
+      "endOffset": 16,
+      "startLine": 314,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "5e267244b7b374a44a71fe4c79a60b36",
+    "key": "AX3hVMI5-7ukpNKlZyXN",
+    "line": 314,
+    "message": "Expected '!==' and instead saw '!='.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1440",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 314,
+      "endOffset": 36,
+      "startLine": 314,
+      "startOffset": 34
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "5e267244b7b374a44a71fe4c79a60b36",
+    "key": "AX3hVMI5-7ukpNKlZyXO",
+    "line": 314,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 314,
+      "endOffset": 58,
+      "startLine": 314,
+      "startOffset": 45
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "ee3e48d69484b2f5e592690a2b7041f6",
+    "key": "AX3hVMI5-7ukpNKlZyXP",
+    "line": 317,
+    "message": "No magic number: 200.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 317,
+      "endOffset": 17,
+      "startLine": 317,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "ee3e48d69484b2f5e592690a2b7041f6",
+    "key": "AX3hVMI5-7ukpNKlZyXQ",
+    "line": 317,
+    "message": "No magic number: 300.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 317,
+      "endOffset": 28,
+      "startLine": 317,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "ee3e48d69484b2f5e592690a2b7041f6",
+    "key": "AX3hVMI5-7ukpNKlZyXR",
+    "line": 317,
+    "message": "No magic number: 304.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 317,
+      "endOffset": 36,
+      "startLine": 317,
+      "startOffset": 33
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "ee3e48d69484b2f5e592690a2b7041f6",
+    "key": "AX3hVMI5-7ukpNKlZyXS",
+    "line": 317,
+    "message": "Expected '===' and instead saw '=='.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1440",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 317,
+      "endOffset": 39,
+      "startLine": 317,
+      "startOffset": 37
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "c47eac32151bb3c60a7c2b64e59a689c",
+    "key": "AX3hVMI5-7ukpNKlZyXW",
+    "line": 402,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 402,
+      "endOffset": 46,
+      "startLine": 402,
+      "startOffset": 31
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "71f64afd05c99b38d413eb9aa4baa719",
+    "key": "AX3hVMI5-7ukpNKlZyXZ",
+    "line": 418,
+    "message": "Expected '===' and instead saw '=='.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1440",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 418,
+      "endOffset": 21,
+      "startLine": 418,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/request.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3hVMI5-7ukpNKlZyXk",
+    "line": 708,
+    "message": "Missing trailing comma.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 709,
+      "endOffset": 0,
+      "startLine": 708,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/response.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "ba8331abf84d0eb46328401e7d687328",
+    "key": "AX3hVMJL-7ukpNKlZyYG",
+    "line": 163,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 163,
+      "endOffset": 37,
+      "startLine": 163,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/response.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "ba8331abf84d0eb46328401e7d687328",
+    "key": "AX3hVMJL-7ukpNKlZyYJ",
+    "line": 176,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 176,
+      "endOffset": 37,
+      "startLine": 176,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/response.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "0cafa5b08d83c2cfa331a02c45558182",
+    "key": "AX3hVMJL-7ukpNKlZyYL",
+    "line": 208,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 208,
+      "endOffset": 24,
+      "startLine": 208,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/response.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "34f20bd5ac6d0893d2f9b2a837077386",
+    "key": "AX3hVMJL-7ukpNKlZyYM",
+    "line": 209,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 209,
+      "endOffset": 66,
+      "startLine": 209,
+      "startOffset": 35
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/response.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "881c2c1aa9a09a086928f6db9e6ce9e0",
+    "key": "AX3hVMJL-7ukpNKlZyYQ",
+    "line": 263,
+    "message": "Expected '===' and instead saw '=='.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1440",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 263,
+      "endOffset": 17,
+      "startLine": 263,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/response.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "881c2c1aa9a09a086928f6db9e6ce9e0",
+    "key": "AX3hVMJL-7ukpNKlZyYR",
+    "line": 263,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 263,
+      "endOffset": 68,
+      "startLine": 263,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/response.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "2c467145617f5200cb7143aebfbbf387",
+    "key": "AX3hVMJL-7ukpNKlZyYT",
+    "line": 290,
+    "message": "Expected { after 'if' condition.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S121",
+    "scope": "MAIN",
+    "severity": "CRITICAL",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 290,
+      "endOffset": 48,
+      "startLine": 290,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/response.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "ee126c698d182aac03f7ab19aeae2940",
+    "key": "AX3hVMJL-7ukpNKlZyYd",
+    "line": 442,
+    "message": "No magic number: 2.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 442,
+      "endOffset": 9,
+      "startLine": 442,
+      "startOffset": 8
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/response.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "ee126c698d182aac03f7ab19aeae2940",
+    "key": "AX3hVMJL-7ukpNKlZyYe",
+    "line": 442,
+    "message": "Expected '===' and instead saw '=='.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1440",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 442,
+      "endOffset": 12,
+      "startLine": 442,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:lib/response.js",
+    "creationDate": "2013-11-13T12:01:15-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3hVMJM-7ukpNKlZyYr",
+    "line": 548,
+    "message": "Missing trailing comma.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 549,
+      "endOffset": 0,
+      "startLine": 548,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:benchmarks/middleware.js",
+    "creationDate": "2013-08-28T19:27:34-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "422ca2d1227dc82510f4204e458103db",
+    "key": "AX3hVMJj-7ukpNKlZyZ1",
+    "line": 30,
+    "message": "No magic number: 3333.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S109",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 30,
+      "endOffset": 15,
+      "startLine": 30,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  },
+  {
+    "author": "tj@vision-media.ca",
+    "component": "koa:benchmarks/middleware.js",
+    "creationDate": "2013-08-17T03:15:57-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "9dd57ec1dff392c99ad2dfea52544b95",
+    "key": "AX3hVMJj-7ukpNKlZyZy",
+    "line": 14,
+    "message": "Extract this decrement operation into a dedicated statement.",
+    "project": "koa",
+    "quickFixAvailable": false,
+    "rule": "javascript:S881",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [],
+    "textRange": {
+      "endLine": 14,
+      "endOffset": 10,
+      "startLine": 14,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-22T03:49:17-0500"
+  }
+]

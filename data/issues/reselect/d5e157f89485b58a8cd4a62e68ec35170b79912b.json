@@ -1,0 +1,5372 @@
+[
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-11-03T00:47:43-0400",
+    "debt": "1h8min",
+    "effort": "1h8min",
+    "flows": [],
+    "key": "AX3f2DQB-7ukpNKlNNQC",
+    "message": "34 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "common-ts:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-11-03T00:47:43-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f2DQB-7ukpNKlNNQD",
+    "message": "Add or update the header of this file.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-11-03T00:47:43-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "d10af245b087f9d345ca8536a23f2c7e",
+    "key": "AX3f2DQB-7ukpNKlNNQF",
+    "line": 8,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 9,
+      "endOffset": 0,
+      "startLine": 8,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-11-03T00:47:43-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f2DP5-7ukpNKlNNPo",
+    "message": "Add or update the header of this file.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-11-03T00:47:43-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "d0eb978ff5a99b482a870adfb3357e45",
+    "key": "AX3f2DP6-7ukpNKlNNPp",
+    "line": 8,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 8,
+      "endOffset": 13,
+      "startLine": 8,
+      "startOffset": 10
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-11-03T00:47:43-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "370498b621c7bf881004febb67292eff",
+    "key": "AX3f2DP6-7ukpNKlNNPq",
+    "line": 12,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 12,
+      "endOffset": 37,
+      "startLine": 12,
+      "startOffset": 34
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-11-03T00:47:43-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "370498b621c7bf881004febb67292eff",
+    "key": "AX3f2DP6-7ukpNKlNNPr",
+    "line": 12,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 12,
+      "endOffset": 45,
+      "startLine": 12,
+      "startOffset": 42
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-11-03T00:47:43-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "b26e8e7303ca1f307ded0fc79b8fa616",
+    "key": "AX3f2DP6-7ukpNKlNNPs",
+    "line": 17,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 18,
+      "endOffset": 0,
+      "startLine": 17,
+      "startOffset": 47
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-11-03T00:47:43-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "8537b0c2fc1981c4bc3c23bb125514ef",
+    "key": "AX3f2DP6-7ukpNKlNNPz",
+    "line": 66,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 67,
+      "endOffset": 0,
+      "startLine": 66,
+      "startOffset": 78
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-11-03T00:47:43-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "449c2070d883e50ac34a79dcd59a9926",
+    "key": "AX3f2DP6-7ukpNKlNNP5",
+    "line": 93,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 94,
+      "endOffset": 0,
+      "startLine": 93,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-11-03T00:47:43-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "8ac27c17d25635f2445e27a62b370060",
+    "key": "AX3f2DP6-7ukpNKlNNQA",
+    "line": 137,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 138,
+      "endOffset": 0,
+      "startLine": 137,
+      "startOffset": 52
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-11-03T00:47:43-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "449c2070d883e50ac34a79dcd59a9926",
+    "key": "AX3f2DP6-7ukpNKlNNQB",
+    "line": 142,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 143,
+      "endOffset": 0,
+      "startLine": 142,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "tim.lee@nintex.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-11-02T20:50:41-0400",
+    "debt": "1h2min",
+    "effort": "1h2min",
+    "flows": [],
+    "key": "AX3f2DQK-7ukpNKlNNRN",
+    "message": "31 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "common-ts:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "tim.lee@nintex.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-11-02T20:50:41-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f2DQK-7ukpNKlNNRO",
+    "message": "Add or update the header of this file.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "tim.lee@nintex.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-11-02T20:50:41-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "be331df010386424e12bb9c3e5d6b2d1",
+    "key": "AX3f2DQK-7ukpNKlNNSC",
+    "line": 159,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 160,
+      "endOffset": 0,
+      "startLine": 159,
+      "startOffset": 37
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "julian@coy.cloud",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-11-02T13:25:44-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "e0f4869b60d855a6e8b69d6c9a6ba375",
+    "key": "AX3f2DP6-7ukpNKlNNPt",
+    "line": 44,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 44,
+      "endOffset": 29,
+      "startLine": 44,
+      "startOffset": 26
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-26T19:30:04-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "ca8d4868a2bc373ea5c4c91b24c2d3e4",
+    "key": "AX3f2DQK-7ukpNKlNNRQ",
+    "line": 6,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 7,
+      "endOffset": 0,
+      "startLine": 6,
+      "startOffset": 29
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-26T19:30:04-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "b03acc5dbf7b83bd43b8fc7e333fbd8b",
+    "key": "AX3f2DQK-7ukpNKlNNRR",
+    "line": 7,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 8,
+      "endOffset": 0,
+      "startLine": 7,
+      "startOffset": 38
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-26T19:30:04-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3b4f13b9877dea43aea7237536da9b34",
+    "key": "AX3f2DQK-7ukpNKlNNRU",
+    "line": 29,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 30,
+      "endOffset": 0,
+      "startLine": 29,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-26T19:30:04-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "ccc9a9ff32d28af9d5263ea70140e8ee",
+    "key": "AX3f2DQK-7ukpNKlNNRW",
+    "line": 37,
+    "message": "Ternary operator used.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 37,
+      "endOffset": 33,
+      "startLine": 37,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-26T19:30:04-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "ccc9a9ff32d28af9d5263ea70140e8ee",
+    "key": "AX3f2DQK-7ukpNKlNNRX",
+    "line": 37,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 38,
+      "endOffset": 0,
+      "startLine": 37,
+      "startOffset": 33
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-26T19:30:04-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3b4f13b9877dea43aea7237536da9b34",
+    "key": "AX3f2DQK-7ukpNKlNNRi",
+    "line": 66,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 67,
+      "endOffset": 0,
+      "startLine": 66,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-26T19:30:04-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "947a29af7db72cb3ade3b102ba3acf31",
+    "key": "AX3f2DQK-7ukpNKlNNRm",
+    "line": 80,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 81,
+      "endOffset": 0,
+      "startLine": 80,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-26T19:30:04-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "da3b522cb2d2879537d9a7fd8e7294dc",
+    "key": "AX3f2DQK-7ukpNKlNNRo",
+    "line": 87,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 88,
+      "endOffset": 0,
+      "startLine": 87,
+      "startOffset": 40
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-26T19:30:04-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "df9d6efb3c352527f38c55cef2a03fed",
+    "key": "AX3f2DQK-7ukpNKlNNR9",
+    "line": 147,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 148,
+      "endOffset": 0,
+      "startLine": 147,
+      "startOffset": 36
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-26T19:30:04-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "a445756e96f46336c95e6a765f23eb49",
+    "key": "AX3f2DQK-7ukpNKlNNR_",
+    "line": 153,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 154,
+      "endOffset": 0,
+      "startLine": 153,
+      "startOffset": 42
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-26T19:30:04-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "3a6e1c0ba4ce880fd7d123e9aaea32e2",
+    "key": "AX3f2DQK-7ukpNKlNNSA",
+    "line": 155,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 156,
+      "endOffset": 0,
+      "startLine": 155,
+      "startOffset": 49
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-26T18:49:03-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "f1ae296539456bde294c14cc907d16a3",
+    "key": "AX3f2DQB-7ukpNKlNNQH",
+    "line": 19,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 20,
+      "endOffset": 0,
+      "startLine": 19,
+      "startOffset": 26
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mail@lenzw.de",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-26T12:13:03-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "6d51271498e35a7747c8c2cbc5ed6001",
+    "key": "AX3f2DP6-7ukpNKlNNP0",
+    "line": 75,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 75,
+      "endOffset": 24,
+      "startLine": 75,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mail@lenzw.de",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-26T12:13:03-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "6d51271498e35a7747c8c2cbc5ed6001",
+    "key": "AX3f2DP6-7ukpNKlNNP1",
+    "line": 81,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 81,
+      "endOffset": 24,
+      "startLine": 81,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mail@lenzw.de",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-26T12:06:11-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "8235ef7ed25bbc987bd8d1b39a4c78c1",
+    "key": "AX3f2DP6-7ukpNKlNNP7",
+    "line": 110,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 111,
+      "endOffset": 0,
+      "startLine": 110,
+      "startOffset": 71
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "85c2c8070f37a79844b9d4641ea4729a",
+    "key": "AX3f2DQB-7ukpNKlNNQo",
+    "line": 109,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 110,
+      "endOffset": 0,
+      "startLine": 109,
+      "startOffset": 49
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "05b77a8a9e0de7e3326cb3743ef96d01",
+    "key": "AX3f2DQB-7ukpNKlNNQp",
+    "line": 111,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 112,
+      "endOffset": 0,
+      "startLine": 111,
+      "startOffset": 28
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9371d7a2e3ae86a00aab4771e39d255d",
+    "key": "AX3f2DQB-7ukpNKlNNQq",
+    "line": 112,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 113,
+      "endOffset": 0,
+      "startLine": 112,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3ceab68451636c9a60d8e6d486da820f",
+    "key": "AX3f2DQB-7ukpNKlNNQw",
+    "line": 127,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 128,
+      "endOffset": 0,
+      "startLine": 127,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "c2340302cc4ff8968782e1b51d76c114",
+    "key": "AX3f2DQB-7ukpNKlNNQx",
+    "line": 128,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 129,
+      "endOffset": 0,
+      "startLine": 128,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "ad2fd7938001a3950ddd24e71cb3fdba",
+    "key": "AX3f2DQB-7ukpNKlNNQy",
+    "line": 136,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 137,
+      "endOffset": 0,
+      "startLine": 136,
+      "startOffset": 53
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cedf8da05466bb54708268b3c694a78f",
+    "key": "AX3f2DQB-7ukpNKlNNQ2",
+    "line": 146,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 147,
+      "endOffset": 0,
+      "startLine": 146,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "23d991a1a5347e66febb4a3d7f287a4f",
+    "key": "AX3f2DQB-7ukpNKlNNQ3",
+    "line": 158,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 158,
+      "endOffset": 51,
+      "startLine": 158,
+      "startOffset": 48
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "77fa9f2ebdf9a92677e3a7b3114143e7",
+    "key": "AX3f2DQB-7ukpNKlNNQ-",
+    "line": 215,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 215,
+      "endOffset": 58,
+      "startLine": 215,
+      "startOffset": 55
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "77fa9f2ebdf9a92677e3a7b3114143e7",
+    "key": "AX3f2DQB-7ukpNKlNNQ8",
+    "line": 215,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 215,
+      "endOffset": 48,
+      "startLine": 215,
+      "startOffset": 45
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "77fa9f2ebdf9a92677e3a7b3114143e7",
+    "key": "AX3f2DQB-7ukpNKlNNQ9",
+    "line": 215,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 215,
+      "endOffset": 53,
+      "startLine": 215,
+      "startOffset": 50
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "77fa9f2ebdf9a92677e3a7b3114143e7",
+    "key": "AX3f2DQB-7ukpNKlNNQ_",
+    "line": 228,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 228,
+      "endOffset": 48,
+      "startLine": 228,
+      "startOffset": 45
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "77fa9f2ebdf9a92677e3a7b3114143e7",
+    "key": "AX3f2DQB-7ukpNKlNNRA",
+    "line": 228,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 228,
+      "endOffset": 53,
+      "startLine": 228,
+      "startOffset": 50
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-20T21:24:56-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "77fa9f2ebdf9a92677e3a7b3114143e7",
+    "key": "AX3f2DQB-7ukpNKlNNRB",
+    "line": 228,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 228,
+      "endOffset": 58,
+      "startLine": 228,
+      "startOffset": 55
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-20T21:24:42-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "dfc9723fe1242230a1ef2395b4858293",
+    "key": "AX3f2DQK-7ukpNKlNNRS",
+    "line": 22,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 23,
+      "endOffset": 0,
+      "startLine": 22,
+      "startOffset": 30
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-20T21:24:42-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "f2f15f9fae7749ce80668c9c68b52976",
+    "key": "AX3f2DQK-7ukpNKlNNRY",
+    "line": 41,
+    "message": "Use null instead.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S2138",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 41,
+      "endOffset": 23,
+      "startLine": 41,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-20T21:24:42-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "f2f15f9fae7749ce80668c9c68b52976",
+    "key": "AX3f2DQK-7ukpNKlNNRZ",
+    "line": 41,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 42,
+      "endOffset": 0,
+      "startLine": 41,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-20T21:24:42-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "af35e2f3150cb8025bfe5fbe0e80d748",
+    "key": "AX3f2DQK-7ukpNKlNNRc",
+    "line": 47,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 48,
+      "endOffset": 0,
+      "startLine": 47,
+      "startOffset": 27
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-20T21:24:42-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cac8000c90e8b529be0eba0dae379982",
+    "key": "AX3f2DQK-7ukpNKlNNRn",
+    "line": 84,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 85,
+      "endOffset": 0,
+      "startLine": 84,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-20T21:24:42-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "f403cff0dbf60c7a03b9ff82cccc0c49",
+    "key": "AX3f2DQK-7ukpNKlNNR0",
+    "line": 125,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 126,
+      "endOffset": 0,
+      "startLine": 125,
+      "startOffset": 61
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-20T21:24:42-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "26e2353adefd4a498e46d9d8ac09a78a",
+    "key": "AX3f2DQK-7ukpNKlNNSE",
+    "line": 165,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 166,
+      "endOffset": 0,
+      "startLine": 165,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-20T21:24:42-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "1ef464e20dc747559de335eccbf4666f",
+    "key": "AX3f2DQK-7ukpNKlNNSF",
+    "line": 168,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 169,
+      "endOffset": 0,
+      "startLine": 168,
+      "startOffset": 43
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-20T21:24:42-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "6f26e4cbcacdabf5fa150e25609050d6",
+    "key": "AX3f2DQK-7ukpNKlNNSG",
+    "line": 170,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 171,
+      "endOffset": 0,
+      "startLine": 170,
+      "startOffset": 51
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T22:17:05-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "957ad4b3bbf6e97203e65e5a4fd4b468",
+    "key": "AX3f2DQB-7ukpNKlNNQX",
+    "line": 64,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 65,
+      "endOffset": 0,
+      "startLine": 64,
+      "startOffset": 26
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T22:17:05-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "8536f85eb1c81c3ce4df4d86eae5e9e9",
+    "key": "AX3f2DQB-7ukpNKlNNQY",
+    "line": 65,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 66,
+      "endOffset": 0,
+      "startLine": 65,
+      "startOffset": 27
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T22:17:05-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "50aa75869c0c42b2729e7e45bcd181bd",
+    "key": "AX3f2DQB-7ukpNKlNNQv",
+    "line": 126,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 127,
+      "endOffset": 0,
+      "startLine": 126,
+      "startOffset": 57
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-19T22:17:05-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "f5afcabc60664c7f3e766a5b8fefb252",
+    "key": "AX3f2DP6-7ukpNKlNNPu",
+    "line": 46,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 47,
+      "endOffset": 0,
+      "startLine": 46,
+      "startOffset": 40
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-19T22:17:05-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "79f5637c5f5d87400f3468cfece712f0",
+    "key": "AX3f2DP6-7ukpNKlNNPv",
+    "line": 54,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 54,
+      "endOffset": 16,
+      "startLine": 54,
+      "startOffset": 13
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-19T22:17:05-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cedf8da05466bb54708268b3c694a78f",
+    "key": "AX3f2DP6-7ukpNKlNNPw",
+    "line": 55,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 56,
+      "endOffset": 0,
+      "startLine": 55,
+      "startOffset": 1
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-19T22:17:05-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "f5afcabc60664c7f3e766a5b8fefb252",
+    "key": "AX3f2DP6-7ukpNKlNNPx",
+    "line": 60,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 61,
+      "endOffset": 0,
+      "startLine": 60,
+      "startOffset": 42
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T22:17:04-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "24461d1b42f5c1709d8ee0f5f073ef21",
+    "key": "AX3f2DQB-7ukpNKlNNQP",
+    "line": 38,
+    "message": "Ternary operator used.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 40,
+      "endOffset": 22,
+      "startLine": 38,
+      "startOffset": 8
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T22:17:04-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "a1fdc77634a00571117e98b7e751be1a",
+    "key": "AX3f2DQB-7ukpNKlNNQQ",
+    "line": 40,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 41,
+      "endOffset": 0,
+      "startLine": 40,
+      "startOffset": 22
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T22:17:04-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "e72355b9ba17af2d55b2099bd9f20b63",
+    "key": "AX3f2DQB-7ukpNKlNNQR",
+    "line": 42,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 43,
+      "endOffset": 0,
+      "startLine": 42,
+      "startOffset": 17
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T22:17:04-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "1e1a339ff804cb8223c1684ed21348ee",
+    "key": "AX3f2DQB-7ukpNKlNNQS",
+    "line": 45,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 46,
+      "endOffset": 0,
+      "startLine": 45,
+      "startOffset": 122
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T22:17:04-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "60558bbdd1be4fb95fe1e7d73b1b3f8f",
+    "key": "AX3f2DQB-7ukpNKlNNQf",
+    "line": 86,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 87,
+      "endOffset": 0,
+      "startLine": 86,
+      "startOffset": 106
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T21:19:11-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9371d7a2e3ae86a00aab4771e39d255d",
+    "key": "AX3f2DQB-7ukpNKlNNQg",
+    "line": 87,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 88,
+      "endOffset": 0,
+      "startLine": 87,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9ade3e94c4f3adf9109cafca9dc370c8",
+    "key": "AX3f2DQK-7ukpNKlNNRP",
+    "line": 1,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 2,
+      "endOffset": 0,
+      "startLine": 1,
+      "startOffset": 41
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "baed7a943787e20b4669a73da36dc8b3",
+    "key": "AX3f2DQK-7ukpNKlNNRT",
+    "line": 26,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 27,
+      "endOffset": 0,
+      "startLine": 26,
+      "startOffset": 26
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "fe22dd8193e04d58470cc2cc834a0cb1",
+    "key": "AX3f2DQK-7ukpNKlNNRV",
+    "line": 33,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 34,
+      "endOffset": 0,
+      "startLine": 33,
+      "startOffset": 28
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f2DQK-7ukpNKlNNRa",
+    "line": 42,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 43,
+      "endOffset": 0,
+      "startLine": 42,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f2DQK-7ukpNKlNNRb",
+    "line": 43,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 44,
+      "endOffset": 0,
+      "startLine": 43,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "2869a16b9080a69f7f3b8ee64fba43da",
+    "key": "AX3f2DQK-7ukpNKlNNRd",
+    "line": 50,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 51,
+      "endOffset": 0,
+      "startLine": 50,
+      "startOffset": 73
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "d54a8da9b8a280b3665980d183210f63",
+    "key": "AX3f2DQK-7ukpNKlNNRe",
+    "line": 54,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 55,
+      "endOffset": 0,
+      "startLine": 54,
+      "startOffset": 39
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "78fa1a2a6b287d7f3325183befa0f236",
+    "key": "AX3f2DQK-7ukpNKlNNRf",
+    "line": 58,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 59,
+      "endOffset": 0,
+      "startLine": 58,
+      "startOffset": 37
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "094ba12dbd88341b69d8251b11eb05b6",
+    "key": "AX3f2DQK-7ukpNKlNNRg",
+    "line": 59,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 60,
+      "endOffset": 0,
+      "startLine": 59,
+      "startOffset": 30
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "baed7a943787e20b4669a73da36dc8b3",
+    "key": "AX3f2DQK-7ukpNKlNNRh",
+    "line": 62,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 63,
+      "endOffset": 0,
+      "startLine": 62,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "0min",
+    "effort": "0min",
+    "flows": [],
+    "hash": "6b56aaf9d5ee3bd813c551956c2fbb80",
+    "key": "AX3f2DQK-7ukpNKlNNRj",
+    "line": 71,
+    "message": "Complete the task associated to this \"TODO\" comment.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1135",
+    "scope": "MAIN",
+    "severity": "INFO",
+    "status": "OPEN",
+    "tags": [
+      "cwe"
+    ],
+    "textRange": {
+      "endLine": 71,
+      "endOffset": 13,
+      "startLine": 71,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "94cf14caa4d0ab0ba0facc0fc036519a",
+    "key": "AX3f2DQK-7ukpNKlNNRk",
+    "line": 72,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 73,
+      "endOffset": 0,
+      "startLine": 72,
+      "startOffset": 37
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "d1a8429c4a9a5034ce68fbcef36197b8",
+    "key": "AX3f2DQK-7ukpNKlNNRl",
+    "line": 74,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 75,
+      "endOffset": 0,
+      "startLine": 74,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "d5a07028dbb91674b85c952f9b8a56cb",
+    "key": "AX3f2DQK-7ukpNKlNNRp",
+    "line": 90,
+    "message": "Remove curly braces and \"return\" from this arrow function body.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3524",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention",
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 92,
+      "endOffset": 1,
+      "startLine": 90,
+      "startOffset": 67
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "445c92760a23107d5637214178a2b3fb",
+    "key": "AX3f2DQK-7ukpNKlNNRq",
+    "line": 91,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 92,
+      "endOffset": 0,
+      "startLine": 91,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f2DQK-7ukpNKlNNRr",
+    "line": 92,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 93,
+      "endOffset": 0,
+      "startLine": 92,
+      "startOffset": 1
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "604b973fe75099a68789d580f99be818",
+    "key": "AX3f2DQK-7ukpNKlNNRs",
+    "line": 97,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 98,
+      "endOffset": 0,
+      "startLine": 97,
+      "startOffset": 39
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cce5c548033030aa19dc5971fbe20553",
+    "key": "AX3f2DQK-7ukpNKlNNRt",
+    "line": 100,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 101,
+      "endOffset": 0,
+      "startLine": 100,
+      "startOffset": 18
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "4592c3175ef01f428545e552b3e9daef",
+    "key": "AX3f2DQK-7ukpNKlNNRu",
+    "line": 104,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 105,
+      "endOffset": 0,
+      "startLine": 104,
+      "startOffset": 30
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cce5c548033030aa19dc5971fbe20553",
+    "key": "AX3f2DQK-7ukpNKlNNRv",
+    "line": 107,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 108,
+      "endOffset": 0,
+      "startLine": 107,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "31e300b770a4b31dfcc61653fdcc9386",
+    "key": "AX3f2DQK-7ukpNKlNNRw",
+    "line": 111,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 112,
+      "endOffset": 0,
+      "startLine": 111,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f2DQK-7ukpNKlNNRx",
+    "line": 112,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 113,
+      "endOffset": 0,
+      "startLine": 112,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "f4330c690160f72b41dbe969d89bb3ca",
+    "key": "AX3f2DQK-7ukpNKlNNRy",
+    "line": 123,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 123,
+      "endOffset": 54,
+      "startLine": 123,
+      "startOffset": 51
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "f4330c690160f72b41dbe969d89bb3ca",
+    "key": "AX3f2DQK-7ukpNKlNNRz",
+    "line": 123,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 123,
+      "endOffset": 64,
+      "startLine": 123,
+      "startOffset": 61
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "27500441a598ff29bbc1acd02dcb1654",
+    "key": "AX3f2DQK-7ukpNKlNNR1",
+    "line": 128,
+    "message": "Ternary operator used.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 130,
+      "endOffset": 49,
+      "startLine": 128,
+      "startOffset": 4
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "d1dfa5d69aa84a79dc37a8a34bd9937e",
+    "key": "AX3f2DQK-7ukpNKlNNR2",
+    "line": 130,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 131,
+      "endOffset": 0,
+      "startLine": 130,
+      "startOffset": 49
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "ab8bd7c7cd805632fa0d1dcdcae9651d",
+    "key": "AX3f2DQK-7ukpNKlNNR3",
+    "line": 135,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 136,
+      "endOffset": 0,
+      "startLine": 135,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "0ee5789415a3b3ad56ce20acb7c88f0c",
+    "key": "AX3f2DQK-7ukpNKlNNR4",
+    "line": 136,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 137,
+      "endOffset": 0,
+      "startLine": 136,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3e45445b42ea7e62dc0d2e4f092aba92",
+    "key": "AX3f2DQK-7ukpNKlNNR5",
+    "line": 138,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 139,
+      "endOffset": 0,
+      "startLine": 138,
+      "startOffset": 60
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "afb9906aa7227f7803b5aef5a73e3b32",
+    "key": "AX3f2DQK-7ukpNKlNNR6",
+    "line": 141,
+    "message": "Ternary operator used.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 143,
+      "endOffset": 43,
+      "startLine": 141,
+      "startOffset": 4
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "ac19729e1d8f448d72287a1b48682411",
+    "key": "AX3f2DQK-7ukpNKlNNR7",
+    "line": 143,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 144,
+      "endOffset": 0,
+      "startLine": 143,
+      "startOffset": 43
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [
+      {
+        "locations": [
+          {
+            "component": "reselect:src/defaultMemoize.ts",
+            "msg": "Replace this reference to \"arguments\".",
+            "textRange": {
+              "endLine": 150,
+              "endOffset": 40,
+              "startLine": 150,
+              "startOffset": 31
+            }
+          }
+        ]
+      },
+      {
+        "locations": [
+          {
+            "component": "reselect:src/defaultMemoize.ts",
+            "msg": "Replace this reference to \"arguments\".",
+            "textRange": {
+              "endLine": 163,
+              "endOffset": 25,
+              "startLine": 163,
+              "startOffset": 16
+            }
+          }
+        ]
+      }
+    ],
+    "hash": "df9d6efb3c352527f38c55cef2a03fed",
+    "key": "AX3f2DQK-7ukpNKlNNR8",
+    "line": 147,
+    "message": "Use the rest syntax to declare this function's arguments.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3513",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 147,
+      "endOffset": 35,
+      "startLine": 147,
+      "startOffset": 26
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3864f67e8ff112504c50096f19a9bfb0",
+    "key": "AX3f2DQK-7ukpNKlNNR-",
+    "line": 150,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 151,
+      "endOffset": 0,
+      "startLine": 150,
+      "startOffset": 41
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9371d7a2e3ae86a00aab4771e39d255d",
+    "key": "AX3f2DQK-7ukpNKlNNSB",
+    "line": 156,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 157,
+      "endOffset": 0,
+      "startLine": 156,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/defaultMemoize.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "6201c20e6973a2f22fb28f22e3e511fc",
+    "key": "AX3f2DQK-7ukpNKlNNSD",
+    "line": 163,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 164,
+      "endOffset": 0,
+      "startLine": 163,
+      "startOffset": 33
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "1ded6bb5d1bfa2648acb3247eaeb1973",
+    "key": "AX3f2DQB-7ukpNKlNNQJ",
+    "line": 25,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 26,
+      "endOffset": 0,
+      "startLine": 25,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "43027ee3b99debee340502cd88a5c8db",
+    "key": "AX3f2DQB-7ukpNKlNNQK",
+    "line": 26,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 27,
+      "endOffset": 0,
+      "startLine": 26,
+      "startOffset": 25
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "10524dd6ed28c697e918e74dd42dff2b",
+    "key": "AX3f2DQB-7ukpNKlNNQL",
+    "line": 28,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 29,
+      "endOffset": 0,
+      "startLine": 28,
+      "startOffset": 47
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3c46cb84afe3d76726f1fe7d710fa856",
+    "key": "AX3f2DQB-7ukpNKlNNQM",
+    "line": 30,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 31,
+      "endOffset": 0,
+      "startLine": 30,
+      "startOffset": 37
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "08f12b91ec7affc1c0a2522af12c0177",
+    "key": "AX3f2DQB-7ukpNKlNNQZ",
+    "line": 71,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 72,
+      "endOffset": 0,
+      "startLine": 71,
+      "startOffset": 31
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "ad51528e413b59927cd4bc5a6c19960d",
+    "key": "AX3f2DQB-7ukpNKlNNQh",
+    "line": 92,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 93,
+      "endOffset": 0,
+      "startLine": 92,
+      "startOffset": 77
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "dba457c9b4d1463d5aecc51e7b68b4bf",
+    "key": "AX3f2DQB-7ukpNKlNNQi",
+    "line": 99,
+    "message": "Ternary operator used.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 101,
+      "endOffset": 44,
+      "startLine": 99,
+      "startOffset": 32
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:58-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "24a2870a2cfaa116b72a9b172452965b",
+    "key": "AX3f2DQB-7ukpNKlNNQj",
+    "line": 101,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 102,
+      "endOffset": 0,
+      "startLine": 101,
+      "startOffset": 44
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:57-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "63e455453f736907f247f039717c8b28",
+    "key": "AX3f2DQB-7ukpNKlNNQW",
+    "line": 63,
+    "message": "'createSelector' is already declared in the upper scope.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1117",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall",
+      "suspicious"
+    ],
+    "textRange": {
+      "endLine": 63,
+      "endOffset": 22,
+      "startLine": 63,
+      "startOffset": 8
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:57-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f2DQB-7ukpNKlNNQa",
+    "line": 72,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 73,
+      "endOffset": 0,
+      "startLine": 72,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:57-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "6003c189ed1258b475a91cf276ee96d5",
+    "key": "AX3f2DQB-7ukpNKlNNQb",
+    "line": 75,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 76,
+      "endOffset": 0,
+      "startLine": 75,
+      "startOffset": 32
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:57-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "e312e532012e22a076d91a0bc428058f",
+    "key": "AX3f2DQB-7ukpNKlNNQc",
+    "line": 79,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 79,
+      "endOffset": 47,
+      "startLine": 79,
+      "startOffset": 44
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:57-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "e312e532012e22a076d91a0bc428058f",
+    "key": "AX3f2DQB-7ukpNKlNNQd",
+    "line": 79,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 80,
+      "endOffset": 0,
+      "startLine": 79,
+      "startOffset": 47
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T20:31:57-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cf636897d5c39b65d13b1d76f1f8190a",
+    "key": "AX3f2DQB-7ukpNKlNNQe",
+    "line": 81,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 82,
+      "endOffset": 0,
+      "startLine": 81,
+      "startOffset": 30
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T01:11:25-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "23d991a1a5347e66febb4a3d7f287a4f",
+    "key": "AX3f2DQB-7ukpNKlNNQV",
+    "line": 56,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 56,
+      "endOffset": 51,
+      "startLine": 56,
+      "startOffset": 48
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-19T01:11:25-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f2DQB-7ukpNKlNNQ1",
+    "line": 140,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 141,
+      "endOffset": 0,
+      "startLine": 140,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:jest.config.js",
+    "creationDate": "2021-10-17T17:22:42-0400",
+    "debt": "8min",
+    "effort": "8min",
+    "flows": [],
+    "key": "AX3f2DQR-7ukpNKlNNSH",
+    "message": "4 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:jest.config.js",
+    "creationDate": "2021-10-17T17:22:42-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f2DQR-7ukpNKlNNSI",
+    "message": "Add or update the header of this file.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:jest.config.js",
+    "creationDate": "2021-10-17T17:17:44-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "16c067f564d765d86ff1b908676c4f21",
+    "key": "AX3f2DQR-7ukpNKlNNSJ",
+    "line": 11,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 12,
+      "endOffset": 0,
+      "startLine": 11,
+      "startOffset": 38
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:jest.config.js",
+    "creationDate": "2021-10-17T17:17:44-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f2DQR-7ukpNKlNNSK",
+    "line": 12,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 13,
+      "endOffset": 0,
+      "startLine": 12,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:jest.config.js",
+    "creationDate": "2021-10-17T17:17:44-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f2DQR-7ukpNKlNNSL",
+    "line": 13,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 14,
+      "endOffset": 0,
+      "startLine": 13,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:jest.config.js",
+    "creationDate": "2021-10-17T17:17:44-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f2DQR-7ukpNKlNNSM",
+    "line": 14,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 15,
+      "endOffset": 0,
+      "startLine": 14,
+      "startOffset": 1
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "30min",
+    "effort": "30min",
+    "flows": [],
+    "key": "AX3f2DPE-7ukpNKlNNPS",
+    "message": "15 more comment lines need to be written to reach the minimum threshold of 25.0% comment density.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "common-js:InsufficientCommentDensity",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f2DPE-7ukpNKlNNPT",
+    "message": "Rename this file to \"config\"",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3317",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "confusing",
+      "convention",
+      "es2015"
+    ],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "key": "AX3f2DPE-7ukpNKlNNPU",
+    "message": "Add or update the header of this file.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1451",
+    "scope": "MAIN",
+    "severity": "BLOCKER",
+    "status": "OPEN",
+    "tags": [],
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "eda8cae51ac98b7cda4a0ba553f7c145",
+    "key": "AX3f2DPE-7ukpNKlNNPV",
+    "line": 1,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 2,
+      "endOffset": 0,
+      "startLine": 1,
+      "startOffset": 53
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "1dd0ee76000d79dc9f332e0267caad41",
+    "key": "AX3f2DPE-7ukpNKlNNPW",
+    "line": 2,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 3,
+      "endOffset": 0,
+      "startLine": 2,
+      "startOffset": 40
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "2733925ee51f1281ee46c860049012e1",
+    "key": "AX3f2DPE-7ukpNKlNNPX",
+    "line": 3,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 4,
+      "endOffset": 0,
+      "startLine": 3,
+      "startOffset": 44
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "4be079db76a8c166ab09c01d32b81ce1",
+    "key": "AX3f2DPE-7ukpNKlNNPY",
+    "line": 4,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 5,
+      "endOffset": 0,
+      "startLine": 4,
+      "startOffset": 46
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "0e9e1631c1ef0f3eec4c41acf24b8232",
+    "key": "AX3f2DPE-7ukpNKlNNPZ",
+    "line": 5,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 6,
+      "endOffset": 0,
+      "startLine": 5,
+      "startOffset": 45
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "40345166e04a54d9d8537ca1b806fca2",
+    "key": "AX3f2DPE-7ukpNKlNNPa",
+    "line": 7,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 8,
+      "endOffset": 0,
+      "startLine": 7,
+      "startOffset": 32
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "5b893c2e4a472448b30ec950a28b15bd",
+    "key": "AX3f2DPE-7ukpNKlNNPb",
+    "line": 9,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 10,
+      "endOffset": 0,
+      "startLine": 9,
+      "startOffset": 50
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "2ac737d240fc746cef37129b7569f08e",
+    "key": "AX3f2DPE-7ukpNKlNNPd",
+    "line": 19,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 20,
+      "endOffset": 0,
+      "startLine": 19,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "2ac737d240fc746cef37129b7569f08e",
+    "key": "AX3f2DPE-7ukpNKlNNPe",
+    "line": 25,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 26,
+      "endOffset": 0,
+      "startLine": 25,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "2c60068e9b0ea9c8636b4bb459b0612e",
+    "key": "AX3f2DPE-7ukpNKlNNPf",
+    "line": 29,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 30,
+      "endOffset": 0,
+      "startLine": 29,
+      "startOffset": 29
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "41e7818dc6a0ec55babae3aaf6da291d",
+    "key": "AX3f2DPE-7ukpNKlNNPg",
+    "line": 31,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 32,
+      "endOffset": 0,
+      "startLine": 31,
+      "startOffset": 14
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f2DPE-7ukpNKlNNPi",
+    "line": 33,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 34,
+      "endOffset": 0,
+      "startLine": 33,
+      "startOffset": 1
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "ea4d7f37efc32c3fc518e86aaac38210",
+    "key": "AX3f2DPE-7ukpNKlNNPj",
+    "line": 42,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 43,
+      "endOffset": 0,
+      "startLine": 42,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f2DPE-7ukpNKlNNPk",
+    "line": 43,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 44,
+      "endOffset": 0,
+      "startLine": 43,
+      "startOffset": 7
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "fc1aae397872717a3ed364930cdab9fc",
+    "key": "AX3f2DPE-7ukpNKlNNPl",
+    "line": 44,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 45,
+      "endOffset": 0,
+      "startLine": 44,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9371d7a2e3ae86a00aab4771e39d255d",
+    "key": "AX3f2DPE-7ukpNKlNNPm",
+    "line": 45,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 46,
+      "endOffset": 0,
+      "startLine": 45,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "8ad72140369c96873f9853a727c774a5",
+    "key": "AX3f2DPE-7ukpNKlNNPn",
+    "line": 48,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 49,
+      "endOffset": 0,
+      "startLine": 48,
+      "startOffset": 21
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-17T15:51:08-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "36d0b5509e0c49d5cb6acc24ff383eab",
+    "key": "AX3f2DQB-7ukpNKlNNQI",
+    "line": 20,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 21,
+      "endOffset": 0,
+      "startLine": 20,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "e3cc1a1914dc65a18bf9a00af123845a",
+    "key": "AX3f2DQB-7ukpNKlNNQE",
+    "line": 5,
+    "message": "Remove this unused import of 'EqualityFn'.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1128",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "es2015",
+      "unused"
+    ],
+    "textRange": {
+      "endLine": 5,
+      "endOffset": 12,
+      "startLine": 5,
+      "startOffset": 2
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "36d0b5509e0c49d5cb6acc24ff383eab",
+    "key": "AX3f2DQB-7ukpNKlNNQG",
+    "line": 9,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 10,
+      "endOffset": 0,
+      "startLine": 9,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "1a7038c66dc82209c01ef2f63f59f44d",
+    "key": "AX3f2DQB-7ukpNKlNNQU",
+    "line": 49,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 50,
+      "endOffset": 0,
+      "startLine": 49,
+      "startOffset": 38
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "15min",
+    "effort": "15min",
+    "flows": [],
+    "hash": "85c2c8070f37a79844b9d4641ea4729a",
+    "key": "AX3f2DQB-7ukpNKlNNQm",
+    "line": 109,
+    "message": "Forbidden non-null assertion.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S2966",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "unpredictable"
+    ],
+    "textRange": {
+      "endLine": 109,
+      "endOffset": 26,
+      "startLine": 109,
+      "startOffset": 15
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "85c2c8070f37a79844b9d4641ea4729a",
+    "key": "AX3f2DQB-7ukpNKlNNQn",
+    "line": 109,
+    "message": "Use the rest syntax to declare this function's arguments.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3513",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 109,
+      "endOffset": 48,
+      "startLine": 109,
+      "startOffset": 39
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "6bf8fe632900075d27a31ae06efd9670",
+    "key": "AX3f2DQB-7ukpNKlNNQ5",
+    "line": 210,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 210,
+      "endOffset": 53,
+      "startLine": 210,
+      "startOffset": 50
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "6bf8fe632900075d27a31ae06efd9670",
+    "key": "AX3f2DQB-7ukpNKlNNQ6",
+    "line": 210,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 210,
+      "endOffset": 63,
+      "startLine": 210,
+      "startOffset": 60
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "6bf8fe632900075d27a31ae06efd9670",
+    "key": "AX3f2DQB-7ukpNKlNNQ7",
+    "line": 210,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 211,
+      "endOffset": 0,
+      "startLine": 210,
+      "startOffset": 65
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "2db762635d6294c600503e6eaf53d9ab",
+    "key": "AX3f2DQB-7ukpNKlNNRC",
+    "line": 235,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 236,
+      "endOffset": 0,
+      "startLine": 235,
+      "startOffset": 34
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "79f9092b675e0f68f8a1a23b6246d859",
+    "key": "AX3f2DQB-7ukpNKlNNRG",
+    "line": 247,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 247,
+      "endOffset": 19,
+      "startLine": 247,
+      "startOffset": 16
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "257e06e9c3a79226d9098290022518bb",
+    "key": "AX3f2DP6-7ukpNKlNNPy",
+    "line": 63,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 64,
+      "endOffset": 0,
+      "startLine": 63,
+      "startOffset": 51
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "449c2070d883e50ac34a79dcd59a9926",
+    "key": "AX3f2DP6-7ukpNKlNNP2",
+    "line": 86,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 87,
+      "endOffset": 0,
+      "startLine": 86,
+      "startOffset": 11
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "ea507030023fc43fb6195f2e9cd8cd13",
+    "key": "AX3f2DP6-7ukpNKlNNP3",
+    "line": 89,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 89,
+      "endOffset": 61,
+      "startLine": 89,
+      "startOffset": 58
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "ea507030023fc43fb6195f2e9cd8cd13",
+    "key": "AX3f2DP6-7ukpNKlNNP4",
+    "line": 89,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 89,
+      "endOffset": 66,
+      "startLine": 89,
+      "startOffset": 63
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "a88c8ff86704765ded8a2352e8c5a46a",
+    "key": "AX3f2DP6-7ukpNKlNNP6",
+    "line": 107,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 108,
+      "endOffset": 0,
+      "startLine": 107,
+      "startOffset": 9
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "163608903196ad455996924f97adfb79",
+    "key": "AX3f2DP6-7ukpNKlNNP8",
+    "line": 132,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 132,
+      "endOffset": 33,
+      "startLine": 132,
+      "startOffset": 30
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9c458f5e39f517ebb1d513d09d33a48d",
+    "key": "AX3f2DP6-7ukpNKlNNP9",
+    "line": 134,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 135,
+      "endOffset": 0,
+      "startLine": 134,
+      "startOffset": 8
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "8ac27c17d25635f2445e27a62b370060",
+    "key": "AX3f2DP6-7ukpNKlNNP-",
+    "line": 137,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 137,
+      "endOffset": 32,
+      "startLine": 137,
+      "startOffset": 29
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/types.ts",
+    "creationDate": "2021-10-17T14:22:20-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "8ac27c17d25635f2445e27a62b370060",
+    "key": "AX3f2DP6-7ukpNKlNNP_",
+    "line": 137,
+    "message": "Unexpected any. Specify a different type.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S4204",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "pitfall"
+    ],
+    "textRange": {
+      "endLine": 137,
+      "endOffset": 40,
+      "startLine": 137,
+      "startOffset": 37
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mark@isquaredsoftware.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2021-10-17T14:18:57-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "e91973a234a3a9e91c31aab88cff370a",
+    "key": "AX3f2DQB-7ukpNKlNNQ4",
+    "line": 208,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 209,
+      "endOffset": 0,
+      "startLine": 208,
+      "startOffset": 55
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mateuszburzynski@gmail.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-02-08T01:55:36-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "5a4126c56868e725fd878615cef92224",
+    "key": "AX3f2DPE-7ukpNKlNNPc",
+    "line": 15,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 16,
+      "endOffset": 0,
+      "startLine": 15,
+      "startOffset": 20
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "mateuszburzynski@gmail.com",
+    "component": "reselect:rollup.config.js",
+    "creationDate": "2021-02-08T01:55:36-0500",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "0fbd1776e1ad22c59a7080d35c7fd4db",
+    "key": "AX3f2DPE-7ukpNKlNNPh",
+    "line": 32,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "javascript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 33,
+      "endOffset": 0,
+      "startLine": 32,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "4ef226a271180a7222414df0626d44f6",
+    "key": "AX3f2DQB-7ukpNKlNNQl",
+    "line": 107,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 108,
+      "endOffset": 0,
+      "startLine": 107,
+      "startOffset": 24
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "e6f449959110bc332d4aa008416c8f97",
+    "key": "AX3f2DQB-7ukpNKlNNQr",
+    "line": 116,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 117,
+      "endOffset": 0,
+      "startLine": 116,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "f1580f620f5747b30abbf56f0eaad0fd",
+    "key": "AX3f2DQB-7ukpNKlNNQs",
+    "line": 117,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 118,
+      "endOffset": 0,
+      "startLine": 117,
+      "startOffset": 40
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "d1ecd1d7ef840aa795f2ab2ae840ed08",
+    "key": "AX3f2DQB-7ukpNKlNNQt",
+    "line": 122,
+    "message": "Use the rest syntax to declare this function's arguments.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3513",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "api-design",
+      "es2015"
+    ],
+    "textRange": {
+      "endLine": 122,
+      "endOffset": 57,
+      "startLine": 122,
+      "startOffset": 48
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "d1ecd1d7ef840aa795f2ab2ae840ed08",
+    "key": "AX3f2DQB-7ukpNKlNNQu",
+    "line": 122,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 123,
+      "endOffset": 0,
+      "startLine": 122,
+      "startOffset": 59
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "johnh@axosoft.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2017-03-06T16:28:51-0500",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "fc1aae397872717a3ed364930cdab9fc",
+    "key": "AX3f2DQB-7ukpNKlNNQz",
+    "line": 137,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 138,
+      "endOffset": 0,
+      "startLine": 137,
+      "startOffset": 6
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "5min",
+    "effort": "5min",
+    "flows": [],
+    "hash": "cc38b8221355c1455ba6730bbce88251",
+    "key": "AX3f2DQB-7ukpNKlNNQN",
+    "line": 33,
+    "message": "Ternary operator used.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1774",
+    "scope": "MAIN",
+    "severity": "MAJOR",
+    "status": "OPEN",
+    "tags": [
+      "brain-overload"
+    ],
+    "textRange": {
+      "endLine": 33,
+      "endOffset": 65,
+      "startLine": 33,
+      "startOffset": 23
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cc38b8221355c1455ba6730bbce88251",
+    "key": "AX3f2DQB-7ukpNKlNNQO",
+    "line": 33,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 34,
+      "endOffset": 0,
+      "startLine": 33,
+      "startOffset": 65
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9371d7a2e3ae86a00aab4771e39d255d",
+    "key": "AX3f2DQB-7ukpNKlNNQT",
+    "line": 46,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 47,
+      "endOffset": 0,
+      "startLine": 46,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "b5bbda1b15b68d5caa9cc93e63cc7db8",
+    "key": "AX3f2DQB-7ukpNKlNNQk",
+    "line": 103,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 104,
+      "endOffset": 0,
+      "startLine": 103,
+      "startOffset": 47
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "0667fb05844c00d9b179f0cb1f791ef2",
+    "key": "AX3f2DQB-7ukpNKlNNQ0",
+    "line": 139,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 140,
+      "endOffset": 0,
+      "startLine": 139,
+      "startOffset": 19
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "7c3e4a4a1d68811404134c2fdf3805cb",
+    "key": "AX3f2DQB-7ukpNKlNNRD",
+    "line": 240,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 241,
+      "endOffset": 0,
+      "startLine": 240,
+      "startOffset": 83
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9371d7a2e3ae86a00aab4771e39d255d",
+    "key": "AX3f2DQB-7ukpNKlNNRE",
+    "line": 241,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 242,
+      "endOffset": 0,
+      "startLine": 241,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "3ce1d083ca31cfee618b6414a319949e",
+    "key": "AX3f2DQB-7ukpNKlNNRF",
+    "line": 243,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 244,
+      "endOffset": 0,
+      "startLine": 243,
+      "startOffset": 43
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "f4ed31c528ea20c9d83ac0435e6aee15",
+    "key": "AX3f2DQB-7ukpNKlNNRH",
+    "line": 249,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 250,
+      "endOffset": 0,
+      "startLine": 249,
+      "startOffset": 46
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9b4a56f77776dd8a1ec0b8278b31830e",
+    "key": "AX3f2DQB-7ukpNKlNNRI",
+    "line": 250,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 251,
+      "endOffset": 0,
+      "startLine": 250,
+      "startOffset": 26
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "905cfff5fee41adb044cbbcc2e5c2322",
+    "key": "AX3f2DQB-7ukpNKlNNRJ",
+    "line": 251,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 252,
+      "endOffset": 0,
+      "startLine": 251,
+      "startOffset": 12
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "2min",
+    "effort": "2min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f2DQB-7ukpNKlNNRK",
+    "line": 252,
+    "message": "Missing trailing comma.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S3723",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 253,
+      "endOffset": 0,
+      "startLine": 252,
+      "startOffset": 5
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "l_bannard@yahoo.co.uk",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-10-26T13:55:22-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "9371d7a2e3ae86a00aab4771e39d255d",
+    "key": "AX3f2DQB-7ukpNKlNNRL",
+    "line": 253,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 254,
+      "endOffset": 0,
+      "startLine": 253,
+      "startOffset": 3
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  },
+  {
+    "author": "p.spitzlinger@synedra.com",
+    "component": "reselect:src/index.ts",
+    "creationDate": "2015-09-16T09:40:03-0400",
+    "debt": "1min",
+    "effort": "1min",
+    "flows": [],
+    "hash": "cbb184dd8e05c9709e5dcaedaa0495cf",
+    "key": "AX3f2DQB-7ukpNKlNNRM",
+    "line": 254,
+    "message": "Missing semicolon.",
+    "project": "reselect",
+    "quickFixAvailable": false,
+    "rule": "typescript:S1438",
+    "scope": "MAIN",
+    "severity": "MINOR",
+    "status": "OPEN",
+    "tags": [
+      "convention"
+    ],
+    "textRange": {
+      "endLine": 255,
+      "endOffset": 0,
+      "startLine": 254,
+      "startOffset": 1
+    },
+    "type": "CODE_SMELL",
+    "updateDate": "2021-12-21T20:53:37-0500"
+  }
+]

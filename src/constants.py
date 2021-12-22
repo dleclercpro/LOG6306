@@ -50,8 +50,8 @@ DELTA_COLS = [STEADY_COL, INCREASED_COL, DECREASED_COL]
 
 
 # Paths
-#ROOT_DIR = '/Users/david/Projects/LOG6306'
-ROOT_DIR = 'C:/Projects/LOG6306'
+ROOT_DIR = '/Users/david/Projects/LOG6306'
+#ROOT_DIR = 'C:/Projects/LOG6306'
 
 REPOS_DIR = f'{ROOT_DIR}/repos'
 LOGS_DIR = f'{ROOT_DIR}/logs'
@@ -112,6 +112,24 @@ JS_PROJECTS = [
     'serverless/serverless',
     'tailwindlabs/tailwindcss',
     'typicode/json-server',
+
+    'facebook/create-react-app',
+    'mermaid-js/mermaid',
+    'nuxt/nuxt.js',
+    'Dogfalo/materialize',
+    'nwjs/nw.js',
+    'iamkun/dayjs',
+    'kenwheeler/slick',
+    'GitSquared/edex-ui',
+    'alvarotrigo/fullPage.js',
+    'koajs/koa',
+    'quilljs/quill',
+    'zenorocha/clipboard.js',
+    'lerna/lerna',
+    'preactjs/preact',
+    'nolimits4web/swiper',
+    'carbon-app/carbon',
+    'jashkenas/backbone',
 ]
 
 TS_PROJECTS = [
@@ -130,4 +148,21 @@ TS_PROJECTS = [
     'graphql/graphql-js',
     'railsware/upterm',
     'balena-io/etcher',
+
+    'marmelab/react-admin',
+    'react-dnd/react-dnd',
+    'floating-ui/floating-ui',
+    'youzan/vant',
+    'reduxjs/reselect',
+    'pubkey/rxdb',
+    'wulkano/Kap',    
+    'fingerprintjs/fingerprintjs',
+    'react-navigation/react-navigation',
+    'ustbhuangyi/better-scroll',
+    'pmndrs/react-spring',
+    'streamich/react-use',
+    'JedWatson/react-select',
+    'remix-run/react-router',
+    'oldj/SwitchHosts',
+    'flatpickr/flatpickr',
 ]

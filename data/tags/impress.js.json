@@ -1,0 +1,58 @@
+[
+  {
+    "commit_hash": "194a3ac53cee20784c381d342fd7303d6cfb4454",
+    "name": "0.1"
+  },
+  {
+    "commit_hash": "3d9360cf846ca9a117c3cfa7302363809b5e5cf4",
+    "name": "0.2"
+  },
+  {
+    "commit_hash": "36816e3b4288962a452dcc5a4f59df6b0e5257ef",
+    "name": "0.3"
+  },
+  {
+    "commit_hash": "6314e2e15012c9db69f76e77a8bb1c437a7312b8",
+    "name": "0.4"
+  },
+  {
+    "commit_hash": "b59a4bf4d7cca990f913a18d4aedaf8b3598577e",
+    "name": "0.4.1"
+  },
+  {
+    "commit_hash": "88662339a96563cba0b7e10884f8e42bb92081c5",
+    "name": "0.5"
+  },
+  {
+    "commit_hash": "d3ce5a87359459060696ce6cbcb7a80f1813b535",
+    "name": "0.5.1"
+  },
+  {
+    "commit_hash": "84e5d62349289a303de3e785d50adccf23190ef7",
+    "name": "0.5.2"
+  },
+  {
+    "commit_hash": "edff5a08c1903960e0550377a07bde9684774654",
+    "name": "0.5.3"
+  },
+  {
+    "commit_hash": "1f074925b28119bcd36c63b962cb405208ddf26b",
+    "name": "0.6.0"
+  },
+  {
+    "commit_hash": "7354dbf5fc9ac2e44d9485d737ceb0966c18e24e",
+    "name": "1.0.0-beta1"
+  },
+  {
+    "commit_hash": "e52866d1c46228049d7ac6e8860bf8e9145b1467",
+    "name": "1.0.0-beta2"
+  },
+  {
+    "commit_hash": "e8394d0899a887a1f02f34ea4dee3dcbea4f648f",
+    "name": "1.0.0"
+  },
+  {
+    "commit_hash": "ddfb5eb78cbee4b0aeb550c8df4f7764fa9ec9d6",
+    "name": "1.1.0"
+  }
+]

@@ -39,8 +39,16 @@
 - vuejs/vue
 - webpack/webpack
 - moment/moment
+- trekhleb/javascript-algorithms
+- juliangarnier/anime
+- adam-p/markdown-here
+- parcel-bundler/parcel
+- TryGhost/Ghost
+- mozilla/pdf.js
+- impress/impress.js
 - facebook/react
 - facebook/react-native
+- microsoft/playwright
 - vuejs/vue
 - twbs/bootstrap
 - atom/atom
@@ -50,6 +58,20 @@
 - lodash/lodash
 - prettier/prettier
 - gatsbyjs/gatsby
+- algorithm-visualizer/algorithm-visualizer
+- cypress-io/cypress
+- Marak/faker.js
+- adobe/brackets
+- videojs/video.js
+- gulpjs/gulp
+- RocketChat/Rocket.Chat
+- photonstorm/phaser
+- agalwood/Motrix
+- vuejs/vue-cli
+- SheetJS/sheetjs
+- jgraph/drawio
+- gorhill/uBlock
+- Unitech/pm2
 
 ## Incompatible TS Projects
 - facebook/jest
@@ -65,7 +87,9 @@
 - vercel/next.js
 - GeekyAnts/NativeBase
 - redis/node-redis
+- n8n-io/n8n
 - reduxjs/redux
+- ReactiveX/rxjs
 - sass/sass
 - NativeScript/NativeScript
 - nestjs/nest
@@ -77,8 +101,11 @@
 - storybookjs/storybook
 - apollographql/apollo-server
 - tensorflow/tfjs
+- fullcalendar/fullcalendar
 - BabylonJS/Babylon.js
 - cdr/code-server
+- coder/code-server
+- date-fns/date-fns
 - apache/superset
 - pixijs/pixijs
 - vitejs/vite
