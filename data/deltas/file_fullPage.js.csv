@@ -1,0 +1,9 @@
+file_name,steady,increased,decreased
+examples/module_loaders/requirejs-example/src/main.js,9,0,0
+examples/requirejs-example/src/main.js,0,0,0
+examples/requirejs-example/src/pepe.js,0,0,0
+jquery.fullPage.js,5,4,3
+pure javascript (Alpha)/javascript.fullPage.js,11,1,0
+src/fullpage.js,5,6,0
+vendors/easings.js,11,0,0
+vendors/scrolloverflow.js,17,3,4

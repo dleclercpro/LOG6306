@@ -1,0 +1,8 @@
+file_name,steady,increased,decreased
+backbone.js,6,10,8
+docs/js/jquery.lazyload.js,14,0,0
+docs/search.js,0,0,0
+examples/backbone-localstorage.js,10,1,0
+examples/backbone.localStorage.js,12,0,0
+examples/todos/todos.js,22,0,2
+karma.conf-sauce.js,8,0,0
