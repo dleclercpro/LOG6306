@@ -48,7 +48,7 @@ def analyze_projects(projects):
 
     # Execute analysis for all projects
     analysis = Analysis(p_s)
-    analysis.merge_stats()
+    #analysis.merge_stats()
     
     #analysis.count_smells()
 
@@ -64,10 +64,11 @@ def analyze_projects(projects):
     #analysis.compute_file_smell_frequencies()
 
     #analysis.compute_smell_cooccurences()
-    #analysis.clean_smell_cooccurences()
+    analysis.compute_top_smell_cooccurences()
+    #analysis.merge_smell_cooccurrences()
 
-    analysis.compute_smell_count_vs_size()
-    analysis.plot_smell_count_vs_size()
+    #analysis.compute_smell_count_vs_size()
+    #analysis.plot_smell_count_vs_size()
 
 
 

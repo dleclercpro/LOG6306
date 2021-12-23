@@ -14,9 +14,22 @@ from lib import load_dataframe, ratio_to_percent, store_dataframe
 
 
 
+# Useful constants
+MIN_COOCCURRENCE = 0.05
+
+
+
 # Helper functions
-def load_smells():
-    return load_dataframe(SMELLS_PATH)
+def is_symmetrical(m):
+    n_rows = len(m.index)
+    n_cols = len(m.columns)
+
+    for i in range(n_rows):
+        for j in range(n_cols):
+            if m.iloc[i, j] != m.iloc[j, i]:
+                return False
+
+    return True
 
 
 
@@ -25,6 +38,27 @@ class Analysis():
 
     def __init__(self, projects):
         self.projects = projects
+
+
+
+    def load_smells(self, language=None):
+        smells = load_dataframe(SMELLS_PATH)
+
+        # No language chosen: return all smells
+        if language is None:
+            return smells
+
+        # Merge smell occurences across all projects of same language
+        language_smells = pd.DataFrame({}, columns=SMELLS)
+
+        for p in self.projects:
+            if p.language != language:
+                continue
+
+            project_smells = smells[smells[PROJECT_COL] == p.name][SMELLS]
+            language_smells = language_smells.append(project_smells, ignore_index=True)
+
+        return language_smells
 
 
 
@@ -364,7 +398,7 @@ class Analysis():
         Compute occurence for each smell type
         """
         
-        smells = load_smells()
+        smells = self.load_smells()
 
         project_smells = smells[smells[PROJECT_COL] == p.name].loc[:, SMELLS]
 
@@ -380,7 +414,7 @@ class Analysis():
         Compute file count for each smell type
         """
         
-        smells = load_smells()
+        smells = self.load_smells()
         project_smells = smells[smells[PROJECT_COL] == p.name].loc[:, SMELLS]
 
         file_count = (project_smells > 0).sum(axis=AXIS_ROW)
@@ -502,73 +536,131 @@ class Analysis():
     def compute_smell_cooccurences(self):
         
         """
-        Compute co-occurence of different smell types in individual files.
+        Compute co-occurrence of different smell types in individual files.
         """
         
-        smells = load_smells()
-
         # For each project language
         for language in LANGUAGES:
-            smells_by_language = pd.DataFrame({}, columns=SMELLS)
+            smells = self.load_smells(language)
 
-            for p in self.projects:
-                if p.language != language:
+
+            # One-hot encode smell occurences in files
+            ohe_smells = smells > 0
+
+
+            # Compute frequent pairs of smells
+            freq_itemsets = apriori(ohe_smells, min_support=EPSILON, max_len=2, use_colnames=True)
+
+
+            # Compute matrices of co-occurrences between pairs of smells
+            cooccurrences = pd.DataFrame(np.zeros((N_SMELLS, N_SMELLS)), index=SMELLS, columns=SMELLS, dtype=float)
+
+            for _, row in freq_itemsets.iterrows():
+                smell_set = row['itemsets']
+                probability = row['support']
+
+                # Ignore item sets which aren't pairs
+                if len(smell_set) != 2:
                     continue
 
-                # Merge smell occurences across all projects of same language
-                project_smells = smells[smells[PROJECT_COL] == p.name][SMELLS]
-                smells_by_language = smells_by_language.append(project_smells, ignore_index=True)
-            
-            # One-hot encode smell occurences in files
-            ohe_smells = smells_by_language > 0
+                # Fill co-occurrences matrix with probability of co-occurrence for
+                # given pair of smells
+                smell_1, smell_2 = smell_set
 
-            # Compute co-occurences between all combinations of smells
-            cooccurences = apriori(ohe_smells, min_support=EPSILON)
+                if smell_1 in SMELLS and smell_2 in SMELLS:
+                    cooccurrences.loc[smell_1, smell_2] = probability
+                    cooccurrences.loc[smell_2, smell_1] = probability
 
-            # Compute matrices of co-occurences between pairs of smells
-            cooccurences_smell_pairs = pd.DataFrame(np.zeros((N_SMELLS, N_SMELLS)), index=SMELLS, columns=SMELLS, dtype=float)
 
-            for _, row in cooccurences.iterrows():
-                cooccurence = row['support']
-                smell_set = row['itemsets']
+            # Make sure matrix is symmetrical
+            if not is_symmetrical(cooccurrences):
+                raise ArithmeticError('Co-occurence matrix must be symmetrical!')
 
-                # Only consider pairs
-                if len(smell_set) == 2:
-                    smell_1, smell_2 = [SMELLS[smell] for smell in smell_set]
-
-                    if smell_1 in SMELLS and smell_2 in SMELLS:
-                        cooccurences_smell_pairs.loc[smell_1, smell_2] = cooccurence
 
             # Replace rule indices to smell names
-            cooccurences_smell_pairs.index = list(map(lambda i: SMELLS_DICT[i]['short_label'], cooccurences_smell_pairs.index))
-            cooccurences_smell_pairs.columns = list(map(lambda i: SMELLS_DICT[i]['short_label'], cooccurences_smell_pairs.columns))
-
-            store_dataframe(cooccurences_smell_pairs, f'{DATA_DIR}/{language}_smell_cooccurences.csv', index=True)
-            print(cooccurences_smell_pairs)
+            cooccurrences.index = list(map(lambda i: SMELLS_DICT[i]['short_label'], cooccurrences.index))
+            cooccurrences.columns = list(map(lambda i: SMELLS_DICT[i]['short_label'], cooccurrences.columns))
 
 
+            # Store co-occurence matrices
+            store_dataframe(cooccurrences, f'{DATA_DIR}/{language}_smell_cooccurences.csv', index=True)
+            store_dataframe(cooccurrences.applymap(lambda x: ratio_to_percent(x, 1)), f'{DATA_DIR}/{language}_clean_smell_cooccurences.csv', index=True)
 
-    def clean_smell_cooccurences(self):
+
+
+    def merge_smell_cooccurrences(self):
 
         """
-        Remove smells for which no co-occurence is detected, neither in JS nor in TS projects.
+        Format smell co-occurrences as percentages for each project language. Higher part
+        of matrix is dedicated to JS. Lower part is dedicated to TS.
+        """
+
+        merged_cooccurrences = pd.DataFrame(np.zeros((N_SMELLS, N_SMELLS)), index=SMELLS, columns=SMELLS, dtype=float)
+
+        for language in LANGUAGES:
+            cooccurences = load_dataframe(f'{DATA_DIR}/{language}_smell_cooccurences.csv', index_col=0)
+            
+            merged_cooccurrences.index = cooccurences.index
+            merged_cooccurrences.columns = cooccurences.columns
+
+            for i in range(len(cooccurences.index)):
+                for j in range(len(cooccurences.columns)):
+                    if (
+                        i > j and language == JS or
+                        j > i and language == TS or
+                        i == j
+                    ):
+                        continue
+
+                    merged_cooccurrences.iloc[i, j] = cooccurences.iloc[i, j]
+
+        # Co-occurence as percentage
+        merged_cooccurrences = merged_cooccurrences.applymap(lambda x: ratio_to_percent(x, 1))
+        print(merged_cooccurrences)
+
+        store_dataframe(merged_cooccurrences, f'{DATA_DIR}/merged_smell_cooccurences.csv', index=True)
+
+
+
+    def compute_top_smell_cooccurences(self):
+
+        """
+        Format and keep only the smell pairs for which the highest co-occurrence probabilities
+        have been observed.
         """
 
         for language in LANGUAGES:
             cooccurences = load_dataframe(f'{DATA_DIR}/{language}_smell_cooccurences.csv', index_col=0)
 
-            # Compute smells with no co-occurence
-            missing_smell_cooccurences = cooccurences.sum(axis=AXIS_ROW).add(cooccurences.sum(axis=AXIS_COL))
-            missing_smells = missing_smell_cooccurences[missing_smell_cooccurences < EPSILON].index.tolist()
+            # Initialize dataframe for significant co-occurrences (probability of co-occurrence higher
+            # than given value)
+            significant_cooccurences = pd.DataFrame({}, columns=['Pair', 'Probability'])
+
+            for i in range(len(cooccurences.index)):
+                for j in range(len(cooccurences.columns)):
+                    if i > j:
+                        continue
+
+                    probability = cooccurences.iloc[i, j]
+
+                    # Store JS in 
+                    # Keep smells with significant co-occurrence
+                    if probability < MIN_COOCCURRENCE:
+                        continue
+                    
+                    significant_cooccurences = significant_cooccurences.append({
+                        'Pair': f'({cooccurences.index[i]}, {cooccurences.columns[j]})',
+                        'Probability': probability,
+                    }, ignore_index=True)
+
+            # Sort by probability
+            significant_cooccurences.sort_values('Probability', axis=AXIS_ROW, ascending=False, inplace=True)
             
-            # Remove smells with no co-occurence
-            cooccurences = cooccurences.drop(columns=missing_smells).drop(index=missing_smells)
-
             # Co-occurence as percentage
-            cooccurences = cooccurences.applymap(ratio_to_percent)
+            significant_cooccurences['Probability'] = significant_cooccurences['Probability'].apply(lambda x: ratio_to_percent(x, 1))
+            print(significant_cooccurences)
 
-            store_dataframe(cooccurences, f'{DATA_DIR}/{language}_clean_smell_cooccurences.csv', index=True)
-            print(cooccurences)
+            store_dataframe(significant_cooccurences, f'{DATA_DIR}/{language}_smell_cooccurrences_>5%.csv')
 
 
 

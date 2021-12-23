@@ -24,7 +24,6 @@ SMELLS_DICT = {
         "short_label": "ACS",
         "description": "Assignments should not be made from within sub-expressions",
     },
-    # Missing
     "S1479": {
         "label": "Complex Switch Case",
         "short_label": "CSC",
