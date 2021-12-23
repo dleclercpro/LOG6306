@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 __mocks__/d3.js,24,0,0
 cypress/examples/actions.spec.js,24,0,0
 cypress/examples/aliasing.spec.js,24,0,0

@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 bin/serverless.js,24,0,0
 commands/plugin-install.js,13,0,0
 commands/plugin-uninstall.js,13,0,0

@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 src/core/infiniteQueryBehavior.ts,24,0,0
 src/core/queriesObserver.ts,24,0,0
 src/core/query.ts,24,0,0

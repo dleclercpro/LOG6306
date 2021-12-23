@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 Gruntfile.js,19,3,2
 build/release-notes.js,7,0,0
 build/release.js,22,0,2

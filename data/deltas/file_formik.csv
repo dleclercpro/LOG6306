@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 packages/formik/src/utils.ts,10,0,0
 src/utils.ts,11,1,1
 website/src/lib/build-rss.ts,1,0,0

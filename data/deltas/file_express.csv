@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 benchmarks/middleware.js,24,0,0
 examples/auth/index.js,22,1,1
 examples/auth/pass.js,11,0,0

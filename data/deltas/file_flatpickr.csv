@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 build.ts,21,3,0
 src/index.ts,13,9,2
 src/l10n/cat.ts,24,0,0

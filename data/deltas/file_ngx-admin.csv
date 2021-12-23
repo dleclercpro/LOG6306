@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 src/app/@core/data/earning.service.ts,0,0,0
 src/app/@core/data/electricity.service.ts,7,0,0
 src/app/@core/data/orders-chart.service.ts,0,0,0

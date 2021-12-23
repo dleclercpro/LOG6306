@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 babel.config.js,22,0,1
 benches/proxy-packages/preact-v8-proxy/index.js,16,0,1
 benches/scripts/analyze.js,7,0,0

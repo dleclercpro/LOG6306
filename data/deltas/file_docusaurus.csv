@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 packages/docusaurus-init/src/index.ts,8,1,0
 packages/docusaurus-migrate/src/index.ts,1,1,0
 packages/docusaurus-plugin-client-redirects/src/normalizePluginOptions.ts,2,0,0

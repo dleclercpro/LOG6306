@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 examples/angular/server.ts,24,0,0
 examples/angular/src/app/app.component.ts,24,0,0
 examples/angular/src/app/components/hero-edit/hero-edit.component.ts,23,1,0

@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 packages/core/src/common/position.ts,24,0,0
 packages/core/src/common/tetherUtils.ts,24,0,0
 packages/core/src/common/utils.ts,24,0,0

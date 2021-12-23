@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 build/index.js,23,1,0
 karma.sauce.conf.js,24,0,0
 src/constant.js,24,0,0

@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 api/image/index.js,3,0,0
 api/oembed.js,1,0,0
 components/BackgroundSelect.js,24,0,0

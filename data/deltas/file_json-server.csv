@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 __fixtures__/seed.js,9,0,0
 public/script.js,3,0,0
 src/cli/run.js,23,0,1

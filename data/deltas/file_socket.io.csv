@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 examples/angular-todomvc/server.ts,15,0,0
 examples/angular-todomvc/src/app/app.component.ts,15,0,0
 examples/angular-todomvc/src/environments/environment.ts,15,0,0

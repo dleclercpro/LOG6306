@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 integrationTests/ts/index.ts,11,1,0
 src/error/GraphQLError.ts,2,0,0
 src/execution/collectFields.ts,2,0,0

@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 examples/react-tic-tac-toe/src/ticTacToe.machine.ts,11,0,1
 examples/todo-mvc-react/src/todo.machine.ts,7,0,0
 examples/todo-mvc-vue/src/todoItem.machine.ts,11,0,0

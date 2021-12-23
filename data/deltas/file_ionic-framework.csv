@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 angular/src/app-initialize.ts,24,0,0
 angular/src/directives/control-value-accessors/value-accessor.ts,24,0,0
 angular/src/directives/navigation/ion-router-outlet.ts,23,0,1

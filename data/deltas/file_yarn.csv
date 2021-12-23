@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 bin/yarn.js,24,0,0
 gulpfile.js,24,0,0
 scripts/_runCommand.js,24,0,0

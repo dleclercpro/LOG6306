@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 lib/auth.js,24,0,0
 lib/getProxyFromURI.js,24,0,0
 lib/har.js,24,0,0

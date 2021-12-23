@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 src/createRouter.ts,10,0,0
 src/factory/createHTMLMediaHook.ts,13,0,0
 src/factory/createRouter.ts,13,0,0

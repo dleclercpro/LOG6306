@@ -7,10 +7,10 @@ import pandas as pd
 
 
 # Custom imports
-from constants import COMMIT_COL, DELTAS_DIR, FILE_COL, FILE_VERSION_COLS, FILES_DIR, ISSUES_DIR, JS, LANGUAGES, PROJECT_COL, REPOS_DIR, RULE_COL, SEVERITY_COL, SMELLS_COLS, SMELLS_DIR, STATS_DIR, TAGS_COL, TS, TYPE_COL
+from constants import COMMIT_COL, DELTAS_DIR, FILE_COL, FILE_VERSION_COLS, FILES_DIR, ISSUES_DIR, JS, LANGUAGES, LOC_COL, PROJECT_COL, REPOS_DIR, RULE_COL, SEVERITY_COL, SMELLS_COLS, SMELLS_DIR, STATS_DIR, TAGS_COL, TS, TYPE_COL
 from issue import Issue
 from repository import Repo
-from lib import formatSeconds, is_js_file, is_test_file, is_ts_file, load_dataframe, load_json, store_dataframe
+from lib import format_seconds, is_js_file, is_test_file, is_ts_file, load_dataframe, load_json, store_dataframe
 from smells import SMELLS_DICT
 from sonar import Sonar
 
@@ -76,7 +76,11 @@ class Project():
 
     def get_smells(self):
         smells = load_dataframe(self.smells_fname)
-        return smells[smells[RULE_COL].isin(SMELLS_DICT)] if smells is not None else None
+        
+        if smells is not None:
+            return smells[smells[RULE_COL].isin(SMELLS_DICT)]
+        else:
+            return None
 
     def store_smells(self, smells):
         store_dataframe(smells, self.smells_fname)
@@ -119,7 +123,7 @@ class Project():
 
 
 
-    def get_valid_files(self):
+    def get_files(self):
         return load_dataframe(self.files_fname)
 
     def store_valid_files(self, files):
@@ -180,20 +184,20 @@ class Project():
             n -= 1
 
             remaining_seconds = (t - t_0).total_seconds() / i * n
-            logging.info(f'Remaining time: {formatSeconds(remaining_seconds)}')
+            logging.info(f'Remaining time: {format_seconds(remaining_seconds)}')
 
 
 
-    def list_valid_files(self):
+    def list_files(self):
 
         """
         List production JS/TS files for all recent releases of all projects.
         """
 
-        if self.get_valid_files() is not None:
+        if self.get_files() is not None:
             return
 
-        files = pd.DataFrame([], columns=FILE_VERSION_COLS)
+        files = pd.DataFrame([], columns=FILE_VERSION_COLS + [LOC_COL])
         
         # List files in each recent release of project
         for release in self.get_recent_releases():
@@ -203,20 +207,32 @@ class Project():
             self.checkout(release)
 
             # For all files in current release
-            for root_dir, _, file_names in os.walk(self.dir):
-                for file_name in file_names:
-                    path = os.path.join(root_dir, file_name)
-                    path = os.path.relpath(path, self.dir)
+            for root_dir, _, dir_files in os.walk(self.dir):
+                for dir_file in dir_files:
+                    path = os.path.join(root_dir, dir_file)
+
+                    # Compute file name
+                    file_name = os.path.relpath(path, self.dir)
+                    file_name = file_name.replace('\\', '/')
 
                     # Skip invalid files
-                    if self.should_skip_file(path):
+                    if self.should_skip_file(file_name):
                         continue
+
+                    # Count number of non-empty lines
+                    n_lines = 0
+
+                    with open(path, 'r') as f:
+                        for line in f.readlines():
+                            if line.strip():
+                                n_lines += 1
                     
                     # Store file version
                     files = files.append({
                         PROJECT_COL: self.name,
                         COMMIT_COL: release.commit_hash,
-                        FILE_COL: path.replace('\\', '/'),
+                        FILE_COL: file_name,
+                        LOC_COL: n_lines,
                     }, ignore_index=True)
 
         self.store_valid_files(files)

@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 docs/src/hooks/useObserver.ts,3,0,0
 docs/src/styles/markdown.ts,3,0,0
 packages/animated/src/AnimatedArray.ts,13,0,0

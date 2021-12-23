@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 config/helpers.ts,24,0,0
 config/processInvariants.ts,24,0,0
 config/resolveModuleIds.ts,22,2,0

@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 distributions/nuxt-start/bin/nuxt-start.js,24,0,0
 distributions/nuxt/bin/nuxt.js,24,0,0
 examples/auth-jwt/middleware/authenticated.js,24,0,0

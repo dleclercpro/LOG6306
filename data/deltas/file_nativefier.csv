@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 app/src/components/mainWindow.ts,21,2,1
 app/src/components/mainWindowHelpers.ts,7,0,0
 app/src/components/menu.ts,21,2,1

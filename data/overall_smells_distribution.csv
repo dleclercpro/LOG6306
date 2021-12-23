@@ -1,0 +1,26 @@
+,javascript,typescript
+Lengthy Line,1.6%,4.1%
+Long Parameter List,0.3%,0.3%
+Depth,4.9%,2.6%
+Long Method,1.1%,0.6%
+Assignment in Conditional Statement,1.8%,1.5%
+Complex Switch Case,-,-
+Complex Code,6.0%,5.0%
+Lengthy File,0.1%,0.2%
+Magic Number,52.2%,62.9%
+Retired Code,2.9%,1.2%
+Complex Expression,1.8%,2.4%
+Shadowed Variable,6.5%,5.4%
+Empty Function,1.7%,1.7%
+Duplicated String,4.6%,3.1%
+Weak Equality,3.7%,2.3%
+Unreachable Code,-,0.1%
+Useless Assignment,4.1%,0.4%
+Overwritten Built-Ins,0.6%,0.4%
+Overwritten Variable/Function,0.2%,0.2%
+String Comparison,-,-
+Invariant Function,-,0.1%
+Invalid Error,0.2%,0.6%
+Unknown Output,-,-
+Inconsistent Return,4.9%,4.0%
+Duplicated Function,0.5%,0.9%

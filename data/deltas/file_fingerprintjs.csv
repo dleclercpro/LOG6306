@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 playground/index.ts,12,1,0
 resources/content_blocking/filters.ts,1,0,0
 resources/content_blocking/get_unique_filter_selectors.ts,5,1,0

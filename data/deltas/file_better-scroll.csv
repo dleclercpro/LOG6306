@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 packages/core/src/BScroll.ts,19,0,0
 packages/core/src/Options.ts,19,0,0
 packages/core/src/base/ActionsHandler.ts,19,0,0

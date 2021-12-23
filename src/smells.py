@@ -25,11 +25,11 @@ SMELLS_DICT = {
         "description": "Assignments should not be made from within sub-expressions",
     },
     # Missing
-    #"S1479": {
-    #    "label": "Complex Switch Case",
-    #    "short_label": "CSC",
-    #    "description": "'switch' statements should not have too many 'case' clauses",
-    #},
+    "S1479": {
+        "label": "Complex Switch Case",
+        "short_label": "CSC",
+        "description": "'switch' statements should not have too many 'case' clauses",
+    },
     "S1541": {
         "label": "Complex Code",
         "short_label": "CC",
@@ -137,11 +137,3 @@ SMELLS_DICT = {
 
 SMELLS = list(SMELLS_DICT.keys())
 N_SMELLS = len(SMELLS)
-
-MISSING_SMELL_COOCCURENCES = [
-    "UC",
-    "UO",
-    "IF",
-    "SC",
-    "OVF",
-]

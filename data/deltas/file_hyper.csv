@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 app/auto-updater-linux.ts,4,0,0
 app/commands.ts,4,0,0
 app/config.ts,4,0,0

@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 cypress/integration/modules/a11y.js,23,1,0
 cypress/integration/modules/core-methods.js,24,0,0
 cypress/integration/modules/core.js,24,0,0

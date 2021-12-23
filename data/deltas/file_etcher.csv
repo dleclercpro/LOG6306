@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 lib/gui/app/app.ts,24,0,0
 lib/gui/app/models/leds.ts,23,0,1
 lib/gui/app/models/store.ts,23,1,0

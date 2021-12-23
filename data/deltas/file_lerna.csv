@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 __fixtures__/pack-directory/packages/b/prepack.js,16,0,0
 commands/add/command.js,24,0,0
 commands/bootstrap/command.js,24,0,0

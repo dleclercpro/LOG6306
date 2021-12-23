@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 Gruntfile.js,2,0,1
 lib/bench/concat.bench.js,24,0,0
 lib/bench/contains.bench.js,10,0,0

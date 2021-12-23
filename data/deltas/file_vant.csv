@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 packages/vant-area-data/src/index.ts,24,0,0
 packages/vant-cli/src/commands/changelog.ts,24,0,0
 packages/vant-cli/src/common/constant.ts,23,1,0

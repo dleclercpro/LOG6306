@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 integrations/execute.js,19,1,0
 integrations/io.js,19,1,0
 jest/customMatchers.js,23,0,1

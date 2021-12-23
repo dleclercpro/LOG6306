@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 benchmarks/middleware.js,21,0,0
 lib/application.js,20,2,2
 lib/context.js,23,1,0

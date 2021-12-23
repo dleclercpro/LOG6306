@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 packages/fiber/src/core/events.ts,7,1,0
 packages/fiber/src/core/hooks.ts,8,0,0
 packages/fiber/src/core/is.ts,8,0,0

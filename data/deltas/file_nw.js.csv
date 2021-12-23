@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 src/api/app/app.js,24,0,0
 src/api/clipboard/clipboard.js,24,0,0
 src/api/menu/menu.js,24,0,0

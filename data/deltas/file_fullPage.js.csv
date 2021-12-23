@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 examples/module_loaders/requirejs-example/src/main.js,9,0,0
 examples/requirejs-example/src/main.js,0,0,0
 examples/requirejs-example/src/pepe.js,0,0,0

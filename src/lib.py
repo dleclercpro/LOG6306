@@ -4,14 +4,16 @@ import logging
 import pandas as pd
 
 # Custom imports
-from constants import JS_EXTENSIONS, TS_EXTENSIONS
+from constants import EPSILON, JS_EXTENSIONS, TS_EXTENSIONS
 
 
 
 def printJSON(obj):
     logging.info(json.dumps(obj, sort_keys=True, indent=2))
 
-def formatSeconds(seconds):
+
+
+def format_seconds(seconds):
     time = seconds
     units = 's'
 
@@ -28,6 +30,17 @@ def formatSeconds(seconds):
                 units = 'd'
 
     return f'{round(time, 1)} {units}'
+
+
+
+def ratio_to_percent(ratio, precision=0):
+    percent = round(ratio * 100, precision)
+
+    if percent < EPSILON:
+        return '-'
+    else:
+        return f'{percent}%'
+
 
 
 def load_json(path):

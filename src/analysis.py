@@ -1,14 +1,22 @@
 import logging
 import numpy as np
 import pandas as pd
+from scipy import stats
 from mlxtend.frequent_patterns import apriori
+from matplotlib import pyplot as plt
 
 
 
 # Custom imports
-from constants import AXIS_COL, AXIS_ROW, COMMIT_COL, DATA_DIR, DECREASED_COL, DELTA_COLS, EPSILON, FILE_COL, FILE_VERSION_COLS, INCREASED_COL, JS, JS_STATS_PATH, LANGUAGES, N_RELEASE_TAGS, PROJECT_COL, RULE_COL, SMELLS_COLS, STATS, SMELLS_PATH, STEADY_COL, TS, TS_STATS_PATH
-from smells import SMELLS, N_SMELLS, MISSING_SMELL_COOCCURENCES, SMELLS_DICT
-from lib import load_dataframe, store_dataframe
+from constants import AXIS_COL, AXIS_ROW, COMMIT_COL, COUNT_COL, DATA_DIR, DECREASED_COL, DELTA_COLS, EPSILON, FILE_COL, FILE_VERSION_COLS, INCREASED_COL, JS, LANGUAGES, LOC_COL, N_RELEASE_TAGS, PROJECT_COL, RULE_COL, SMELLS_COLS, STATS, SMELLS_PATH, STEADY_COL, TS
+from smells import SMELLS, N_SMELLS, SMELLS_DICT
+from lib import load_dataframe, ratio_to_percent, store_dataframe
+
+
+
+# Helper functions
+def load_smells():
+    return load_dataframe(SMELLS_PATH)
 
 
 
@@ -32,7 +40,7 @@ class Analysis():
 
         for p in self.projects:
             repo_stats = p.repo.stats.to_dict()
-            row = {PROJECT_COL: p.name, 'language': p.language}
+            row = {PROJECT_COL: f'{p.owner}/{p.name}', 'language': p.language}
 
             for stat in STATS:
                 row[stat] = repo_stats[stat]
@@ -57,32 +65,21 @@ class Analysis():
         for col in ['stargazers_count', 'forks_count', 'commits_count']:
             stats[col] = stats[col].apply(lambda x: f'{round(x / 1000.0, 1)}k')
 
-        # Convert JS/TS ratios to percentages
-        def ratio_to_percent(ratio):
-            percent = round(ratio * 100.0, 1)
-
-            if percent == 0:
-                return '-'
-            else:
-                return f'{percent}%'
-
         for ratio in ['js_ratio', 'ts_ratio']:
-            stats[ratio] = stats[ratio].apply(ratio_to_percent)
+            stats[ratio] = stats[ratio].apply(lambda x: ratio_to_percent(x, 1))
 
         # Sort according to stars
         stats = stats.sort_values('stargazers_count', axis=AXIS_ROW, ascending=False)
 
         # Split JS and TS stats
-        js_stats = stats[stats['language'] == JS]
-        ts_stats = stats[stats['language'] == TS]
+        for language in LANGUAGES:
+            split_stats = stats[stats['language'] == language]
 
-        # Drop language column
-        js_stats = js_stats.drop(columns=['language'])
-        ts_stats = ts_stats.drop(columns=['language'])
+            # Drop language column
+            split_stats = split_stats.drop(columns=['language'])
 
-        # Store final stats for all projects
-        store_dataframe(js_stats, JS_STATS_PATH)
-        store_dataframe(ts_stats, TS_STATS_PATH)
+            # Store final stats for all projects
+            store_dataframe(split_stats, f'{DATA_DIR}/{language}_stats.csv')
 
 
 
@@ -221,7 +218,7 @@ class Analysis():
             logging.info(f'Computing smell deltas on file scale for: {p.name}')
 
             smells = p.get_smells()
-            files = p.get_valid_files()
+            files = p.get_files()
 
             if smells is None:
                 raise RuntimeError(f'Missing smells for project `{p.name}`.')
@@ -307,10 +304,10 @@ class Analysis():
 
 
 
-    def compute_smell_deltas_on_app_scale(self):
+    def compute_fns_app_smell_deltas(self):
 
         """
-        Compute smell deltas for all combined apps of a given language. 
+        Compute FNS smell deltas for all combined apps of a given language. 
         """
 
         # For each project language
@@ -330,14 +327,14 @@ class Analysis():
 
             # Compute five-number-summary for all files
             fns = self.compute_smell_deltas_fns(result)
-            print(fns)
+            store_dataframe(fns, f'{DATA_DIR}/{language}_fns_app_smell_deltas.csv', index=True)
 
 
 
-    def compute_smell_deltas_on_file_scale(self):
+    def compute_fns_file_smell_deltas(self):
 
         """
-        Compute smell deltas for all combined files of a given language. 
+        Compute FNS smell deltas for all combined files of a given language. 
         """
 
         # For each project language
@@ -357,7 +354,7 @@ class Analysis():
 
             # Compute five-number-summary for all files
             fns = self.compute_smell_deltas_fns(result)
-            print(fns)
+            store_dataframe(fns, f'{DATA_DIR}/{language}_fns_file_smell_deltas.csv', index=True)
 
 
 
@@ -367,7 +364,7 @@ class Analysis():
         Compute occurence for each smell type
         """
         
-        smells = load_dataframe(SMELLS_PATH)
+        smells = load_smells()
 
         project_smells = smells[smells[PROJECT_COL] == p.name].loc[:, SMELLS]
 
@@ -383,7 +380,7 @@ class Analysis():
         Compute file count for each smell type
         """
         
-        smells = load_dataframe(SMELLS_PATH)
+        smells = load_smells()
         project_smells = smells[smells[PROJECT_COL] == p.name].loc[:, SMELLS]
 
         file_count = (project_smells > 0).sum(axis=AXIS_ROW)
@@ -418,7 +415,7 @@ class Analysis():
             result.loc[:, language] = occurences
 
         # Format output to percentages
-        result = result.applymap(lambda x: f'{round(x * 100, 1)}%')
+        result = result.applymap(lambda x: ratio_to_percent(x, 1))
 
         # Replace rule indices to smell names
         result.index = list(map(lambda i: SMELLS_DICT[i]['label'], result.index))
@@ -455,7 +452,7 @@ class Analysis():
             result.loc[:, language] = app_frequency_by_smell
 
         # Format output to percentages
-        result = result.applymap(lambda x: f'{round(x * 100, 1)}%')
+        result = result.applymap(lambda x: ratio_to_percent(x, 1))
         
         # Replace rule indices to smell names
         result.index = list(map(lambda i: SMELLS_DICT[i]['label'], result.index))
@@ -483,7 +480,7 @@ class Analysis():
                 file_count_by_smell = file_count_by_smell.add(self.compute_file_count_by_smell(p))
 
                 # Add number of files considered in current app
-                files = p.get_valid_files()
+                files = p.get_files()
                 n_files += len(files)
 
 
@@ -492,7 +489,7 @@ class Analysis():
             result.loc[:, language] = file_frequency_by_smell
 
         # Format output to percentages
-        result = result.applymap(lambda x: f'{round(x * 100, 1)}%')
+        result = result.applymap(lambda x: ratio_to_percent(x, 1))
         
         # Replace rule indices to smell names
         result.index = list(map(lambda i: SMELLS_DICT[i]['label'], result.index))
@@ -502,8 +499,13 @@ class Analysis():
 
 
 
-    def compute_smell_cooccurences_in_files(self):
-        smells = load_dataframe(SMELLS_PATH)
+    def compute_smell_cooccurences(self):
+        
+        """
+        Compute co-occurence of different smell types in individual files.
+        """
+        
+        smells = load_smells()
 
         # For each project language
         for language in LANGUAGES:
@@ -524,10 +526,10 @@ class Analysis():
             cooccurences = apriori(ohe_smells, min_support=EPSILON)
 
             # Compute matrices of co-occurences between pairs of smells
-            cooccurences_smell_pairs = pd.DataFrame(np.full((N_SMELLS, N_SMELLS), '0%'), index=SMELLS, columns=SMELLS)
+            cooccurences_smell_pairs = pd.DataFrame(np.zeros((N_SMELLS, N_SMELLS)), index=SMELLS, columns=SMELLS, dtype=float)
 
             for _, row in cooccurences.iterrows():
-                cooccurence = '{0}%'.format(round(row['support'] * 100)) # Co-occurence as percentage
+                cooccurence = row['support']
                 smell_set = row['itemsets']
 
                 # Only consider pairs
@@ -555,7 +557,108 @@ class Analysis():
         for language in LANGUAGES:
             cooccurences = load_dataframe(f'{DATA_DIR}/{language}_smell_cooccurences.csv', index_col=0)
 
-            cooccurences = cooccurences.drop(columns=MISSING_SMELL_COOCCURENCES).drop(index=MISSING_SMELL_COOCCURENCES)
+            # Compute smells with no co-occurence
+            missing_smell_cooccurences = cooccurences.sum(axis=AXIS_ROW).add(cooccurences.sum(axis=AXIS_COL))
+            missing_smells = missing_smell_cooccurences[missing_smell_cooccurences < EPSILON].index.tolist()
+            
+            # Remove smells with no co-occurence
+            cooccurences = cooccurences.drop(columns=missing_smells).drop(index=missing_smells)
+
+            # Co-occurence as percentage
+            cooccurences = cooccurences.applymap(ratio_to_percent)
 
             store_dataframe(cooccurences, f'{DATA_DIR}/{language}_clean_smell_cooccurences.csv', index=True)
             print(cooccurences)
+
+
+
+    def compute_smell_count_vs_size(self):
+
+        # For each project language
+        for language in LANGUAGES:
+            smells_vs_size = pd.DataFrame({}, columns=[PROJECT_COL, COMMIT_COL, LOC_COL, COUNT_COL])
+
+            for p in self.projects:
+                if p.language != language:
+                    continue
+
+                smells = p.get_smells()
+                files = p.get_files()
+
+                for release in p.get_recent_releases():
+                    n_lines = files[files[COMMIT_COL] == release.commit_hash][LOC_COL].sum()
+                    n_smells = len(smells[smells[COMMIT_COL] == release.commit_hash])
+
+                    smells_vs_size = smells_vs_size.append({
+                        PROJECT_COL: p.name,
+                        COMMIT_COL: release.commit_hash,
+                        LOC_COL: n_lines,
+                        COUNT_COL: n_smells,
+                    }, ignore_index=True)
+
+            store_dataframe(smells_vs_size, f'{DATA_DIR}/{language}_smell_count_vs_size.csv', index=True)
+            print(smells_vs_size)
+
+
+
+    def plot_smell_count_vs_size(self):
+
+        # Initialize plot
+        _, ax = plt.subplots(figsize = (10, 8))
+
+        # Define plot title and axis labels
+        ax.set_title('Smell Count as a Function of App Size', fontweight = 'bold')
+        ax.set_xlabel('LOC')
+        ax.set_ylabel('Smell Count')
+
+        # For each project language
+        smells_vs_size = {}
+
+        # Define color by language
+        colors = {
+            JS: 'red',
+            TS: 'blue',
+        }
+
+        for language in LANGUAGES:
+            smells_vs_size[language] = load_dataframe(f'{DATA_DIR}/{language}_smell_count_vs_size.csv')
+
+            x = smells_vs_size[language][LOC_COL].tolist()
+            y = smells_vs_size[language][COUNT_COL].tolist()
+
+            m, b, r_value, p_value, std_err = stats.linregress(x, y)
+            print(language)
+            print(f'Slope: {m}')
+            print(f'Intercept: {b}')
+            print(f'R^2-Value: {r_value ** 2}')
+            print(f'P-Value: {p_value}')
+            print(f'STD Error: {std_err}')
+            print()
+
+            x_ = np.linspace(0, 185_000, 1_000)
+
+            # Plot points
+            ax.plot(x, y, label=language, ls='', ms=3, marker='o', c=colors[language])
+
+            # Plot linear fits
+            ax.plot(x_, m*x_ + b, label=f'Fit ({language})', ls='--', c=colors[language])
+
+        x = smells_vs_size[JS][LOC_COL].tolist() + smells_vs_size[TS][LOC_COL].tolist()
+        y = smells_vs_size[JS][COUNT_COL].tolist() + smells_vs_size[TS][COUNT_COL].tolist()
+
+        m, b, r_value, p_value, std_err = stats.linregress(x, y)
+        print(f'Slope: {m}')
+        print(f'Intercept: {b}')
+        print(f'R^2-Value: {r_value ** 2}')
+        print(f'P-Value: {p_value}')
+        print(f'STD Error: {std_err}')
+        print() 
+
+        # Add legend to plot
+        ax.legend()
+
+        # Tighten up the whole plot
+        plt.tight_layout()
+
+        # Show plot
+        plt.show()

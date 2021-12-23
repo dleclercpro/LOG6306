@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 Gruntfile.js,13,3,4
 lib/bin/bower.js,14,0,0
 lib/commands/cache/clean.js,24,0,0

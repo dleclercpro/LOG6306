@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 lib/box/file.js,23,0,1
 lib/box/index.js,23,1,0
 lib/extend/console.js,24,0,0

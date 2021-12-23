@@ -30,6 +30,8 @@ TS_EXTENSIONS = ['.ts', '.tsx']
 PROJECT_COL = 'project'
 COMMIT_COL = 'commit_hash'
 FILE_COL = 'file_name'
+LOC_COL = 'loc'
+COUNT_COL = 'count'
 LANGUAGE_COL = 'language'
 RULE_COL = 'rule'
 TYPE_COL = 'type'
@@ -41,9 +43,9 @@ SMELLS_COLS = FILE_VERSION_COLS + [RULE_COL]
 
 SEVERITIES = ['BLOCKER', 'CRITICAL', 'MAJOR']
 
-STEADY_COL = 'steady'
-INCREASED_COL = 'increased'
-DECREASED_COL = 'decreased'
+STEADY_COL = 'Steady'
+INCREASED_COL = 'Increased'
+DECREASED_COL = 'Decreased'
 
 DELTA_COLS = [STEADY_COL, INCREASED_COL, DECREASED_COL]
 
@@ -68,8 +70,6 @@ FILES_DIR = f'{DATA_DIR}/files'
 DIRS = [REPOS_DIR, LOGS_DIR, STATS_DIR, TAGS_DIR, RELEASES_DIR, ISSUES_DIR, SMELLS_DIR, DELTAS_DIR, FILES_DIR]
 
 LOG_PATH = f'{LOGS_DIR}/root.log'
-JS_STATS_PATH = f'{DATA_DIR}/js_stats.csv'
-TS_STATS_PATH = f'{DATA_DIR}/ts_stats.csv'
 SMELLS_PATH = f'{DATA_DIR}/smells.csv'
 
 
@@ -112,14 +112,12 @@ JS_PROJECTS = [
     'serverless/serverless',
     'tailwindlabs/tailwindcss',
     'typicode/json-server',
-
     'facebook/create-react-app',
     'mermaid-js/mermaid',
     'nuxt/nuxt.js',
     'Dogfalo/materialize',
     'nwjs/nw.js',
     'iamkun/dayjs',
-    'kenwheeler/slick',
     'GitSquared/edex-ui',
     'alvarotrigo/fullPage.js',
     'koajs/koa',
@@ -129,7 +127,8 @@ JS_PROJECTS = [
     'preactjs/preact',
     'nolimits4web/swiper',
     'carbon-app/carbon',
-    'jashkenas/backbone',
+    #'kenwheeler/slick',
+    #'jashkenas/backbone',
 ]
 
 TS_PROJECTS = [
@@ -148,14 +147,12 @@ TS_PROJECTS = [
     'graphql/graphql-js',
     'railsware/upterm',
     'balena-io/etcher',
-
     'marmelab/react-admin',
     'react-dnd/react-dnd',
     'floating-ui/floating-ui',
     'youzan/vant',
     'reduxjs/reselect',
     'pubkey/rxdb',
-    'wulkano/Kap',    
     'fingerprintjs/fingerprintjs',
     'react-navigation/react-navigation',
     'ustbhuangyi/better-scroll',
@@ -163,6 +160,7 @@ TS_PROJECTS = [
     'streamich/react-use',
     'JedWatson/react-select',
     'remix-run/react-router',
-    'oldj/SwitchHosts',
     'flatpickr/flatpickr',
+    'oldj/SwitchHosts',
+    #'wulkano/Kap',
 ]

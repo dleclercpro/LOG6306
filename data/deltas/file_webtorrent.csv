@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 index.js,22,2,0
 lib/conn-pool.js,24,0,0
 lib/file-stream.js,24,0,0

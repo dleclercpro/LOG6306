@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 Gruntfile.js,23,1,0
 examples/get/server.js,24,0,0
 examples/post/server.js,24,0,0

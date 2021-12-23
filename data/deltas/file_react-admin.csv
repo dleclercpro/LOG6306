@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 examples/crm/src/authProvider.ts,22,0,0
 examples/crm/src/dataGenerator/companies.ts,22,0,0
 examples/crm/src/dataGenerator/contactNotes.ts,22,0,0

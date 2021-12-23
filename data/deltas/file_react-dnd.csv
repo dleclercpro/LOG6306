@@ -1,4 +1,4 @@
-file_name,steady,increased,decreased
+file_name,Steady,Increased,Decreased
 packages/backend-html5/src/HTML5BackendImpl.ts,5,0,0
 packages/backend-html5/src/MonotonicInterpolant.ts,5,0,0
 packages/backend-html5/src/OffsetUtils.ts,5,0,0
