@@ -103,8 +103,8 @@ SMELLS_DICT = {
         "description": "Variables and functions should not be redeclared",
     },
     "S3003": {
-        "label": "String Comparison",
-        "short_label": "SC",
+        "label": "Ordinal String Comparison",
+        "short_label": "OSC",
         "description": "Comparison operators should not be used with strings",
     },
     "S3516": {

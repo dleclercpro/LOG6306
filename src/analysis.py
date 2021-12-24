@@ -708,13 +708,13 @@ class Analysis():
     def plot_smell_count_vs_size(self):
 
         # Initialize plot
-        mpl.rcParams.update({'text.usetex': True, 'font.size': 14})
+        mpl.rcParams.update({'text.usetex': True, 'font.size': 18})
         _, ax = plt.subplots(figsize = (10, 8))
 
         # Define plot title and axis labels
         #ax.set_title('Smell Count as a Function of App Size', fontweight = 'bold')
         ax.set_xlabel(r'kLOC')
-        ax.set_ylabel(r'Count')
+        ax.set_ylabel(r'Smell Count')
 
         # Change axes scale
         scale_x = 1_000
