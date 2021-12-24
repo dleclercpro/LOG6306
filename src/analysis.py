@@ -3,12 +3,14 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 from mlxtend.frequent_patterns import apriori
+import matplotlib as mpl
 from matplotlib import pyplot as plt
+from matplotlib import ticker
 
 
 
 # Custom imports
-from constants import AXIS_COL, AXIS_ROW, COMMIT_COL, COUNT_COL, DATA_DIR, DECREASED_COL, DELTA_COLS, EPSILON, FILE_COL, FILE_VERSION_COLS, INCREASED_COL, JS, LANGUAGES, LOC_COL, N_RELEASE_TAGS, PROJECT_COL, RULE_COL, SMELLS_COLS, STATS, SMELLS_PATH, STEADY_COL, TS
+from constants import AXIS_COL, AXIS_ROW, COMMIT_COL, COUNT_COL, DATA_DIR, DECREASED_COL, DELTA_COLS, EPSILON, FILE_COL, FILE_VERSION_COLS, INCREASED_COL, JS, LANGUAGE_NAMES, LANGUAGES, LOC_COL, N_RELEASE_TAGS, PROJECT_COL, RULE_COL, SMELLS_COLS, STATS, SMELLS_PATH, STEADY_COL, TS
 from smells import SMELLS, N_SMELLS, SMELLS_DICT
 from lib import load_dataframe, ratio_to_percent, store_dataframe
 
@@ -200,6 +202,7 @@ class Analysis():
         for p in self.projects:
             logging.info(f'Computing smell deltas on app scale for: {p.name}')
 
+            # Retrieve considered smells in project
             smells = p.get_smells()
 
             if smells is None:
@@ -208,11 +211,7 @@ class Analysis():
 
             # Initialize smell deltas dataframe
             smell_deltas_init = np.zeros((1, len(DELTA_COLS)))
-            smell_deltas = pd.DataFrame(smell_deltas_init, columns=DELTA_COLS)
-
-            # Cast types
-            for delta in DELTA_COLS:
-                smell_deltas = smell_deltas.astype({ delta: int })
+            smell_deltas = pd.DataFrame(smell_deltas_init, columns=DELTA_COLS, dtype=int)
 
 
             # Compute number of smells at each recent release
@@ -224,13 +223,14 @@ class Analysis():
 
 
             # Compute deltas from one commit to another
-            if np.sum(n_smells) > 0:
+            if sum(n_smells) > 0:
                 deltas = n_smells[1:] - n_smells[:-1]
 
                 smell_deltas.loc[0, STEADY_COL] = np.sum(deltas == 0)
                 smell_deltas.loc[0, INCREASED_COL] = np.sum(deltas > 0)
                 smell_deltas.loc[0, DECREASED_COL] = np.sum(deltas < 0)
 
+            # No smell found in any release!
             else:
                 logging.warn(f'None of the considered smells detected in all recent releases of project: {p.name}')
 
@@ -287,17 +287,13 @@ class Analysis():
 
 
                 # Compute deltas for current file from one commit to another
-                if np.sum(n_smells) > 0:
-                    deltas = n_smells[1:] - n_smells[:-1]
+                deltas = n_smells[1:] - n_smells[:-1]
 
-                    row = smell_deltas[FILE_COL] == smelly_file
+                row = smell_deltas[FILE_COL] == smelly_file
 
-                    smell_deltas.loc[row, STEADY_COL] = np.sum(deltas == 0)
-                    smell_deltas.loc[row, INCREASED_COL] = np.sum(deltas > 0)
-                    smell_deltas.loc[row, DECREASED_COL] = np.sum(deltas < 0)
-
-                else:
-                    logging.warn(f'None of the considered smells detected in all recent releases of project `{p.name}` in file: {smelly_file}')
+                smell_deltas.loc[row, STEADY_COL] = np.sum(deltas == 0)
+                smell_deltas.loc[row, INCREASED_COL] = np.sum(deltas > 0)
+                smell_deltas.loc[row, DECREASED_COL] = np.sum(deltas < 0)
 
 
             # Store smell deltas for current project
@@ -311,17 +307,8 @@ class Analysis():
         Compute five-number summary of smell deltas. 
         """
 
-        n = len(smell_deltas)
-
-        # Remove files which aren't present in all releases
-        invalid = smell_deltas[smell_deltas.sum(axis=AXIS_COL) != N_RELEASE_TAGS - 1].index
-        smell_deltas = smell_deltas.drop(index=invalid)
-        n_valid = len(smell_deltas)
-
         # Compute five-number-summary for all files
         fns = pd.DataFrame({}, index=['Min', 'Q1', 'Median', 'Mean', 'Q3', 'Max'], columns=DELTA_COLS)
-
-        logging.info(f'Computing five-number summary of smell deltas on {n_valid}/{n} entries.')
 
         fns.loc['Min', :] = smell_deltas.min(axis=AXIS_ROW)
         fns.loc['Q1', :] = smell_deltas.quantile(0.25, axis=AXIS_ROW)
@@ -350,14 +337,22 @@ class Analysis():
             
             logging.info(f'Computing smell deltas on app scale for: {language}')
 
+            n_projects = 0
+
             for p in self.projects:
                 if p.language != language:
                     continue
+                else:
+                    n_projects += 1
 
                 deltas = p.get_app_smell_deltas()[DELTA_COLS]
+                n_deltas = deltas.sum(axis=AXIS_COL)[0]
 
-                if len(deltas) > 0:
+                # Only consider apps which had smells
+                if n_deltas == N_RELEASE_TAGS - 1:
                     result = result.append(deltas, ignore_index=True)
+
+            logging.info(f'Found {len(result)}/{n_projects} projects with smells.')
 
             # Compute five-number-summary for all files
             fns = self.compute_smell_deltas_fns(result)
@@ -377,14 +372,23 @@ class Analysis():
 
             logging.info(f'Computing smell deltas on file scale for: {language}')
 
+            n_files = 0
+
             for p in self.projects:
                 if p.language != language:
                     continue
+                else:
+                    n_files += len(p.get_files())
 
                 deltas = p.get_file_smell_deltas()[DELTA_COLS]
+                n_deltas = deltas.sum(axis=AXIS_COL)
 
-                if len(deltas) > 0:
-                    result = result.append(deltas, ignore_index=True)
+                # Remove files which were deleted at a given release
+                deltas = deltas[n_deltas == N_RELEASE_TAGS - 1]
+
+                result = result.append(deltas, ignore_index=True)
+
+            logging.info(f'Found {len(result)}/{n_files} files with smells over {N_RELEASE_TAGS} releases.')
 
             # Compute five-number-summary for all files
             fns = self.compute_smell_deltas_fns(result)
@@ -452,7 +456,10 @@ class Analysis():
         result = result.applymap(lambda x: ratio_to_percent(x, 1))
 
         # Replace rule indices to smell names
-        result.index = list(map(lambda i: SMELLS_DICT[i]['label'], result.index))
+        result.index = [SMELLS_DICT[rule]['label'] for rule in result.index]
+
+        # Replace language IDs with their formatted name
+        result.columns = [LANGUAGE_NAMES[language] for language in result.columns]
 
         store_dataframe(result, f'{DATA_DIR}/overall_smells_distribution.csv', index=True)
         print(result)
@@ -489,7 +496,10 @@ class Analysis():
         result = result.applymap(lambda x: ratio_to_percent(x, 1))
         
         # Replace rule indices to smell names
-        result.index = list(map(lambda i: SMELLS_DICT[i]['label'], result.index))
+        result.index = [SMELLS_DICT[rule]['label'] for rule in result.index]
+
+        # Replace language IDs with their formatted name
+        result.columns = [LANGUAGE_NAMES[language] for language in result.columns]
 
         store_dataframe(result, f'{DATA_DIR}/app_smell_frequencies.csv', index=True)
         print(result)
@@ -526,7 +536,10 @@ class Analysis():
         result = result.applymap(lambda x: ratio_to_percent(x, 1))
         
         # Replace rule indices to smell names
-        result.index = list(map(lambda i: SMELLS_DICT[i]['label'], result.index))
+        result.index = [SMELLS_DICT[rule]['label'] for rule in result.index]
+
+        # Replace language IDs with their formatted name
+        result.columns = [LANGUAGE_NAMES[language] for language in result.columns]
 
         store_dataframe(result, f'{DATA_DIR}/file_smell_frequencies.csv', index=True)
         print(result)
@@ -578,8 +591,8 @@ class Analysis():
 
 
             # Replace rule indices to smell names
-            cooccurrences.index = list(map(lambda i: SMELLS_DICT[i]['short_label'], cooccurrences.index))
-            cooccurrences.columns = list(map(lambda i: SMELLS_DICT[i]['short_label'], cooccurrences.columns))
+            cooccurrences.index = [SMELLS_DICT[rule]['short_label'] for rule in cooccurrences.index]
+            cooccurrences.columns = [SMELLS_DICT[rule]['short_label'] for rule in cooccurrences.columns]
 
 
             # Store co-occurence matrices
@@ -689,28 +702,35 @@ class Analysis():
                     }, ignore_index=True)
 
             store_dataframe(smells_vs_size, f'{DATA_DIR}/{language}_smell_count_vs_size.csv', index=True)
-            print(smells_vs_size)
 
 
 
     def plot_smell_count_vs_size(self):
 
         # Initialize plot
+        mpl.rcParams.update({'text.usetex': True, 'font.size': 14})
         _, ax = plt.subplots(figsize = (10, 8))
 
         # Define plot title and axis labels
-        ax.set_title('Smell Count as a Function of App Size', fontweight = 'bold')
-        ax.set_xlabel('LOC')
-        ax.set_ylabel('Smell Count')
+        #ax.set_title('Smell Count as a Function of App Size', fontweight = 'bold')
+        ax.set_xlabel(r'kLOC')
+        ax.set_ylabel(r'Count')
+
+        # Change axes scale
+        scale_x = 1_000
+        scale_y = 1_000
+
+        ticks_x = ticker.FuncFormatter(lambda x, pos: x / scale_x)
+        ax.xaxis.set_major_formatter(ticks_x)
+
+        ticks_y = ticker.FuncFormatter(lambda y, pos: f'{y / scale_y}K')
+        ax.yaxis.set_major_formatter(ticks_y)
 
         # For each project language
         smells_vs_size = {}
 
         # Define color by language
-        colors = {
-            JS: 'red',
-            TS: 'blue',
-        }
+        colors = {JS: 'red', TS: 'blue'}
 
         for language in LANGUAGES:
             smells_vs_size[language] = load_dataframe(f'{DATA_DIR}/{language}_smell_count_vs_size.csv')
@@ -719,6 +739,7 @@ class Analysis():
             y = smells_vs_size[language][COUNT_COL].tolist()
 
             m, b, r_value, p_value, std_err = stats.linregress(x, y)
+
             print(language)
             print(f'Slope: {m}')
             print(f'Intercept: {b}')
@@ -730,21 +751,10 @@ class Analysis():
             x_ = np.linspace(0, 185_000, 1_000)
 
             # Plot points
-            ax.plot(x, y, label=language, ls='', ms=3, marker='o', c=colors[language])
+            ax.plot(x, y, label=LANGUAGE_NAMES[language], ls='', ms=3, marker='o', c=colors[language])
 
             # Plot linear fits
-            ax.plot(x_, m*x_ + b, label=f'Fit ({language})', ls='--', c=colors[language])
-
-        x = smells_vs_size[JS][LOC_COL].tolist() + smells_vs_size[TS][LOC_COL].tolist()
-        y = smells_vs_size[JS][COUNT_COL].tolist() + smells_vs_size[TS][COUNT_COL].tolist()
-
-        m, b, r_value, p_value, std_err = stats.linregress(x, y)
-        print(f'Slope: {m}')
-        print(f'Intercept: {b}')
-        print(f'R^2-Value: {r_value ** 2}')
-        print(f'P-Value: {p_value}')
-        print(f'STD Error: {std_err}')
-        print() 
+            ax.plot(x_, m*x_ + b, label=None, ls='--', c=colors[language])
 
         # Add legend to plot
         ax.legend()

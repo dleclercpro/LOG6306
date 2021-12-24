@@ -64,11 +64,11 @@ def analyze_projects(projects):
     #analysis.compute_file_smell_frequencies()
 
     #analysis.compute_smell_cooccurences()
-    analysis.compute_top_smell_cooccurences()
+    #analysis.compute_top_smell_cooccurences()
     #analysis.merge_smell_cooccurrences()
 
-    #analysis.compute_smell_count_vs_size()
-    #analysis.plot_smell_count_vs_size()
+    analysis.compute_smell_count_vs_size()
+    analysis.plot_smell_count_vs_size()
 
 
 
