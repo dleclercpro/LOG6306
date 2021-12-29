@@ -18,7 +18,7 @@ Unreachable Code,-,0.1%
 Useless Assignment,4.1%,0.4%
 Overwritten Built-Ins,0.6%,0.4%
 Overwritten Variable/Function,0.2%,0.2%
-String Comparison,-,-
+Ordinal String Comparison,-,-
 Invariant Function,-,0.1%
 Invalid Error,0.2%,0.6%
 Unknown Output,-,-

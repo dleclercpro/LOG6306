@@ -1,26 +1,26 @@
-,JavaScript,TypeScript
-Lengthy Line,76.7%,63.3%
-Long Parameter List,23.3%,20.0%
-Depth,86.7%,66.7%
-Long Method,70.0%,46.7%
-Assignment in Conditional Statement,73.3%,33.3%
-Complex Switch Case,6.7%,-
-Complex Code,93.3%,76.7%
-Lengthy File,40.0%,26.7%
-Magic Number,93.3%,86.7%
-Retired Code,70.0%,56.7%
-Complex Expression,80.0%,53.3%
-Shadowed Variable,93.3%,70.0%
-Empty Function,66.7%,56.7%
-Duplicated String,86.7%,53.3%
-Weak Equality,63.3%,36.7%
-Unreachable Code,6.7%,3.3%
-Useless Assignment,56.7%,30.0%
-Overwritten Built-Ins,50.0%,30.0%
-Overwritten Variable/Function,23.3%,20.0%
-String Comparison,-,6.7%
-Invariant Function,16.7%,13.3%
-Invalid Error,20.0%,16.7%
-Unknown Output,3.3%,3.3%
-Inconsistent Return,93.3%,86.7%
-Duplicated Function,56.7%,50.0%
+,JavaScript,TypeScript,Delta
+Lengthy Line,76.7%,63.3%,-13.3%
+Long Parameter List,23.3%,20.0%,-3.3%
+Depth,86.7%,66.7%,-20.0%
+Long Method,70.0%,46.7%,-23.3%
+Assignment in Conditional Statement,73.3%,33.3%,-40.0%
+Complex Switch Case,6.7%,-,-6.7%
+Complex Code,93.3%,76.7%,-16.7%
+Lengthy File,40.0%,26.7%,-13.3%
+Magic Number,93.3%,86.7%,-6.7%
+Retired Code,70.0%,56.7%,-13.3%
+Complex Expression,80.0%,53.3%,-26.7%
+Shadowed Variable,93.3%,70.0%,-23.3%
+Empty Function,66.7%,56.7%,-10.0%
+Duplicated String,86.7%,53.3%,-33.3%
+Weak Equality,63.3%,36.7%,-26.7%
+Unreachable Code,6.7%,3.3%,-3.3%
+Useless Assignment,56.7%,30.0%,-26.7%
+Overwritten Built-Ins,50.0%,30.0%,-20.0%
+Overwritten Variable/Function,23.3%,20.0%,-3.3%
+Ordinal String Comparison,-,6.7%,6.7%
+Invariant Function,16.7%,13.3%,-3.3%
+Invalid Error,20.0%,16.7%,-3.3%
+Unknown Output,3.3%,3.3%,-
+Inconsistent Return,93.3%,86.7%,-6.7%
+Duplicated Function,56.7%,50.0%,-6.7%

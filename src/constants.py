@@ -15,8 +15,7 @@ AXIS_COL = 'columns'
 # Languages
 JS = 'js'
 TS = 'ts'
-LANGUAGES = [JS, TS]
-LANGUAGE_NAMES = {JS: 'JavaScript', TS: 'TypeScript'}
+LANGUAGES = {JS: 'JavaScript', TS: 'TypeScript'}
 
 # Releases
 N_RELEASE_TAGS = 25

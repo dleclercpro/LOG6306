@@ -36,7 +36,7 @@ def format_seconds(seconds):
 def ratio_to_percent(ratio, precision=0):
     percent = round(ratio * 100, precision)
 
-    if percent < EPSILON:
+    if abs(percent) < EPSILON:
         return '-'
     else:
         return f'{percent}%'

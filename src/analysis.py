@@ -10,7 +10,7 @@ from matplotlib import ticker
 
 
 # Custom imports
-from constants import AXIS_COL, AXIS_ROW, COMMIT_COL, COUNT_COL, DATA_DIR, DECREASED_COL, DELTA_COLS, EPSILON, FILE_COL, FILE_VERSION_COLS, INCREASED_COL, JS, LANGUAGE_NAMES, LANGUAGES, LOC_COL, N_RELEASE_TAGS, PROJECT_COL, RULE_COL, SMELLS_COLS, STATS, SMELLS_PATH, STEADY_COL, TS
+from constants import AXIS_COL, AXIS_ROW, COMMIT_COL, COUNT_COL, DATA_DIR, DECREASED_COL, DELTA_COLS, EPSILON, FILE_COL, FILE_VERSION_COLS, INCREASED_COL, JS, LANGUAGES, LOC_COL, N_RELEASE_TAGS, PROJECT_COL, RULE_COL, SMELLS_COLS, STATS, SMELLS_PATH, STEADY_COL, TS
 from smells import SMELLS, N_SMELLS, SMELLS_DICT
 from lib import load_dataframe, ratio_to_percent, store_dataframe
 
@@ -108,7 +108,7 @@ class Analysis():
         stats = stats.sort_values('stargazers_count', axis=AXIS_ROW, ascending=False)
 
         # Split JS and TS stats
-        for language in LANGUAGES:
+        for language in LANGUAGES.keys():
             split_stats = stats[stats['language'] == language]
 
             # Drop language column
@@ -332,10 +332,10 @@ class Analysis():
         """
 
         # For each project language
-        for language in LANGUAGES:
+        for language, label in LANGUAGES.items():
             result = pd.DataFrame({}, columns=DELTA_COLS, dtype=float)
             
-            logging.info(f'Computing smell deltas on app scale for: {language}')
+            logging.info(f'Computing smell deltas on app scale for: {label}')
 
             n_projects = 0
 
@@ -367,10 +367,10 @@ class Analysis():
         """
 
         # For each project language
-        for language in LANGUAGES:
+        for language, label in LANGUAGES.items():
             result = pd.DataFrame({}, columns=DELTA_COLS, dtype=float)
 
-            logging.info(f'Computing smell deltas on file scale for: {language}')
+            logging.info(f'Computing smell deltas on file scale for: {label}')
 
             n_files = 0
 
@@ -428,10 +428,10 @@ class Analysis():
 
 
     def compute_overall_smells_distribution(self):
-        result = pd.DataFrame({}, index=SMELLS, columns=LANGUAGES)
+        result = pd.DataFrame({}, index=SMELLS, columns=LANGUAGES.values())
 
         # For each project language
-        for language in LANGUAGES:
+        for language, label in LANGUAGES.items():
             occurences_by_app = {}
 
             for p in self.projects:
@@ -450,7 +450,7 @@ class Analysis():
             n_total_occurences = np.sum(occurences)
 
             occurences /= n_total_occurences
-            result.loc[:, language] = occurences
+            result.loc[:, label] = occurences
 
         # Format output to percentages
         result = result.applymap(lambda x: ratio_to_percent(x, 1))
@@ -458,19 +458,16 @@ class Analysis():
         # Replace rule indices to smell names
         result.index = [SMELLS_DICT[rule]['label'] for rule in result.index]
 
-        # Replace language IDs with their formatted name
-        result.columns = [LANGUAGE_NAMES[language] for language in result.columns]
-
         store_dataframe(result, f'{DATA_DIR}/overall_smells_distribution.csv', index=True)
         print(result)
 
 
 
     def compute_app_smell_frequencies(self):
-        result = pd.DataFrame({}, index=SMELLS, columns=LANGUAGES)
+        result = pd.DataFrame({}, index=SMELLS, columns=list(LANGUAGES.values()) + ['Delta'])
         
         # For each project language
-        for language in LANGUAGES:
+        for language, label in LANGUAGES.items():
             n_apps = 0
 
             # Compute app count by smell type
@@ -490,16 +487,16 @@ class Analysis():
 
             # Compute percentage of apps affected by each type of smell
             app_frequency_by_smell = app_count_by_smell / n_apps
-            result.loc[:, language] = app_frequency_by_smell
-
-        # Format output to percentages
-        result = result.applymap(lambda x: ratio_to_percent(x, 1))
+            result.loc[:, label] = app_frequency_by_smell
         
         # Replace rule indices to smell names
         result.index = [SMELLS_DICT[rule]['label'] for rule in result.index]
 
-        # Replace language IDs with their formatted name
-        result.columns = [LANGUAGE_NAMES[language] for language in result.columns]
+        # Compute deltas
+        result.loc[:, 'Delta'] = result[LANGUAGES[TS]] - result[LANGUAGES[JS]]
+
+        # Format output to percentages
+        result = result.applymap(lambda x: ratio_to_percent(x, 1))
 
         store_dataframe(result, f'{DATA_DIR}/app_smell_frequencies.csv', index=True)
         print(result)
@@ -507,10 +504,10 @@ class Analysis():
 
 
     def compute_file_smell_frequencies(self):
-        result = pd.DataFrame({}, index=SMELLS, columns=LANGUAGES)
+        result = pd.DataFrame({}, index=SMELLS, columns=list(LANGUAGES.values()) + ['Delta'])
         
         # For each project language
-        for language in LANGUAGES:
+        for language, label in LANGUAGES.items():
             n_files = 0
 
             # Compute file count by smell type
@@ -530,16 +527,16 @@ class Analysis():
 
             # Compute percentage of files affected by each type of smell
             file_frequency_by_smell = file_count_by_smell / n_files
-            result.loc[:, language] = file_frequency_by_smell
-
-        # Format output to percentages
-        result = result.applymap(lambda x: ratio_to_percent(x, 1))
+            result.loc[:, label] = file_frequency_by_smell
         
         # Replace rule indices to smell names
         result.index = [SMELLS_DICT[rule]['label'] for rule in result.index]
 
-        # Replace language IDs with their formatted name
-        result.columns = [LANGUAGE_NAMES[language] for language in result.columns]
+        # Compute deltas
+        result.loc[:, 'Delta'] = result[LANGUAGES[TS]] - result[LANGUAGES[JS]]
+
+        # Format output to percentages
+        result = result.applymap(lambda x: ratio_to_percent(x, 1))
 
         store_dataframe(result, f'{DATA_DIR}/file_smell_frequencies.csv', index=True)
         print(result)
@@ -553,7 +550,7 @@ class Analysis():
         """
         
         # For each project language
-        for language in LANGUAGES:
+        for language in LANGUAGES.keys():
             smells = self.load_smells(language)
 
 
@@ -610,7 +607,7 @@ class Analysis():
 
         merged_cooccurrences = pd.DataFrame(np.zeros((N_SMELLS, N_SMELLS)), index=SMELLS, columns=SMELLS, dtype=float)
 
-        for language in LANGUAGES:
+        for language in LANGUAGES.keys():
             cooccurences = load_dataframe(f'{DATA_DIR}/{language}_smell_cooccurences.csv', index_col=0)
             
             merged_cooccurrences.index = cooccurences.index
@@ -642,7 +639,7 @@ class Analysis():
         have been observed.
         """
 
-        for language in LANGUAGES:
+        for language in LANGUAGES.keys():
             cooccurences = load_dataframe(f'{DATA_DIR}/{language}_smell_cooccurences.csv', index_col=0)
 
             # Initialize dataframe for significant co-occurrences (probability of co-occurrence higher
@@ -680,7 +677,7 @@ class Analysis():
     def compute_smell_count_vs_size(self):
 
         # For each project language
-        for language in LANGUAGES:
+        for language in LANGUAGES.keys():
             smells_vs_size = pd.DataFrame({}, columns=[PROJECT_COL, COMMIT_COL, LOC_COL, COUNT_COL])
 
             for p in self.projects:
@@ -732,7 +729,7 @@ class Analysis():
         # Define color by language
         colors = {JS: 'red', TS: 'blue'}
 
-        for language in LANGUAGES:
+        for language, label in LANGUAGES.items():
             smells_vs_size[language] = load_dataframe(f'{DATA_DIR}/{language}_smell_count_vs_size.csv')
 
             x = smells_vs_size[language][LOC_COL].tolist()
@@ -740,7 +737,7 @@ class Analysis():
 
             m, b, r_value, p_value, std_err = stats.linregress(x, y)
 
-            print(language)
+            print(label)
             print(f'Slope: {m}')
             print(f'Intercept: {b}')
             print(f'R^2-Value: {r_value ** 2}')
@@ -751,7 +748,7 @@ class Analysis():
             x_ = np.linspace(0, 185_000, 1_000)
 
             # Plot points
-            ax.plot(x, y, label=LANGUAGE_NAMES[language], ls='', ms=3, marker='o', c=colors[language])
+            ax.plot(x, y, label=label, ls='', ms=3, marker='o', c=colors[language])
 
             # Plot linear fits
             ax.plot(x_, m*x_ + b, label=None, ls='--', c=colors[language])
