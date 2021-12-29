@@ -1,5 +1,8 @@
 # On the Impact of Typing on Code Smelliness: An Empirical Comparison Between JavaScript and TypeScript Projects
 
+## Copyright
+The code and results found in this repository are the sole work of David Leclerc. Using, copying, or modifying it, either partially or entirely, is not allowed, unless you ask for the owner's explicit permission.
+
 ## Smell Detector
 - SonarQube
 
@@ -8,7 +11,7 @@
 - Selection of releases only (X.X.X) using tags, manual filtering
 - Minimum 25 patch-level releases
 - Ignored files with 'test' in their path
-- Ignoring files which aren't present in all recent releases when computing smell deltas on file scale
+- Ignored files which aren't present in all recent releases when computing smell deltas on file scale
 
 ## Instructions
 - Change the ROOT_DIR variable in 'constants.py' for the directory where you extracted this project to

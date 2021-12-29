@@ -79,7 +79,7 @@ class Sonar():
                 f'sonar.projectKey={self.project.name}\n' +
                 'sonar.sources=.\n' +
                 'sonar.sourceEncoding=UTF-8\n' +
-                'sonar.inclusions=**/*.js,**/*.ts\n' +
+                'sonar.inclusions=**/*.js,**/*.jsx,**/*.mjs,**/*.ts,**/*.tsx\n' +
                 'sonar.exclusions=**/test/**/*,**/tests/**/*,**/*test*\n' +
                 'sonar.coverage.exclusions=**/*\n' +
                 'sonar.cpd.exclusions=**/*'
