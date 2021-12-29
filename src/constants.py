@@ -52,8 +52,7 @@ DELTA_COLS = [STEADY_COL, INCREASED_COL, DECREASED_COL]
 
 
 # Paths
-ROOT_DIR = '/Users/david/Projects/LOG6306'
-#ROOT_DIR = 'C:/Projects/LOG6306'
+ROOT_DIR = os.environ['ROOT_DIR']
 
 REPOS_DIR = f'{ROOT_DIR}/repos'
 LOGS_DIR = f'{ROOT_DIR}/logs'

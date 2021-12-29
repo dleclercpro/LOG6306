@@ -3,6 +3,11 @@
 ## Copyright
 The code and results found in this repository are the sole work of David Leclerc. Using, copying, or modifying it, either partially or entirely, is not allowed, unless you ask for the owner's explicit permission.
 
+## Instructions
+- Rename '.env.orig' to '.env'.
+- Define the ROOT_DIR environment variable as the absolute path to the root directory where you cloned an instance of this project.
+- Fill in your GitHub and SonarQube credentials in your '.env' file.
+
 ## Smell Detector
 - SonarQube
 
@@ -12,10 +17,6 @@ The code and results found in this repository are the sole work of David Leclerc
 - Minimum 25 patch-level releases
 - Ignored files with 'test' in their path
 - Ignored files which aren't present in all recent releases when computing smell deltas on file scale
-
-## Instructions
-- Change the ROOT_DIR variable in 'constants.py' for the directory where you extracted this project to
-- Rename '.env.dummy' to '.env' and fill it with your own credentials
 
 ## Incompatible JS Projects
 - gruntjs/grunt
